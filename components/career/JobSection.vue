@@ -1,154 +1,154 @@
 <template>
   <div id="job-section" class="uk-section">
     <div class="uk-container">
-      <!-- <div class="open-position" uk-grid>                                            -->
-      <!--   <div class="uk-width-1-3@m">                                                 -->
-      <!--     <div class="job-title">                                                    -->
-      <!--       <div class="title-bg">01</div>                                           -->
-      <!--       <h2>Programs Manager</h2>                                                -->
-      <!--     </div>                                                                     -->
-      <!--   </div>                                                                       -->
-      <!--   <div class="uk-width-2-3@m">                                                 -->
-      <!--     <div class="job-description">                                              -->
-      <!--       <ul uk-accordion>                                                        -->
-      <!--         <li class="uk-open">                                                   -->
-      <!--           <a class="uk-accordion-title" href="#">Job Description</a>           -->
-      <!--           <div class="uk-accordion-content">                                   -->
-      <!--             <p>                                                                -->
-      <!--               Are you interested in innovation and social business? This       -->
-      <!--               role will not only give you experience of working with           -->
-      <!--               startup entrepreneurs and social innovators; you will            -->
-      <!--               immerse yourself in Bangladesh’s entrepreneurship ecosystem    -->
-      <!--               and the global social business movement. The primary purpose     -->
-      <!--               of this role would be coordinating with and reporting to the     -->
-      <!--               Programs Lead as we initiate and run various programs to         -->
-      <!--               support the social entrepreneurs. The essential                  -->
-      <!--               responsibilities of you as a Programs Manager are stated         -->
-      <!--               below.                                                           -->
-      <!--             </p>                                                               -->
-      <!--           </div>                                                               -->
-      <!--         </li>                                                                  -->
-      <!--         <li>                                                                   -->
-      <!--           <a class="uk-accordion-title" href="#"                               -->
-      <!--             >Essential Responsibility</a                                       -->
-      <!--           >                                                                    -->
-      <!--           <div class="uk-accordion-content">                                   -->
-      <!--             <ul>                                                               -->
-      <!--               <li>                                                             -->
-      <!--                 Organizing entrepreneurship programs and activities to         -->
-      <!--                 achieve the mission of our company.                            -->
-      <!--               </li>                                                            -->
-      <!--               <li>                                                             -->
-      <!--                 Support our programs lead in Developing new programs.          -->
-      <!--               </li>                                                            -->
-      <!--               <li>                                                             -->
-      <!--                 Developing a budget and operating plan for our incubation      -->
-      <!--                 and mentoring program.                                         -->
-      <!--               </li>                                                            -->
-      <!--               <li>                                                             -->
-      <!--                 Developing an evaluation method to assess program              -->
-      <!--                 strengths and identify areas for improvement.                  -->
-      <!--               </li>                                                            -->
-      <!--               <li>                                                             -->
-      <!--                 Support our business development team in writing program       -->
-      <!--                 funding proposals to guarantee uninterrupted delivery of       -->
-      <!--                 services.                                                      -->
-      <!--               </li>                                                            -->
-      <!--               <li>                                                             -->
-      <!--                 Supporting the growth of our programs team while               -->
-      <!--                 coordinating with associates, interns & volunteers.            -->
-      <!--               </li>                                                            -->
-      <!--               <li>                                                             -->
-      <!--                 Ensuring goals are met in areas including entrepreneur         -->
-      <!--                 satisfaction, safety, quality and team member performance.     -->
-      <!--               </li>                                                            -->
-      <!--               <li>                                                             -->
-      <!--                 Implementing and managing changes and interventions to         -->
-      <!--                 ensure project goals are achieved.                             -->
-      <!--               </li>                                                            -->
-      <!--               <li>                                                             -->
-      <!--                 Maintaining regular communications with our funding            -->
-      <!--                 partners, major stakeholders & program participants to         -->
-      <!--                 ensure timely delivery of our programs.                        -->
-      <!--               </li>                                                            -->
-      <!--               <li>                                                             -->
-      <!--                 Producing accurate and timely reporting of program status      -->
-      <!--                 throughout its life cycle.                                     -->
-      <!--               </li>                                                            -->
-      <!--               <li>                                                             -->
-      <!--                 Organizing logistics of our off-site bootcamps and             -->
-      <!--                 meetings.                                                      -->
-      <!--               </li>                                                            -->
-      <!--               <li>Working on strategy with our communications team.</li>       -->
-      <!--             </ul>                                                              -->
-      <!--           </div>                                                               -->
-      <!--         </li>                                                                  -->
-      <!--         <li>                                                                   -->
-      <!--           <a class="uk-accordion-title" href="#">Qualifications</a>            -->
-      <!--           <div class="uk-accordion-content">                                   -->
-      <!--             <ul>                                                               -->
-      <!--               <li>                                                             -->
-      <!--                 Minimum 2 years’ experience in leading or supporting         -->
-      <!--                 programs                                                       -->
-      <!--               </li>                                                            -->
-      <!--               <li>                                                             -->
-      <!--                 Bachelor's degree in any relevant subject from a reputed       -->
-      <!--                 University                                                     -->
-      <!--               </li>                                                            -->
-      <!--               <li>                                                             -->
-      <!--                 Team player who inspires, collaborates and shares ideas        -->
-      <!--                 and thoughts                                                   -->
-      <!--               </li>                                                            -->
-      <!--               <li>                                                             -->
-      <!--                 Entrepreneurial, self-started and responsible for tasks        -->
-      <!--               </li>                                                            -->
-      <!--               <li>                                                             -->
-      <!--                 Experience in curating content, managing multiple projects     -->
-      <!--                 and logistics at a time                                        -->
-      <!--               </li>                                                            -->
-      <!--               <li>                                                             -->
-      <!--                 Strong communication skill with track record in building       -->
-      <!--                 and managing different stakeholders                            -->
-      <!--               </li>                                                            -->
-      <!--               <li>Excellent public speaking, and interpersonal skills</li>     -->
-      <!--               <li>                                                             -->
-      <!--                 Comfortable in using multiple technology platforms for         -->
-      <!--                 team and programs management                                   -->
-      <!--               </li>                                                            -->
-      <!--             </ul>                                                              -->
-      <!--           </div>                                                               -->
-      <!--         </li>                                                                  -->
-      <!--         <li>                                                                   -->
-      <!--           <a class="uk-accordion-title" href="#">Other Info</a>                -->
-      <!--           <div class="uk-accordion-content">                                   -->
-      <!--             <ul>                                                               -->
-      <!--               <li><strong>Time Commitment:</strong> 40 hours/week</li>         -->
-      <!--               <li>                                                             -->
-      <!--                 <strong>Location:</strong> 9th Floor, Grameen Telecom          -->
-      <!--                 Bhaban, Zoo Road, Mirpur 1, Dhaka 1216                         -->
-      <!--               </li>                                                            -->
-      <!--               <li><strong>Reporting to:</strong> Chief of Staff</li>           -->
-      <!--               <li><strong>Start date:</strong> Immediate</li>                  -->
-      <!--               <li><strong>Salary:</strong> Negotiable</li>                     -->
-      <!--             </ul>                                                              -->
-      <!--           </div>                                                               -->
-      <!--         </li>                                                                  -->
-      <!--       </ul>                                                                    -->
-      <!--       <div class="contact-email">                                              -->
-      <!--         <p>                                                                    -->
-      <!--           <i                                                                   -->
-      <!--             >If you are interested in applying for this position please        -->
-      <!--             send your resume and cover letter at                               -->
-      <!--             <a href="mailto:careers@yy.ventures">careers@yy.ventures</a>       -->
-      <!--             detailing why you think you are the right person to lead our       -->
-      <!--             operations. You are advised to mention your salary                 -->
-      <!--             expectations in your cover letter.</i                              -->
-      <!--           >                                                                    -->
-      <!--         </p>                                                                   -->
-      <!--       </div>                                                                   -->
-      <!--     </div>                                                                     -->
-      <!--   </div>                                                                       -->
-      <!-- </div>                                                                         -->
+      <div class="open-position" uk-grid>
+        <div class="uk-width-1-3@m">
+          <div class="job-title">
+            <div class="title-bg">1</div>
+            <h2>Program Manager</h2>
+          </div>
+        </div>
+        <div class="uk-width-2-3@m">
+          <div class="job-description">
+            <ul uk-accordion>
+              <li class="uk-open">
+                <a class="uk-accordion-title" href="#">Job Description</a>
+                <div class="uk-accordion-content">
+                  <p>
+                    Are you interested in innovation and social business? This
+                    role will not only give you experience of working with
+                    startup entrepreneurs and social innovators; you will
+                    immerse yourself in Bangladesh’s entrepreneurship ecosystem
+                    and the global social business movement. The primary purpose
+                    of this role would be coordinating with and reporting to the
+                    Programs Lead as we initiate and run various programs to
+                    support the social entrepreneurs. The essential
+                    responsibilities of you as a Program Manager are stated
+                    below.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <a class="uk-accordion-title" href="#"
+                  >Essential Responsibility</a
+                >
+                <div class="uk-accordion-content">
+                  <ul>
+                    <li>
+                      Organizing entrepreneurship programs and activities to
+                      achieve the mission of our company.
+                    </li>
+                    <li>
+                      Support our programs lead in Developing new programs.
+                    </li>
+                    <li>
+                      Developing a budget and operating plan for our incubation
+                      and mentoring program.
+                    </li>
+                    <li>
+                      Developing an evaluation method to assess program
+                      strengths and identify areas for improvement.
+                    </li>
+                    <li>
+                      Support our business development team in writing program
+                      funding proposals to guarantee uninterrupted delivery of
+                      services.
+                    </li>
+                    <li>
+                      Supporting the growth of our programs team while
+                      coordinating with associates, interns & volunteers.
+                    </li>
+                    <li>
+                      Ensuring goals are met in areas including entrepreneur
+                      satisfaction, safety, quality and team member performance.
+                    </li>
+                    <li>
+                      Implementing and managing changes and interventions to
+                      ensure project goals are achieved.
+                    </li>
+                    <li>
+                      Maintaining regular communications with our funding
+                      partners, major stakeholders & program participants to
+                      ensure timely delivery of our programs.
+                    </li>
+                    <li>
+                      Producing accurate and timely reporting of program status
+                      throughout its life cycle.
+                    </li>
+                    <li>
+                      Organizing logistics of our off-site bootcamps and
+                      meetings.
+                    </li>
+                    <li>Working on strategy with our communications team.</li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <a class="uk-accordion-title" href="#">Qualifications</a>
+                <div class="uk-accordion-content">
+                  <ul>
+                    <li>
+                      Minimum 4-6 years’ experience in leading or supporting
+                      programs
+                    </li>
+                    <li>
+                      Bachelor's degree in any relevant subject from a reputed
+                      University
+                    </li>
+                    <li>
+                      Team player who inspires, collaborates and shares ideas
+                      and thoughts
+                    </li>
+                    <li>
+                      Entrepreneurial, self-started and responsible for tasks
+                    </li>
+                    <li>
+                      Experience in curating content, managing multiple projects
+                      and logistics at a time
+                    </li>
+                    <li>
+                      Strong communication skill with track record in building
+                      and managing different stakeholders
+                    </li>
+                    <li>Excellent public speaking, and interpersonal skills</li>
+                    <li>
+                      Comfortable in using multiple technology platforms for
+                      team and programs management
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <a class="uk-accordion-title" href="#">Other Info</a>
+                <div class="uk-accordion-content">
+                  <ul>
+                    <li><strong>Time Commitment:</strong> 40 hours/week</li>
+                    <li>
+                      <strong>Location:</strong> 9th Floor, Grameen Telecom
+                      Bhaban, Zoo Road, Mirpur 1, Dhaka 1216
+                    </li>
+                    <li><strong>Reporting to:</strong> Chief of Staff</li>
+                    <li><strong>Start date:</strong> Immediate</li>
+                    <li><strong>Salary:</strong> Negotiable</li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+            <div class="contact-email">
+              <p>
+                <i
+                  >If you are interested in applying for this position please
+                  send your resume and cover letter at
+                  <a href="mailto:careers@yy.ventures">careers@yy.ventures</a>
+                  detailing why you think you are the right person to lead our
+                  operations. You are advised to mention your salary
+                  expectations in your cover letter.</i
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <!-- <div class="open-position" uk-grid>                                            -->
       <!--   <div class="uk-width-1-3@m">                                                 -->
@@ -315,7 +315,7 @@
       <div class="open-position" uk-grid>
         <div class="uk-width-1-3@m">
           <div class="job-title">
-            <div class="title-bg">01</div>
+            <div class="title-bg">2</div>
             <h2>Communications Manager</h2>
           </div>
         </div>
@@ -385,8 +385,8 @@
                 <div class="uk-accordion-content">
                   <ul>
                     <li>
-                      Minimum 2 years’ experience in managing communications in
-                      reputed organizations
+                      Minimum 3-5 years’ experience in managing communications
+                      in reputed organizations
                     </li>
                     <li>
                       Bachelor's degree in any relevant subject from a reputed
@@ -449,7 +449,7 @@
       <div class="open-position" uk-grid>
         <div class="uk-width-1-3@m">
           <div class="job-title">
-            <div class="title-bg">02</div>
+            <div class="title-bg">3</div>
             <h2>Senior Graphic Designer</h2>
           </div>
         </div>
@@ -460,13 +460,13 @@
                 <a class="uk-accordion-title" href="#">Job Description</a>
                 <div class="uk-accordion-content">
                   <p>
-                    YY Ventures is looking for a Graphic Designer to create
-                    engaging designs that will help social businesses and
-                    startups thrive. You will work under the supervision of our
-                    Director to produce high-quality work. In this role, you
-                    should be highly creative and have a sharp eye for details.
-                    If you’re passionate about design and eager to learn more,
-                    we’d like to meet you.
+                    YY Ventures is looking for an experienced Graphic Designer
+                    to create engaging designs that will help social businesses
+                    and startups thrive. You will work under the supervision of
+                    our Communications Manager to produce high-quality work. In
+                    this role, you should be highly creative and have a sharp
+                    eye for details. If you’re passionate about design and eager
+                    to learn more, we’d like to meet you.
                   </p>
                 </div>
               </li>
@@ -596,10 +596,11 @@
           </div>
         </div>
       </div>
+
       <div class="open-position" uk-grid>
         <div class="uk-width-1-3@m">
           <div class="job-title">
-            <div class="title-bg">03</div>
+            <div class="title-bg">4</div>
             <h2>Web Developer</h2>
           </div>
         </div>

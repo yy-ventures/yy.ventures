@@ -11,7 +11,6 @@
       nuxt-link.link.underline(to="/") home
       nuxt-link.link.underline(to="/about") about
       nuxt-link.link.underline(to="/investments") investments
-      nuxt-link.link.underline(to="/incubator") incubator
       .sub_menu
         //- input#sub_menu_toggler(type="checkbox")
         //- label(for="sub_menu_toggler" )
@@ -20,6 +19,7 @@
         .sub_menu__items
           nuxt-link.link.underline(to="/washic") WASH innovation challenge
       //- nuxt-link.link.underline(to="/contact") contact
+      nuxt-link.link.underline(to="/incubator") incubator
 </template>
 
 <style lang="sass">

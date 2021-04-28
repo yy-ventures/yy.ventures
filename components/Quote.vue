@@ -1,7 +1,7 @@
 <template lang="pug">
 #quote
-  .line_1.h1 All humans are
-  .line_2.h1
+  .line_1.h1.reel_right All humans are
+  .line_2.h1.reel_left
     .word_1 born
     .word_2 &nbsp entrepreneurs
   .h5 Professor Muhammad Yunus

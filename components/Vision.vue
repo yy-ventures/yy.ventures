@@ -1,14 +1,11 @@
 <template lang="pug">
 #vision
   article
-    //- .h2 We envision a more
-    //- .h2 equitable and just
-    //- .h2 world
     .h2 We envision a world of three zeros-
-    .h2.typewriter
-    //- .h2#type zero poverty, 
-    //- .h2 zero unemployment,
-    //- .h2 and zero carbon emission.
+    //- .h2.typewriter
+    .h2 zero poverty, 
+    .h2 zero unemployment,
+    .h2 and zero carbon emission.
   article
     
     .p We believe that a more equitable and just world is possible if we foster ‘Social Business’ while leveraging young people’s talents and ideas.

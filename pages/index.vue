@@ -41,19 +41,15 @@ export default {
     update_scroll();
     toggle_class_on_focus({
       ['.highlight']: 'scale',
-      ['#quote .line_1']: 'reel_right',
-      ['#quote .line_2']: 'reel_left',
+      // ['#quote .line_1']: 'reel_right',
+      // ['#quote .line_2']: 'reel_left',
     });
 
-    typewriter(
-      ['zero poverty,', 'zero unemployment,', 'and zero carbon emission.'],
-      100,
-      1000
-    )(dom('.typewriter'));
-
-    // run_function_on_focus('#type', () => {
-    //   console.log('this');
-    // });
+    // typewriter(
+    //   ['zero poverty,', 'zero unemployment,', 'and zero carbon emission.'],
+    //   100,
+    //   1000
+    // )(dom('.typewriter'));
 
     add_class_on_focus({
       ['.faded_out']: 'fade_in',
