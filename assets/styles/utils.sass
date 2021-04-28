@@ -1,0 +1,162 @@
+.center
+  display: grid
+  place-items: center
+
+.scale
+  &:after
+    transition-delay: 500ms
+    transform: scaleX(1)
+
+.scale_down
+  transform: scaleX(0.95)
+
+.scaled_up
+  &:after
+    transition-delay: 500ms
+    // transform: scaleX(1)
+
+.reel_right
+  animation: reel_right 1s linear calc(var(--scroll) * -0.9s) 1 normal both paused
+  @media (min-width: 601px)
+    animation: reel_right 1s linear calc(var(--scroll) * -0.8s) 1 normal both paused
+  @keyframes #{reel_right}
+    0%
+      transform: translateX(-100%)
+    100%
+      transform: translateX(100%)
+
+.reel_left
+  animation: reel_left 1s linear calc(var(--scroll) * -0.9s) 1 normal both paused
+  @media (min-width: 601px)
+    animation: reel_left 1s linear calc(var(--scroll) * -0.8s) 1 normal both paused
+  @keyframes #{reel_left}
+    0%
+      transform: translateX(100%)
+    100%
+      transform: translateX(-100%)
+
+
+.pulse
+  @keyframes #{pulse}
+    0%
+      transform: scale(1)
+    100%
+      transform: scale(1.2)
+  animation: pulse 1s linear infinite alternate
+  &:hover
+    animation-play-state: paused
+
+.type
+  &__l1, &__l2, &__l3
+    overflow: hidden
+    white-space: nowrap
+    width: 0
+  &__l1
+    animation: type_l1 1500ms steps(13) 500ms 1 normal forwards
+    @keyframes #{type_l1}
+      100%
+        width: 13ch
+  &__l2
+    animation: type_l2 1500ms steps(12) 2000ms 1 normal forwards
+    @keyframes #{type_l2}
+      100%
+        width: 12ch
+  &__l3
+    animation: type_l3 1500ms steps(5) 3500ms 1 normal forwards
+    @keyframes #{type_l3}
+      100%
+        width: 5ch
+
+.glass
+  &:after
+    content: ""
+    position: absolute
+    top: 0
+    z-index: -1
+    width: 100%
+    height: 100%
+    background: inherit
+    box-shadow: inset 0 0 500px rgba(white, .5)
+    filter: blur(10px)
+
+.underline
+  &:after
+    content: ""
+    display: block
+    height: 3px
+    transform: scaleX(0)
+
+    transition: transform 750ms
+    // transition: transform 250ms linear
+    // transform-origin: right
+
+  &:hover:after
+    // transform-origin: left
+    transform: scaleX(1)
+
+.faded_out
+  opacity: 0
+  transform: translateY(25%)
+  // transform: translateY(25%)
+  // transition: opacity 500ms, transform 500ms
+  // transition-delay: 125ms
+  // transition: opacity 250ms linear, transform 250ms linear
+  transition: opacity 500ms linear, transform 500ms linear
+  transition-delay: 250ms
+
+.fade_in
+  opacity: 1
+  transform: translateY(0)
+
+.hover_grow
+  transition: transform 500ms
+  &:hover
+    transform: scale(1.1)
+
+.typewriter
+  position: relative
+
+  &:after
+    content: ""
+    margin-left: 5px
+
+    // position: absolute
+    // bottom: 0
+    // width: 5%
+    // height: 5px
+
+    animation: blink 0.5s linear infinite alternate
+    @keyframes #{blink}
+      0%
+        opacity: 1
+      100%
+        opacity: 0
+
+
+  // &:after
+    // content: ""
+    // margin-left: 10px
+    // animation: blink 1s steps(2) infinite
+    // animation: blink 1s linear infinite
+    @keyframes #{blink}
+      0%
+        border-right: none
+      100%
+        border-right: 5px solid black
+
+    // display: inline-block
+    // width: 5px
+    // height: 30px
+    // margin: 0.2em 0 0.2em 0.2em
+    // background: $fg_dark_title
+
+
+.change_background
+  animation: change_background 1s linear calc(var(--scroll) * -1s) 1 normal both paused
+  @keyframes #{change_background}
+    0%
+      background: white
+    50%
+      background: lightgrey
+    100%
+      background: white

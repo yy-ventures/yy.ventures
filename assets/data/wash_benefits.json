@@ -1,0 +1,35 @@
+{
+  "title": "Benefits Innovators Will Receive",
+  "cards": [
+    {
+      "title": "world class training",
+      "description": "This program will create a space for promising innovators and entrepreneurs to accelerate their WASH initiatives by training them through a 3-day long boot camp to shape their ideas into reinvented business models through proper strategy implementation.",
+      "image": "wash/wct.png"
+    },
+    {
+      "title": "mentoring",
+      "description": "Mentoring hours will be structured based on the needs of participants during the program weeks. Participants will have the opportunity to avail mentoring from subject matter experts.",
+      "image": "wash/mentoring.png"
+    },
+    {
+      "title": "funding opportunity",
+      "description": "One winning team will get a cash prize of €2.500 at the end of the boot camp and top participants will have the opportunity to apply for €200.000 at Aqua for All if they meet the funding criteria.",
+      "image": "wash/funding.jpg"
+    },
+    {
+      "title": "investor network",
+      "description": "With the shared support with the program partners, we will bring in a pool of investors and funders for the teams to connect and create conversations that will lead to opening up opportunities for their startups.",
+      "image": "wash/investor.jpeg"
+    },
+    {
+      "title": "coworking space",
+      "description": "Successful applicants will become members at Impact Hub Dhaka, one of the largest social entrepreneurs' networks in the world and get access to coworking space that comes with high-speed internet, furnished space and community events.",
+      "image": "wash/coworking.png"
+    },
+    {
+      "title": "startup community",
+      "description": "Teams will be introduced to a diverse and inclusive network of startup founders within the WASH sectors and beyond. By sharing experience and making connections through shared interests, each startup will have the opportunity to collaborate and grow.",
+      "image": "wash/sc.jpeg"
+    }
+  ]
+}

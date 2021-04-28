@@ -1,0 +1,68 @@
+<template lang="pug">
+#program
+  #top_section
+    .h2 About the program
+    #grid
+      img(src="~assets/images/programs/wash.png").shadow
+      #texts
+        .h3 For WASH entrepreneurs in Bangladesh
+        .p YY Ventures has partnered up with Aqua for All & Bopinc to introduce the #[strong WASH Innovation Challenge] for the first time in Bangladesh. This program will support up to 15 teams that have creative and market-driven solutions for the WASH sector in Bangladesh. With this we hope to jointly achieve Sustainable Development Goal 6 – Water and sanitation for all.
+  #bottom_section
+    #left
+      .h3 3-day long boot camp
+      .h3 15 teams
+      .h3.highlight Opportunity to apply for funding up to €200.000
+    #right
+      .h3 Apply Now
+      nuxt-link(to="/washic/application").arrow
+</template>
+
+<style></style>
+
+<style lang="sass" scoped>
+#program
+  .h2, .h3
+    color: $fg_dark_title
+
+  .p
+    color: $fg_dark_text
+
+  .h2
+    text-transform: capitalize
+  #top_section
+    padding: clamp(25px, 5vw, 50px)
+    background: #f1f2f2
+    transition: transform 500ms 500ms
+
+    #grid
+      display: grid
+      margin-top: 50px
+      grid-gap: 25px
+      @media (min-width: 601px)
+        grid-template-columns: 1fr 1fr
+
+      .h3
+        color: $yy_magenta
+      .p
+        margin-top: 25px
+  #bottom_section
+    display: flex
+    flex-direction: column
+    @media (min-width: 601px)
+      flex-direction: row
+      justify-content: space-between
+
+    padding: clamp(25px, 5vw, 50px)
+
+    #left
+      .h3
+        font-size: clamp(11px, 2vw, 30px)
+
+    #right
+      .h3
+        color: $yy_blue
+      .arrow
+        &:before, &:after
+          border: solid $yy_yellow
+          border-width: 0 5px 5px 0
+</style>

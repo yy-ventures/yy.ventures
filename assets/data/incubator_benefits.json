@@ -1,0 +1,35 @@
+{
+  "title": "How We Help",
+  "cards": [
+    {
+      "title": "world class training",
+      "description": "YY Goshthi creates a space for promising startups to accelerate their business to the next level. The participants can draw guidelines and construct their business idea in the presence of world reputed business trainers. Our boot camp prepares the participants with different aspects of launching a successful business.",
+      "image": "programs/wct.png"
+    },
+    {
+      "title": "mentoring",
+      "description": "One of the key benefits that we offer to our incubatees is tailored mentoring. We structure mentoring hours based on the needs of startups and the founders. In partnership with our supporters and network, we bring seasoned professionals and entrepreneurs from around the world to mentor our incubatees.",
+      "image": "programs/mentoring.png"
+    },
+    {
+      "title": "investor network",
+      "description": "Each cohort we offer pre-seed investment up to BDT 1.5 million and work with dozens of local and international investors and angels. We become partners with our incubatees and help them negotiate and raise capital from investors.",
+      "image": "programs/investor.jpeg"
+    },
+    {
+      "title": "office space",
+      "description": "We offer a coworking space facility for our incubatees. For the first four months, they are allowed to work free of charge. Our space comes with high-speed internet, furnished dedicated space, community events, and of course, you get to work with like-minded individuals.",
+      "image": "programs/office_space.png"
+    },
+    {
+      "title": "business service",
+      "description": "YY Goshthi’s design team specializes in creating strong brand identity, websites, and marketing collateral. Our partner organizations offer pro-bono legal and accounting support and we get access to new business opportunities with their help.",
+      "image": "programs/business_service.png"
+    },
+    {
+      "title": "community",
+      "description": "Get connected to our thriving community of compassionate, creative, and committed social entrepreneurs who aim to achieve collective progress through collaboration and exchange. Our community promotes a responsible and sustainable corporate culture and offers events, meetings, and activities that promote sustainability and entrepreneurship.",
+      "image": "programs/sc.jpeg"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "title": "our partners",
+  "partners": [
+    {
+      "logo": "partners/AA.svg",
+      "website": "https://aquaforall.org/"
+    },
+    {
+      "logo": "partners/bopinc.jpg",
+      "website": "https://bopinc.org/"
+    },
+    {
+      "logo": "partners/gsma.png",
+      "website": "https://www.gsma.com/"
+    }
+  ]
+}

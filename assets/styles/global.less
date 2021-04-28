@@ -1,0 +1,202 @@
+@import './fonts/stylesheet.less';
+
+//Breakpoints
+
+@xsmall: ~'only screen and (min-width:320px)'; /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+@small: ~'only screen and (min-width: 480px)'; /* smartphones, Android phones, landscape iPhone */
+@medium: ~'only screen and (min-width: 600px)'; /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+@tablet: ~'only screen and (min-width: 801px)'; /* tablet, landscape iPad, lo-res laptops ands desktops */
+@large: ~'only screen and (min-width: 1025px)'; /* big landscape tablets, laptops, and desktops */
+@xlarge: ~'only screen and (min-width: 1281px)'; /* hi-res laptops and desktops */
+
+@xsmall-down: ~'only screen and (max-width:320px)'; /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+@small-down: ~'only screen and (max-width: 480px)'; /* smartphones, Android phones, landscape iPhone */
+@medium-down: ~'only screen and (max-width: 600px)'; /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+@tablet-down: ~'only screen and (max-width: 800px)'; /* tablet, landscape iPad, lo-res laptops ands desktops */
+@large-down: ~'only screen and (max-width: 1024px)'; /* big landscape tablets, laptops, and desktops */
+@xlarge-down: ~'only screen and (max-width: 1280px)'; /* hi-res laptops and desktops */
+
+body {
+  font-family: 'Graphik';
+}
+h1 {
+  font-family: 'Graphik';
+  font-weight: 900;
+}
+
+//colors
+.accent-one {
+  color: #c4125b;
+}
+//pages
+#home-hero {
+  h1 {
+    color: #ffffff;
+  }
+  .yyv-cta-button {
+    background-color: #ffffff;
+    border-radius: 50px;
+
+    span {
+      border-radius: 50%;
+      background-color: #c4125b;
+      color: white;
+      margin-left: 10px;
+    }
+  }
+}
+
+#yunus-quote {
+  padding: 40px 0px;
+  img {
+    max-width: 120%;
+  }
+  .section-text {
+    .main-text {
+      span {
+        background: #303030;
+        color: white;
+        font-family: 'Graphik';
+        font-weight: bold;
+
+        font-size: 30px;
+        line-height: 37px;
+      }
+      div {
+        display: block;
+      }
+    }
+    .signature-text {
+      text-align: right;
+      p {
+        color: #c4125b;
+        font-family: 'Graphik';
+        font-weight: bold;
+        font-size: 30px;
+        margin: 0px 0px;
+      }
+      span {
+        color: #c4125b;
+        font-family: 'Graphik';
+        font-weight: 300;
+        font-size: 20px;
+        display: block;
+      }
+    }
+  }
+}
+
+#portfolio-section {
+  background-color: #e0e0e0;
+  .image-text {
+    height: auto;
+    padding: 30px 0px;
+    img {
+      max-height: 450px;
+    }
+  }
+  .portfolio-images {
+    div {
+      height: 300px;
+    }
+  }
+  .portfolio-holder {
+    padding: 100px 0px;
+    padding-left: 70px;
+
+    color: #2b2b2b;
+  }
+  .featured {
+    font-family: 'Graphik';
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #000000;
+  }
+  .title {
+    font-family: 'Graphik';
+    font-weight: bold;
+    color: #c4125b;
+    margin: 0px;
+    text-transform: uppercase;
+  }
+  .description {
+    color: #2b2b2b;
+    font-family: 'Graphik';
+    width: 100px;
+    text-transform: uppercase;
+  }
+  .portfolio-button {
+    color: #c4125b;
+    border-color: #c4125b;
+    display: table;
+    margin-top: 40px;
+  }
+  .portfolio-details {
+    margin: 60px 0px;
+    padding-right: 40px;
+  }
+  .uk-slidenav {
+    color: #c4125b;
+  }
+  .uk-slidenav:focus,
+  .uk-slidenav:hover {
+    color: #c4125b;
+  }
+}
+
+#yy-spirit {
+  background: #c4125b;
+  padding: 100px 0px;
+  .overlay-img {
+    img {
+      width: 75%;
+    }
+    @media @large-down {
+      display: none;
+    }
+  }
+
+  #section-text {
+    text-align: right;
+    .big-text {
+      span {
+        font-family: 'Graphik Super';
+        color: white;
+        font-size: 70px;
+        margin: 0px;
+        line-height: 65px;
+        display: block;
+      }
+    }
+    .light-text {
+      font-family: 'Graphik';
+      font-weight: 300;
+      color: white;
+      font-size: 18px;
+      line-height: 30px;
+    }
+  }
+}
+#footer-section {
+  font-family: 'Graphik';
+  color: #2a2a2a;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #ffffff;
+  .footer-title {
+    color: #c4125b;
+    font-family: 'Graphik';
+    font-size: 16px;
+    span {
+      color: #2a2a2a;
+    }
+    .newline {
+      display: block;
+    }
+  }
+  .social-icon {
+    color: #2a2a2a;
+  }
+}
+//portfolio sections
