@@ -46,7 +46,7 @@ export default {
     });
 
     typewriter(
-      ['Reality,', 'Society,', 'World,', 'Way of Doing Business.'],
+      ['Reality', 'Society', 'World', 'Way of Doing Business'],
       100,
       1000
     )(dom('.typewriter'));

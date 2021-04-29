@@ -7,8 +7,8 @@
   div
     .h5.faded_out  Get in Touch
     nuxt-link(to="/career").p.faded_out career
-    nuxt-link(to="/media-kit").p.faded_out media kit
     nuxt-link(to="/contact").p.faded_out contact
+    nuxt-link(to="/media-kit").p.faded_out media kit
     .p.faded_out#mail info@yy.ventures
     .p.faded_out#address 9th floor, Grameen Telecom Bhaban, #[br] Mirpur 1, Dhaka 1216, Bangladesh.
 

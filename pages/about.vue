@@ -58,3 +58,10 @@ export default {
   },
 };
 </script>
+
+<style lang="sass">
+// #partners
+//   #grid
+//     .partners_container
+//       width: 500px !important
+</style>

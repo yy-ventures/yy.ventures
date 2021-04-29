@@ -446,6 +446,7 @@
           </div>
         </div>
       </div>
+
       <div class="open-position" uk-grid>
         <div class="uk-width-1-3@m">
           <div class="job-title">

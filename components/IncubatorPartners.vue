@@ -19,7 +19,8 @@
 #incubator_partners
   display: grid
   @media (min-width: 601px)
-    grid-template-columns: repeat(3, auto)
+    grid-template-columns: repeat(2, auto)
+    // grid-template-columns: repeat(3, auto)
   padding: clamp(2.5em, 10vw, 5em)
   grid-gap: 10em
   align-items: start
@@ -31,11 +32,13 @@
     margin-bottom: 25px
   .p
     color: $fg_dark_text
-    font-size: clamp(10px, 2vw, 12px)
+    // font-size: clamp(10px, 2vw, 12px)
 
   img
     width: 200px
     margin-bottom: 25px
+    // &:first-of-type
+    //   width: 300px
 
   #goshthi
     margin-top: 25px

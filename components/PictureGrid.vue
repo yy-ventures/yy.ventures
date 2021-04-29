@@ -4,7 +4,7 @@
     .h2.highlight {{data.title}}
   .benefits_grid
     .benefits_container(v-for="(item, index) in data.cards")
-      img(:src="require(`~/assets/images/${item.image}`)").faded_out.shadow
+      img(:src="require(`~/assets/images/${item.image}`)").faded_out
       .benefits_container__title
         .h1.faded_out {{++index}}
         .h4.faded_out {{item.title}}
