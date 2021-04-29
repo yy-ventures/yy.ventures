@@ -45,11 +45,11 @@ export default {
       // ['#quote .line_2']: 'reel_left',
     });
 
-    // typewriter(
-    //   ['zero poverty,', 'zero unemployment,', 'and zero carbon emission.'],
-    //   100,
-    //   1000
-    // )(dom('.typewriter'));
+    typewriter(
+      ['Reality,', 'Society,', 'World,', 'Way of Doing Business.'],
+      100,
+      1000
+    )(dom('.typewriter'));
 
     add_class_on_focus({
       ['.faded_out']: 'fade_in',

@@ -5,12 +5,10 @@
   .portfolio_slider_track
     .portfolio_slider_slide
       img(src="images/portfolio/covern.jpg")
-      .h1 Avijatrik
-      .h3 A local tourism marketplace in Bangladesh
+      .h3 Avijatrik - A local tourism marketplace in Bangladesh
     .portfolio_slider_slide
       img(src="images/portfolio/shishir.jpg")
-      .h1 Shishir Water
-      .h3 Clean drinking water for all
+      .h3 Shishir Water - Clean drinking water for all
 </template>
 
 <script>
@@ -69,13 +67,10 @@ export default {
 
     .portfolio_slider_slide
       position: relative
-      // padding: clamp(50px, 10vw, 100px)
       padding: clamp(25px, 10vw, 100px)
       flex-shrink: 0
       width: 100%
-      // height: 100vh
-
-      &:nth-of-type(2) .h1:before
+      &:nth-of-type(2) .h3:before
         content: "2"
 
       img
@@ -83,28 +78,18 @@ export default {
         height: 100%
         object-fit: cover
 
-      .h1, .h3
+      .h3
         position: absolute
         color: $fg_light_title
-
-      .h1
-        bottom: 13%
-        left: 12%
-        font-size: clamp(30px, 5vw, 100px)
+        bottom: 0
+        left: 8%
+        // font-size: clamp(30px, 5vw, 100px)
         &:before
           content: "1"
           margin-right: 10px
-          font-size: clamp(50px, 15vw, 150px)
+          font-size: clamp(50px, 20vw, 200px)
           font-weight: 900
           -webkit-text-stroke-width: 2px
           -webkit-text-stroke-color: $fg_light_title
-          // -webkit-text-stroke-color: darken(white, 25)
           -webkit-text-fill-color: transparent
-
-      .h3
-        // left: 5%
-        left: 10%
-        color: $fg_light_text
-        font-weight: 300
-        font-size: clamp(14px, 4vw, 30px)
 </style>

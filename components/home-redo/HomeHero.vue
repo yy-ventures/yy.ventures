@@ -33,17 +33,20 @@
 
       <div class="uk-container hero-container uk-position-cover">
         <div class="hero-text-container uk-position-center-left">
-          <h1 class="">
-            <span>Incubating and</span>
-            <span>Investing in</span>
-            <span class="background-accent"
-              ><span
-                class="inner-span"
-                uk-scrollspy="cls:inner-span-animate; hidden:false;  delay:1000; repeat:true"
-                >Social Businesses</span
-              ></span
-            >
-          </h1>
+          <!-- <h1 class="">                                                                       -->
+          <!--   <span>Incubating and</span>                                                       -->
+          <!--   <span>Investing in</span>                                                         -->
+          <!--   <span class="background-accent"                                                   -->
+          <!--     ><span                                                                          -->
+          <!--       class="inner-span"                                                            -->
+          <!--       uk-scrollspy="cls:inner-span-animate; hidden:false;  delay:1000; repeat:true" -->
+          <!--       >Social Businesss</span                                                       -->
+          <!--     ></span                                                                         -->
+          <!--   >                                                                                 -->
+          <!-- </h1>                                                                               -->
+
+          <h1>Imagine a New</h1>
+          <h1 class="typewriter"></h1>
         </div>
       </div>
     </div>
