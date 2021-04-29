@@ -8,7 +8,7 @@
     <!-- <about-team></about-team> -->
     <Staff :staff="staff"></Staff>
     <!-- <about-partner></about-partner> -->
-    <Partners :partners="partners" class="faded_out"></Partners>
+    <!-- <Partners :partners="partners" class="faded_out"></Partners> -->
   </div>
 </template>
 
@@ -59,9 +59,4 @@ export default {
 };
 </script>
 
-<style lang="sass">
-// #partners
-//   #grid
-//     .partners_container
-//       width: 500px !important
-</style>
+<style lang="sass"></style>

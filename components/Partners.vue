@@ -39,4 +39,4 @@ export default {
         // transition: transform 500ms
         // &:hover
           // transform: scale(1.1)
-</tyle>
+</style>
