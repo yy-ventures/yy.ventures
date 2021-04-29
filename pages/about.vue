@@ -9,6 +9,8 @@
     <Staff :staff="staff"></Staff>
     <!-- <about-partner></about-partner> -->
     <!-- <Partners :partners="partners" class="faded_out"></Partners> -->
+
+    <Partner :data="incubator_partners"></Partner>
   </div>
 </template>
 
@@ -22,9 +24,11 @@ import AboutPartner from '~/components/about-redo/AboutPartner';
 
 import Staff from '~/components/Staff';
 import Partners from '~/components/Partners';
+import Partner from '~/components/Partner';
 import Featured from '~/components/Featured';
 
 import partners from '~/assets/data/partners.json';
+import incubator_partners from '~/assets/data/incubator_partners.json';
 import staff from '~/assets/data/staff.json';
 
 import {
@@ -41,11 +45,13 @@ export default {
     AboutTeam,
     AboutPartner,
     Partners,
+    Partner,
     Staff,
     Featured,
   },
   data: () => ({
     partners,
+    incubator_partners,
     staff,
   }),
   mounted: () => {
@@ -59,4 +65,12 @@ export default {
 };
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+#partner
+  a:nth-of-type(1)
+    width: 250px
+  a:nth-of-type(2)
+    width: 150px
+  a:nth-of-type(4)
+    width: 200px
+</style>

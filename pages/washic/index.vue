@@ -110,4 +110,9 @@ export default {
 #condition_2 {
   background: yellow;
 }
+#partner{
+  a:first-of-type{
+    width: 200px;
+  }
+}
 </style>

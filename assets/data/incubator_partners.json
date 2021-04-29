@@ -1,9 +1,21 @@
 {
-  "title": "Powered by",
+  "title": "partners",
   "partners": [
     {
+      "logo": "partners/yunus_center.png",
+      "website": "#"
+    },
+    {
+      "logo": "partners/impact_hub.png",
+      "website": "#"
+    },
+    {
+      "logo": "partners/GTT.png",
+      "website": "#"
+    },
+    {
       "logo": "partners/NEA.jpg",
-      "website": "https://english.rvo.nl/"
+      "website": "#"
     }
   ]
 }

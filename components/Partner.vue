@@ -2,8 +2,8 @@
 #partner
   .h2 {{data.title}}
   .partners_grid
-      a(v-for="partner in data.partners" :href="partner.website")
-        img(:src="require(`~/assets/images/${partner.logo}`)").hover_grow
+    a(v-for="partner in data.partners" :href="partner.website")
+      img(:src="require(`~/assets/images/${partner.logo}`)").hover_grow
 </template>
 
 <script>
@@ -23,13 +23,10 @@ export default {
   .partners_grid
 
     display: grid
-    grid-gap: 50px
+    grid-gap: 100px
     place-items: center
 
     grid-template-columns: auto
     @media (min-width: 601px)
       grid-template-columns: repeat(4, auto) !important
-
-    a:first-of-type
-      width: 200px
 </style>
