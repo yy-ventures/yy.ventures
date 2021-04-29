@@ -46,7 +46,7 @@
           <!-- </h1>                                                                               -->
 
           <h1>Imagine A New</h1>
-          <h1 class="typewriter"></h1>
+          <h1 class="write"></h1>
         </div>
       </div>
     </div>
