@@ -5,7 +5,7 @@
     //- .h2.typewriter
     .h2 zero poverty, 
     .h2 zero unemployment,
-    .h2 and zero carbon emission.
+    .h2 and zero net carbon emission.
   article
     
     .p We believe that a more equitable and just world is possible if we foster ‘Social Business’ while leveraging young people’s talents and ideas.
