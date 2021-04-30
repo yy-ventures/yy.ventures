@@ -49,7 +49,7 @@ export default {
       ['Reality', 'Society', 'World', 'Way of Doing Business'],
       100,
       1000
-    )(dom('.typewriter'));
+    )(dom('.write'));
 
     add_class_on_focus({
       ['.faded_out']: 'fade_in',
