@@ -6,7 +6,7 @@
   nuxt-link(to="/contact").arrow
 </template>
 
-<style lang="sass">
+<style lang="sass" scoped>
 #pre_footer
   padding: 40px
   @media (min-width: 601px)

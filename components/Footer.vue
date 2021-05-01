@@ -6,9 +6,9 @@
 
   div
     .h5.faded_out  Get in Touch
-    nuxt-link(to="/career").p.faded_out career
-    nuxt-link(to="/contact").p.faded_out contact
-    nuxt-link(to="/media-kit").p.faded_out media kit
+    nuxt-link(to="/career").p career
+    nuxt-link(to="/contact").p contact
+    nuxt-link(to="/media-kit").p media kit
     .p.faded_out#mail info@yy.ventures
     .p.faded_out#address 9th floor, Grameen Telecom Bhaban, #[br] Mirpur 1, Dhaka 1216, Bangladesh.
 
@@ -20,12 +20,13 @@
     //- a(href="https://twitter.com/yygoshti").p.faded_out twitter
 
     .h5.faded_out  Follow YY Ventures
-    a(href="https://www.facebook.com/yyventures").p.faded_out facebook
-    a(href="https://www.instagram.com/yyventures/").p.faded_out instagram
-    a(href="https://www.linkedin.com/company/yyventures/").p.faded_out linkedIn
-    a(href="https://vimeo.com/yyventures").p.faded_out vimeo
+    a(href="https://www.facebook.com/yyventures").p facebook
+    a(href="https://www.instagram.com/yyventures/").p instagram
+    a(href="https://www.linkedin.com/company/yyventures/").p linkedIn
+    a(href="https://vimeo.com/yyventures").p vimeo
 
-  .p.faded_out#copyright © 2021 · YY Ventures Limited · All Rights Reserved
+
+  .p#copyright © 2021 · YY Ventures Limited · All Rights Reserved
 </template>
 
 <style lang="sass" scoped>

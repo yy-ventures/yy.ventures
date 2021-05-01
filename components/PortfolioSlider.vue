@@ -5,10 +5,16 @@
   .portfolio_slider_track
     .portfolio_slider_slide
       img(src="images/portfolio/covern.jpg")
-      .h3 Avijatrik - A local tourism marketplace in Bangladesh
+      //- .h3 Avijatrik - A local tourism marketplace in Bangladesh
+      .h3
+        strong Avijatrik
+        | &nbsp- A local tourism marketplace in Bangladesh
     .portfolio_slider_slide
       img(src="images/portfolio/shishir.jpg")
-      .h3 Shishir Water - Clean drinking water for all
+      //- .h3 Shishir Water - Clean drinking water for all
+      .h3
+        strong Shishir Water
+        | &nbsp- Clean drinking water for all
 </template>
 
 <script>
@@ -83,7 +89,8 @@ export default {
         color: $fg_light_title
         bottom: 0
         left: 8%
-        // font-size: clamp(30px, 5vw, 100px)
+        font-size: clamp(9px, 2vw, 40px)
+        font-weight: normal
         &:before
           content: "1"
           margin-right: 10px
