@@ -1,6 +1,7 @@
 <template lang="pug">
 #video
   video(
+    preload="none"
     poster="images/hero-video.jpg"
     src="~assets/video/Hero_converted.mp4"
     loop
@@ -19,6 +20,8 @@
   video
     width: 100%
     height: 100%
+    &:focus
+      outline: none
     @media (min-width: 601px)
       object-fit: cover
 </style>

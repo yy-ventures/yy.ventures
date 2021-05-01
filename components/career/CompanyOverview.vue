@@ -12,12 +12,12 @@
         <div class="uk-grid-match  uk-child-width-1-2@m" uk-grid>
           <div>
             <p class="text-right">
-              YY Ventures Limited is a social business company founded in Bangladesh to build, accelerate and invest in social businesses that are creating a world of three zeros- zero poverty, zero unemployment and zero carbon emission. Endless possibility dies the moment when aspiring social entrepreneurs back off from their incredible ideas because of being clueless on how to materialise them or due to lack of access to resources like capital. Without needed resources and guidance, innovation is barred. This is unacceptable to us.
+              YY Ventures Limited is a social business company founded in Bangladesh to build, incubate and invest in social businesses that are creating a world of three zeros- zero poverty, zero unemployment and zero net carbon emission.
             </p>
           </div>
           <div>
             <p class="text-left">
-              Our journey started with the creation of YY Goshthi in 2016 when we decided to create our jobs and for our friends, take care of our food and for our families and share whatever resources we had to help our entrepreneurial friends start their social businesses. In four years, 36 youth from our goshti (tribe) has created 1,108 jobs and improved the lives of 80,819 Bangladeshis. By 2030 we want to improve the lives of two million people by backing social and environmental consciousness driven entrepreneurs.
+Our journey started with the creation of YY Goshthi in 2016 when we decided to create our jobs and for our friends, take care of our food and for our families and share whatever resources we had to help our entrepreneurial friends start their social businesses. In four years, 60+ entrepreneurs from our Goshthi (tribe) has improved the lives of 100,000+ Bangladeshis. By 2030 we want to improve the lives of two million people by backing socially and environmentally conscious entrepreneurs.
             </p>
           </div>
         </div>

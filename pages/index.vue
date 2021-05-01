@@ -64,3 +64,13 @@ export default {
   },
 };
 </script>
+
+<style lang="sass">
+#home-hero
+  .hero-container
+    h1
+      font-size: clamp(30px, 5vw, 95px) !important
+      margin: 5px !important
+    .write
+      font-size: clamp(24px, 7vw, 95px) !important
+</style>

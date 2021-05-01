@@ -2,7 +2,7 @@
 #footer
   div
     img(src="~/assets/images/logo/yyv-logo-white-small.png").faded_out
-    .h3.faded_out#slogan We build, incubate and invest in social businesses that are moving towards a world of three zeros - zero poverty, zero unemployment and zero carbon emission
+    .h3.faded_out#slogan We build, incubate and invest in social businesses that are moving towards a world of three zeros - zero poverty, zero unemployment and zero net carbon emission
 
   div
     .h5.faded_out  Get in Touch

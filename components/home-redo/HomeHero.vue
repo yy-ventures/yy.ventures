@@ -46,7 +46,7 @@
           <!-- </h1>                                                                               -->
 
           <h1>Imagine A New</h1>
-          <h1 class="write"></h1>
+          <h1 class="write">&nbsp</h1>
         </div>
       </div>
     </div>
@@ -99,7 +99,7 @@ export default {
 };
 </script>
 
-<style lang="less">
+<style lang="less" scoped>
 #home-hero {
   .invisible-slide {
     position: absolute;
@@ -155,7 +155,7 @@ export default {
     h1 {
       /* margin-top: 10px; */
       color: #3a3b3a;
-      font-size: 40px !important;
+      /* font-size: 40px !important; */
       line-height: 1.1 !important;
       text-transform: none !important;
       /* margin-bottom: -45px; */
@@ -167,7 +167,7 @@ export default {
         /* font-size: 40px !important; */
       }
       @media (min-width: 601px) {
-        font-size: 100px !important;
+        /* font-size: 100px !important; */
       }
     }
   }
