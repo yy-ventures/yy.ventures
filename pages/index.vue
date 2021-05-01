@@ -5,7 +5,8 @@
     portfolio-slider
     //- home-portfolio.faded_out
     Quote
-    home-video.faded_out
+    Video
+    //- home-video.faded_out
     pre-footer
 </template>
 
@@ -17,6 +18,7 @@ import Quote from '~/components/Quote';
 import HomeVideo from '~/components/home-redo/HomeVideo';
 import PreFooter from '~/components/PreFooter';
 import PortfolioSlider from '~/components/PortfolioSlider';
+import Video from '~/components/Video';
 
 import {
   toggle_class_on_focus,
@@ -32,6 +34,7 @@ export default {
     HomeHero,
     Vision,
     HomePortfolio,
+    Video,
     Quote,
     HomeVideo,
     PortfolioSlider,
