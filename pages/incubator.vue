@@ -10,6 +10,7 @@
     <!-- <Conditions></Conditions> -->
     <Eligibility :data="incubator_eligibility" class="faded_out"></Eligibility>
     <programs-portfolio></programs-portfolio>
+    <!-- <Carousel></Carousel> -->
     <!-- <Cta></Cta> -->
     <call-to-action :data="incubator_call_to_action"></call-to-action>
     <incubator-partners></incubator-partners>
@@ -24,6 +25,7 @@ import Hero from '~/components/yy_goshti/Hero';
 import Incubation from '~/components/yy_goshti/Incubation';
 import Conditions from '~/components/yy_goshti/Conditions';
 import Cta from '~/components/yy_goshti/Cta';
+import Carousel from '~/components/Carousel';
 
 import Program from '~/components/Program';
 // import Partner from '~/components/Partner';
@@ -73,6 +75,7 @@ export default {
     Program,
     CallToAction,
     Eligibility,
+    Carousel,
     PictureGrid,
 
     DarkNav,

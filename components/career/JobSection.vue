@@ -680,35 +680,30 @@
               <li>
                 <a class="uk-accordion-title" href="#">Qualifications</a>
                 <div class="uk-accordion-content">
-
-
                   <ul>
+                    <li>
+                      Proven 3-5 years work experience as a UI/UX Designer or
+                      similar role
+                    </li>
 
-<li>
-Proven 3-5 years work experience as a UI/UX Designer or similar role  
-</li>
+                    <li>Portfolio of design projects</li>
 
-<li>
-Portfolio of design projects  
-</li>
+                    <li>
+                      Knowledge of wireframe tools (e.g. Wireframe.cc and
+                      InVision)
+                    </li>
 
-<li>
-Knowledge of wireframe tools (e.g. Wireframe.cc and InVision)  
-</li>
+                    <li>
+                      Up-to-date knowledge of design software like Adobe
+                      Illustrator and Photoshop
+                    </li>
 
-<li>
-Up-to-date knowledge of design software like Adobe Illustrator and Photoshop  
-</li>
+                    <li>
+                      Team spirit; strong communication skills to collaborate
+                      with various stakeholders
+                    </li>
 
-<li>
-Team spirit; strong communication skills to collaborate with various stakeholders  
-</li>
-
-<li>
-Good time-management skills 
-</li>
-
-
+                    <li>Good time-management skills</li>
                   </ul>
                 </div>
               </li>
@@ -751,7 +746,7 @@ Good time-management skills
         <div class="uk-width-1-3@m">
           <div class="job-title">
             <div class="title-bg">5</div>
-            <h2>Web Developer</h2>
+            <h2>Senior Web Developer</h2>
           </div>
         </div>
         <div class="uk-width-2-3@m">
@@ -761,20 +756,23 @@ Good time-management skills
                 <a class="uk-accordion-title" href="#">Job Description</a>
                 <div class="uk-accordion-content">
                   <p>
-                    As a web developer, you will be handling and creating next
-                    generation websites with the cutting edge and trending
+                    As a Senior web developer, you will be handling and creating
+                    next generation websites with the cutting edge and trending
                     technologies. We build websites that deliver the best user
-                    experiences and speak the stories of our clients. So our
+                    experiences and speak the stories of our clients. So, our
                     development wing always appreciates that thinker who adds
-                    value in the whole developing process. You’ll be working
-                    with a passionate team of thinkers who believe in
-                    neverending learning and efficient execution. You’ll see the
-                    impact of your work and see the growth as you grow more. So
-                    if you’re a thinker and a curious learner of modern
-                    development trends, we want to hear from you.
+                    value in the whole developing process. You will work under
+                    the supervision of our Communications Manager to produce
+                    high-quality work. You’ll be working with a passionate team
+                    of thinkers who believe in never-ending learning and
+                    efficient execution. You’ll see the impact of your work and
+                    see the growth as you grow more. So if you’re a thinker and
+                    a curious learner of modern development trends, we want to
+                    hear from you.
                   </p>
                 </div>
               </li>
+
               <li>
                 <a class="uk-accordion-title" href="#"
                   >Essential Responsibility</a
@@ -782,32 +780,98 @@ Good time-management skills
                 <div class="uk-accordion-content">
                   <ul>
                     <li>
-                      Assisting the team with all aspects of software design and
-                      coding
+                      Design and develop both frontend and backend web
+                      application features using JavaScript, React
                     </li>
+
                     <li>
-                      Attending and contributing to company development meetings
+                      Experience with anyof the backend technologies PHP
+                      (Laravel, Symfony) or Express Js, Node js.
                     </li>
+
                     <li>
-                      Learning the codebase and improving your coding skills
+                      Participate in ideation and brainstorm sessions for our
+                      technology and products
                     </li>
-                    <li>Writing and maintaining code</li>
-                    <li>Working on minor bug fixes</li>
+
                     <li>
-                      Monitoring the technical performance of internal systems
+                      Work with the product and design teams to understand
+                      end-user requirements, formulate use cases, and then
+                      translate that into technical solutions
                     </li>
+
                     <li>
-                      Responding to requests from the development/design team
+                      Ability to write optimized code which can run efficiently
+                      using minimal resources.
                     </li>
+
+                    <li>Develop front end mobile and web applications.</li>
+
                     <li>
-                      Gathering information from customers about program
-                      functionality
+                      Application must be responsive and has to work properly on
+                      major browsers (i.e Chrome, Firefox, Safari, Edge)
                     </li>
-                    <li>Writing reports</li>
-                    <li>Conducting development tests</li>
+
+                    <li>
+                      Working alongside designers for web and mobile design
+                      elements
+                    </li>
                   </ul>
                 </div>
               </li>
+
+              <li>
+                <a class="uk-accordion-title" href="#">Qualifications</a>
+                <div class="uk-accordion-content">
+                  <ul>
+                    <li>
+                      2+ years Hands-on experience with PHP and Laravel
+                      Framework or Express Js, Nodejs.
+                    </li>
+
+                    <li>
+                      1+ years Hands-on coding experience with any popular
+                      modern JavaScript framework (React/Vue)
+                    </li>
+
+                    <li>Excellent HTML, JavaScript and CSS skills</li>
+
+                    <li>
+                      Knowledge of web technologies (HTTP, Rest, HTML5, etc.)
+                    </li>
+
+                    <li>Knowledge of Git, CI/CD pipeline</li>
+
+                    <li>
+                      Experience designing and implementing Restful APIs or
+                      GraphQL
+                    </li>
+
+                    <li>
+                      Experience with Test Driven Development using tools e.g.
+                      Jest, Rspec, PHPUnit, Unittest
+                    </li>
+
+                    <li>Strong verbal and written communication skills</li>
+
+                    <li>Ability to think creatively</li>
+
+                    <li>
+                      Bachelor's or master's in computer information systems or
+                      computer science, or equivalent experience working with
+                      web technologies
+                    </li>
+
+                    <li>
+                      Team spirit; strong communication skills to collaborate
+                      with various stakeholders
+                    </li>
+
+                    <li>Good time-management skills</li>
+                  </ul>
+                </div>
+              </li>
+
               <li>
                 <a class="uk-accordion-title" href="#">Other Info</a>
                 <div class="uk-accordion-content">
@@ -817,7 +881,9 @@ Good time-management skills
                       <strong>Location:</strong> 9th Floor, Grameen Telecom
                       Bhaban, Zoo Road, Mirpur 1, Dhaka 1216
                     </li>
-                    <li><strong>Reporting to:</strong> Team Lead</li>
+                    <li>
+                      <strong>Reporting to:</strong> Communications Manager
+                    </li>
                     <li><strong>Start date:</strong> Immediate</li>
                     <li><strong>Salary:</strong> Negotiable</li>
                   </ul>
