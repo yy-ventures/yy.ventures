@@ -11,7 +11,7 @@
       .buttons
         .status Ongoing
         a Learn More
-      .descriptions.p YY Ventures has partnered up with Aqua for All & Bopinc to introduce the WASH Innovation Challenges for the first time in Bangladesh. This program will support up to 15 teams that have creative and market-driven solutions for the WASH sector in Bangladesh. With this we hope to jointly achieve Sustainable Development Goal 6 – clean water and sanitation for all.
+      .descriptions.p YY Ventures has partnered up with Aqua for All & Bopinc to introduce the WASH Innovation Challenges for the first time in Bangladesh. This program will support up to 15 teams that have creative and market-driven solutions for the WASH sector in Bangladesh. With this we hope to jointly achieve Sustainable Development Goal 6 – clean water and sanitation for all. Through WASH Innovation Challenge, we are extending our sincere support to empower 15 promising WASH-focused enterprises or projects with the opportunity of intensive training, seasoned mentorship, and a possible funding opportunity of up to €200,000.
 
   .programs__item.faded_out
     .programs__item__image
