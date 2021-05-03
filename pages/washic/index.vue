@@ -112,7 +112,7 @@ export default {
 }
 #partner{
   a:first-of-type{
-    width: 200px;
+    width: 150px;
   }
 }
 </style>

@@ -68,9 +68,9 @@ export default {
 <style lang="sass">
 #partner
   a:nth-of-type(1)
-    width: 250px
-  a:nth-of-type(2)
-    width: 150px
-  a:nth-of-type(4)
-    width: 200px
+    width: 300px !important
+  // a:nth-of-type(2)
+  //   width: 150px
+  // a:nth-of-type(4)
+  //   width: 200px
 </style>

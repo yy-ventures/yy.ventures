@@ -19,6 +19,7 @@
         .sub_menu__items
           nuxt-link.link.underline(to="/washic") WASH innovation challenge
       //- nuxt-link.link.underline(to="/contact") contact
+      nuxt-link.link.underline(to="/partnerships") partnerships
       nuxt-link.link.underline(to="/incubator") incubator
 </template>
 

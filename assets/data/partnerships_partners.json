@@ -1,0 +1,49 @@
+{
+  "title": "We Are in Good Company",
+  "partners": [
+    {
+      "logo": "partners/NEA.jpg",
+      "website": "#"
+    },
+    {
+      "logo": "partners/UNDP.png",
+      "website": "#"
+    },
+    {
+      "logo": "partners/EKN.png",
+      "website": "#"
+    },
+    {
+      "logo": "partners/RI.png",
+      "website": "#"
+    },
+    {
+      "logo": "partners/BB.png",
+      "website": "#"
+    },
+    {
+      "logo": "partners/AA.png",
+      "website": "#"
+    },
+    {
+      "logo": "partners/GCL.png",
+      "website": "#"
+    },
+    {
+      "logo": "partners/GTT.png",
+      "website": "#"
+    },
+    {
+      "logo": "partners/TIN.png",
+      "website": "#"
+    },
+    {
+      "logo": "partners/BFP.png",
+      "website": "#"
+    },
+    {
+      "logo": "partners/SIM.png",
+      "website": "#"
+    }
+  ]
+}

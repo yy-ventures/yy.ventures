@@ -22,8 +22,8 @@ import { dom } from '@/assets/scripts/dom_utils';
 export default {
   methods: {
     navigate_next: () => {
-      // const result = window.getComputedStyle(dom('.carousel__track')).transform;
-      // console.log(result);
+      dom('.carousel__track').style.transform = 'translateX(-100%)';
+      console.log('next')
     },
   },
 };
@@ -36,8 +36,8 @@ export default {
 
   &__track
     display: flex
-    transform: translate(-100%)
-    transform: translate(-200%)
+    // transform: translate(-100%)
+    // transform: translate(-200%)
 
     &__content
       flex: 0 0 100%
