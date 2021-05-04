@@ -8,21 +8,21 @@
     .h5 powered by
     img(src="~assets/images/partners/NEA.jpg")
     .p The Netherlands Enterprise Agency supports entrepreneurs, NGOs, knowledge institutions and organizations.
-  //- .incubator_partners__container.faded_out
-  //-   .h5 from
-  //-   img(src="/logos/yy_ventures.png")#ventures
-  //-   .p Financing social businesses for a world of three zeros 
+  .incubator_partners__container.faded_out
+    .h5 from
+    img(src="/logos/yy_ventures.png")#ventures
+    .p YY Ventures Limited builds, incubates and invests in social businesses that are moving towards a world of three zeros - zero poverty, zero unemployment and zero net carbon emission.
 </template>
 
 <style lang="sass">
 
 #incubator_partners
+  
   display: grid
   @media (min-width: 601px)
-    grid-template-columns: repeat(2, auto)
-    // grid-template-columns: repeat(3, auto)
+    grid-template-columns: repeat(3, auto)
   padding: clamp(2.5em, 10vw, 5em)
-  grid-gap: 10em
+  grid-gap: 5em
   align-items: start
   justify-content: center
 

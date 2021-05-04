@@ -5,23 +5,17 @@
       #menu_button
         #bar
 
-    nuxt-link.logo(to="/")
-      img#logo(src="/logos/yy_ventures.png")
+    nuxt-link.logo(to="#home")
+      img#logo(src="/logos/yy_goshthi.png")
     .menu
-      nuxt-link.link.underline(to="/") home
-      nuxt-link.link.underline(to="/about") about
-      nuxt-link.link.underline(to="/investments") investments
-      .sub_menu
-        //- input#sub_menu_toggler(type="checkbox")
-        //- label(for="sub_menu_toggler" )
-        //-   .sub_menu__name programs
-        .sub_menu__name programs
-        .sub_menu__items
-          nuxt-link.link.underline(to="/washic") WASH innovation challenge
-      //- nuxt-link.link.underline(to="/contact") contact
-      //- nuxt-link.link.underline(to="/services") services
-      //- nuxt-link.link.underline(to="/partnerships") partnerships
-      a.link.underline(href="https://incubator.yy.ventures" target="_blank" rel="noopener noreferrer") incubator
+      a.link.underline(href="#home") home
+      a.link.underline(href="#about") about
+      a.link.underline(href="#impact") impact
+      a.link.underline(href="#benefits") benefits
+      a.link.underline(href="#eligibility") eligibility
+      a.link.underline(href="#alumni") alumni
+      a.link.underline(href="#apply") apply
+
 </template>
 
 <style lang="sass">
@@ -105,10 +99,10 @@ nav
     // left: 50%
     // transform: translateX(-50%)
     // z-index: 99
-    width: 150px
+    width: 100px
     @media (min-width: 601px)
       all: unset
-      width: 200px
+      width: 150px
 
 
   .menu
@@ -150,7 +144,7 @@ nav
     //
     .nuxt-link-exact-active,
     a:hover
-      color: $yy_magenta !important
+      color: $yy_blue !important
 
     .link,
     .sub_menu__name

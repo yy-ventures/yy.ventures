@@ -1,24 +1,24 @@
 <template lang="pug">
 #footer
-  div
-    img(src="~/assets/images/logo/yyv-logo-white-small.png").faded_out
-    .h3.faded_out#slogan We build, incubate and invest in social businesses that are moving towards a world of three zeros - zero poverty, zero unemployment and zero net carbon emission
+  //- div
+  //-   img(src="~/assets/images/logo/yyv-logo-white-small.png").faded_out
+  //-   .h3.faded_out#slogan We build, incubate and invest in social businesses that are moving towards a world of three zeros - zero poverty, zero unemployment and zero net carbon emission
 
   div
     .h5.faded_out  Get in Touch
-    nuxt-link(to="/career").p career
+    //- nuxt-link(to="/career").p career
     nuxt-link(to="/contact").p contact
     nuxt-link(to="/media-kit").p media kit
     .p.faded_out#mail info@yy.ventures
     .p.faded_out#address 9th floor, Grameen Telecom Bhaban, #[br] Mirpur 1, Dhaka 1216, Bangladesh.
 
   div
+    .h5.faded_out  Follow YY Goshthi
+    a(href="https://www.facebook.com/yygoshti").p facebook
+    a(href="https://www.instagram.com/yygoshthi/").p instagram
+    a(href="https://twitter.com/yygoshti").p twitter
 
-    //- .h5.faded_out  Follow YY Goshthi
-    //- a(href="https://www.facebook.com/yygoshti").p.faded_out facebook
-    //- a(href="https://www.instagram.com/yygoshthi/").p.faded_out instagram
-    //- a(href="https://twitter.com/yygoshti").p.faded_out twitter
-
+  div
     .h5.faded_out  Follow YY Ventures
     a(href="https://www.facebook.com/yyventures").p facebook
     a(href="https://www.instagram.com/yyventures/").p instagram
@@ -62,7 +62,7 @@
   //   margin-top: 50px
 
   @media (min-width: 601px)
-    grid-template-columns: 2fr 1fr 1fr
+    grid-template-columns: 1fr 1fr 1fr
 
   #copyright
     font-size: clamp(11px, 2vw, 14px)
