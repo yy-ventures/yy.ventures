@@ -7,9 +7,9 @@
   .incubator_partners__container.faded_out
     .h5 powered by
     img(src="~assets/images/partners/NEA.jpg")
-    .p The Netherlands Enterprise Agency supports entrepreneurs, NGOs, knowledge institutions and organizations.
+    .p Netherlands Enterprise Agency encourages entrepreneurs in sustainable, agrarian, innovative and international business. It helps with grants, finding business partners, know-how and compliance with laws and regulations.
   .incubator_partners__container.faded_out
-    .h5 from
+    .h5 created by
     img(src="/logos/yy_ventures.png")#ventures
     .p YY Ventures Limited builds, incubates and invests in social businesses that are moving towards a world of three zeros - zero poverty, zero unemployment and zero net carbon emission.
 </template>
