@@ -10,18 +10,18 @@
       .h3 Wash Innovation Challenge
       .buttons
         .status Ongoing
-        a Learn More
-      .descriptions.p YY Ventures has partnered up with Aqua for All & Bopinc to introduce the WASH Innovation Challenges for the first time in Bangladesh. This program will support up to 15 teams that have creative and market-driven solutions for the WASH sector in Bangladesh. With this we hope to jointly achieve Sustainable Development Goal 6 – clean water and sanitation for all. Through WASH Innovation Challenge, we are extending our sincere support to empower 15 promising WASH-focused enterprises or projects with the opportunity of intensive training, seasoned mentorship, and a possible funding opportunity of up to €200,000.
+        a(href="https://yy.ventures/washic" target="_blank" rel="noopener noreferrer") Learn More
+      .descriptions.p We have teamed up with Aqua for All & Bopinc to support up to 15 teams that have creative and market-driven solutions for the WASH sector in Bangladesh. Finalists get access to intensive training, tailored mentorship, and a possible funding opportunity of up to €200.000.
 
   .programs__item.faded_out
     .programs__item__image
-      img(src="~/assets/images/partnerships/DKC_final.png")
+      img(src="~/assets/images/partnerships/DKC.png")
     .programs__item__texts
       .h3 Digital Khichuri Challenge
       .buttons
         .status Ongoing
-        a Learn More
-      .descriptions.p The DKC, started in 2016, that seeks to bring together the youth in forming and creating nar- ratives as well as platform ideas that promote peace, tolerance and diversity to actively counter hateful and divisive narratives. From day one of DKC teams of social entrepreneurs, programmers, grassroots leaders, designers, storytellers, students, and others compete in a fast-paced race-against-the-clock to imagine new digital platforms and tools that can pro- mote the strength of Bangladesh’s diversity and promote peace. 
+        a(href="https://digitalkhichuribd.org/" target="_blank" rel="noopener noreferrer") Learn More
+      .descriptions.p Digital Khichuri Challenge (DKC) is a creative competition for Bangladeshi youth who are promoting peace, tolerance and diversity. We operate the DKC Mentoring Program that includes a 4 day long boot camp, 6 month long mentorship and funding.
 
   .programs__item.faded_out
     .programs__item__image
@@ -29,9 +29,9 @@
     .programs__item__texts
       .h3 SIMcubator - Healthcare  Incubation Program
       .buttons
-        .status.off Currently Not Open
-        a Learn More
-      .descriptions.p The SIMcubator - Healthcare Incubation Program began in January 2021. It was launched by YY Ventures, in partnership with students from the Strategy and International Management (SIM) Master program at the University of St.Gallen, Switzerland. This program was designed to support local social entrepreneurs in improving the healthcare system of Bangladesh. By partnering with six such local social businesses, this program ultimately aims to reach approximately 5,000 patients and transform the lives of 60,000 people in Bangladesh by the end of 2023. With this partnership, we hope to achieve Sustainable Development Goal 3 regarding “Good Health & Well-being” for all.
+        .status Ongoing
+        a(href="http://simcubator.com/" target="_blank" rel="noopener noreferrer") Learn More
+      .descriptions.p YY Ventures has partnered with SIMcubator to design and operate an healthcare incubation program when COVID-19 Pandemic hit the world. We are supporting 6 Social Businesses who aim to reach approximately 5,000 patients and transform the lives of 60,000 people in Bangladesh by the end of 2023.
 
 </template>
 
@@ -47,11 +47,11 @@
   .p
     color: $fg_dark_text
     background: $yy_yellow
-    padding: 15px
+    padding: 25px
 
   .programs__item
     display: grid
-    grid-template-columns: 550px 1fr
+    grid-template-columns: 400px 1fr
     // grid-template-rows: 350px
 
     & + *
@@ -65,35 +65,44 @@
       flex-direction: column
       align-items: start
 
+      .h2
+        margin-left: 25px
+
       .buttons
         width: 100%
         display: flex
-        justify-content: space-between
+        // gap: 25px
+        align-items: center
+
+        .status,
+        a
+          font-size: 14px
+          color: white
+          border-radius: 15px
+          padding: 0.5em 1em
+          background: $yy_blue
+          margin: 25px 0 25px 25px
+
+        .status
+          background: $yy_blue
 
         a
-          margin-top: 15px
-          margin-right: 15px
+          background: $yy_yellow
+          color: black
+          font-weight: bold
 
       .p
         flex: 1
-        font-size: clamp(12px, 2vw, 16px)
+        font-size: clamp(14px, 2vw, 18px)
 
       .h3
         font-weight: 600
 
-      .status
-        font-size: 14px
-        color: white
-        border-radius: 15px
-        display: inline-block
-        padding: 0.5em 1em
-        background: $yy_blue
-        margin: 15px 0
 
         &.off
           background: $yy_magenta
 
 
-      .h3, .status
+      .h3
         margin-left: 25px
 </style>
