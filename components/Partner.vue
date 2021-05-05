@@ -2,8 +2,9 @@
 #partner
   .h2.highlight {{data.title}}
   .partners_grid
-    a(v-for="partner in data.partners" :href="partner.website")
-      img(:src="require(`~/assets/images/${partner.logo}`)").hover_grow
+    .partner_container(v-for="partner in data.partners")
+      a( :href="partner.website")
+        img(:src="require(`~/assets/images/${partner.logo}`)").hover_grow
 </template>
 
 <script>

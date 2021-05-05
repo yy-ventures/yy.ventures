@@ -2,8 +2,8 @@
 #partnernships
   partnerships-hero
   Programs
-  //- Partner(:data="partnerships_partners")
-  Marquee(:data="partnerships_partners")
+  Partner(:data="partnerships_partners")
+  //- Marquee(:data="partnerships_partners")
   lets-talk
 </template>
 
@@ -52,4 +52,10 @@ export default {
 </script>
 
 <style lang="sass">
+#partner
+  .partner_container
+    &:nth-of-type(2)
+      width: 80px
+    &:nth-of-type(6)
+      width: 200px
 </style>

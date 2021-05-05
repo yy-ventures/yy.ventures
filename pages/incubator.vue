@@ -9,8 +9,8 @@
     <picture-grid :data="incubator_benefits"></picture-grid>
     <!-- <Conditions></Conditions> -->
     <Eligibility :data="incubator_eligibility" class="faded_out"></Eligibility>
-    <programs-portfolio></programs-portfolio>
-    <!-- <Carousel></Carousel> -->
+    <!-- <programs-portfolio></programs-portfolio> -->
+    <Carousel></Carousel>
     <!-- <Cta></Cta> -->
     <call-to-action :data="incubator_call_to_action"></call-to-action>
     <incubator-partners></incubator-partners>

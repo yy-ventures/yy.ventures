@@ -9,8 +9,7 @@
     <Staff :staff="staff"></Staff>
     <!-- <about-partner></about-partner> -->
     <!-- <Partners :partners="partners" class="faded_out"></Partners> -->
-
-    <Partner :data="incubator_partners"></Partner>
+    <!-- <Partner :data="incubator_partners"></Partner> -->
   </div>
 </template>
 
