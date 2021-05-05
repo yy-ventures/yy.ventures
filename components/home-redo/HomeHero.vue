@@ -45,7 +45,7 @@
           <!--   >                                                                                 -->
           <!-- </h1>                                                                               -->
 
-          <h1>Imagine A New</h1>
+          <h1>Together We Are</h1>
           <h1 class="write">&nbsp</h1>
         </div>
       </div>

@@ -1,6 +1,6 @@
 <template lang="pug">
 .carousel
-  .carousel__title.h2 Notable Startups
+  .carousel__title.h2.highlight Notable Startups
     
   .carousel__track
 
@@ -38,7 +38,7 @@
       .carousel__track__content__image
         img(src="~assets/images/incubator/avijatrik.jpg")
       .carousel__track__content__texts
-        .h3 Avijatrik
+        .h3 Avijatrik Tourism
         .carousel__track__content__texts__tags
           .h5 Eco-tourism
           .h5 2016

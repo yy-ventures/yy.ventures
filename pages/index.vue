@@ -3,7 +3,7 @@
     <!-- <dark-nav></dark-nav> -->
     <!-- <programs-nav></programs-nav> -->
     <div id="home"></div>
-    <Hero></Hero>
+    <home-hero></home-hero>
     <!-- <Incubation></Incubation> -->
     <div id="about"></div>
     <Program :data="incubator_program"></Program>
@@ -33,6 +33,7 @@ import Incubation from '~/components/yy_goshti/Incubation';
 import Conditions from '~/components/yy_goshti/Conditions';
 import Cta from '~/components/yy_goshti/Cta';
 import Carousel from '~/components/Carousel';
+import HomeHero from '~/components/home-redo/HomeHero';
 
 import Program from '~/components/Program';
 // import Partner from '~/components/Partner';
@@ -67,6 +68,8 @@ import wash_benefits from '~/assets/data/wash_benefits.json';
 
 import {
   toggle_class_on_focus,
+  typewriter,
+  dom,
   add_class_on_focus,
 } from '@/assets/scripts/dom_utils';
 
@@ -89,6 +92,7 @@ export default {
     HomeText,
     HomePortfolio,
     HomeCta,
+    HomeHero,
     // Partner,
     // AboutFooter,
 
@@ -114,6 +118,12 @@ export default {
     toggle_class_on_focus({
       ['.highlight']: 'scale',
     });
+
+    typewriter(
+      ['Building Social Businesses', 'Improving Lives', 'World', 'Incubating Change'],
+      100,
+      1000
+    )(dom('.write'));
 
     add_class_on_focus({
       ['.faded_out']: 'fade_in',

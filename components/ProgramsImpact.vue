@@ -1,6 +1,6 @@
 <template lang="pug">
   #programs_impact
-    h1#header Our Impact
+    h1#header.highlight Our Impact
     #impacts
       .impact
         .impact__count 11
