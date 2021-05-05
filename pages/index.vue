@@ -135,6 +135,9 @@ export default {
 
     add_class_on_focus({
       ['.faded_out']: 'fade_in',
+      ['#startups']: 'count_startups',
+      ['#lives']: 'count_lives',
+      ['#programs']: 'count_programs',
       ['#program #top_section']: 'scale_down',
     });
   },

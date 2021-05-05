@@ -161,3 +161,14 @@
       background: lightgrey
     100%
       background: white
+
+@property --num
+  syntax: '<integer>'
+  initial-value: 0
+  inherits: false
+
+.count_up
+  transition: --num 5s
+  counter-reset: num var(--num)
+  &:after
+    content: counter(num)

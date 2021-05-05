@@ -1,73 +1,37 @@
 <template lang="pug">
-  #programs_impact
-    h1#header.highlight Our Impact
-    #impacts
-      .impact
-        .impact__count 11
-        .impact__title Programs Delivered
-      .impact
-        .impact__count 64
-        .impact__title Startups Supported
-      .impact
-        .impact__count 107,756
-        .impact__title Lives Impacted
+#programs_impact
+  .h2.highlight Our Impact
+  #impacts
+
+    .h1.impact__count.count_up#programs
+    .h1.impact__count.count_up#startups
+    .h1.impact__count.count_up#lives
+
+    .h3.impact__title Programs Delivered
+    .h3.impact__title Startups Supported
+    .h3.impact__title Lives Impacted
 </template>
 
 <style lang="sass" scoped>
-/* .impact, */
-.impact__title,
-.impact__count
-  display: inline-block
-
-.impact__count
-  font-family: 'Graphik'
-  font-weight: bold
-  -webkit-text-stroke-width: 2px
-  -webkit-text-stroke-color: #f8d23a
-  -webkit-text-fill-color: transparent
-
-  font-size: 80px
-  @media (min-width: 601px)
-    font-size: 150px
-
-
-.impact__title
-  font-family: 'Graphik'
-  color: $fg_light_title
-  font-weight: bold
-  max-width: 8ch
-  line-height: 1.2
-
-  font-size: 18px
-  @media (min-width: 601px)
-    font-size: 30px
-
-#impacts
-  display: grid
-  grid-template-columns: auto
-  @media (min-width: 601px)
-    grid-template-columns: auto 1fr
 
 #programs_impact
-  /* height: 100vh; */
-  background: #343838
-  padding: 15px
-  @media (min-width: 601px)
-    padding: 50px
-
-
-  h1,
-  h3
-    color: $fg_light_title
-
-  h3
-    font-family: 'Graphik'
-    margin: 0
-
-  h1
-    font-weight: bold
-    color: $fg_light_title
-    font-size: 40px
-    @media (min-width: 601px)
-      font-size: 50px
+  background: $yy_bg
+  padding: clamp(25px, 4vw, 50px)
+  padding-top: 100px
+  padding-bottom: 100px
+  .h2
+    margin-bottom: 50px
+  #impacts
+    display: grid
+    grid-template-columns: repeat(3, 1fr)
+    .impact__count
+      -webkit-text-stroke-width: 1px
+      @media (min-width: 601px)
+        -webkit-text-stroke-width: 2px
+      -webkit-text-stroke-color: #f8d23a
+      -webkit-text-fill-color: transparent
+      font-size: clamp(20px, 7vw, 100px)
+    .impact__title
+      max-width: 8ch
+      font-size: clamp(12px, 2vw, 30px)
 </style>
