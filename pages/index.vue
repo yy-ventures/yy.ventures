@@ -128,7 +128,7 @@ export default {
     // });
 
     typewriter(
-      ['Building Social Businesses', 'Improving Lives', 'World', 'Incubating Change'],
+      [ 'Incubating Change', 'Building Social Businesses', 'Improving Lives' ],
       100,
       1000
     )(dom('.write'));
