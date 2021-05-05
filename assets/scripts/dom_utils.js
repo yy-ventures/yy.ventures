@@ -101,10 +101,10 @@ export const click_listener = (dom_string, action) => {
 //==============================================================================
 //                              Run Function on Focus
 //==============================================================================
-export const run_function_on_focus = (list, action) => {
+export const run_function_on_focus = (list) => {
   for (const key in list) {
     doms(key).forEach((d) => {
-      observer_dom(d, action);
+      observer_dom(d, list[key]);
     });
   }
 }; //

@@ -70,6 +70,7 @@ import {
   toggle_class_on_focus,
   typewriter,
   dom,
+  run_function_on_focus,
   add_class_on_focus,
 } from '@/assets/scripts/dom_utils';
 
@@ -115,9 +116,16 @@ export default {
   }),
 
   mounted: () => {
+
     toggle_class_on_focus({
       ['.highlight']: 'scale',
     });
+
+    // run_function_on_focus({
+    //   ['.highlight']: (dom) => {
+    //     console.log(dom)
+    //   },
+    // });
 
     typewriter(
       ['Building Social Businesses', 'Improving Lives', 'World', 'Incubating Change'],
