@@ -155,19 +155,16 @@ export default {
     h1 {
       /* margin-top: 10px; */
       color: #3a3b3a;
-      /* font-size: 40px !important; */
+      font-size: 100px !important;
       line-height: 1.1 !important;
       text-transform: none !important;
       /* margin-bottom: -45px; */
       @media @tablet-down {
-        /* font-size: 80px !important; */
+        font-size: 80px !important;
         /* margin-bottom: -35px; */
       }
       @media @small-down {
-        /* font-size: 40px !important; */
-      }
-      @media (min-width: 601px) {
-        /* font-size: 100px !important; */
+        font-size: 40px !important;
       }
     }
   }
