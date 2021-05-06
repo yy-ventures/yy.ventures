@@ -37,7 +37,7 @@ export default {
       },
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon_2.png' },
       // { rel: 'shortcut_icon', href: '/favicon.png' },
       {
         rel: 'stylesheet',
