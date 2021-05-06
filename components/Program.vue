@@ -1,7 +1,7 @@
 <template lang="pug">
 #program
   #top_section
-    .h2 {{data.title}}
+    .h2.highlight {{data.title}}
     #grid
       img(:src="require(`~/assets/images/${data.picture}`)")
       #texts

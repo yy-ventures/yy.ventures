@@ -16,7 +16,6 @@ import { add_class_on_focus } from '@/assets/scripts/dom_utils';
 
 export default {
   props: ['data'],
-  // props: ['items', 'title'],
   mounted: () => {
     add_class_on_focus({
       ['.faded_out']: 'fade_in',
@@ -27,15 +26,13 @@ export default {
 
 <style lang="sass" scoped>
 #programs_benefits
+  padding: clamp(25px, 10vw, 100px)
   .header
-    text-align: center
     .h2
       color: $fg_dark_title
-      margin: 50px
-      font-size: clamp(13px, 3vw, 40px)
+      margin-bottom: 100px
 
   .benefits_grid
-    padding: clamp(25px, 10vw, 100px)
     display: grid
     @media (min-width: 601px)
       grid-template-columns: auto auto auto
@@ -69,8 +66,9 @@ export default {
         .h1
           font-size: clamp(100px, 20vw, 130px)
           font-weight: 900
-          -webkit-text-stroke-width: 2px
-          // -webkit-text-stroke-color: grey
+          -webkit-text-stroke-width: 1px
+          @media (min-width: 601px)
+            -webkit-text-stroke-width: 2px
           -webkit-text-stroke-color: lighten(black, 35)
           -webkit-text-fill-color: transparent
         .h4
