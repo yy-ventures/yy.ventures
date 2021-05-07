@@ -164,7 +164,7 @@ export default {
         /* margin-bottom: -35px; */
       }
       @media @small-down {
-        font-size: 40px !important;
+        font-size: 19px !important;
       }
     }
   }
