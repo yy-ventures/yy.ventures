@@ -3,12 +3,12 @@
   .h2.highlight Our Impact
   #impacts
 
-    //- .h1.impact__count.count_up#programs
-    .h1.impact__count#programs 11
-    //- .h1.impact__count.count_up#startups
-    .h1.impact__count#startups 64
-    //- .h1.impact__count.count_up#lives
-    .h1.impact__count#lives 107756
+    .h1.impact__count.count_up#programs
+    //- .h1.impact__count#programs 11
+    .h1.impact__count.count_up#startups
+    //- .h1.impact__count#startups 64
+    .h1.impact__count.count_up#lives
+    //- .h1.impact__count#lives 107756
 
     .h3.impact__title Programs Delivered
     .h3.impact__title Startups Supported
