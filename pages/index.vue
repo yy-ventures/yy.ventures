@@ -135,10 +135,10 @@ export default {
 
     add_class_on_focus({
       ['.faded_out']: 'fade_in',
+      ['#program #top_section']: 'scale_down',
       ['#startups']: 'count_startups',
       ['#lives']: 'count_lives',
       ['#programs']: 'count_programs',
-      ['#program #top_section']: 'scale_down',
     });
   },
 };
