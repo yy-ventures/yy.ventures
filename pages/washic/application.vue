@@ -23,10 +23,10 @@
       label(for="a2_c")
         .p c. An existing enterprise/organisation, from a different industry, with a new WASH solution
 
-    .h5 3. If you have chosen b or c, Tell us about the mission and vision of your enterprise? (80-150 words)
+    .h5 3. If you have chosen b or c, tell us about the mission and vision of your enterprise? (80-150 words)
     input(type="text" v-model="a03a")
 
-    .h5 4. If you have chosen b or c, Tell us the type of your business entity
+    .h5 4. If you have chosen b or c, tell us the type of your business entity
     .option
       input(type="radio" id="a03b_a" v-model="a03b" value="Public limited")
       label(for="a03b_a")
@@ -124,7 +124,7 @@
       label(for="b4_c")
         .p c. Scale-up: We have generated initial revenues from our solution and are preparing for scaling
 
-    .h5 17. If you have chosen b, Specify the timeline of your innovation's existance
+    .h5 17. If you have chosen b, specify the timeline of your innovation's existance
     .option
       input(type="radio" id="b5_a" v-model="b5" name="b5" value="0-6 months")
       label(for="b5_a")
@@ -142,7 +142,7 @@
       label(for="b4_d")
         .p More than 2 years
 
-    .h5 18. If you have chosen c, Please specify the amount of your initial revenue
+    .h5 18. If you have chosen c, please specify the amount of your initial revenue
     .option
       input(type="radio" id="b6_a" v-model="b6" name="b6" value="BDT 0-50,000")
       label(for="b6_a")
@@ -476,6 +476,7 @@ export default {
     input[type='submit'],
     input[type='email'],
     input[type='tel'],
+    input[type='url'],
     input[type='file'],
     textarea
       width: 100%
