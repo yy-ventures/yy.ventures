@@ -4,12 +4,12 @@
       <div class="uk-container hero-container">
         <div class="hero-text-container uk-position-center-left">
           <h1 class="hero_text">
-            <span>We Help Social Businesses, Organizations, Corporations</span>
+            <span>Take Your Social Impact Agenda</span>
             <span class="background-accent"
               ><span
                 class="inner-span"
                 uk-scrollspy="cls:inner-span-animate; hidden:false;  delay:1000; repeat:true"
-                >To Take Their Social Business Agenda Forward</span
+                >Forward With Us</span
               ></span
             >
           </h1>
@@ -25,7 +25,6 @@ export default {};
 </script>
 
 <style lang="less">
-
 #about-hero {
   background-image: url('~assets/svg/about-hero-bg.svg');
   background-size: cover;
