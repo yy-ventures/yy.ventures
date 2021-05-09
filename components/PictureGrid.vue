@@ -83,7 +83,8 @@ export default {
         padding: 25px
         // background: $yy_yellow
         background: linear-gradient($yy_yellow, 90%, transparent)
-        max-width: 100%
+        // max-width: 100%
+        width: 100%
         opacity: 0.9
         color: $fg_dark_text
         font-weight: 600

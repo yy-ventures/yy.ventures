@@ -50,8 +50,11 @@ export default {
   .benefits_grid
     display: grid
     @media (min-width: 601px)
-      grid-template-columns: auto auto auto auto !important
+      grid-template-columns: auto auto !important
 
-    .benefits_container:first-of-type .h4
-      line-height: 1
+    // .benefits_container:first-of-type .h4
+    //   line-height: 1
+
+    .benefits_container
+      height: auto !important
 </style>

@@ -48,5 +48,5 @@
     display: grid
     grid-gap: clamp(25px, 5vw, 50px)
     @media (min-width: 601px)
-      grid-template-columns: 1fr 4fr
+      grid-template-columns: 1fr 2.5fr
 </style>
