@@ -47,4 +47,8 @@ export default {
   },
 };
 </script>
-<style lang="sass"></style>
+<style lang="sass">
+.benefits_container
+  .h5
+    font-size: clamp(12px, 2.1vw, 15px) !important
+</style>

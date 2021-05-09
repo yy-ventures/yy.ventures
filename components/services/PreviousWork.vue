@@ -4,26 +4,27 @@
 
   .previous_work__grid
 
-    .previous_work__grid__image
+    .previous_work__grid__image.faded_out
       img(src="~/assets/images/services/dkc.jpg")
-    .previous_work__grid__texts
+    .previous_work__grid__texts.faded_out
       .h3 Digital Khichuri Challenge by UNDP
       .h5 Incubator/Accelerator Management
-      .p UNDP at DKC in terms of Accelerator/Incubator management service- The Digital Khichuri Challenge (DKC) Mentorship Program is an initiative of the UNDP Partnership for a Tolerant, Inclusive Bangladesh (PTIB) Project, designed and operated by YY Goshthi. The mentorship program aims to provide a concrete base of learning, as well as to employ and apply methodical perfection in building a bridge between the mentors and mentees. Hence, we employ a human-centered design, a concept that explains how the focus of any social business ideation should be on the human element rather than the process that is acted out.
+      .p UNDP Bangladesh team partnered up with our incubator #[strong YY Goshthi] to conduct the  Digital Khichuri Challenge (DKC) Mentorship Program in Bangladesh from 2019-2021.The scope of work included design and management of five cycles of  the DKC mentorship program to support 15 teams of innovators and entrepreneurs. At the DKC Mentorship Program we offer a 4-day long boot camp, 6 month long tailored mentorship and small grants to DKC winners who are building businesses or running campaigns to promote peace, justice and diversity in Bangladesh.
 
-    .previous_work__grid__image
+    .previous_work__grid__image.faded_out
       img(src="~/assets/images/services/amarlab.jpeg")
-    .previous_work__grid__texts
-      .h3 Investment Readiness for AmarLab with Biniyog Briddhi
+    .previous_work__grid__texts.faded_out
+      .h3 Investment Readiness for AmarLab and Impact Measurement for GARBAGEMAN
       .h5 Investment Readiness
-      .p Under the Biniyog Briddhi Voucher Scheme program, under the Investment Readiness service for AmarLab, we prepared the Pitch Deck, Financial Model, Company Compliance Checklist, Financial Instrument, and Investor Hitlist.
+      .h5 Investment Measurement
+      .p UNDP Bangladesh team partnered up with our incubator YY Goshthi to conduct the  Digital Khichuri Challenge (DKC) Mentorship Program in Bangladesh from 2019-2021.The scope of work included design and management of five cycles of  the DKC mentorship program to support 15 teams of innovators and entrepreneurs. At the DKC Mentorship Program we offer a 4-day long boot camp, 6 month long tailored mentorship and small grants to DKC winners who are building businesses or running campaigns to promote peace, justice and diversity in Bangladesh.
 
-    .previous_work__grid__image
-      img(src="~/assets/images/services/garbageman.jpg")
-    .previous_work__grid__texts
-      .h3 Impact Measurement for GARBAGEMAN with Biniyog Briddhi
-      .h5 Impact Measurement
-      .p Under the Biniyog Briddhi Voucher Scheme program, under the Impact Measurement service for Garbageman, we have prepared the Theory of Change, Data Collection Plan, Storage, Analysis, Review system, Decision Making Template, and Revised Theory of Change.
+    .previous_work__grid__image.faded_out
+      img(src="~/assets/images/services/powater.jpg")
+    .previous_work__grid__texts.faded_out
+      .h3 Powwater, Inc.
+      .h5 Venture Building
+      .p Powwater is a social business that aims to empower the world through sustainable safe drinking water. We have supported the Powwater team in creating a new technology product that enables customers to order safe drinking water, the clean and easy way.
 
 </template>
 
@@ -39,14 +40,18 @@
   .p
     color: $fg_dark_text
   .h5
+    display: inline-block
     background: $yy_magenta
     display: inline-block
     padding: 0.5em 1em
     border-radius: 25px
 
+    &:nth-of-type(3)
+      margin-left: 25px
+
   .previous_work__grid
     display: grid
     grid-gap: clamp(25px, 5vw, 50px)
     @media (min-width: 601px)
-      grid-template-columns: 1fr 2.5fr
+      grid-template-columns: 1fr 1.5fr
 </style>

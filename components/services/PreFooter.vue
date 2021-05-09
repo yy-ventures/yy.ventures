@@ -24,6 +24,13 @@
   padding: clamp(25px, 5vw, 50px)
   display: grid
   place-items: center
+  background: $yy_light_grey
+
+  .h2, .h5
+    color: $fg_dark_title
+
+  .p
+    color: $fg_dark_text
 
   .p, .h5, .contact
     text-align: left
@@ -34,16 +41,16 @@
   .mail
     margin-bottom: 25px
 
-  position: relative
-  &:before
-    content: ""
-    position: absolute
-    top: 0
-    left: 0
-    width: 100%
-    height: 100%
-    background: rgba(black, 0.8)
-    z-index: -1
+  // position: relative
+  // &:before
+  //   content: ""
+  //   position: absolute
+  //   top: 0
+  //   left: 0
+  //   width: 100%
+  //   height: 100%
+  //   background: rgba(black, 0.8)
+  //   z-index: -1
 
 
   .h2
