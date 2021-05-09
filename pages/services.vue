@@ -3,6 +3,7 @@
   services-hero
   Intro
   picture-grid(:data="services")
+  Pointer
   previous-work
   pre-footer
 </template>

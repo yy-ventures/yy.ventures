@@ -1,6 +1,6 @@
 <template lang="pug">
 .previous_work
-  .h2.highlight Some of Our Previous Work
+  //- .h2.highlight Some of Our Previous Work
 
   .previous_work__grid
 
