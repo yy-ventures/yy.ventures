@@ -48,7 +48,6 @@ export default {
 <style lang="sass">
 .picture_grid
   .benefits_grid
-    display: grid
     @media (min-width: 601px)
       grid-template-columns: auto auto !important
 
@@ -57,4 +56,8 @@ export default {
 
     .benefits_container
       height: auto !important
+
+      .h5
+        font-size: clamp(12px, 2vw, 20px) !important
+        // padding: 50px !important
 </style>
