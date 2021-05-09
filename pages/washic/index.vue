@@ -103,16 +103,11 @@ export default {
 };
 </script>
 
-<style lang="less">
-#condition_1 {
-  background: blue;
-}
-#condition_2 {
-  background: yellow;
-}
-#partner{
-  a:first-of-type{
-    width: 150px;
-  }
-}
+<style lang="sass">
+#partner
+  .partners_grid
+    @media (min-width: 601px)
+      grid-template-columns: repeat(3, 1fr) !important
+    .partner_container:nth-of-type(1)
+      width: 150px
 </style>
