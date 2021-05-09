@@ -4,12 +4,13 @@
       <div class="uk-container hero-container">
         <div class="hero-text-container uk-position-center-left">
           <h1 class="hero_text">
-            <span>Take Your Social Impact Agenda</span>
+            <span>Corporate Services</span>
+            <br />
             <span class="background-accent"
               ><span
                 class="inner-span"
                 uk-scrollspy="cls:inner-span-animate; hidden:false;  delay:1000; repeat:true"
-                >Forward With Us</span
+                >for Organizations</span
               ></span
             >
           </h1>
