@@ -55,7 +55,7 @@
         .carousel__track__content__texts__tags
           .h5 Upcycled Fashion
           .h5 2020
-        .p Broqué is the first and only upcycling fashion innovation lab in Bangladesh that creates bespoke wearable art. The Broqué circular business model functions on curating quality vintage clothing, garments surplus and wastes, and is one of the first public advocates of second-hand clothes in Bangladesh. They also organise regular workshops on topics such as upcycling and climate action.
+        .p Broqué is the first and only zero-waste streetwear label in Bangladesh. It transforms unloved clothes into wearable art. Leading & pioneering the culture of slow fashion in Bangladesh by building a community through clothes swaps, upcycling workshops across boards. Social impact and climate action being the forefront of the organization, it empowers youth to make a statement by wearing second hand.
         .carousel__track__content__texts__socials
           a(target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/broque.af" uk-icon="icon: facebook; ratio: 1.5")
           a(target="_blank" rel="noopener noreferrer" href="https://twitter.com/Broque_af" uk-icon="icon: twitter; ratio: 1.5")
@@ -112,32 +112,35 @@ import { dom } from '@/assets/scripts/dom_utils';
 export default {
   methods: {
     navigate_next: () => {
-      const slides = Object.values(dom('.carousel__track').children)
+      const slides = Object.values(dom('.carousel__track').children);
       let current_index;
-      slides.forEach( (dom, index) => {
-        if(dom.classList.contains('current'))
-          current_index = index
-      })
+      slides.forEach((dom, index) => {
+        if (dom.classList.contains('current')) current_index = index;
+      });
 
-      let next_index = current_index + 1 < slides.length ? current_index + 1 : slides.length - 1
+      let next_index =
+        current_index + 1 < slides.length
+          ? current_index + 1
+          : slides.length - 1;
 
-      dom('.carousel__track').style.transform = 'translateX(-' + next_index * 100 + '%)';
-      slides[current_index].classList.remove('current')
-      slides[next_index].classList.add('current')
+      dom('.carousel__track').style.transform =
+        'translateX(-' + next_index * 100 + '%)';
+      slides[current_index].classList.remove('current');
+      slides[next_index].classList.add('current');
     },
     navigate_prev: () => {
-      const slides = Object.values(dom('.carousel__track').children)
+      const slides = Object.values(dom('.carousel__track').children);
       let current_index;
-      slides.forEach( (dom, index) => {
-        if(dom.classList.contains('current'))
-          current_index = index
-      })
+      slides.forEach((dom, index) => {
+        if (dom.classList.contains('current')) current_index = index;
+      });
 
-      let prev_index = current_index - 1 < 0 ? 0 : current_index - 1
+      let prev_index = current_index - 1 < 0 ? 0 : current_index - 1;
 
-      dom('.carousel__track').style.transform = 'translateX(-' + prev_index * 100 + '%)';
-      slides[current_index].classList.remove('current')
-      slides[prev_index].classList.add('current')
+      dom('.carousel__track').style.transform =
+        'translateX(-' + prev_index * 100 + '%)';
+      slides[current_index].classList.remove('current');
+      slides[prev_index].classList.add('current');
     },
   },
 };
