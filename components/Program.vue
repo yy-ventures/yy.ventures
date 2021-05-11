@@ -32,6 +32,8 @@ export default {
     color: $fg_dark_title
 
   .p
+    // font-size: clamp(16px, 2vw, 20px) !important
+    font-size: calc(0.7vw + 0.7rem) !important
     color: $fg_dark_text
 
   .h2

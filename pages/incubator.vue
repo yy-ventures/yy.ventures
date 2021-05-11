@@ -118,7 +118,8 @@ export default {
 
 <style lang="less">
 #program #top_section #texts .p {
-  font-size: clamp(18px, 2vw, 21px);
+  font-size: clamp(18px, 2vw, 18px);
+  /* font-size: clamp(18px, 2vw, 21px); */
 }
 
 #condition_1 {
