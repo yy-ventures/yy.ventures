@@ -14,6 +14,7 @@
   // place-items: center
   text-align: center
   padding: 50px 0
+  overflow-x: hidden
 
   .line_1, .line_2
     color: $fg_dark_title
