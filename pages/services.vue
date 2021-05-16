@@ -50,5 +50,13 @@ export default {
 <style lang="sass">
 .benefits_container
   .h5
-    font-size: clamp(12px, 2.1vw, 15px) !important
+    // font-size: clamp(12px, 2.1vw, 15px) !important
+    font-size: calc(0.4vw + 0.5rem) !important
+
+  &:first-of-type
+    .h4
+      line-height: 1 !important
+      margin-bottom: 30px
+
+.picture_grid
 </style>
