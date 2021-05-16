@@ -1,0 +1,25 @@
+{
+  "title": "Corporate Services",
+  "cards": [
+    {
+      "title": "Incubator/Accelerator Management",
+      "description": "Our world-class Accelerator facilitators can help you connect to bankable startups and tailored mentoring opportunities. We have experience in launching & managing 15+ accelerator programs for social entrepreneurs in the Asia Pacific and Africa. Our services were trusted by groups like United Nations Development Program, Yunus Centre, and The Food and Agriculture Organization of the United Nations.",
+      "image": "services/incubator.png"
+    },
+    {
+      "title": "Venture Building",
+      "description": "We systematically bring social businesses into existence by means of their own resources. Our venture-building team develops all ideas in-house as we build the core structure and a component of a social business from the ground up. We follow a tested protocol from identifying business ideas, building teams to launching products, and helping social businesses create their legal and governance structures.",
+      "image": "services/venture_building.png"
+    },
+    {
+      "title": "Impact Measurement",
+      "description": "Our Impact Measurement and Management (IMM) team helps Social Businesses to substantially improve relationships with customers and beneficiaries by helping them realize if a solution really creates the impact it set out to achieve. Our IMM service is designed for entrepreneurs who strive to create impact; the service provides access to the best tools available for entrepreneurs to measure, manage and improve their impact accountability. Social Businesses startups seeking to secure external funding will find it useful as they often face the challenge of communicating their impact effectively to investors or donors.",
+      "image": "services/impact_measurement.png"
+    },
+    {
+      "title": "Investment Readiness",
+      "description": "Our Investment Readiness service is for Social Businesses that are approaching the stage where external financing becomes important. Access to capital is a universal challenge that entrepreneurs face when they seek repayable capital from investors to scale their impact and grow. Our team enables entrepreneurs with the capacity and capability to seek, take on, use – and repay- this investment. The service also supports impact entrepreneurs on their journeys towards investment readiness and strengthens their ability to raise capital from investors.",
+      "image": "services/investment_readiness.png"
+    }
+  ]
+}

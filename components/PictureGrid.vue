@@ -1,5 +1,5 @@
 <template lang="pug">
-#programs_benefits
+.picture_grid
   .header
     .h2.highlight {{data.title}}
   .benefits_grid
@@ -16,7 +16,6 @@ import { add_class_on_focus } from '@/assets/scripts/dom_utils';
 
 export default {
   props: ['data'],
-  // props: ['items', 'title'],
   mounted: () => {
     add_class_on_focus({
       ['.faded_out']: 'fade_in',
@@ -26,16 +25,17 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-#programs_benefits
+.picture_grid
+  padding: clamp(25px, 5vw, 50px)
+
   .header
-    text-align: center
+    // text-align: center
     .h2
       color: $fg_dark_title
-      margin: 50px
+      margin: clamp(25px, 10vw, 100px) 0
       font-size: clamp(13px, 3vw, 40px)
 
   .benefits_grid
-    padding: clamp(25px, 10vw, 100px)
     display: grid
     @media (min-width: 601px)
       grid-template-columns: auto auto auto
@@ -81,9 +81,11 @@ export default {
           font-size: clamp(16px, 2.2vw, 20px)
       .h5
         padding: 25px
-        background: $yy_yellow
-        max-width: 100%
-        opacity: 0.9
+        // background: $yy_yellow
+        background: linear-gradient($yy_yellow, 90%, transparent)
+        // max-width: 100%
+        width: 100%
+        // opacity: 0.9
         color: $fg_dark_text
         font-weight: 600
         font-size: clamp(12px, 2.1vw, 16px)
