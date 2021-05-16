@@ -14,10 +14,10 @@
     .previous_work__grid__image.faded_out
       img(src="~/assets/images/services/amarlab.jpeg")
     .previous_work__grid__texts.faded_out
-      .h3 Investment Readiness for AmarLab and Impact Measurement for GARBAGEMAN
+      .h3 IMM for AmarLab & IRR for Garbageman
       .h5 Investment Readiness
       .h5 Investment Measurement
-      .p UNDP Bangladesh team partnered up with our incubator YY Goshthi to conduct the  Digital Khichuri Challenge (DKC) Mentorship Program in Bangladesh from 2019-2021.The scope of work included design and management of five cycles of  the DKC mentorship program to support 15 teams of innovators and entrepreneurs. At the DKC Mentorship Program we offer a 4-day long boot camp, 6 month long tailored mentorship and small grants to DKC winners who are building businesses or running campaigns to promote peace, justice and diversity in Bangladesh.
+      .p We were commissioned by Roots of Impact GmbH to offer Investment Readiness and Impact management services to AmarLab Limited and Garbageman Limited in 2020 under the Biniyog Briddhi program. Under the Investment Readiness service, we designed the Financial Model, Company Compliance Checklist, Financial Instrument, and Investor Hitlist. Our Impact Measurement service included creation of Theory of Change, Data Collection Plan, Storage, Analysis, Review system and Decision Making Template.
 
     .previous_work__grid__image.faded_out
       img(src="~/assets/images/services/powater.jpg")
@@ -36,14 +36,16 @@
   .h2
     margin-bottom: 50px
   .h3, .h5
-    margin-bottom: 25px
+    margin-bottom: 15px
   .p
     color: $fg_dark_text
+    font-size: calc(0.5vw + 0.5rem)
   .h5
     display: inline-block
     background: $yy_magenta
     display: inline-block
     padding: 0.5em 1em
+    font-size: calc(0.4vw + 0.4rem)
     border-radius: 25px
 
     &:nth-of-type(3)

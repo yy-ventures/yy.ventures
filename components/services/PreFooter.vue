@@ -10,12 +10,12 @@
       .h5 Sharika Sadaf
       .p Head of Programs & Partnerships
       .p.mail sharika@yy.ventures
-      a(href="#").contact Contact Now
+      nuxt-link(to="/contact").contact Contact Now
     .pre_footer__grid__container
       .h5 Osman Dhali
       .p Chief of Staff
       .p.mail osman@yy.ventures
-      a(href="#").contact Contact Now
+      nuxt-link(to="/contact").contact Contact Now
 
 </template>
 

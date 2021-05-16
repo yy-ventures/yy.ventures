@@ -1,12 +1,13 @@
 <template lang="pug">
-#pre_footer
+#pointer
   .h2 Checkout some of
   .h2.highlight our previous work
   .arrow
 </template>
 
 <style lang="sass" scoped>
-#pre_footer
+#pointer
+  background: $yy_light_grey
   padding: 40px
   @media (min-width: 601px)
     padding: 50px

@@ -11,6 +11,10 @@
       nuxt-link.link.underline(to="/") home
       nuxt-link.link.underline(to="/about") about
       nuxt-link.link.underline(to="/investments") investments
+      a.link.underline(href="https://incubator.yy.ventures" target="_blank" rel="noopener noreferrer") incubator
+      //- nuxt-link.link.underline(to="/contact") contact
+      nuxt-link.link.underline(to="/services") advisory services
+      //- nuxt-link.link.underline(to="/partnerships") partnerships
       .sub_menu
         //- input#sub_menu_toggler(type="checkbox")
         //- label(for="sub_menu_toggler" )
@@ -18,10 +22,6 @@
         .sub_menu__name programs
         .sub_menu__items
           nuxt-link.link.underline(to="/washic") WASH innovation challenge
-      //- nuxt-link.link.underline(to="/contact") contact
-      nuxt-link.link.underline(to="/services") services
-      //- nuxt-link.link.underline(to="/partnerships") partnerships
-      a.link.underline(href="https://incubator.yy.ventures" target="_blank" rel="noopener noreferrer") incubator
 </template>
 
 <style lang="sass">
@@ -133,7 +133,7 @@ nav
       display: flex
       position: relative
       & > * + *
-        margin-left: 15px
+        margin-left: 5px
 
     a
       display: block !important
