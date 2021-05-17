@@ -35,14 +35,9 @@
     "avatar": "khalid.png"
   },
   {
-    "name": "Md. Mostafezur Rahaman",
+    "name": "Mostafezur Rahaman",
     "designation": "Sr. Manager, Research and Innovation",
     "avatar": "mostafez.png"
-  },
-  {
-    "name": "Purbita Jannat",
-    "designation": "Executive Business Partner",
-    "avatar": "purbita_new.png"
   },
   {
     "name": "Samiha Nusrat",
@@ -50,24 +45,19 @@
     "avatar": "samiha_new.png"
   },
   {
-    "name": "Mazbahul Islam",
-    "designation": "Content Manager",
-    "avatar": "mazbah.png"
-  },
-  {
-    "name": "Ramisa Rahman",
-    "designation": "Associate",
-    "avatar": "ramisa.png"
-  },
-  {
     "name": "Shefaz Been Rahim",
     "designation": "Finance & Accounts Manager",
     "avatar": "shefaz.png"
   },
   {
-    "name": "Raidah Momo Ibrahim",
-    "designation": "Associate",
-    "avatar": "raidah_new.png"
+    "name": "Purbita Jannat",
+    "designation": "Executive Business Partner",
+    "avatar": "purbita_new.png"
+  },
+  {
+    "name": "Mazbahul Islam",
+    "designation": "Content Manager",
+    "avatar": "mazbah.png"
   },
   {
     "name": "Mahmud Alam Bappy",
@@ -83,6 +73,16 @@
     "name": "Salman Abedin",
     "designation": "Web Developer",
     "avatar": "salman_new.png"
+  },
+  {
+    "name": "Raidah Momo Ibrahim",
+    "designation": "Associate",
+    "avatar": "raidah_new.png"
+  },
+  {
+    "name": "Ramisa Rahman",
+    "designation": "Associate",
+    "avatar": "ramisa.png"
   },
   {
     "name": "Rifah Nanziba",
