@@ -57,6 +57,4 @@ export default {
     .h4
       line-height: 1 !important
       margin-bottom: 30px
-
-.picture_grid
 </style>

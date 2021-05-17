@@ -8,12 +8,12 @@
     nuxt-link.logo(to="/")
       img#logo(src="/logos/yy_ventures.png")
     .menu
-      nuxt-link.link.underline(to="/") home
+      //- nuxt-link.link.underline(to="/") home
       nuxt-link.link.underline(to="/about") about
       nuxt-link.link.underline(to="/investments") investments
-      a.link.underline(href="https://incubator.yy.ventures" target="_blank" rel="noopener noreferrer") incubator
       //- nuxt-link.link.underline(to="/contact") contact
       nuxt-link.link.underline(to="/services") advisory services
+      a.link.underline(href="https://incubator.yy.ventures" target="_blank" rel="noopener noreferrer") incubator
       //- nuxt-link.link.underline(to="/partnerships") partnerships
       .sub_menu
         //- input#sub_menu_toggler(type="checkbox")

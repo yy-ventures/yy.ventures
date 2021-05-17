@@ -14,7 +14,7 @@
     .previous_work__grid__image.faded_out
       img(src="~/assets/images/services/amarlab.jpeg")
     .previous_work__grid__texts.faded_out
-      .h3 IMM for AmarLab & IRR for Garbageman
+      .h3 AmarLab Ltd & GARBAGEMAN Ltd
       .h5 Investment Readiness
       .h5 Investment Measurement
       .p We were commissioned by Roots of Impact GmbH to offer Investment Readiness and Impact management services to AmarLab Limited and Garbageman Limited in 2020 under the Biniyog Briddhi program. Under the Investment Readiness service, we designed the Financial Model, Company Compliance Checklist, Financial Instrument, and Investor Hitlist. Our Impact Measurement service included creation of Theory of Change, Data Collection Plan, Storage, Analysis, Review system and Decision Making Template.

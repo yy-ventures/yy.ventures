@@ -18,6 +18,7 @@
             download
             >YY Goshthi Logo</a
           >
+
           <a
             class="uk-button btn-yys"
             target="_blank"
@@ -25,6 +26,15 @@
             download
             >YY Studio Logo</a
           >
+
+          <a
+            class="uk-button btn-yys"
+            target="_blank"
+            href="/logos/sbys.png"
+            download
+            >SBYS Logo</a
+          >
+
           <!--             <a class="uk-button btn-ihd" target="_blank" href="#">Impact Hub Dhaka Logo</a> -->
           <a
             class="uk-button btn-team"
@@ -83,6 +93,7 @@
       }
     }
   }
+
   .section-heading {
     color: #3a3b3a;
     font-family: 'Graphik';
@@ -92,6 +103,14 @@
       font-size: 30px;
       line-height: 35px;
     }
+  }
+
+  a {
+    font-weight: 600 !important;
+  }
+
+  a[href*='sbys'] {
+    background: #848484 !important;
   }
 }
 </style>
