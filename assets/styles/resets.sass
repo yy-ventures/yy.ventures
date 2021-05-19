@@ -23,7 +23,7 @@ ol[role='list']
 // :root:focus-within
 //   scroll-behavior: smooth
 
-html
+html, body
   scroll-padding-top: 100px
   scroll-behavior: smooth
   line-sizing: normal  // Consistent line-spacing, even when inline elements have different line-heights.
@@ -31,10 +31,11 @@ html
 body
   min-height: 100vh
   text-rendering: optimizeSpeed
-  font-size: 16px
   line-height: 1.6
-  @media (min-width: 601px)
-    font-size: 18px
+
+  // font-size: 16px
+  // @media (min-width: 601px)
+  //   font-size: 18px
 
 h1,
 h2,

@@ -93,7 +93,7 @@
     
     .h5 13. What WASH (water, sanitation and hygiene) problem are you solving?
     .option
-      input(type="checkbox" id="b1_a" v-model="b1" name="b1" required value="Water")
+      input(type="checkbox" id="b1_a" v-model="b1" name="b1" value="Water")
       label(for="b1_a")
         .p Water
     .option
