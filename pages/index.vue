@@ -6,7 +6,8 @@
     <home-hero></home-hero>
     <!-- <Incubation></Incubation> -->
     <div id="about"></div>
-    <Program :data="incubator_program"></Program>
+    <incubator-text></incubator-text>
+    <!-- <Program :data="incubator_program"></Program> -->
     <div id="impact"></div>
     <programs-impact class="faded_out"></programs-impact>
     <div id="benefits"></div>
@@ -34,6 +35,7 @@ import Conditions from '~/components/yy_goshti/Conditions';
 import Cta from '~/components/yy_goshti/Cta';
 import Carousel from '~/components/Carousel';
 import HomeHero from '~/components/home-redo/HomeHero';
+import IncubatorText from '~/components/IncubatorText';
 
 import Program from '~/components/Program';
 // import Partner from '~/components/Partner';
@@ -88,6 +90,7 @@ export default {
     Eligibility,
     Carousel,
     PictureGrid,
+    IncubatorText,
 
     DarkNav,
     HomeText,
@@ -116,7 +119,6 @@ export default {
   }),
 
   mounted: () => {
-
     toggle_class_on_focus({
       ['.highlight']: 'scale',
     });
@@ -128,7 +130,7 @@ export default {
     // });
 
     typewriter(
-      [ 'Incubating Change', 'Building Social Businesses', 'Improving Lives' ],
+      ['Incubating Change', 'Building Social Businesses', 'Improving Lives'],
       100,
       1000
     )(dom('.write'));
