@@ -26,7 +26,7 @@
       >
         <ul class="uk-slideshow-items">
           <li v-for="(image, index) in slides" :key="index">
-            <img :src="image" alt="" uk-cover />
+            <!-- <img :src="image" alt="" uk-cover /> -->
           </li>
         </ul>
       </div>
