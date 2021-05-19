@@ -87,7 +87,7 @@
     .h5 11. Team leader’s email
     input(type="email" v-model="a10" required)
     .h5 12. Team leader’s social media handle
-    input(type="url" v-model="a11" required)
+    input(type="url" v-model="a11")
     
     .h3 Section B: Your Solution
     
