@@ -256,8 +256,8 @@
     .h5 Do you have a pitch deck? (Share the link)
     input(type="text" v-model="e1")
 
-    /* .h5 29. Do you have a pitch deck? (Upload here) */
-    /* input(type="file")                              */
+    //- .h5 29. Do you have a pitch deck? (Upload here)
+    //- input(type="file")
 
     .h5 30. Where can we find more information on your WASH venture? (Please provide links to your website/ social media page/ both.  Write N/A if you do not have any.)
     input(type="text" v-model="e2")
