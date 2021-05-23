@@ -14,7 +14,7 @@
           <a
             class="uk-button btn-yyg"
             target="_blank"
-            href="/logos/yy_goshthi.png"
+            href="/images/logos/yy_goshthi.png"
             download
             >YY Goshthi Logo</a
           >
