@@ -33,18 +33,12 @@
 
         <div class="" uk-grid>
           <div class="uk-width-1-3@m company-logo-section uk-inline" uk-grid>
-            <img
-              src="~assets/images/logo/yystudio-logo.svg"
-              width=""
-              height=""
-              alt=""
-              uk-img
-            />
+            <img src="logos/yy_studios.png" width="" height="" alt="" uk-img />
           </div>
           <div class="uk-width-2-3@m company-details-section uk-inline">
             <div class="company-info">
               <p>
-                YY Studio is a project of YY Ventures Ltd that helps socially
+                YY Studios is a project of YY Ventures Ltd that helps socially
                 and environmentally conscious organizations take their impact
                 agenda forward by utilizing the power of design and technology.
                 We exist to mold design and tech to build and scale digital
@@ -95,17 +89,20 @@ export default {};
 @tablet-down: ~'only screen and (max-width: 800px)';
 
 #sub-brands {
-
   .company-logo-section {
     padding-left: 135px;
     @media @large-down {
       padding-left: 35px;
     }
     img {
+      /* width: 25vw; */
       width: auto;
-      height: auto;
+      /* height: auto; */
       margin-top: 12px;
     }
+  }
+  #studio {
+    width: 500px !important;
   }
   .company-details-section {
     .company-name {

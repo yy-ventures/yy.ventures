@@ -22,9 +22,9 @@
           <a
             class="uk-button btn-yys"
             target="_blank"
-            href="/logos/yy_studio.svg"
+            href="/logos/yy_studios.png"
             download
-            >YY Studio Logo</a
+            >YY Studios Logo</a
           >
 
           <a
