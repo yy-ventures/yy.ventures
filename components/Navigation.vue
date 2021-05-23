@@ -6,7 +6,7 @@
         #bar
 
     nuxt-link.logo(to="#home")
-      img#logo(src="/logos/yy_goshthi.png")
+      img#logo(src="/images/logos/yy_goshthi.png")
     .menu
       a.link.underline(href="#home") home
       a.link.underline(href="#about") about
