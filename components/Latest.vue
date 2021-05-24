@@ -14,7 +14,7 @@
         img(src="~/assets/images/latest/sbys.jpg").faded_out
         .benefits_container__title
           .h1.faded_out 2
-          .h4.faded_out SBYS 2021 #[br] Highlights
+          .h4.faded_out Social Business Youth Summit 2021 Highlights
     .benefits_container
       nuxt-link(to="/investments/impact-hub")
         img(src="~/assets/images/latest/ihd.jpg").faded_out
