@@ -15,13 +15,14 @@
       nuxt-link.link.underline(to="/services") advisory services
       a.link.underline(href="https://incubator.yy.ventures" target="_blank" rel="noopener noreferrer") incubator
       //- nuxt-link.link.underline(to="/partnerships") partnerships
-      .sub_menu
+
+      //- .sub_menu
         //- input#sub_menu_toggler(type="checkbox")
         //- label(for="sub_menu_toggler" )
         //-   .sub_menu__name programs
-        .sub_menu__name programs
-        .sub_menu__items
-          nuxt-link.link.underline(to="/washic") WASH innovation challenge
+        //- .sub_menu__name programs
+        //- .sub_menu__items
+          //- nuxt-link.link.underline(to="/washic") WASH innovation challenge
 </template>
 
 <style lang="sass">
