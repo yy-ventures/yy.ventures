@@ -2,7 +2,9 @@
   #home_page
     home-hero
     Vision
-    portfolio-slider
+    //- picture-grid(:data="latest")
+    Latest
+    //- portfolio-slider
     //- home-portfolio.faded_out
     Quote
     Video
@@ -19,6 +21,8 @@ import HomeVideo from '~/components/home-redo/HomeVideo';
 import PreFooter from '~/components/PreFooter';
 import PortfolioSlider from '~/components/PortfolioSlider';
 import Video from '~/components/Video';
+import PictureGrid from '~/components/PictureGrid';
+import Latest from '~/components/Latest';
 
 import {
   toggle_class_on_focus,
@@ -29,6 +33,8 @@ import {
   add_class_on_focus,
 } from '@/assets/scripts/dom_utils';
 
+import latest from '~/assets/data/latest.json';
+
 export default {
   components: {
     HomeHero,
@@ -37,9 +43,16 @@ export default {
     Video,
     Quote,
     HomeVideo,
+    PictureGrid,
     PortfolioSlider,
+    Latest,
     PreFooter,
   },
+
+  data: () => ({
+    latest,
+  }),
+
   mounted: () => {
     update_scroll();
     toggle_class_on_focus({
@@ -65,12 +78,12 @@ export default {
 };
 </script>
 
-<style lang="sass">
-#home-hero
-  .hero-container
-    h1
-      font-size: clamp(30px, 5vw, 95px) !important
-      margin: 5px !important
-    .write
-      font-size: clamp(24px, 7vw, 95px) !important
+<style lang="sass" scoped>
+// #home-hero
+//   .hero-container
+//       h1
+//         font-size: clamp(30px, 5vw, 95px) !important
+//         margin: 5px !important
+//       .write
+//         font-size: clamp(24px, 7vw, 95px) !important
 </style>
