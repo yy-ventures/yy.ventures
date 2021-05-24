@@ -43,9 +43,10 @@
               ></span
             >
           </h1>
-          <nuxt-link to="/washic/application" class="link_button"
-            >apply now</nuxt-link
-          >
+
+          <!-- <nuxt-link to="/washic/application" class="link_button" -->
+          <!--   >apply now</nuxt-link                                 -->
+          <!-- >                                                       -->
         </div>
       </div>
     </div>
