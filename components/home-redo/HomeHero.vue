@@ -154,6 +154,7 @@ export default {
     padding-left: 40px;
     h1 {
       /* margin-top: 10px; */
+      margin: 0 !important;
       color: #3a3b3a;
       font-size: 100px !important;
       line-height: 1.1 !important;
@@ -164,7 +165,8 @@ export default {
         /* margin-bottom: -35px; */
       }
       @media @small-down {
-        font-size: 19px !important;
+        /* font-size: 19px !important; */
+        font-size: 40px !important;
       }
     }
   }

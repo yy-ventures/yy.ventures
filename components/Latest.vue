@@ -48,7 +48,9 @@ export default {
       color: $fg_light_title
       // margin: clamp(25px, 10vw, 100px) 0
       margin-bottom: 50px
-      font-size: clamp(13px, 3vw, 40px)
+      // font-size: clamp(13px, 3vw, 40px)
+      // font-size: clamp(20px, 4vw, 40px)
+      font-size: 2.5rem
 
   .benefits_grid
     display: grid
