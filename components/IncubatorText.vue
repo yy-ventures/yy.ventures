@@ -6,13 +6,13 @@
     >
       <div class="uk-container uk-container-large text-main">
         <h3 class="section-heading">
-          Created for early-stage social business entrepreneurs
+          Created for early-stage Social Business entrepreneurs
         </h3>
 
         <div class="uk-grid-match uk-child-width-1-2@m" uk-grid>
           <div>
             <p class="text-bold">
-              YY Goshthi is a social business incubator by YY Ventures that
+              YY Goshthi is a Social Business incubator by YY Ventures that
               helps socially & environmentally conscious entrepreneurs to launch
               their minimum viable product and raise the needed seed capital.
             </p>
@@ -21,10 +21,10 @@
             <p class="text-light">
               YY Goshthi was created in 2016 as the first Social Business
               incubator in Bangladesh that offers rapid, intense, and immersive
-              education to early-stage Social Businesses. As the prime social
-              business incubator in Bangladesh YY Goshthi’s goal is to support
+              education to early-stage Social Businesses. As the prime Social
+              Business incubator in Bangladesh YY Goshthi’s goal is to support
               young social entrepreneurs while they transform their communities
-              by building social businesses.
+              by building Social Businesses.
             </p>
             <p class="text-light">
               We empower social entrepreneurs with world-class training,
@@ -34,9 +34,12 @@
               prominently incubated 64 startups, notably Avijatrik Tourism,
               Wizkit, GARBAGEMAN, Broque, TransEnd, Max TapWater, AmarLab that
               have been working to solve some of the wicked social challenges.
-              We are one of the most ‘Globally Connected’ local ecosystems in
-              Bangladesh that are driven by social and environmental
-              consciousness.
+              We are a ‘Globally Connected’ locally rooted ecosystem in
+              Bangladesh that is driven by social and environmental
+              consciousness. We believe in a world where socially and
+              environmentally conscious entrepreneurs are empowered and equipped
+              to combat the challenges of creating a world of three zeros: zero
+              poverty, zero unemployment, and zero net carbon emissions.
             </p>
           </div>
         </div>
