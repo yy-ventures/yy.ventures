@@ -74,6 +74,7 @@ export default {
       // ['#vision article .h2:nth-of-type(2)']: 'type__l2',
       // ['#vision article .h2:nth-of-type(3)']: 'type__l3',
     });
+
   },
 };
 </script>

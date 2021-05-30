@@ -4,7 +4,7 @@
 
   .pre_footer__grid
     .pre_footer__grid__container
-      .h5 We look forward to hear about your #[br] social business agenda!
+      .h5 We look forward to hearing about your #[br] Social Business agenda!
       .p.short_text To learn more about what we do and discuss #[br] scope of work, please contact.
     .pre_footer__grid__container
       .h5 Sharika Sadaf

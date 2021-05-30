@@ -1,7 +1,7 @@
 <template lang="pug">
 #pre_footer
   .h2 Let us know if you are
-  .h2 a social business entrepreneur/investor and
+  .h2 a Social Business entrepreneur/investor and
   .h2.highlight you want to collaborate
   nuxt-link(to="/contact").arrow
 </template>

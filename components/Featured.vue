@@ -6,7 +6,7 @@
       .h2
         |  I'm &nbsp
         span.highlight encouraging
-        | &nbsp young people to become social business entrepreneurs and &nbsp
+        | &nbsp young people to become Social Business entrepreneurs and &nbsp
         span.highlight contribute
         | &nbsp to the world, rather than just making money.
     #author

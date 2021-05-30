@@ -24,7 +24,7 @@
     .previous_work__grid__texts.faded_out
       .h3 Powwater, Inc.
       .h5 Venture Building
-      .p Powwater is a social business that aims to empower the world through sustainable safe drinking water. We have supported the Powwater team in creating a new technology product that enables customers to order safe drinking water, the clean and easy way.
+      .p Powwater is a Social Business that aims to empower the world through sustainable safe drinking water. We have supported the Powwater team in creating a new technology product that enables customers to order safe drinking water, a clean and easy way.
 
 </template>
 

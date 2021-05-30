@@ -25,13 +25,13 @@
               impact agenda forward.
             </p>
             <p class="text-light">
-              We offer complete and end to end acceleration design and
+              We offer complete and end-to-end acceleration design and
               management support for setting up of incubation/accelerator
-              program, initiated by a development agency, corporate or
-              government to be the agent of change and promote social business.
+              program, initiated by a development agency, corporate, or
+              government to be the agent of change and promote Social Business.
               We are proud to be consultants to the UNDP’s Digital Khichuri
-              Challenge and social business such as AmarLab, GARBAGEMAN and
-              Powwater, Inc. We also support social business and entrepreneurs
+              Challenge and Social Business such as AmarLab, GARBAGEMAN and
+              Powwater, Inc. We also support Social Business and entrepreneurs
               to navigate impact management metrics, manage the investment
               portfolio and generate insights with the intent to contribute to
               the achievement of measurable social, economic and environmental

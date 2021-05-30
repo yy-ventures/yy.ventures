@@ -10,8 +10,8 @@
     
     .p We believe that a more equitable and just world is possible if we foster ‘Social Business’ while leveraging young people’s talents and ideas.
     .p Endless possibility dies the moment when aspiring social entrepreneurs back off from their incredible ideas because of being clueless on how to materialize them or due to lack of access to resources like capital. Without needed resources and guidance, innovation is barred. This is unacceptable to us!
-    .p We invest in socially and environmentally conscious entrepreneurs who are solving crucial issues of our times benefitting the underserved communities. We are building our first social business fund to invest in pre-seed and seed-stage social businesses and actively assist portfolio companies navigating the path to notable social business funds, venture investors, partners, and clients.
-    .p Our journey started with the creation of Bangladesh’s first social business incubator YY Goshthi in 2016 that has backed 64 entrepreneurs to date who have improved the lives of 107,756 Bangladeshis. By 2030 we want to improve the lives of two million people by investing in social businesses in emerging countries.
+    .p We invest in socially and environmentally conscious entrepreneurs who are solving crucial issues of our times benefitting the underserved communities. We are building our first Social Business fund to invest in pre-seed and seed-stage Social Businesses and actively assist portfolio companies navigating the path to notable Social Business funds, venture investors, partners, and clients.
+    .p Our journey started with the creation of Bangladesh’s first Social Business incubator YY Goshthi in 2016 that has backed 54 entrepreneurs to date who have improved the lives of 107,756 Bangladeshis. By 2030 we want to improve the lives of two million people by investing in Social Businesses in emerging countries.
 </template>
 
 <style lang="sass" scoped>
