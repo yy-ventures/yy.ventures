@@ -16,12 +16,12 @@
             <div class="company-info">
               <p>
                 YY Goshthi is a brand of YY ventures Ltd that was created in
-                2016 as the first independent social business incubator of
+                2016 as the first independent Social Business incubator of
                 Bangladesh. We are part of YY Ventures Limited that is
                 established in partnership with Nobel Laureate Professor
-                Muhammad Yunus to build, accelerate, and invest in social
-                businesses. Our four-month-long program is designed by social
-                business leaders and investors to help early-stage social
+                Muhammad Yunus to build, accelerate, and invest in Social
+                Businesses. Our four-month-long program is designed by Social
+                Business leaders and investors to help early-stage social
                 entrepreneurs be ready to launch their minimum viable product
                 and raise the needed seed capital. In four years, 54 youth from
                 our Goshthi (family) has improved the lives of 107, 756
@@ -61,16 +61,7 @@
           <div class="uk-width-2-3@m company-details-section uk-inline">
             <div class="company-info">
               <p>
-                The Social Business Youth Summit (SBYS) is a YY Ventures Ltd
-                project, it is an attempt to gather and plunge youth from all
-                over the globe into the world of social business via learning
-                from and interacting with social business experts. Despite the
-                disruption in day-to-day activities, SBYS believes it is time
-                for innovation through greater connectivity both virtually and
-                in person. SBYS seems to present a seamless networking
-                opportunity through a fusion of face-to-face and digital
-                meetings, varied investment, and networking opportunities,
-                alongside inspiring knowledge sessions and conversations.
+The Social Business Youth Summit (SBYS) is a YY Ventures Ltd project, it is an attempt to gather and plunge youth from all over the globe into the world of Social Business via learning from and interacting with Social Business experts. Despite the disruption in day-to-day activities, SBYS believes it is time for innovation through greater connectivity both virtually and in person. SBYS seems to present a seamless networking opportunity through a fusion of face-to-face and digital meetings, varied investment, and networking opportunities, alongside inspiring knowledge sessions and conversations.
               </p>
             </div>
           </div>
