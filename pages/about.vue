@@ -10,6 +10,7 @@
     <!-- <about-partner></about-partner> -->
     <!-- <Partners :partners="partners" class="faded_out"></Partners> -->
     <!-- <Partner :data="incubator_partners"></Partner> -->
+    <about-pre-footer></about-pre-footer>
   </div>
 </template>
 
@@ -20,6 +21,7 @@ import AboutValues from '~/components/about-redo/AboutValues';
 import AboutFeatured from '~/components/about-redo/AboutFeatured';
 import AboutTeam from '~/components/about-redo/AboutTeam';
 import AboutPartner from '~/components/about-redo/AboutPartner';
+import AboutPreFooter from '~/components/about-redo/AboutPreFooter';
 
 import Staff from '~/components/Staff';
 import Partners from '~/components/Partners';
@@ -46,6 +48,7 @@ export default {
     Partners,
     Partner,
     Staff,
+    AboutPreFooter,
     Featured,
   },
   data: () => ({
