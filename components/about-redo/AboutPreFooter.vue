@@ -1,8 +1,8 @@
 <template lang="pug">
 #pre_footer
-  .h2 Let us know if you
-  .h2 want to bring change and
-  .h2.highlight be part of our team
+  .h2 Checkout the open positions
+  .h2 of our company and
+  .h2.highlight be part of the change
   nuxt-link(to="/career").arrow
 </template>
 
