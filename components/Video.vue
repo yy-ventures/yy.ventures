@@ -24,4 +24,5 @@
       outline: none
     @media (min-width: 601px)
       object-fit: cover
+      object-position: 30% 50%
 </style>
