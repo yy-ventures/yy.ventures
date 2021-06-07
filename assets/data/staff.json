@@ -22,7 +22,7 @@
   {
     "name": "Osman Dhali",
     "designation": "Chief of Staff",
-    "avatar": "osman.png"
+    "avatar": "osman_third.png"
   },
   {
     "name": "Sharika Sadaf",
@@ -33,6 +33,16 @@
     "name": "Khalid Hossain",
     "designation": "Director",
     "avatar": "khalid.png"
+  },
+  {
+    "name": "Wahida Akter",
+    "designation": "Design Director",
+    "avatar": "wahida.png"
+  },
+  {
+    "name": "Purbita Jannat",
+    "designation": "Executive Business Partner",
+    "avatar": "purbita_second.png"
   },
   {
     "name": "Mostafezur Rahaman",
@@ -50,34 +60,9 @@
     "avatar": "shefaz.png"
   },
   {
-    "name": "Purbita Jannat",
-    "designation": "Executive Business Partner",
-    "avatar": "purbita_new.png"
-  },
-  {
     "name": "Mazbahul Islam",
     "designation": "Content Manager",
     "avatar": "mazbah.png"
-  },
-  {
-    "name": "Mahmud Alam Bappy",
-    "designation": "Associate",
-    "avatar": "bappy.png"
-  },
-  {
-    "name": "Antara Islam",
-    "designation": "Associate",
-    "avatar": "antara.png"
-  },
-  {
-    "name": "Salman Abedin",
-    "designation": "Web Developer",
-    "avatar": "salman_new.png"
-  },
-  {
-    "name": "Raidah Momo Ibrahim",
-    "designation": "Associate",
-    "avatar": "raidah_new.png"
   },
   {
     "name": "Ramisa Rahman",
@@ -85,13 +70,38 @@
     "avatar": "ramisa.png"
   },
   {
+    "name": "Sakib Mahi",
+    "designation": "Graphic Designer",
+    "avatar": "sakib.png"
+  },
+  {
+    "name": "Antara Islam",
+    "designation": "Associate",
+    "avatar": "antara.png"
+  },
+  {
+    "name": "Raidah Momo Ibrahim",
+    "designation": "Associate",
+    "avatar": "raidah_second.png"
+  },
+  {
+    "name": "Salman Abedin",
+    "designation": "Web Developer",
+    "avatar": "salman_final.png"
+  },
+  {
+    "name": "Mahmud Alam Bappy",
+    "designation": "Associate",
+    "avatar": "bappy.png"
+  },
+  {
     "name": "Rifah Nanziba",
     "designation": "Social Media Coordinator",
-    "avatar": "rifah_new.png"
+    "avatar": "rifah_final.png"
   },
   {
     "name": "Amina Khan Sabah",
     "designation": "Associate",
-    "avatar": "sabah_new.png"
+    "avatar": "sabah_second.png"
   }
 ]
