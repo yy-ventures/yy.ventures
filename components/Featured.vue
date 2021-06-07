@@ -2,13 +2,23 @@
 #featured
   img(src="~assets/images/about-dr-yunus.jpg")
   #texts
+
     #quote
       .h2
-        |  I'm &nbsp
-        span.highlight encouraging
-        | &nbsp young people to become Social Business entrepreneurs and &nbsp
-        span.highlight contribute
-        | &nbsp to the world, rather than just making money.
+        | YY Ventures &nbsp
+        span.highlight energizes
+        | &nbsp everybody, helps everybody to think differently, think fresh, bring out new ideas, who knows one of these ideas will completely &nbsp
+        span.highlight change
+        | &nbsp the world.
+
+    //- #quote
+    //-   .h2
+    //-     |  I'm &nbsp
+    //-     span.highlight encouraging
+    //-     | &nbsp young people to become Social Business entrepreneurs and &nbsp
+    //-     span.highlight contribute
+    //-     | &nbsp to the world, rather than just making money.
+
     #author
       .h3 Professor Muhammad Yunus
       .h3 Nobel Peace Prize Winner
