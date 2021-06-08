@@ -29,21 +29,22 @@
   position: relative
   #texts
     position: absolute
-    top: 0
-    left: 0
+    top: 50%
+    transform: translateY(-50%)
 
     padding: clamp(25px, 5vw, 50px)
-    width: 60%
+    width: 50%
 
     #quote
       .h2
-        font-size: clamp(12px, 4vw, 50px)
+        font-size: clamp(12px, 4vw, 30px)
+        // font-weight: normal
       .highlight:after
         height: 30%
     #author
       // margin-top: clamp(25px, 8vw, 100px)
       margin-top: clamp(5px, 3vw, 100px)
       .h3
-        font-size: clamp(8px, 2vw, 30px)
+        font-size: clamp(8px, 2vw, 20px)
         font-weight: normal
 </style>
