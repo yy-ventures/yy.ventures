@@ -2,7 +2,7 @@
 #video
   video(
     preload="none"
-    poster="images/hero-video.jpg"
+    poster="images/video_poster.webp"
     src="~assets/video/Hero_converted.mp4"
     loop
     controls

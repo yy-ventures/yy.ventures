@@ -5,19 +5,19 @@
   .benefits_grid
     .benefits_container
       nuxt-link(to="/washic")
-        img(src="~/assets/images/programs/wash.png").faded_out
+        img(src="~/assets/images/programs/wash.png.webp").faded_out
         .benefits_container__title
           .h1.faded_out 1
           .h4.faded_out WASH Innovation Challenge
     .benefits_container
       a(href="https://www.youtube.com/watch?v=8mXl2vnscdU" target="_blank" rel="noopener noreferrer")
-        img(src="~/assets/images/latest/sbys.jpg").faded_out
+        img(src="~/assets/images/latest/sbys.webp").faded_out
         .benefits_container__title
           .h1.faded_out 2
           .h4.faded_out Social Business Youth Summit 2021 Highlights
     .benefits_container
       nuxt-link(to="/investments/impact-hub")
-        img(src="~/assets/images/latest/ihd.jpg").faded_out
+        img(src="~/assets/images/latest/ihd.webp").faded_out
         .benefits_container__title
           .h1.faded_out 3
           .h4.faded_out YY Ventures Launches Impact Hub in Dhaka
