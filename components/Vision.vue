@@ -18,6 +18,7 @@
 #vision
   display: grid
   background: #f1f2f2
+  margin-bottom: 50px
 
   grid-gap: 50px
   transition: transform 500ms 500ms
