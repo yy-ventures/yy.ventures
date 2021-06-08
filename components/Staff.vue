@@ -4,7 +4,7 @@
       .grid_staff
           .grid_staff__container(v-for="member in staff").faded_out
             .grid_staff__container__image_container
-              img(:src="require(`~/assets/images/staff/${member.avatar}`)")
+              img(:src="require(`~/assets/images/staff/${member.avatar}.webp`)")
             //- img(:src="require(`~/assets/images/staff/${member.avatar}`)")
             .grid_staff__container_name {{member.name}}
             .grid_staff__container_designation {{member.designation}}
