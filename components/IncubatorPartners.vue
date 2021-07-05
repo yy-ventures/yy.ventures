@@ -12,7 +12,7 @@
   .incubator_partners__container.faded_out
     .h5 Created By
     img(src="~assets/images/logos/yy_ventures_white.png")#ventures
-    .p YY Ventures Limited builds, incubates and invests in social businesses that are moving towards a world of three zeros - zero poverty, zero unemployment and zero net carbon emission.
+    .p YY Ventures Limited builds, incubates and invests in social businesses that are moving towards a world of three zeros - zero net carbon emission, zero wealth concentration for ending poverty, and zero unemployment by unleashing entrepreneurship in all.
 </template>
 
 <style lang="sass">

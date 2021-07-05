@@ -39,7 +39,8 @@
               consciousness. We believe in a world where socially and
               environmentally conscious entrepreneurs are empowered and equipped
               to combat the challenges of creating a world of three zeros: zero
-              poverty, zero unemployment, and zero net carbon emissions.
+              net carbon emission, zero wealth concentration for ending poverty,
+              and zero unemployment by unleashing entrepreneurship in all.
             </p>
           </div>
         </div>
