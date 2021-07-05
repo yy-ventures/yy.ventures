@@ -811,7 +811,7 @@
                   <ul>
                     <li><strong>Length:</strong> 3 Months</li>
                     <li>
-                      <strong>Time Commitment:</strong> 30 hours/week [5 days]
+                      <strong>Time Commitment:</strong> 40 hours/week [5 days]
                     </li>
                     <li><strong>Reporting to:</strong> Team Lead</li>
                     <li><strong>Remuneration:</strong> 6000 BDT/Month</li>
@@ -879,7 +879,7 @@
                   <ul>
                     <li><strong>Length:</strong> 3 Months</li>
                     <li>
-                      <strong>Time Commitment:</strong> 30 hours/week [5 days]
+                      <strong>Time Commitment:</strong> 40 hours/week [5 days]
                     </li>
                     <li><strong>Reporting to:</strong> Team Lead</li>
                     <li><strong>Remuneration:</strong> 6000 BDT/Month</li>
@@ -931,7 +931,7 @@
                   <ul>
                     <li><strong>Length:</strong> 3 Months</li>
                     <li>
-                      <strong>Time Commitment:</strong> 30 hours/week [5 days]
+                      <strong>Time Commitment:</strong> 40 hours/week [5 days]
                     </li>
                     <li><strong>Reporting to:</strong> Team Lead</li>
                     <li><strong>Remuneration:</strong> 6000 BDT/Month</li>
@@ -973,7 +973,7 @@
                   <ul>
                     <li><strong>Length:</strong> 3 Months</li>
                     <li>
-                      <strong>Time Commitment:</strong> 30 hours/week [5 days]
+                      <strong>Time Commitment:</strong> 40 hours/week [5 days]
                     </li>
                     <li><strong>Reporting to:</strong> Team Lead</li>
                     <li><strong>Remuneration:</strong> 6000 BDT/Month</li>
