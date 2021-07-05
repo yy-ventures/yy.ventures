@@ -3,11 +3,11 @@
   article
     .h2 We envision a world of three zeros-
     //- .h2.typewriter
-    .h2 zero poverty, 
-    .h2 zero unemployment,
-    .h2 and zero net carbon emission.
+    .h2 zero net carbon emission,
+    .h2 zero wealth concentration for ending poverty,
+    .h2 and zero unemployment by unleashing entrepreneurship in all.
   article
-    
+
     .p We believe that a more equitable and just world is possible if we foster ‘Social Business’ while leveraging young people’s talents and ideas.
     .p Endless possibility dies the moment when aspiring social entrepreneurs back off from their incredible ideas because of being clueless on how to materialize them or due to lack of access to resources like capital. Without needed resources and guidance, innovation is barred. This is unacceptable to us!
     .p We invest in socially and environmentally conscious entrepreneurs who are solving crucial issues of our times benefitting the underserved communities. We are building our first Social Business fund to invest in pre-seed and seed-stage Social Businesses and actively assist portfolio companies navigating the path to notable Social Business funds, venture investors, partners, and clients.
