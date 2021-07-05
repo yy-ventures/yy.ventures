@@ -753,7 +753,7 @@
       <div class="open-position" uk-grid>
         <div class="uk-width-1-3@m">
           <div class="job-title">
-            <div class="title-bg">04</div>
+            <div class="title-bg">4</div>
             <h2>YY Internships</h2>
           </div>
         </div>
@@ -945,25 +945,29 @@
               <li>
                 <a class="uk-accordion-title" href="#">Investment Analyst</a>
                 <div class="uk-accordion-content">
-                  <p>As an Investment Analyst intern, you can engage yourself in one of the most important sectors of a company where you have to gather information, learn to interpret them and also develop data that will lead to the progress of the company. You will be required to daily assess the company or client data, analyze and interpret these data and prepare draft reports based on your analysis. </p>
+                  <p>
+                    As an Investment Analyst intern, you can engage yourself in
+                    one of the most important sectors of a company where you
+                    have to gather information, learn to interpret them and also
+                    develop data that will lead to the progress of the company.
+                    You will be required to daily assess the company or client
+                    data, analyze and interpret these data and prepare draft
+                    reports based on your analysis.
+                  </p>
                   <ul>
+                    <li>Assist in research work</li>
 
-<li>
-Assist in research work 
-</li>
+                    <li>Collect data for financial modelling</li>
 
-<li>
-Collect data for financial modelling 
-</li>
+                    <li>
+                      Assist in documentation and implementation of strategic
+                      plans
+                    </li>
 
-<li>
-Assist in documentation and implementation of strategic plans 
-</li>
-
-<li>
-Learn about the uses of different financial tools and implement where necessary 
-</li>
-
+                    <li>
+                      Learn about the uses of different financial tools and
+                      implement where necessary
+                    </li>
                   </ul>
                   <h5>Other Info</h5>
                   <ul>
