@@ -30,19 +30,9 @@
     "avatar": "sharika.png"
   },
   {
-    "name": "Khalid Hossain",
-    "designation": "Director",
-    "avatar": "khalid.png"
-  },
-  {
     "name": "Wahida Akter",
     "designation": "Design Director",
     "avatar": "wahida.png"
-  },
-  {
-    "name": "Purbita Jannat",
-    "designation": "Executive Business Partner",
-    "avatar": "purbita_second.png"
   },
   {
     "name": "Mostafezur Rahaman",
@@ -50,9 +40,9 @@
     "avatar": "mostafez.png"
   },
   {
-    "name": "Samiha Nusrat",
-    "designation": "Program Manager",
-    "avatar": "samiha_new.png"
+    "name": "Purbita Jannat",
+    "designation": "Executive Business Partner",
+    "avatar": "purbita_second.png"
   },
   {
     "name": "Shefaz Been Rahim",
@@ -60,8 +50,13 @@
     "avatar": "shefaz.png"
   },
   {
+    "name": "Samiha Nusrat",
+    "designation": "Program Manager",
+    "avatar": "samiha_new.png"
+  },
+  {
     "name": "Mazbahul Islam",
-    "designation": "Content Manager",
+    "designation": "Program Manager",
     "avatar": "mazbah.png"
   },
   {
@@ -71,7 +66,7 @@
   },
   {
     "name": "Sakib Mahi",
-    "designation": "Graphic Designer",
+    "designation": "Communications Designer",
     "avatar": "sakib.png"
   },
   {
@@ -80,14 +75,14 @@
     "avatar": "antara.png"
   },
   {
-    "name": "Raidah Momo Ibrahim",
-    "designation": "Associate",
-    "avatar": "raidah_second.png"
-  },
-  {
     "name": "Salman Abedin",
     "designation": "Web Developer",
     "avatar": "salman_final.png"
+  },
+  {
+    "name": "Raidah Momo Ibrahim",
+    "designation": "Associate",
+    "avatar": "raidah_second.png"
   },
   {
     "name": "Mahmud Alam Bappy",
@@ -98,10 +93,5 @@
     "name": "Rifah Nanziba",
     "designation": "Social Media Coordinator",
     "avatar": "rifah_final.png"
-  },
-  {
-    "name": "Amina Khan Sabah",
-    "designation": "Associate",
-    "avatar": "sabah_second.png"
   }
 ]
