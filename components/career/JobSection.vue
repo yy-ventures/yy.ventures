@@ -1,7 +1,8 @@
 <template>
   <div id="job-section" class="uk-section">
     <div class="uk-container">
-      <div class="open-position" uk-grid>
+
+      <!-- <div class="open-position" uk-grid>
         <div class="uk-width-1-3@m">
           <div class="job-title">
             <div class="title-bg">1</div>
@@ -148,7 +149,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <!-- <div class="open-position" uk-grid>                                            -->
       <!--   <div class="uk-width-1-3@m">                                                 -->
@@ -312,7 +313,7 @@
       <!--   </div>                                                                       -->
       <!-- </div>                                                                         -->
 
-      <div class="open-position" uk-grid>
+      <!-- <div class="open-position" uk-grid>
         <div class="uk-width-1-3@m">
           <div class="job-title">
             <div class="title-bg">2</div>
@@ -445,12 +446,12 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <div class="open-position" uk-grid>
         <div class="uk-width-1-3@m">
           <div class="job-title">
-            <div class="title-bg">3</div>
+            <div class="title-bg">1</div>
             <h2>Senior Web Developer</h2>
           </div>
         </div>
@@ -750,7 +751,7 @@
 
       -->
 
-      <div class="open-position" uk-grid>
+      <!-- <div class="open-position" uk-grid>
         <div class="uk-width-1-3@m">
           <div class="job-title">
             <div class="title-bg">4</div>
@@ -995,7 +996,9 @@
             </ul>
           </div>
         </div>
-      </div>
+      </div> -->
+
+
     </div>
   </div>
 </template>
