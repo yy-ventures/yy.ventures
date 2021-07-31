@@ -47,6 +47,7 @@
 
           <h1>Together We Are</h1>
           <h1 class="write">&nbsp</h1>
+          <h2>Fall 2021 Cohort Application is open now</h2>
           <a href="https://airtable.com/shrhDr7j4Ee0bsE5E" class="link_button">Apply Now</a>
         </div>
       </div>

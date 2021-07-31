@@ -26,9 +26,6 @@ export default {
     margin-bottom: 25px
     font-size: clamp(25px, 2.4vw, 40px)
 
-  .h3:nth-of-type(3)
-    margin-bottom: 100px
-
   .h3
     letter-spacing: 3px
     text-transform: uppercase
@@ -37,7 +34,8 @@ export default {
 
   .h5
     color: $yy_magenta
-    margin-top: 50px
+    margin-top: 2.5em
+    margin-bottom: 1em
 
   .p
     color: $yy_magenta
