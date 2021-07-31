@@ -47,6 +47,7 @@
 
           <h1>Together We Are</h1>
           <h1 class="write">&nbsp</h1>
+          <a href="https://airtable.com/shrhDr7j4Ee0bsE5E" class="link_button">Apply Now</a>
         </div>
       </div>
     </div>
@@ -155,7 +156,7 @@ export default {
     h1 {
       /* margin-top: 10px; */
       color: #3a3b3a;
-      /* font-size: 40px !important; */
+      font-size: 80px !important;
       line-height: 1.1 !important;
       text-transform: none !important;
       /* margin-bottom: -45px; */

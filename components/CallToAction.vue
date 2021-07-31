@@ -4,7 +4,7 @@
   .h3 {{data.sub_title_line_1}}
   .h3(v-if="data.sub_title_line_2") {{data.sub_title_line_2}}
   .h5(v-if="data.debut") {{data.debut}}
-  nuxt-link(v-if="data.link" :to="data.link").link_button Apply Now
+  a(v-if="data.link" :href="data.link").link_button Apply Now
   .p(v-if='data.deadline') Deadline: {{data.deadline}}
 </template>
 
@@ -42,4 +42,5 @@ export default {
   .p
     color: $yy_magenta
     margin-top: 25px
+
 </style>
