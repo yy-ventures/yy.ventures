@@ -51,6 +51,8 @@ export default {
         border-radius: 5px
   section#second
     background: $yy_blue
+    .p
+      color: white
   section#third
     background: $yy_yellow
     .h5
