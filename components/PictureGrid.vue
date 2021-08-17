@@ -84,7 +84,8 @@ export default {
         opacity: 0.9
         color: $fg_dark_text
         font-weight: 600
-        font-size: clamp(12px, 2.1vw, 16px)
+        /*  font-size: clamp(12px, 2.1vw, 16px)  */
+        font-size: clamp(10px, 2.1vw, 13px)
         top: 0
         left: 0
         transform: translateY(-100%)
