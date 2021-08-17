@@ -2,96 +2,101 @@
   {
     "name": "Lamiya Morshed",
     "designation": "Chairperson",
-    "avatar": "lamiya.png"
+    "avatar": "lamiya"
   },
   {
     "name": "Shazeeb M Khairul Islam",
     "designation": "Founder & Managing Director",
-    "avatar": "shazeeb.png"
+    "avatar": "shazeeb"
   },
   {
     "name": "Akkie Okma",
     "designation": "Technical Advisor",
-    "avatar": "akkie_new.png"
+    "avatar": "akkie_new"
   },
   {
     "name": "Tazin Shadid",
     "designation": "Senior Advisor",
-    "avatar": "tazin.png"
+    "avatar": "tazin"
   },
   {
     "name": "Osman Dhali",
     "designation": "Chief of Staff",
-    "avatar": "osman_third.png"
+    "avatar": "osman_third"
   },
   {
     "name": "Sharika Sadaf",
     "designation": "Head of Program & Partnerships",
-    "avatar": "sharika.png"
+    "avatar": "sharika"
   },
   {
     "name": "Wahida Akter",
     "designation": "Design Director",
-    "avatar": "wahida.png"
+    "avatar": "wahida"
   },
   {
     "name": "Mostafezur Rahaman",
     "designation": "Sr. Manager, Research and Innovation",
-    "avatar": "mostafez.png"
+    "avatar": "mostafez"
   },
   {
     "name": "Purbita Jannat",
     "designation": "Executive Business Partner",
-    "avatar": "purbita_second.png"
+    "avatar": "purbita_second"
   },
   {
     "name": "Shefaz Been Rahim",
     "designation": "Finance & Accounts Manager",
-    "avatar": "shefaz.png"
+    "avatar": "shefaz"
   },
   {
     "name": "Samiha Nusrat",
     "designation": "Program Manager",
-    "avatar": "samiha_new.png"
+    "avatar": "samiha_new"
   },
   {
     "name": "Mazbahul Islam",
     "designation": "Program Manager",
-    "avatar": "mazbah.png"
+    "avatar": "mazbah"
   },
   {
     "name": "Maisha Ahmed",
     "designation": "Deputy Program Manager",
-    "avatar": "maisha_6.png"
+    "avatar": "maisha_6"
   },
   {
     "name": "Sakib Mahi",
     "designation": "Communications Designer",
-    "avatar": "sakib.png"
+    "avatar": "sakib"
   },
   {
     "name": "Antara Islam",
     "designation": "Associate",
-    "avatar": "antara.png"
+    "avatar": "antara"
   },
   {
     "name": "Salman Abedin",
     "designation": "Web Developer",
-    "avatar": "salman_final.png"
+    "avatar": "salman_final"
   },
   {
     "name": "Raidah Momo Ibrahim",
     "designation": "Associate",
-    "avatar": "raidah_second.png"
+    "avatar": "raidah_second"
   },
   {
     "name": "Mahmud Alam Bappy",
     "designation": "Associate",
-    "avatar": "bappy.png"
+    "avatar": "bappy"
   },
   {
     "name": "Rifah Nanziba",
     "designation": "Social Media Coordinator",
-    "avatar": "rifah_final.png"
+    "avatar": "rifah_final"
+  },
+  {
+    "name": "Farhan Absar Tafader",
+    "designation": "Junior Developer",
+    "avatar": "farhan"
   }
 ]
