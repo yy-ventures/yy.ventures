@@ -1,7 +1,8 @@
 <template lang="pug">
 #pointer
-  .h2 Checkout
-  .h2.highlight some of our work
+  .texts
+    .h2 Checkout &nbsp
+    .h2.highlight some of our work
   .arrow
 </template>
 
@@ -12,9 +13,13 @@
   @media (min-width: 601px)
     padding: 50px
   text-align: center
-  .h2
-    font-size: clamp(20px, 2.4vw, 35px)
-    color: #3a3b3b
+
+  .texts
+    display: flex
+    justify-content: center
+    .h2
+      font-size: clamp(20px, 2.4vw, 35px)
+      color: #3a3b3b
 
   .arrow
 

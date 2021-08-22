@@ -3,11 +3,11 @@
     home-hero
     Vision
     //- picture-grid(:data="latest")
+    Quote
     Latest
     //- portfolio-slider
     //- home-portfolio.faded_out
-    Quote
-    Video
+    //- Video
     //- home-video.faded_out
     pre-footer
 </template>
