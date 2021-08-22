@@ -1,8 +1,7 @@
 <template lang="pug">
 #pointer
   .texts
-    .h2 Checkout &nbsp
-    .h2.highlight some of our work
+    .h2.highlight Checkout some of our work
   .arrow
 </template>
 
