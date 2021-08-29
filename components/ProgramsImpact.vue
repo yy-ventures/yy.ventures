@@ -9,7 +9,7 @@
         .impact__count 64
         .impact__title Startups Supported
       .impact
-        .impact__count 107,756
+        .impact__count 150633
         .impact__title Lives Impacted
 </template>
 
