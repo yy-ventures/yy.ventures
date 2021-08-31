@@ -161,6 +161,7 @@ export default {};
             margin-top: 3rem;
         }
         .team-collection{
+            margin-top: 3rem;
             h3{
                 color: #002750;
                 font-weight: bold;
@@ -184,7 +185,7 @@ export default {};
                 width: 31%;
                 height: 300px;
                 object-fit: cover;
-                margin-left: 1.2%;
+                margin-left: 1%;
             }
         }
         .blog-post-footer{
