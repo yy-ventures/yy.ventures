@@ -193,16 +193,16 @@ export default {};
             padding-bottom: 2rem;
         }
     }
-    @media screen and (max-width: 600px){
-        .blog-post-container{
-            width: 90%;
-            .blog-post-footer-images{
-                img{
-                    width: 100%;
-                    margin-left: 0;
-                    margin-top: 1.5rem;
-                }
-            }
-        }
-    }
+    // @media screen and (max-width: 600px){
+    //     .blog-post-container{
+    //         width: 90%;
+    //         .blog-post-footer-images{
+    //             img{
+    //                 width: 100%;
+    //                 margin-left: 0;
+    //                 margin-top: 1.5rem;
+    //             }
+    //         }
+    //     }
+    // }
 </style>
