@@ -108,7 +108,7 @@
             </p>
         </div>
         <div class="team-content">
-            <h4><a href="https://uttaran.net/">Wreetu</a></h4>
+            <h4><a href="https://wreetu.org/">Wreetu</a></h4>
             <p>
                Wreetu aims to design and transform the existing public toilets into women and period-friendly toilets, with separate chambers equipped with menstrual facilities and accessibility features for menstruators with disabilities in urban slums. 
             </p>
