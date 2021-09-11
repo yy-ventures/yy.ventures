@@ -45,7 +45,7 @@
     "avatar": "purbita_second"
   },
   {
-    "name": "Shefaz",
+    "name": "Shefaz Been Rahim",
     "designation": "Finance & Accounts Manager",
     "avatar": "shefaz"
   },
@@ -93,5 +93,10 @@
     "name": "Farhan Absar Tafader",
     "designation": "Junior Developer",
     "avatar": "farhan"
+  },
+  {
+    "name": "Khalid Hossain",
+    "designation": "Director",
+    "avatar": "khalid_hossain"
   }
 ]
