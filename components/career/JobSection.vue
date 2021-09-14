@@ -830,6 +830,226 @@
           </div>
         </div>
       </div>
+      
+    <div class="open-position" uk-grid>
+        <div class="uk-width-1-3@m">
+          <div class="job-title">
+            <div class="title-bg">5</div>
+            <h2>UI/UX Designer</h2>
+          </div>
+        </div>
+        <div class="uk-width-2-3@m">
+          <div class="job-description">
+            <ul uk-accordion>
+              <li class="uk-open">
+                <a class="uk-accordion-title" href="#">Job Description</a>
+                <div class="uk-accordion-content">
+                  <p>
+                    As a UI/UX Designer, you will be expected to create effective, user-centric and dynamic design solutions for digital products. You will be working with an innovative team of designers and developers to create impactful designs for websites and mobile applications, which are visually pleasing and provide users with a smooth and delightful experience. You will be able to collaborate with fellow creative thinkers and see the impact of your work and growth in this fast-paced, creative work environment. If this sounds like your cup of tea, we would love to hear more from you.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <a class="uk-accordion-title" href="#"
+                  >Essential Responsibility</a
+                >
+                <div class="uk-accordion-content">
+                  <ul>
+                    <li>Create user-centric designs by understanding business and user requirements</li><li>Create user flows, wireframes, layouts and prototypes</li><li>Create original graphic designs, assets and user interfaces</li><li>Design simple and effective user experiences through creative design</li><li>Incorporate design thinking, usability findings and behavior to enhance user experience</li><li>Research and develop innovative and modern design solutions for digital products</li>
+                  </ul>
+                </div>
+              </li>
+
+              <li>
+                <a class="uk-accordion-title" href="#">Qualifications</a>
+                <div class="uk-accordion-content">
+                  <ul>
+                    <li>Minimum a bachelor degree in any discipline from a recognized institution </li><li>2+ years of hands-on UI/UX design experience</li><li>Proficient in Adobe Creative Suite (Photoshop, Illustrator, XD etc.)</li><li>Proficient in UI design and prototyping tools (Adobe XD, Sketch etc.)</li><li>Basic HTML, JavaScript and CSS skills are a plus</li><li>Strong verbal and written communication skills</li><li>Ability to think creatively and solve problems promptly</li><li>Great time-management skills</li>
+                  </ul>
+                </div>
+              </li>
+
+              <li>
+                <a class="uk-accordion-title" href="#">Other Info</a>
+                <div class="uk-accordion-content">
+                  <ul>
+                    <li><strong>Time Commitment:</strong> 40 hours/week</li>
+                    <li>
+                      <strong>Location:</strong> 9th Floor, Grameen Telecom
+                      Bhaban, Zoo Road, Mirpur 1, Dhaka 1216
+                    </li>
+                    <li>
+                      <strong>Reporting to:</strong> Design Director
+                    </li>
+                    <li><strong>Start date:</strong> Immediate</li>
+                    <li><strong>Salary:</strong> Negotiable</li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+            <div class="contact-email">
+              <p>
+                <i
+                  >If you are interested in applying for this position please
+                  send your resume and cover letter at
+                  <a href="mailto:careers@yy.ventures">careers@yy.ventures</a>
+                  detailing why you think you are the right person to lead our
+                  operations. You are advised to mention your salary
+                  expectations in your cover letter.</i
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    <div class="open-position" uk-grid>
+        <div class="uk-width-1-3@m">
+          <div class="job-title">
+            <div class="title-bg">5</div>
+            <h2>Graphic Designer / Motion Graphic Designer</h2>
+          </div>
+        </div>
+        <div class="uk-width-2-3@m">
+          <div class="job-description">
+            <ul uk-accordion>
+              <li class="uk-open">
+                <a class="uk-accordion-title" href="#">Job Description</a>
+                <div class="uk-accordion-content">
+                  <p>
+                    As a graphic designer, you will be expected to ideate and design fantastic visuals and high-quality content in collaboration with the design team. You will be working with fellow passionate creative thinkers and designers in a modern and innovative work environment. You will have the opportunity to work on a range of impactful projects and produce high-quality designs and contents. If this is something you are interested, we would love to talk to you further.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <a class="uk-accordion-title" href="#"
+                  >Essential Responsibility</a
+                >
+                <div class="uk-accordion-content">
+                  <ul>
+                    <li>Design outstanding static and dynamic contents for visual communication</li><li>Create brand communication materials for clients and internal use</li><li>Create motion graphics for various online media</li><li>Stay up to date with the latest design trends and techniques</li><li>Design branding and marketing materials for social media and web platforms</li>
+                  </ul>
+                </div>
+              </li>
+
+              <li>
+                <a class="uk-accordion-title" href="#">Qualifications</a>
+                <div class="uk-accordion-content">
+                  <ul>
+                    <li>Minimum a bachelor degree in any discipline from a recognized institution </li><li>2+ years of experience in working in a creative design agency / workplace</li><li>Strong knowledge of Adobe Creative Suite (Photoshop, Illustrator etc.)</li><li>Strong knowledge of video editing, animation and motion graphics software (After Effects, Premiere Pro, Cinema 4D etc.)</li><li>Strong verbal and written communication skills</li><li>Ability to think creatively and solve problems promptly</li><li>Great time-management skills</li><li>A keen eye for design and aesthetics</li><li>A good understanding of branding and communication in design</li>
+                  </ul>
+                </div>
+              </li>
+
+              <li>
+                <a class="uk-accordion-title" href="#">Other Info</a>
+                <div class="uk-accordion-content">
+                  <ul>
+                    <li><strong>Time Commitment:</strong> 40 hours/week</li>
+                    <li>
+                      <strong>Location:</strong> 9th Floor, Grameen Telecom
+                      Bhaban, Zoo Road, Mirpur 1, Dhaka 1216
+                    </li>
+                    <li>
+                      <strong>Reporting to:</strong> Design Director
+                    </li>
+                    <li><strong>Start date:</strong> Immediate</li>
+                    <li><strong>Salary:</strong> Negotiable</li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+            <div class="contact-email">
+              <p>
+                <i
+                  >If you are interested in applying for this position please
+                  send your resume and cover letter at
+                  <a href="mailto:careers@yy.ventures">careers@yy.ventures</a>
+                  detailing why you think you are the right person to lead our
+                  operations. You are advised to mention your salary
+                  expectations in your cover letter.</i
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    <div class="open-position" uk-grid>
+        <div class="uk-width-1-3@m">
+          <div class="job-title">
+            <div class="title-bg">6</div>
+            <h2>Social Media Associate </h2>
+          </div>
+        </div>
+        <div class="uk-width-2-3@m">
+          <div class="job-description">
+            <ul uk-accordion>
+              <li class="uk-open">
+                <a class="uk-accordion-title" href="#">Job Description</a>
+                <div class="uk-accordion-content">
+                  <p>
+                    As a social media associate, you will work with our social media coordinator and Digital Marketing Specialist to develop engaging content for our company's social media presence. You shall oversee all the activities on social media platforms of our organization including keeping social media channels updated and seeking out new social media avenues and ways of connecting with audiences. 
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <a class="uk-accordion-title" href="#"
+                  >Essential Responsibility</a
+                >
+                <div class="uk-accordion-content">
+                  <ul>
+                    <li>Execute a result-driven social media strategy</li><li>Develop and curate engaging content for social media platforms</li><li>Assist in the creation and editing of written, video, and photo content </li><li>Attend events and produce live social media content</li><li>Maintain unified brand voice across different social media channels</li><li>Collaborate with internal teams to create a social media calendar</li><li>Monitor social media channels for industry trends</li><li>Review analytics and create reports on key metrics</li><li>Assist in the development and management of social media marketing and influencer marketing strategy</li><li>Identify key audiences and develop marketing plans to engage those consumers </li><li>Collaborate with Management to help boost search engine rankings </li><li>Analyze key metrics for social media ad spends and report return on investment (ROI) </li><li>Stay on top of industry trends and shifts in target consumer habits </li>
+                  </ul>
+                </div>
+              </li>
+
+              <li>
+                <a class="uk-accordion-title" href="#">Qualifications</a>
+                <div class="uk-accordion-content">
+                  <ul>
+                    <li>Minimum a bachelor degree in communication, marketing, or social media from a recognized institution</li><li>Excellent knowledge of social media platforms such as Facebook, Instagram, and Twitter</li><li>Analytical skills</li><li>Excellent communication skills</li><li>Eagerness to learn about new innovations and software</li><li>Excellent time management skills</li><li>Prior experience in marketing, social media or content development.</li>
+                  </ul>
+                </div>
+              </li>
+
+              <li>
+                <a class="uk-accordion-title" href="#">Other Info</a>
+                <div class="uk-accordion-content">
+                  <ul>
+                    <li><strong>Time Commitment:</strong> 40 hours/week</li>
+                    <li>
+                      <strong>Location:</strong> 9th Floor, Grameen Telecom
+                      Bhaban, Zoo Road, Mirpur 1, Dhaka 1216
+                    </li>
+                    <li>
+                      <strong>Reporting to:</strong> Design Director
+                    </li>
+                    <li><strong>Start date:</strong> Immediate</li>
+                    <li><strong>Salary:</strong> Negotiable</li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+            <div class="contact-email">
+              <p>
+                <i
+                  >If you are interested in applying for this position please
+                  send your resume and cover letter at
+                  <a href="mailto:careers@yy.ventures">careers@yy.ventures</a>
+                  detailing why you think you are the right person to lead our
+                  operations. You are advised to mention your salary
+                  expectations in your cover letter.</i
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    
 
       <!-- 
       <div class="open-position" uk-grid>
