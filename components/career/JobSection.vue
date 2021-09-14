@@ -447,12 +447,12 @@
           </div>
         </div>
       </div> -->
-
-      <div class="open-position" uk-grid>
+      
+    <div class="open-position" uk-grid>
         <div class="uk-width-1-3@m">
           <div class="job-title">
             <div class="title-bg">1</div>
-            <h2>Senior Web Developer</h2>
+            <h2>Deputy Program Manager</h2>
           </div>
         </div>
         <div class="uk-width-2-3@m">
@@ -462,7 +462,226 @@
                 <a class="uk-accordion-title" href="#">Job Description</a>
                 <div class="uk-accordion-content">
                   <p>
-                    As a Senior web developer, you will be handling and creating
+                    As a deputy program manager, you will work with the programs team to handle the development activities from conceptualization to execution, identifying sources and activities, and allocating adequate budget to support the events and program objectives. You will also resolve planning issues and discrepancies accordingly and set alternative resources as needed to prevent delays.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <a class="uk-accordion-title" href="#"
+                  >Essential Responsibility</a
+                >
+                <div class="uk-accordion-content">
+                  <ul>
+                    <li>Plan, oversee, and manage the development and execution of YY Ventures’s incubation/acceleration/mentoring programs to include a high volume of events for each program, knowledge sessions, and meetings across mentors & partners. </li><li>Design processes, playbooks, and policies to standardize and scale YY Ventures’s entrepreneurship programs and home-grown business models. </li><li>Provide logistical and operational support and oversight to Program Associates and interns</li><li>Continually work with our senior leadership to revise and maintain a flexible curriculum that is aligned with current best practices</li><li>Design and administer surveys and other assessment tools to capture and analyze data for program planning, decision-making, and reporting</li><li>Partner with government agencies, industry experts, and outside vendors to improve the quality, scope, and delivery of programs</li><li>Work with YY Ventures’s leadership team to identify ways to incorporate the incubation program into other business lines  	 </li><li>Support YY Ventures’s leadership team with special projects related to the sustainability and growth of YY Ventures and its subsidiaries  </li><li>Find and implement creative, unconventional and cost-efficient channels to develop & manage our home-grown business models. </li><li>Monitor the performance of the entrepreneurs and build effective communications with them.</li>
+                  </ul>
+                </div>
+              </li>
+
+              <li>
+                <a class="uk-accordion-title" href="#">Qualifications</a>
+                <div class="uk-accordion-content">
+                  <ul>
+                    <li>Minimum a bachelor degree in any discipline from a recognized institution</li><li>Minimum 2-4 years of experience in leading or supporting any acceleration or incubation program</li><li>Excellent project management skills</li><li>Strong interpersonal and communication skills</li>
+                  </ul>
+                </div>
+              </li>
+
+              <li>
+                <a class="uk-accordion-title" href="#">Other Info</a>
+                <div class="uk-accordion-content">
+                  <ul>
+                    <li><strong>Time Commitment:</strong> 40 hours/week</li>
+                    <li>
+                      <strong>Location:</strong> 9th Floor, Grameen Telecom
+                      Bhaban, Zoo Road, Mirpur 1, Dhaka 1216
+                    </li>
+                    <li>
+                      <strong>Reporting to:</strong> Head of Programs
+                    </li>
+                    <li><strong>Start date:</strong> Immediate</li>
+                    <li><strong>Salary:</strong> Negotiable</li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+            <div class="contact-email">
+              <p>
+                <i
+                  >If you are interested in applying for this position please
+                  send your resume and cover letter at
+                  <a href="mailto:careers@yy.ventures">careers@yy.ventures</a>
+                  detailing why you think you are the right person to lead our
+                  operations. You are advised to mention your salary
+                  expectations in your cover letter.</i
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    <div class="open-position" uk-grid>
+        <div class="uk-width-1-3@m">
+          <div class="job-title">
+            <div class="title-bg">2</div>
+            <h2>Senior Associate, People and Culture</h2>
+          </div>
+        </div>
+        <div class="uk-width-2-3@m">
+          <div class="job-description">
+            <ul uk-accordion>
+              <li class="uk-open">
+                <a class="uk-accordion-title" href="#">Job Description</a>
+                <div class="uk-accordion-content">
+                  <p>
+                    As a People and Culture Senior Associate, you will be managing our company’s recruiting, learning and development and employee performance programs. You will work closely with the Chief of Staff to understand the role HR must play in the organization. You must fully comprehend each department’s strategy and growth plans and develop an overarching HR strategy that ensures the organization can deliver on the plans.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <a class="uk-accordion-title" href="#"
+                  >Essential Responsibility</a
+                >
+                <div class="uk-accordion-content">
+                  <ul>
+                    <li>Work with the management to strategically plan HR initiatives that will benefit the company and encourage more efficient and beneficial work from employees</li><li>Conduct online and offline staff recruitment campaigns for sourcing and building a pipeline of suitable candidates </li><li>Managing HR records including, résumés, applicant logs, employee forms, contracts and other records</li><li>Implementing performance review procedures (e.g. quarterly/annual and 360° evaluations)</li><li>Developing fair HR policies and ensuring employees understand and comply with them</li><li>Foster cross-functional relationships and ensure managers and employees are properly connected</li><li>Regularly meet with employees for progress reviews and assessments, discussing any problems or grievances they may have</li><li>Promote a positive and open work environment where employees feel comfortable speaking up about issues</li><li>Monitor employee progress and stay abreast on company climate and culture, ensuring it stays positive and productive </li><li>Keeping abreast of global HR trends and developments</li>
+                  </ul>
+                </div>
+              </li>
+
+              <li>
+                <a class="uk-accordion-title" href="#">Qualifications</a>
+                <div class="uk-accordion-content">
+                  <ul>
+                    <li>Minimum a bachelor degree in Social Sciences, Human Resources, or any other related field from a recognized institution</li><li>Professional qualification in Human Resource Management is preferred but not mandatory</li><li>At least 1-year relevant experience in HR, People, Culture or Communication</li><li>Strong interpersonal and communication skills</li>
+                  </ul>
+                </div>
+              </li>
+
+              <li>
+                <a class="uk-accordion-title" href="#">Other Info</a>
+                <div class="uk-accordion-content">
+                  <ul>
+                    <li><strong>Time Commitment:</strong> 40 hours/week</li>
+                    <li>
+                      <strong>Location:</strong> 9th Floor, Grameen Telecom
+                      Bhaban, Zoo Road, Mirpur 1, Dhaka 1216
+                    </li>
+                    <li>
+                      <strong>Reporting to:</strong> Chief of Staff
+                    </li>
+                    <li><strong>Start date:</strong> Immediate</li>
+                    <li><strong>Salary:</strong> Negotiable</li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+            <div class="contact-email">
+              <p>
+                <i
+                  >If you are interested in applying for this position please
+                  send your resume and cover letter at
+                  <a href="mailto:careers@yy.ventures">careers@yy.ventures</a>
+                  detailing why you think you are the right person to lead our
+                  operations. You are advised to mention your salary
+                  expectations in your cover letter.</i
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    <div class="open-position" uk-grid>
+        <div class="uk-width-1-3@m">
+          <div class="job-title">
+            <div class="title-bg">3</div>
+            <h2>Digital Marketing Specialist</h2>
+          </div>
+        </div>
+        <div class="uk-width-2-3@m">
+          <div class="job-description">
+            <ul uk-accordion>
+              <li class="uk-open">
+                <a class="uk-accordion-title" href="#">Job Description</a>
+                <div class="uk-accordion-content">
+                  <p>
+                    As a digital marketing specialist, you will be responsible for the development and execution of marketing communications and digital content that support the objectives of YY Ventures Limited. This includes web content, search engine marketing (SEM), search engine optimization (SEO).
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <a class="uk-accordion-title" href="#"
+                  >Essential Responsibility</a
+                >
+                <div class="uk-accordion-content">
+                  <ul>
+                    <li>Develop and execute plans to increase exposure in digital platforms</li><li>Develop and update activities and events on different online portals</li><li>Provide forecasting recommendations to assist in activities planning</li><li>Propose and help implement marketing programs and promotional campaigns on digital platforms</li><li>Provide monthly and quarterly reports to management team and key managers</li><li>Monitor, identify, and develop strategies to effectively deliver our message to end users</li><li>Provide monthly analytic reports with recommendations specific to driving and optimizing traffic, behavior, campaign response, keyword research/analysis, SEO, and SEM opportunity</li><li>Develop and manage efficient procedures and workflows for the digital content life cycle, including creation, approval, revision and removal</li><li>Review new technologies to keep the company at the forefront of developments in digital marketing</li>
+                  </ul>
+                </div>
+              </li>
+
+              <li>
+                <a class="uk-accordion-title" href="#">Qualifications</a>
+                <div class="uk-accordion-content">
+                  <ul>
+                    <li>Minimum a bachelor degree preferably in marketing or any business discipline from a recognized institution </li><li>2+ Years of Experience in Digital Marketing</li><li>Experience executing paid social media campaigns</li><li>Bachelor's degree in marketing or business</li><li>Must be able to juggle multiple projects at the same time</li><li>Incredible attention to detail</li><li>Full understanding of all social media platforms</li><li>Problem solving skills</li><li>Knowledge of content management systems</li>
+                  </ul>
+                </div>
+              </li>
+
+              <li>
+                <a class="uk-accordion-title" href="#">Other Info</a>
+                <div class="uk-accordion-content">
+                  <ul>
+                    <li><strong>Time Commitment:</strong> 40 hours/week</li>
+                    <li>
+                      <strong>Location:</strong> 9th Floor, Grameen Telecom
+                      Bhaban, Zoo Road, Mirpur 1, Dhaka 1216
+                    </li>
+                    <li>
+                      <strong>Reporting to:</strong> Design Director
+                    </li>
+                    <li><strong>Start date:</strong> Immediate</li>
+                    <li><strong>Salary:</strong> Negotiable</li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+            <div class="contact-email">
+              <p>
+                <i
+                  >If you are interested in applying for this position please
+                  send your resume and cover letter at
+                  <a href="mailto:careers@yy.ventures">careers@yy.ventures</a>
+                  detailing why you think you are the right person to lead our
+                  operations. You are advised to mention your salary
+                  expectations in your cover letter.</i
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="open-position" uk-grid>
+        <div class="uk-width-1-3@m">
+          <div class="job-title">
+            <div class="title-bg">4</div>
+            <h2>Web Developer</h2>
+          </div>
+        </div>
+        <div class="uk-width-2-3@m">
+          <div class="job-description">
+            <ul uk-accordion>
+              <li class="uk-open">
+                <a class="uk-accordion-title" href="#">Job Description</a>
+                <div class="uk-accordion-content">
+                  <p>
+                    As a Web Developer, you will be handling and creating
                     next generation websites with the cutting edge and trending
                     technologies. We build websites that deliver the best user
                     experiences and speak the stories of our clients. So, our
