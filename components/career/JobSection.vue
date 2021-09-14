@@ -907,7 +907,7 @@
     <div class="open-position" uk-grid>
         <div class="uk-width-1-3@m">
           <div class="job-title">
-            <div class="title-bg">5</div>
+            <div class="title-bg">6</div>
             <h2>Graphic Designer / Motion Graphic Designer</h2>
           </div>
         </div>
@@ -980,7 +980,7 @@
     <div class="open-position" uk-grid>
         <div class="uk-width-1-3@m">
           <div class="job-title">
-            <div class="title-bg">6</div>
+            <div class="title-bg">7</div>
             <h2>Social Media Associate </h2>
           </div>
         </div>
