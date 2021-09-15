@@ -15,13 +15,12 @@
           <div class="uk-width-2-3@m company-details-section uk-inline">
             <div class="company-info">
               <p>
-                YY Goshthi is a brand of YY ventures Ltd that was created in
-                2016 as the first independent Social Business incubator of
-                Bangladesh. We are part of YY Ventures Limited that is
-                established in partnership with Nobel Laureate Professor
-                Muhammad Yunus to build, accelerate, and invest in Social
-                Businesses. Our four-month-long program is designed by Social
-                Business leaders and investors to help early-stage social
+                YY Goshthi was created in 2016 as the first independent Social
+                Business incubator of Bangladesh. We are part of YY Ventures
+                Limited that is established in partnership with Nobel Laureate
+                Professor Muhammad Yunus to build, accelerate, and invest in
+                Social Businesses. Our four-month-long program is designed by
+                Social Business leaders and investors to help early-stage social
                 entrepreneurs be ready to launch their minimum viable product
                 and raise the needed seed capital. In four years, 54 youth from
                 our Goshthi (family) has improved the lives of 107, 756
@@ -38,17 +37,12 @@
           <div class="uk-width-2-3@m company-details-section uk-inline">
             <div class="company-info">
               <p>
-                YY Studios is a project of YY Ventures Ltd that helps socially
-                and environmentally conscious organizations take their impact
-                agenda forward by utilizing the power of design and technology.
-                We exist to mold design and tech to build and scale digital
-                experiences for organizations. We are inspired by the
-                forever-changing world of design and innovation where we promise
-                never to slow down evolving the customer experience to always
-                ensure a strong gravity in the design & tech world. As we go
-                forward, our commitment to our clients stays simple; we make
-                your imagination better than yesterday as we illustrate your
-                brands and design your solutions.
+                YY Studio helps socially and environmentally conscious
+                organizations take their impact agenda forward by utilizing the
+                power of design and technology. We are visionary creators
+                dedicated to developing bespoke creative solutions to meet the
+                needs of our clients. We cater a wide range of technical and
+                communication services to both local and international markets.
               </p>
             </div>
           </div>
@@ -61,7 +55,16 @@
           <div class="uk-width-2-3@m company-details-section uk-inline">
             <div class="company-info">
               <p>
-The Social Business Youth Summit (SBYS) is a YY Ventures Ltd project, it is an attempt to gather and plunge youth from all over the globe into the world of Social Business via learning from and interacting with Social Business experts. Despite the disruption in day-to-day activities, SBYS believes it is time for innovation through greater connectivity both virtually and in person. SBYS seems to present a seamless networking opportunity through a fusion of face-to-face and digital meetings, varied investment, and networking opportunities, alongside inspiring knowledge sessions and conversations.
+                The Social Business Youth Summit (SBYS) is a YY Ventures Ltd
+                project, it is an attempt to gather and plunge youth from all
+                over the globe into the world of Social Business via learning
+                from and interacting with Social Business experts. Despite the
+                disruption in day-to-day activities, SBYS believes it is time
+                for innovation through greater connectivity both virtually and
+                in person. SBYS seems to present a seamless networking
+                opportunity through a fusion of face-to-face and digital
+                meetings, varied investment, and networking opportunities,
+                alongside inspiring knowledge sessions and conversations.
               </p>
             </div>
           </div>
@@ -76,8 +79,8 @@ export default {};
 </script>
 
 <style lang="less" scoped>
-@large-down: ~'only screen and (max-width: 950px)';
-@tablet-down: ~'only screen and (max-width: 800px)';
+@large-down: ~"only screen and (max-width: 950px)";
+@tablet-down: ~"only screen and (max-width: 800px)";
 
 #sub-brands {
   .company-logo-section {
@@ -99,14 +102,14 @@ export default {};
     .company-name {
       font-size: 55px;
       font-weight: bold;
-      font-family: 'Graphik';
+      font-family: "Graphik";
       color: #3a3b3a;
       margin-bottom: 20px;
     }
     .company-info {
       font-size: 18px;
       font-weight: bold;
-      font-family: 'Graphik';
+      font-family: "Graphik";
       color: #3a3b3a;
       margin-top: 20px;
       p {
