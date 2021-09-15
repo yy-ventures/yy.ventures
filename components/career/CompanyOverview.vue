@@ -22,8 +22,8 @@
               we decided to create our jobs and for our friends, take care of
               our food and for our families and share whatever resources we had
               to help our entrepreneurial friends start their social businesses.
-              In four years, 60+ entrepreneurs from our Goshthi (tribe) has
-              improved the lives of 100,000+ Bangladeshis. By 2030 we want to
+              In four years, 64 entrepreneurs from our Goshthi (tribe) has
+              improved the lives of 150,000+ Bangladeshis. By 2030 we want to
               improve the lives of two million people by backing socially and
               environmentally conscious entrepreneurs.
             </p>
