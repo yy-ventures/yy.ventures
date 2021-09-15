@@ -32,7 +32,7 @@
 
         <div class="" uk-grid>
           <div class="uk-width-1-3@m company-logo-section uk-inline" uk-grid>
-            <img src="logos/yy_studios.png" width="" height="" alt="" uk-img />
+            <img src="/logos/yy_studios.png" width="" height="" alt="" uk-img />
           </div>
           <div class="uk-width-2-3@m company-details-section uk-inline">
             <div class="company-info">
