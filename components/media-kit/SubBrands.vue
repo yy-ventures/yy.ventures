@@ -16,8 +16,7 @@
             <div class="company-info">
               <p>
                 YY Goshthi was created in 2016 as the first independent Social
-                Business incubator of Bangladesh. We are part of YY Ventures
-                Limited that is established in partnership with Nobel Laureate
+                Business incubator of Bangladesh. We are established in partnership with Nobel Laureate
                 Professor Muhammad Yunus to build, accelerate, and invest in
                 Social Businesses. Our four-month-long program is designed by
                 Social Business leaders and investors to help early-stage social
@@ -48,7 +47,7 @@
           </div>
         </div>
 
-        <div class="" uk-grid>
+        <!-- <div class="" uk-grid>
           <div class="uk-width-1-3@m company-logo-section uk-inline" uk-grid>
             <img src="/logos/sbys.png" width="" height="" alt="" uk-img />
           </div>
@@ -68,7 +67,7 @@
               </p>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>

@@ -27,13 +27,13 @@
             >YY Studios Logo</a
           >
 
-          <a
+          <!-- <a
             class="uk-button btn-yys"
             target="_blank"
             href="/logos/sbys.png"
             download
             >SBYS Logo</a
-          >
+          > -->
 
           <!--             <a class="uk-button btn-ihd" target="_blank" href="#">Impact Hub Dhaka Logo</a> -->
           <a
