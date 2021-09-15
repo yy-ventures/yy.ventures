@@ -15,9 +15,9 @@
             </div>
             <div>
                 <div class="company-heading">YY Goshthi</div>
-                <span class="text-info">Facebook<a href="https://www.facebook.com/yygoshthi">@yygoshti</a></span>
-                <span class="text-info">Twitter<a href="https://twitter.com/yygoshthi">@yygoshti</a></span>
-                <span class="text-info">Instagram<a href="https://www.instagram.com/yygoshthi/">@yygoshti</a></span>
+                <span class="text-info">Facebook<a href="https://www.facebook.com/yygoshthi">@yygoshthi</a></span>
+                <span class="text-info">Twitter<a href="https://twitter.com/yygoshthi">@yygoshthi</a></span>
+                <span class="text-info">Instagram<a href="https://www.instagram.com/yygoshthi/">@yygoshthi</a></span>
             </div>
             <div>
             </div>
