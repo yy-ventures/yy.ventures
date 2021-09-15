@@ -21,8 +21,8 @@
                 Social Businesses. Our four-month-long program is designed by
                 Social Business leaders and investors to help early-stage social
                 entrepreneurs be ready to launch their minimum viable product
-                and raise the needed seed capital. In four years, 54 youth from
-                our Goshthi (family) has improved the lives of 107, 756
+                and raise the needed seed capital. In four years, 64 youth from
+                our Goshthi (family) has improved the lives of 150, 633
                 Bangladeshis. Now we want to change the lives of a million!
               </p>
             </div>
