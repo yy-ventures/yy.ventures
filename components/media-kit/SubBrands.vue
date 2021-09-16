@@ -47,6 +47,19 @@
           </div>
         </div>
 
+        <div class="" uk-grid>
+          <div class="uk-width-1-3@m company-logo-section uk-inline" uk-grid>
+            <img src="/logos/impact_hub_logo.png" width="" height="10" alt="" uk-img />
+          </div>
+          <div class="uk-width-2-3@m company-details-section uk-inline">
+            <div class="company-info">
+              <p>
+                Impact Hub Dhaka brings together entrepreneurs, enablers, young talents and professionals from all across Bangladesh to create a vibrant community. We believe in creating a Bangladesh where everyone thrives when entrepreneurial, compassionate and committed individuals work towards a shared purpose. Impact Hub Dhaka is a part of a global network, offering the local experience of a global movement.
+              </p>
+            </div>
+          </div>
+        </div>
+
         <!-- <div class="" uk-grid>
           <div class="uk-width-1-3@m company-logo-section uk-inline" uk-grid>
             <img src="/logos/sbys.png" width="" height="" alt="" uk-img />
