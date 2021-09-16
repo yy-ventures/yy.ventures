@@ -2,6 +2,9 @@
   <div id="sub-brands" class="uk-section">
     <div class="uk-section uk-padding-remove-vertical">
       <div class="uk-container">
+        <div class="media-container-header" uk-grid>
+          <h1 class="inner-span" uk-scrollspy="cls:inner-span-animate; hidden:false;  delay:1000; repeat:true">Our Brands & Subsidiaries</h1>
+        </div>
         <div class="" uk-grid>
           <div class="uk-width-1-3@m company-logo-section uk-inline" uk-grid>
             <img
@@ -94,6 +97,34 @@ export default {};
 @large-down: ~"only screen and (max-width: 950px)";
 @tablet-down: ~"only screen and (max-width: 800px)";
 
+
+.media-container-header{
+  .inner-span {
+      display: inline;
+      position: relative;
+      overflow: hidden;
+      &::after {
+        content: '';
+        position: absolute;
+        z-index: -1;
+        right: 0;
+        width: 0;
+        bottom: 0;
+        background: #efd30a;
+        height: 25px;
+        transition-property: width;
+        transition-duration: 1s;
+        transition-timing-function: ease-in;
+      }
+    }
+    .inner-span-animate {
+      &::after {
+        left: 0;
+        right: auto;
+        width: 100%;
+      }
+    }
+}
 #sub-brands {
   .company-logo-section {
     padding-left: 135px;
