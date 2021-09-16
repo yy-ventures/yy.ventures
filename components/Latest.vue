@@ -4,11 +4,11 @@
     .h2.highlight Latest
   .benefits_grid
     .benefits_container
-      nuxt-link(to="/washic")
+      nuxt-link(to="/blogs")
         img(src="~/assets/images/programs/wash.png.webp").faded_out
         .benefits_container__title
           .h1.faded_out 1
-          .h4.faded_out WASH Innovation Challenge
+          .h4.faded_out Meet the top innovators at WASH Innovation Challenge
     .benefits_container
       a(href="https://www.youtube.com/watch?v=8mXl2vnscdU" target="_blank" rel="noopener noreferrer")
         img(src="~/assets/images/latest/sbys.webp").faded_out
