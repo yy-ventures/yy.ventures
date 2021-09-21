@@ -1,12 +1,13 @@
 <template>
   <div id="portfolio-page" data-cursor-mix-blend-mode="substract">
     <portfolio-hero></portfolio-hero>
-    <!-- <portfolio-text></portfolio-text> -->
+    <portfolio-text></portfolio-text>
     <!-- <portfolio-ventures></portfolio-ventures> -->
     <portfolio-investments></portfolio-investments>
     <!-- <portfolio-cta v-on:ctaclicked="showForm = true"></portfolio-cta> -->
     <pre-footer></pre-footer>
     <!-- <portfolio-contact v-show="showForm"></portfolio-contact> -->
+    <portfolio-advisor></portfolio-advisor>
   </div>
 </template>
 
@@ -17,12 +18,15 @@ import PortfolioText from '~/components/portfolio-redo/PortfolioText';
 import PortfolioInvestments from '~/components/portfolio-redo/PortfolioInvestments';
 import PortfolioCta from '~/components/portfolio-redo/PortfolioCta';
 import PortfolioContact from '~/components/portfolio-redo/PortfolioContact';
+
 import PreFooter from '~/components/PreFooter';
 // import AboutFooter from '~/components/about-redo/AboutFooter';
 
 import {
   toggle_class_on_focus,
 } from '@/assets/scripts/dom_utils';
+import PortfolioAdvisor from '~/components/portfolio-redo/PortfolioAdvisor.vue';
+
 
 export default {
   data() {
@@ -39,6 +43,7 @@ export default {
     //PortfolioVentures,
     PortfolioInvestments,
     PreFooter,
+    PortfolioAdvisor,
   },
   mounted: () => {
     toggle_class_on_focus({

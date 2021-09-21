@@ -3,7 +3,14 @@
   //- .h2.highlight Some of Our Previous Work
 
   .previous_work__grid
-
+    
+    .previous_work__grid__image.faded_out
+      img(src="~/assets/images/services/wash.png")
+    .previous_work__grid__texts.faded_out
+      .h3 WASH Innovation Challenge with Aqua for All, Bopinc, and GSMA
+      .h5 Incubator/Accelerator Management
+      .p YY Ventures joined hands with Aqua for All, Bopinc, and GSMA for the first time and embarked on a mission to empower entrepreneurs of the WASH sector in Bangladesh. WASH Innovation Challenge offered intensive tailored mentoring, a 3-day boot camp to the 12 brilliant teams and prize money to the most promising winning team.
+      
     .previous_work__grid__image.faded_out
       img(src="~/assets/images/services/dkc.jpg")
     .previous_work__grid__texts.faded_out
@@ -25,6 +32,7 @@
       .h3 Powwater, Inc.
       .h5 Venture Building
       .p Powwater is a Social Business that aims to empower the world through sustainable safe drinking water. We have supported the Powwater team in creating a new technology product that enables customers to order safe drinking water, a clean and easy way.
+
 
 </template>
 

@@ -28,6 +28,9 @@
               improve the lives of two million people by supporting socially and
               environmentally conscious entrepreneurs.
             </p>
+            <p class="text-left">
+              YY Studio helps socially and environmentally conscious organizations take their impact agenda forward by utilizing the power of design and technology. We are visionary creators dedicated to developing bespoke creative solutions to meet the needs of our clients. We cater a wide range of communicational and technical services to both local and international markets.
+            </p>
           </div>
         </div>
       </div>

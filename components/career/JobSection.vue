@@ -462,7 +462,7 @@
                 <a class="uk-accordion-title" href="#">Job Description</a>
                 <div class="uk-accordion-content">
                   <p>
-                    As a deputy program manager, you will work with the programs team to handle the development activities from conceptualization to execution, identifying sources and activities, and allocating adequate budget to support the events and program objectives. You will also resolve planning issues and discrepancies accordingly and set alternative resources as needed to prevent delays.
+                    As a Deputy Program Manager, you will work with the Programs Team to handle the development activities from conceptualization to execution, identifying sources and activities, and allocating adequate budget to support the events and program objectives. You will also resolve planning issues and discrepancies accordingly and set alternative resources as needed to prevent delays.
                   </p>
                 </div>
               </li>
@@ -608,7 +608,7 @@
                 <a class="uk-accordion-title" href="#">Job Description</a>
                 <div class="uk-accordion-content">
                   <p>
-                    As a digital marketing specialist, you will be responsible for the development and execution of marketing communications and digital content that support the objectives of YY Ventures Limited. This includes web content, search engine marketing (SEM), search engine optimization (SEO).
+                    You will be working with the YY Studio team and as a Digital Marketing Specialist, you will be responsible for the development and execution of marketing communications and digital content that support the objectives of YY Ventures Limited. This includes web content, search engine marketing (SEM), search engine optimization (SEO).
                   </p>
                 </div>
               </li>
@@ -628,7 +628,7 @@
                 <a class="uk-accordion-title" href="#">Qualifications</a>
                 <div class="uk-accordion-content">
                   <ul>
-                    <li>Minimum a bachelor degree preferably in marketing or any business discipline from a recognized institution </li><li>2+ Years of Experience in Digital Marketing</li><li>Experience executing paid social media campaigns</li><li>Bachelor's degree in marketing or business</li><li>Must be able to juggle multiple projects at the same time</li><li>Incredible attention to detail</li><li>Full understanding of all social media platforms</li><li>Problem solving skills</li><li>Knowledge of content management systems</li>
+                    <li>Minimum a bachelor degree preferably in marketing or any business discipline from a recognized institution </li><li>6+ Years of Experience in Digital Marketing</li><li>Experience executing paid social media campaigns</li><li>Bachelor's degree in marketing or business</li><li>Must be able to juggle multiple projects at the same time</li><li>Incredible attention to detail</li><li>Full understanding of all social media platforms</li><li>Problem solving skills</li><li>Knowledge of content management systems</li>
                   </ul>
                 </div>
               </li>
@@ -681,7 +681,8 @@
                 <a class="uk-accordion-title" href="#">Job Description</a>
                 <div class="uk-accordion-content">
                   <p>
-                    As a Web Developer, you will be handling and creating
+                    You will be working with the YY Studio team
+                    and as a Web Developer, you will be handling and creating
                     next generation websites with the cutting edge and trending
                     technologies. We build websites that deliver the best user
                     experiences and speak the stories of our clients. So, our
@@ -845,7 +846,7 @@
                 <a class="uk-accordion-title" href="#">Job Description</a>
                 <div class="uk-accordion-content">
                   <p>
-                    As a UI/UX Designer, you will be expected to create effective, user-centric and dynamic design solutions for digital products. You will be working with an innovative team of designers and developers to create impactful designs for websites and mobile applications, which are visually pleasing and provide users with a smooth and delightful experience. You will be able to collaborate with fellow creative thinkers and see the impact of your work and growth in this fast-paced, creative work environment. If this sounds like your cup of tea, we would love to hear more from you.
+                    You will be working with the YY Studio team and as a UI/UX Designer, you will be expected to create effective, user-centric and dynamic design solutions for digital products. You will be working with an innovative team of designers and developers to create impactful designs for websites and mobile applications, which are visually pleasing and provide users with a smooth and delightful experience. You will be able to collaborate with fellow creative thinkers and see the impact of your work and growth in this fast-paced, creative work environment. If this sounds like your cup of tea, we would love to hear more from you.
                   </p>
                 </div>
               </li>
@@ -918,7 +919,7 @@
                 <a class="uk-accordion-title" href="#">Job Description</a>
                 <div class="uk-accordion-content">
                   <p>
-                    As a graphic designer, you will be expected to ideate and design fantastic visuals and high-quality content in collaboration with the design team. You will be working with fellow passionate creative thinkers and designers in a modern and innovative work environment. You will have the opportunity to work on a range of impactful projects and produce high-quality designs and contents. If this is something you are interested, we would love to talk to you further.
+                    You will be working with the YY Studio team and as a Graphic Designer, you will be expected to ideate and design fantastic visuals and high-quality content in collaboration with the design team. You will be working with fellow passionate creative thinkers and designers in a modern and innovative work environment. You will have the opportunity to work on a range of impactful projects and produce high-quality designs and contents. If this is something you are interested, we would love to talk to you further.
                   </p>
                 </div>
               </li>
@@ -991,7 +992,7 @@
                 <a class="uk-accordion-title" href="#">Job Description</a>
                 <div class="uk-accordion-content">
                   <p>
-                    As a social media associate, you will work with our social media coordinator and Digital Marketing Specialist to develop engaging content for our company's social media presence. You shall oversee all the activities on social media platforms of our organization including keeping social media channels updated and seeking out new social media avenues and ways of connecting with audiences. 
+                    As a Social Media Associate, you will work with our Social Media Coordinator and Digital Marketing Specialist to develop engaging content for our company's social media presence. You shall oversee all the activities on social media platforms of our organization including keeping social media channels updated and seeking out new social media avenues and ways of connecting with audiences. 
                   </p>
                 </div>
               </li>

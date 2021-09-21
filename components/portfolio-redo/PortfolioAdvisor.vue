@@ -1,21 +1,21 @@
 <template lang="pug">
 .pre_footer
-  .h2.highlight Work With Us
+  .h2.highlight Invest with us
 
   .pre_footer__grid
     .pre_footer__grid__container
-      .h5 We look forward to hearing about your #[br] Social Business agenda!
-      .p.short_text To learn more about what we do and discuss #[br] scope of work, please contact.
+      .h5 Looking for an opportunity to invest in #[br] early stage social businesses?
+      .p.short_text To learn more about our investment approach and discuss #[br] scope of partnerships, please contact.
     .pre_footer__grid__container
-      .h5 Sharika Sadaf
-      .p Head of Programs
-      .p.mail sharika@yy.ventures
+      .h5 Shazeeb M Khairul Islam
+      .p Founder & Managing Director
+      .p.mail shazeeb@yy.ventures
       nuxt-link(to="/contact").contact Contact Now
-    .pre_footer__grid__container
-      .h5 Osman Dhali
-      .p Chief of Staff
-      .p.mail osman@yy.ventures
-      nuxt-link(to="/contact").contact Contact Now
+    //- .pre_footer__grid__container
+    //-   .h5 Osman Dhali
+    //-   .p Chief of Staff
+    //-   .p.mail osman@yy.ventures
+    //-   nuxt-link(to="/contact").contact Contact Now
 
 </template>
 

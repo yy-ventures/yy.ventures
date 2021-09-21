@@ -5,7 +5,7 @@
       uk-scrollspy="cls:text-section-narrow; hidden:false;  delay:500; repeat:false"
     >
       <div class="uk-container uk-container-large">
-        <h3 class="section-heading">Envisioning a world of three zeros</h3>
+        <h3 class="section-heading">Financing Early Stage Social Businesses that are building a world of three zeros</h3>
 
         <div
           class="uk-grid-match  uk-child-width-1-2@m text-section-inner"
@@ -13,31 +13,16 @@
         >
           <div>
             <p class="text-bold">
-              We back socially and environmentally conscious entrepreneurs who
-              fight poverty, unemployment and carbon emission.
+              YY Ventures invests in socially, and environmentally conscious entrepreneurs working towards a world of three zeros- zero net carbon emission, zero wealth concentration for ending poverty, and zero unemployment by unleashing entrepreneurship in all.
             </p>
           </div>
           <div>
             <p class="text-light">
-              YY Ventures is a social business company founded in Bangladesh to
-              build, accelerate and invest in social businesses that are
-              creating a world of three zeros- zero poverty, zero unemployment
-              and zero carbon emission. Endless possibility dies the moment when
-              aspiring social entrepreneurs back off from their incredible ideas
-              because of being clueless on how to materialise them or due to
-              lack of access to resources like capital. Without needed resources
-              and guidance, innovation is barred. This is unacceptable to us.
+              We invest in pre-seed and seed stage companies and actively assist portfolio companies in navigating the path to notable venture investors, partners, and clients. Our investment creates access to employment opportunities at a fair market price and ensures competency in the job market through skills and training development. We aim to achieve sustainable livelihood in developing communities, ensuring sufficiency and people’s connection with the community. 
             </p>
 
             <p class="text-light">
-              Our journey started with the creation of YY Goshthi in 2016 when we
-              decided to create our jobs and for our friends, take care of our
-              food and for our families and share whatever resources we had to
-              help our entrepreneurial friends start their social businesses. In
-              four years, 36 youth from our goshti (tribe) has created 1,108
-              jobs and improved the lives of 80,819 Bangladeshis. By 2030 we
-              want to improve the lives of two million people by backing social
-              and environmental consciousness driven entrepreneurs.
+              Our investment team and portfolio companies offer an opportunity to  philanthropists, government agencies and family foundations to turn their charity into sustainable investments.
             </p>
           </div>
         </div>
@@ -71,7 +56,7 @@
     color: #3a3b3a;
     font-family: 'Graphik';
     font-weight: 600;
-    font-size: 25px;
+    font-size: 20px;
   }
   .text-light {
     color: #3a3b3a;
