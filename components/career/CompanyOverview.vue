@@ -10,26 +10,15 @@
         <div class="uk-grid-match uk-child-width-1-2@m" uk-grid>
           <div>
             <p class="text-right">
-              YY Ventures Limited is a social business company founded in
-              Bangladesh to build, incubate and invest in social businesses that
-              are creating a world of three zeros- zero net carbon emission,
-              zero wealth concentration for ending poverty, 
-              and zero unemployment by unleashing entrepreneurship in all.
+              YY Ventures Limited is a social business company founded in Bangladesh to build, incubate and invest in social businesses that are creating a world of three zeros- zero net carbon emission, zero wealth concentration for ending poverty, and zero unemployment by unleashing entrepreneurship in all. 
             </p>
           </div>
           <div>
             <p class="text-left">
-              Our journey started with the creation of YY Goshthi in 2016 when
-              we decided to create our jobs and for our friends, take care of
-              our food and for our families and share whatever resources we had
-              to help our entrepreneurial friends start their social businesses.
-              To date, 64 entrepreneurs from our Goshthi (tribe) has
-              improved the lives of 150,633 Bangladeshis. By 2030 we want to
-              improve the lives of two million people by supporting socially and
-              environmentally conscious entrepreneurs.
+              Our journey started with the creation of YY Goshthi in 2016 when we decided to create jobs for ourselves and our friends. To date, we have supported 64 entrepreneurs who have improved the lives of 150,633 Bangladeshis. By 2030 we want to improve the lives of two million people by backing socially and environmentally conscious entrepreneurs.
             </p>
             <p class="text-left">
-              YY Studio helps socially and environmentally conscious organizations take their impact agenda forward by utilizing the power of design and technology. We are visionary creators dedicated to developing bespoke creative solutions to meet the needs of our clients. We cater a wide range of communicational and technical services to both local and international markets.
+              Our Social Business investment is an encouragement and support that we can offer to the people willing to be the agents of change, a change we collectively envision. Our Social Businesses use entrepreneurial capacity and innovative means to achieve social and environmental objectives that have a sustained impact. These companies are actively working with global agendas such as SDGs, with their sustainable model and impactful objectives, they spill over into new and promising partnerships, initiatives, ideas, and innovation. 
             </p>
           </div>
         </div>

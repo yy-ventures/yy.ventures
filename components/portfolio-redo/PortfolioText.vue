@@ -5,7 +5,7 @@
       uk-scrollspy="cls:text-section-narrow; hidden:false;  delay:500; repeat:false"
     >
       <div class="uk-container uk-container-large">
-        <h3 class="section-heading">Financing Early Stage Social Businesses that are building a world of three zeros</h3>
+        <h3 class="section-heading">Financing early stage Social Businesses that are building a world of three zeros</h3>
 
         <div
           class="uk-grid-match  uk-child-width-1-2@m text-section-inner"

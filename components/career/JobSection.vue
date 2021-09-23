@@ -452,7 +452,7 @@
         <div class="uk-width-1-3@m">
           <div class="job-title">
             <div class="title-bg">1</div>
-            <h2>Deputy Program Manager</h2>
+            <h2>Director, Partnerships and Communications</h2>
           </div>
         </div>
         <div class="uk-width-2-3@m">
@@ -462,7 +462,7 @@
                 <a class="uk-accordion-title" href="#">Job Description</a>
                 <div class="uk-accordion-content">
                   <p>
-                    As a Deputy Program Manager, you will work with the Programs Team to handle the development activities from conceptualization to execution, identifying sources and activities, and allocating adequate budget to support the events and program objectives. You will also resolve planning issues and discrepancies accordingly and set alternative resources as needed to prevent delays.
+                    As the Director of Partnerships and Communication you will work closely with our Managing Director to identify and meeting new partners and help to move forward with our social business agenda. This is an unique opportunity to grow your network with different international development agencies, family offices and government agencies. You will also lead the Communications team to prepare and manage all kinds of communications prepared internally for external stakeholders.
                   </p>
                 </div>
               </li>
@@ -473,7 +473,7 @@
                 >
                 <div class="uk-accordion-content">
                   <ul>
-                    <li>Plan, oversee, and manage the development and execution of YY Ventures’s incubation/acceleration/mentoring programs to include a high volume of events for each program, knowledge sessions, and meetings across mentors & partners. </li><li>Design processes, playbooks, and policies to standardize and scale YY Ventures’s entrepreneurship programs and home-grown business models. </li><li>Provide logistical and operational support and oversight to Program Associates and interns</li><li>Continually work with our senior leadership to revise and maintain a flexible curriculum that is aligned with current best practices</li><li>Design and administer surveys and other assessment tools to capture and analyze data for program planning, decision-making, and reporting</li><li>Partner with government agencies, industry experts, and outside vendors to improve the quality, scope, and delivery of programs</li><li>Work with YY Ventures’s leadership team to identify ways to incorporate the incubation program into other business lines  	 </li><li>Support YY Ventures’s leadership team with special projects related to the sustainability and growth of YY Ventures and its subsidiaries  </li><li>Find and implement creative, unconventional and cost-efficient channels to develop & manage our home-grown business models. </li><li>Monitor the performance of the entrepreneurs and build effective communications with them.</li>
+                    <li>Identify new prospects and work with international development agencies, family offices, government agencies to move forward with our social business agenda.</li><li>Work closely with our Managing Director and Board Members and quickly establish excellent rapport and working relations amongst internal and external stakeholders</li><li>Manage pipeline of partners including identifying, outreaching, assessing, negotiating, & closing contracts</li><li>Create positive partner experiences by taking support from our programs and community team</li><li>Support in writing proposals and reports as needed in collaboration with other functional teams</li><li>Establish a tracking system, and review and identify Request for Proposals (RFPs) by conducting regular researches to explore RFPs and funding opportunities through web based and personal meeting</li><li>As and when require, play active role in building consortium with likeminded partners for submission of joint proposals</li><li>Establish and drive a multi-channel communications strategy.</li><li>Manage and lead the communications team to prepare all kinds of communications material</li><li>Develop brand voice and maintain brand integrity across all platforms.</li><li>Track engagement across various platforms and make data-driven decisions.</li><li>Helps create marketing campaigns to promote new partnerships, activities and programs</li><li>Provides internal information to employees regarding changes in the company or other helpful information</li><li>Represent YY Ventures and companies in local and international events, conferences and gatherings.</li>
                   </ul>
                 </div>
               </li>
@@ -482,7 +482,7 @@
                 <a class="uk-accordion-title" href="#">Qualifications</a>
                 <div class="uk-accordion-content">
                   <ul>
-                    <li>Minimum a bachelor degree in any discipline from a recognized institution</li><li>Minimum 2-4 years of experience in leading or supporting any acceleration or incubation program</li><li>Excellent project management skills</li><li>Strong interpersonal and communication skills</li>
+                    <li>Minimum a bachelor degree in any discipline from a recognized institution</li><li>Minimum 8-10 years of experience in partnership or business development and leading communications</li><li>Excellent networking skills</li><li>Strong interpersonal and communication skills</li><li>Excellent organizational skills</li><li>Ability to interact with entrepreneurs with tact diplomacy and poise</li><li>Excellent attention to detail</li><li>Promote quality through continuous performance improvement</li><li>Well-developed analytical and problem solving skills</li><li>Works harmoniously and effectively with others as part of a team</li><li>A self-starter who desires to show ownership and commitment to the job</li>
                   </ul>
                 </div>
               </li>
