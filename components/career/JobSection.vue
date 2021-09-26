@@ -497,7 +497,7 @@
                       Bhaban, Zoo Road, Mirpur 1, Dhaka 1216
                     </li>
                     <li>
-                      <strong>Reporting to:</strong> Head of Programs
+                      <strong>Reporting to:</strong> Managing Director
                     </li>
                     <li><strong>Start date:</strong> Immediate</li>
                     <li><strong>Salary:</strong> Negotiable</li>
@@ -608,7 +608,7 @@
                 <a class="uk-accordion-title" href="#">Job Description</a>
                 <div class="uk-accordion-content">
                   <p>
-                    You will be working with the YY Studio team and as a Digital Marketing Specialist, you will be responsible for the development and execution of marketing communications and digital content that support the objectives of YY Ventures Limited. This includes web content, search engine marketing (SEM), search engine optimization (SEO).
+                    You will be working with the YY Studio team and you will be responsible for the development and execution of marketing communications and digital content that support the objectives of YY Ventures Limited. This includes web content, search engine marketing (SEM), search engine optimization (SEO).
                   </p>
                 </div>
               </li>
@@ -682,7 +682,7 @@
                 <div class="uk-accordion-content">
                   <p>
                     You will be working with the YY Studio team
-                    and as a Web Developer, you will be handling and creating
+                    and you will be handling and creating
                     next generation websites with the cutting edge and trending
                     technologies. We build websites that deliver the best user
                     experiences and speak the stories of our clients. So, our
@@ -808,7 +808,7 @@
                       Bhaban, Zoo Road, Mirpur 1, Dhaka 1216
                     </li>
                     <li>
-                      <strong>Reporting to:</strong> Communications Manager
+                      <strong>Reporting to:</strong> Design Director
                     </li>
                     <li><strong>Start date:</strong> Immediate</li>
                     <li><strong>Salary:</strong> Negotiable</li>
@@ -846,7 +846,7 @@
                 <a class="uk-accordion-title" href="#">Job Description</a>
                 <div class="uk-accordion-content">
                   <p>
-                    You will be working with the YY Studio team and as a UI/UX Designer, you will be expected to create effective, user-centric and dynamic design solutions for digital products. You will be working with an innovative team of designers and developers to create impactful designs for websites and mobile applications, which are visually pleasing and provide users with a smooth and delightful experience. You will be able to collaborate with fellow creative thinkers and see the impact of your work and growth in this fast-paced, creative work environment. If this sounds like your cup of tea, we would love to hear more from you.
+                    You will be working with the YY Studio team and you will be expected to create effective, user-centric and dynamic design solutions for digital products. You will be working with an innovative team of designers and developers to create impactful designs for websites and mobile applications, which are visually pleasing and provide users with a smooth and delightful experience. You will be able to collaborate with fellow creative thinkers and see the impact of your work and growth in this fast-paced, creative work environment. If this sounds like your cup of tea, we would love to hear more from you.
                   </p>
                 </div>
               </li>
@@ -919,7 +919,7 @@
                 <a class="uk-accordion-title" href="#">Job Description</a>
                 <div class="uk-accordion-content">
                   <p>
-                    You will be working with the YY Studio team and as a Graphic Designer, you will be expected to ideate and design fantastic visuals and high-quality content in collaboration with the design team. You will be working with fellow passionate creative thinkers and designers in a modern and innovative work environment. You will have the opportunity to work on a range of impactful projects and produce high-quality designs and contents. If this is something you are interested, we would love to talk to you further.
+                    You will be working with the YY Studio team and you will be expected to ideate and design fantastic visuals and high-quality content in collaboration with the design team. You will be working with fellow passionate creative thinkers and designers in a modern and innovative work environment. You will have the opportunity to work on a range of impactful projects and produce high-quality designs and contents. If this is something you are interested, we would love to talk to you further.
                   </p>
                 </div>
               </li>
