@@ -98,5 +98,15 @@
     "name": "Khalid Hossain",
     "designation": "Director",
     "avatar": "khalid"
+  },
+  {
+    "name": "Inshirah Ali",
+    "designation": "Senior Associate, Programs",
+    "avatar": "inshirah_program"
+  },
+  {
+    "name": "Md. Mamun Or Rashid",
+    "designation": "Senior Software Engineer",
+    "avatar": "mamun_bhai"
   }
 ]
