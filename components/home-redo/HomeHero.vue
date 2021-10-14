@@ -47,7 +47,7 @@
 
           <h1>Together We Are</h1>
           <h1 class="write">&nbsp;</h1>
-          <h2>YY Goshthi Fall 2021 Cohort Application is closed.</h2>
+          <!-- <h2>YY Goshthi Fall 2021 Cohort Application is closed.</h2> -->
           <!-- <a href="https://airtable.com/shraT8HKyxXMuaG6X" class="link_button">Apply Now</a> -->
         </div>
       </div>
