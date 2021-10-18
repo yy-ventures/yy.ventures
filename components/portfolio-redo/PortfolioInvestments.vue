@@ -13,7 +13,7 @@
               <img src="~assets/statics/images/portfolio/covern.jpg" alt="" />
             </nuxt-link>
             <div class="portfolio-title">
-              <h3><span>1</span>Avijartrik Tourism Ltd.</h3>
+              <h3><span>1</span>Avijatrik Tourism Ltd.</h3>
             </div>
           </div>
           <div class="uk-width-1-3@m uk-inline portfolio-box">
