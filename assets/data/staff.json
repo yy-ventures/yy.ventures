@@ -40,6 +40,12 @@
     "avatar": "mostafez"
   },
   {
+    "name": "Md. Mamun Or Rashid",
+    "designation": "Senior Software Engineer",
+    "avatar": "mamun_bhai"
+  }
+  ,
+  {
     "name": "Purbita Jannat",
     "designation": "Executive Business Partner",
     "avatar": "purbita_second"
@@ -70,6 +76,12 @@
     "avatar": "Maisha-apu-sep-21"
   },
   {
+    "name": "Inshirah Ali",
+    "designation": "Senior Associate, Programs",
+    "avatar": "inshirah_program"
+  }
+  ,
+  {
     "name": "Sakib Mahi",
     "designation": "Communications Designer",
     "avatar": "sakib"
@@ -98,15 +110,5 @@
     "name": "Khalid Hossain",
     "designation": "Director",
     "avatar": "khalid"
-  },
-  {
-    "name": "Inshirah Ali",
-    "designation": "Senior Associate, Programs",
-    "avatar": "inshirah_program"
-  },
-  {
-    "name": "Md. Mamun Or Rashid",
-    "designation": "Senior Software Engineer",
-    "avatar": "mamun_bhai"
   }
 ]
