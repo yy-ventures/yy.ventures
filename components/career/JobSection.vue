@@ -681,66 +681,44 @@
                 <a class="uk-accordion-title" href="#">Job Description</a>
                 <div class="uk-accordion-content">
                   <p>
-                    You will be working with the YY Studio team
-                    and you will be handling and creating
-                    next generation websites with the cutting edge and trending
-                    technologies. We build websites that deliver the best user
-                    experiences and speak the stories of our clients. So, our
-                    development wing always appreciates that thinker who adds
-                    value in the whole developing process. You will work under
-                    the supervision of our Communications Manager to produce
-                    high-quality work. You’ll be working with a passionate team
-                    of thinkers who believe in never-ending learning and
-                    efficient execution. You’ll see the impact of your work and
-                    see the growth as you grow more. So if you’re a thinker and
-                    a curious learner of modern development trends, we want to
-                    hear from you.
+                    We are looking for a skilled and experienced Web Developer to join our creative team. You will be responsible for programming the code in computing languages to inform a website on how it is supposed to function, designing and creating it in a way that makes the website easy to navigate for users, while at the same time meeting the technical expectations of our clients. Our ideal candidate has at least two years of development experience and a substantial portfolio. 
                   </p>
                 </div>
               </li>
 
               <li>
                 <a class="uk-accordion-title" href="#"
-                  >Essential Responsibility</a
-                >
+                  >Essential Responsibility</a>
                 <div class="uk-accordion-content">
                   <ul>
                     <li>
-                      Design and develop both frontend and backend web
-                      application features using JavaScript, React
+                      Write well designed, testable, efficient code by using best software development practices.
                     </li>
 
                     <li>
-                      Experience with anyof the backend technologies PHP
-                      (Laravel, Symfony) or Express Js, Node js.
+                      Create website layout/user interface by using standard HTML/CSS practices.
                     </li>
 
                     <li>
-                      Participate in ideation and brainstorm sessions for our
-                      technology and products
+                      Integrate data from various back-end services and databases. 
                     </li>
 
                     <li>
-                      Work with the product and design teams to understand
-                      end-user requirements, formulate use cases, and then
-                      translate that into technical solutions
+                      Gather and refine specifications and requirements based on technical needs.
                     </li>
 
                     <li>
-                      Ability to write optimized code which can run efficiently
-                      using minimal resources.
+                      Create and maintain software documentation. 
                     </li>
 
-                    <li>Develop front end mobile and web applications.</li>
+                    <li>Be responsible for maintaining, expanding, and scaling our site.</li>
 
                     <li>
-                      Application must be responsive and has to work properly on
-                      major browsers (i.e Chrome, Firefox, Safari, Edge)
+                      Stay plugged into emerging technologies/industry trends and apply them into operations and activities.
                     </li>
 
                     <li>
-                      Working alongside designers for web and mobile design
-                      elements
+                      Cooperate with web designers to match visual design intent.
                     </li>
                   </ul>
                 </div>
@@ -751,49 +729,36 @@
                 <div class="uk-accordion-content">
                   <ul>
                     <li>
-                      2+ years Hands-on experience with PHP and Laravel
-                      Framework or Express Js, Nodejs.
+                      Bachelor's or master's in computer information systems or computer science, or equivalent experience working with web technologies. 
                     </li>
 
                     <li>
-                      1+ years Hands-on coding experience with any popular
-                      modern JavaScript framework (React/Vue)
+                      Certification from a coding school or academy a plus. 
                     </li>
 
-                    <li>Excellent HTML, JavaScript and CSS skills</li>
+                    <li>2+ years Hands-on experience with PHP(Laravel Framework, Wordpress is plus point). </li>
 
                     <li>
-                      Knowledge of web technologies (HTTP, Rest, HTML5, etc.)
+                      1+ years Hands-on coding experience with any popular modern JavaScript framework (Angular/React/Vue).
                     </li>
 
-                    <li>Knowledge of Git, CI/CD pipeline</li>
+                    <li>Excellent HTML, JavaScript and CSS skills. </li>
 
                     <li>
-                      Experience designing and implementing Restful APIs or
-                      GraphQL
+                      Knowledge of Git, CI/CD pipeline.
                     </li>
 
                     <li>
-                      Experience with Test Driven Development using tools e.g.
-                      Jest, Rspec, PHPUnit, Unittest
+                      Experience designing and implementing Restful APIs or GraphQL. 
                     </li>
 
-                    <li>Strong verbal and written communication skills</li>
+                    <li>Strong verbal and written communication skills.</li>
 
-                    <li>Ability to think creatively</li>
+                    <li>Team spirit; strong communication skills to collaborate with various stakeholders </li>
 
                     <li>
-                      Bachelor's or master's in computer information systems or
-                      computer science, or equivalent experience working with
-                      web technologies
+                      Good time-management skills 
                     </li>
-
-                    <li>
-                      Team spirit; strong communication skills to collaborate
-                      with various stakeholders
-                    </li>
-
-                    <li>Good time-management skills</li>
                   </ul>
                 </div>
               </li>
