@@ -10,6 +10,7 @@
     //- Video
     //- home-video.faded_out
     pre-footer
+    HomeBrands
 </template>
 
 <script>
@@ -23,6 +24,7 @@ import PortfolioSlider from '~/components/PortfolioSlider';
 import Video from '~/components/Video';
 import PictureGrid from '~/components/PictureGrid';
 import Latest from '~/components/Latest';
+import HomeBrands from '~/components/HomeBrands.vue';
 
 import {
   toggle_class_on_focus,
@@ -47,6 +49,7 @@ export default {
     PortfolioSlider,
     Latest,
     PreFooter,
+    HomeBrands,
   },
 
   data: () => ({
