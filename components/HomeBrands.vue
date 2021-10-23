@@ -9,7 +9,7 @@
         <img src="~/assets/images/home-brands/rvo.png" alt="" />
         <img src="~/assets/images/home-brands/ihd.png" alt="" />
         <img src="~/assets/images/home-brands/afa.png" alt="" />
-        <img src="~/assets/images/home-brands/bopinc.png" alt="" />
+        <img src="~/assets/images/home-brands/bopinclogo.png" alt="" />
         <img src="~/assets/images/home-brands/undp.png" alt="" />
         <img src="~/assets/images/home-brands/gcl.png" alt="" />
       </div>
