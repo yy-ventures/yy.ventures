@@ -5,13 +5,30 @@
         <h2 class="highlight">our partners</h2>
       </div>
       <div class="brand-collcetion-body">
-        <img src="~/assets/images/home-brands/yunus-center.png" alt="" />
-        <img src="~/assets/images/home-brands/rvo.png" alt="" />
-        <img src="~/assets/images/home-brands/ihd.png" alt="" />
-        <img src="~/assets/images/home-brands/afa.png" alt="" />
-        <img src="~/assets/images/home-brands/bopinclogo.png" alt="" />
-        <img src="~/assets/images/home-brands/undp.png" alt="" />
-        <img src="~/assets/images/home-brands/gcl.png" alt="" />
+        <div class="brand-collcetion-body-image">
+          <img src="~/assets/images/home-brands/yunus-center.png" alt="" />
+        </div>
+        <div class="brand-collcetion-body-image rvo-image">
+          <img src="~/assets/images/home-brands/rvo.png" alt="" />
+        </div>
+        <div class="brand-collcetion-body-image">
+          <img src="~/assets/images/home-brands/ihd.png" alt="" />
+        </div>
+        <div class="brand-collcetion-body-image">
+          <img src="~/assets/images/home-brands/afa.png" alt="" />
+        </div>
+        <div class="brand-collcetion-body-image bopinc-image">
+          <img src="~/assets/images/home-brands/bopinclogo.png" alt="" />
+        </div>
+        <div class="brand-collcetion-body-image">
+          <img src="~/assets/images/home-brands/undp.png" alt="" />
+        </div>
+        <div class="brand-collcetion-body-image gcl-image">
+          <img src="~/assets/images/home-brands/gcl.png" alt="" />
+        </div>
+        <div class="brand-collcetion-body-image communications-image">
+          <img src="~/assets/images/home-brands/communications.png" alt="">
+        </div>
       </div>
     </div>
   </section>
@@ -41,14 +58,39 @@ export default {};
       }
     }
     .brand-collcetion-body {
+      text-align: center;
       margin-top: 2rem;
       display: grid;
       grid-gap: 1rem;
       grid-template-columns: repeat(4, 1fr);
-      justify-self: center;
-      align-items: center;
-      img {
-        height: 50%;
+      .brand-collcetion-body-image{
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+          height: 50%;
+        }
+      }
+      .rvo-image{
+        img{
+          height: 60%;
+        }
+      }
+      .communications-image{
+        img{
+          height: 35%;
+        }
+      }
+      .gcl-image{
+        img{
+          height: 45%;
+        }
+      }
+      .bopinc-image{
+        img{
+          height: 60%;
+        }
       }
     }
   }
@@ -64,8 +106,10 @@ export default {};
         }
       .brand-collcetion-body {
         grid-template-columns: repeat(2, 1fr);
-        img {
-          margin-top: 2rem;
+        .brand-collcetion-body-image{
+          img {
+            margin-top: 2rem;
+          }
         }
       }
     }
@@ -82,8 +126,10 @@ export default {};
         }
       .brand-collcetion-body {
         grid-template-columns: repeat(1, 1fr);
-        img {
-          margin-top: 2rem;
+        .brand-collcetion-body-image{
+          img {
+            margin-top: 2rem;
+          }
         }
       }
     }
