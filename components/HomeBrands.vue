@@ -2,7 +2,7 @@
   <section class="home-brand-section">
     <div class="home-brand-collection">
       <div class="brand-collection-header">
-        <h2>our partners</h2>
+        <h2 class="highlight">our partners</h2>
       </div>
       <div class="brand-collcetion-body">
         <img src="~/assets/images/home-brands/yunus-center.png" alt="" />
@@ -23,8 +23,8 @@ export default {};
 
 <style lang="scss">
 .home-brand-section {
-  height: 700px;
-  padding: 2rem;
+  height: auto;
+  padding: 5rem 2rem;
   background-color: #f1f2f2;
   display: flex;
   align-items: center;
@@ -48,7 +48,7 @@ export default {};
       justify-self: center;
       align-items: center;
       img {
-        width: 80%;
+        height: 50%;
       }
     }
   }
@@ -83,7 +83,6 @@ export default {};
       .brand-collcetion-body {
         grid-template-columns: repeat(1, 1fr);
         img {
-          width: 100%;
           margin-top: 2rem;
         }
       }
