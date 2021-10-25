@@ -2,7 +2,7 @@
   <section class="home-brand-section">
     <div class="home-brand-collection">
       <div class="brand-collection-header">
-        <h2 class="highlight">our partners</h2>
+        <h2 class="highlight">We Are in Good Company</h2>
       </div>
       <div class="brand-collcetion-body">
         <div class="brand-collcetion-body-image">
@@ -11,7 +11,7 @@
         <div class="brand-collcetion-body-image rvo-image">
           <img src="~/assets/images/home-brands/rvo.png" alt="" />
         </div>
-        <div class="brand-collcetion-body-image">
+        <div class="brand-collcetion-body-image impact-image">
           <img src="~/assets/images/home-brands/ihd.png" alt="" />
         </div>
         <div class="brand-collcetion-body-image">
@@ -52,8 +52,7 @@ export default {};
     .brand-collection-header {
       h2 {
         font-weight: 900;
-        text-transform: capitalize;
-        font-size: 5rem;
+        font-size: 4rem;
         color: #3a3b3a;
       }
     }
@@ -69,7 +68,7 @@ export default {};
         align-items: center;
         justify-content: center;
         img {
-          height: 50%;
+          height: 40%;
         }
       }
       .rvo-image{
@@ -77,19 +76,24 @@ export default {};
           height: 60%;
         }
       }
+      .impact-image{
+        img{
+          height: 60%;
+        }
+      }
       .communications-image{
         img{
-          height: 35%;
+          height: 30%;
         }
       }
       .gcl-image{
         img{
-          height: 45%;
+          height: 40%;
         }
       }
       .bopinc-image{
         img{
-          height: 60%;
+          height: 50%;
         }
       }
     }
