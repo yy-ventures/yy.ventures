@@ -4,29 +4,29 @@
       <div class="brand-collection-header">
         <h2 class="highlight">We Are in Good Company</h2>
       </div>
-      <div class="brand-collcetion-body">
-        <div class="brand-collcetion-body-image">
+      <div class="brand-collection-body">
+        <div class="brand-collection-body-image yc-image">
           <img src="~/assets/images/home-brands/yunus-center.png" alt="" />
         </div>
-        <div class="brand-collcetion-body-image rvo-image">
+        <div class="brand-collection-body-image rvo-image">
           <img src="~/assets/images/home-brands/rvo.png" alt="" />
         </div>
-        <div class="brand-collcetion-body-image impact-image">
+        <div class="brand-collection-body-image impact-image">
           <img src="~/assets/images/home-brands/ihd.png" alt="" />
         </div>
-        <div class="brand-collcetion-body-image">
+        <div class="brand-collection-body-image">
           <img src="~/assets/images/home-brands/afa.png" alt="" />
         </div>
-        <div class="brand-collcetion-body-image bopinc-image">
+        <div class="brand-collection-body-image bopinc-image">
           <img src="~/assets/images/home-brands/bopinclogo.png" alt="" />
         </div>
-        <div class="brand-collcetion-body-image">
+        <div class="brand-collection-body-image">
           <img src="~/assets/images/home-brands/undp.png" alt="" />
         </div>
-        <div class="brand-collcetion-body-image gcl-image">
+        <div class="brand-collection-body-image gcl-image">
           <img src="~/assets/images/home-brands/gcl.png" alt="" />
         </div>
-        <div class="brand-collcetion-body-image communications-image">
+        <div class="brand-collection-body-image communications-image">
           <img src="~/assets/images/home-brands/communications.png" alt="">
         </div>
       </div>
@@ -52,33 +52,34 @@ export default {};
     .brand-collection-header {
       h2 {
         font-weight: 900;
-        font-size: 4rem;
+        font-size: 3rem;
         color: #3a3b3a;
       }
     }
-    .brand-collcetion-body {
+    .brand-collection-body {
       text-align: center;
       margin-top: 2rem;
       display: grid;
       grid-gap: 1rem;
       grid-template-columns: repeat(4, 1fr);
-      .brand-collcetion-body-image{
+      .brand-collection-body-image{
         height: 200px;
         display: flex;
         align-items: center;
         justify-content: center;
         img {
-          height: 40%;
+          height: 35%;
+          object-fit: contain;
         }
       }
       .rvo-image{
         img{
-          height: 60%;
+          height: 55%;
         }
       }
       .impact-image{
         img{
-          height: 60%;
+          height: 50%;
         }
       }
       .communications-image{
@@ -93,7 +94,7 @@ export default {};
       }
       .bopinc-image{
         img{
-          height: 50%;
+          height: 45%;
         }
       }
     }
@@ -105,14 +106,15 @@ export default {};
     .home-brand-collection {
         .brand-collection-header{
             h2{
-                font-size: 3rem;
+                font-size: 2.5rem;
             }
         }
-      .brand-collcetion-body {
+      .brand-collection-body {
         grid-template-columns: repeat(2, 1fr);
-        .brand-collcetion-body-image{
+        .brand-collection-body-image{
           img {
             margin-top: 2rem;
+            height: 35%;
           }
         }
       }
@@ -125,14 +127,15 @@ export default {};
     .home-brand-collection {
       .brand-collection-header{
             h2{
-                font-size: 3rem;
+                font-size: 2rem;
             }
         }
-      .brand-collcetion-body {
-        grid-template-columns: repeat(1, 1fr);
-        .brand-collcetion-body-image{
+      .brand-collection-body {
+        grid-template-columns: repeat(2, 1fr);
+        .brand-collection-body-image{
           img {
             margin-top: 2rem;
+            height: 35%;
           }
         }
       }
