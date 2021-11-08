@@ -31,7 +31,7 @@
               </li>
               <li>
                 <a class="uk-accordion-title" href="#"
-                  >Essential Responsibility</a
+                  >Essential Responsibilities</a
                 >
                 <div class="uk-accordion-content">
                   <ul>
@@ -183,7 +183,7 @@
       <!--         </li>                                                                  -->
       <!--         <li>                                                                   -->
       <!--           <a class="uk-accordion-title" href="#"                               -->
-      <!--             >Essential Responsibility</a                                       -->
+      <!--             >Essential Responsibilities</a                                       -->
       <!--           >                                                                    -->
       <!--           <div class="uk-accordion-content">                                   -->
       <!--             <ul>                                                               -->
@@ -341,7 +341,7 @@
               </li>
               <li>
                 <a class="uk-accordion-title" href="#"
-                  >Essential Responsibility</a
+                  >Essential Responsibilities</a
                 >
                 <div class="uk-accordion-content">
                   <ul>
@@ -469,7 +469,7 @@
 
               <li>
                 <a class="uk-accordion-title" href="#"
-                  >Essential Responsibility</a
+                  >Essential Responsibilities</a
                 >
                 <div class="uk-accordion-content">
                   <ul>
@@ -511,8 +511,7 @@
                   >If you are interested in applying for this position please
                   send your resume and cover letter at
                   <a href="mailto:careers@yy.ventures">careers@yy.ventures</a>
-                  detailing why you think you are the right person to lead our
-                  operations. You are advised to mention your salary
+                  detailing why you think you are the right person for this position. You are advised to mention your salary
                   expectations in your cover letter.</i
                 >
               </p>
@@ -525,7 +524,7 @@
         <div class="uk-width-1-3@m">
           <div class="job-title">
             <div class="title-bg">2</div>
-            <h2>Senior Associate, People and Culture</h2>
+            <h2>Chief Operations Officer</h2>
           </div>
         </div>
         <div class="uk-width-2-3@m">
@@ -535,18 +534,18 @@
                 <a class="uk-accordion-title" href="#">Job Description</a>
                 <div class="uk-accordion-content">
                   <p>
-                    As a People and Culture Senior Associate, you will be managing our company’s recruiting, learning and development and employee performance programs. You will work closely with the Chief of Staff to understand the role HR must play in the organization. You must fully comprehend each department’s strategy and growth plans and develop an overarching HR strategy that ensures the organization can deliver on the plans.
+                    The Chief Operations Officer will work with the Managing Director to provide leadership and strategic vision to the organization. S/he will bring operational, managerial and administrative procedures, reporting structures and operation controls to the company. The COO will be responsible for managing the innovation process inside the organization that identifies strategies, business opportunities and new technologies and develops new capabilities and architectures with partners, new business models and new industry structures to serve those opportunities. This is a vital leadership role that will drive results, spur growth and increase the overall efficiency of the company. 
                   </p>
                 </div>
               </li>
 
               <li>
                 <a class="uk-accordion-title" href="#"
-                  >Essential Responsibility</a
+                  >Essential Responsibilities</a
                 >
                 <div class="uk-accordion-content">
                   <ul>
-                    <li>Work with the management to strategically plan HR initiatives that will benefit the company and encourage more efficient and beneficial work from employees</li><li>Conduct online and offline staff recruitment campaigns for sourcing and building a pipeline of suitable candidates </li><li>Managing HR records including, résumés, applicant logs, employee forms, contracts and other records</li><li>Implementing performance review procedures (e.g. quarterly/annual and 360° evaluations)</li><li>Developing fair HR policies and ensuring employees understand and comply with them</li><li>Foster cross-functional relationships and ensure managers and employees are properly connected</li><li>Regularly meet with employees for progress reviews and assessments, discussing any problems or grievances they may have</li><li>Promote a positive and open work environment where employees feel comfortable speaking up about issues</li><li>Monitor employee progress and stay abreast on company climate and culture, ensuring it stays positive and productive </li><li>Keeping abreast of global HR trends and developments</li>
+                    <li>In coordination with the leadership team, set a long-term vision for company culture and map the optimal employee experience to achieve it.  </li><li>Oversee building the capabilities of our team and organization in alignment with YY Ventures’ strategy, mission and vision by spearheading staff recruitment, learning and development. This includes skills training, career pathing, management and leadership development.</li><li>Establish systems that align individual employee performance with company goals, creating an environment where people feel a freedom to operate because they understand the parameters.</li><li>Evaluate strengths and weaknesses of the team’s skills and experience to oversee a talent development plan that adapts with strategic and market shifts or disruptions. </li>
                   </ul>
                 </div>
               </li>
@@ -555,7 +554,7 @@
                 <a class="uk-accordion-title" href="#">Qualifications</a>
                 <div class="uk-accordion-content">
                   <ul>
-                    <li>Minimum a bachelor degree in Social Sciences, Human Resources, or any other related field from a recognized institution</li><li>Professional qualification in Human Resource Management is preferred but not mandatory</li><li>At least 1-year relevant experience in HR, People, Culture or Communication</li><li>Strong interpersonal and communication skills</li>
+                    <li>8+ years of progressive experience in leadership role with a track record of building and managing a diverse, inclusive, talented and engaged workforce, and leading the development and continuous improvement of people-related processes, systems, and structures. </li><li>5+ years of experience leading people and cross-functional organizations; experience managing managers is required. </li><li>Bachelor’s Degree or equivalent professional experience. </li><li>Humble, curious, and empathetic attitude toward learning and creating solutions. </li><li>Strong written and verbal communication skills; comfortable meeting or facilitating presentations in-person, by video call or by phone. </li><li>Exceptional project management skills.</li><li>Comfortable with technology and web-based technologies. <li>Willing to travel from time to time as needed. </li>
                   </ul>
                 </div>
               </li>
@@ -584,8 +583,7 @@
                   >If you are interested in applying for this position please
                   send your resume and cover letter at
                   <a href="mailto:careers@yy.ventures">careers@yy.ventures</a>
-                  detailing why you think you are the right person to lead our
-                  operations. You are advised to mention your salary
+                  detailing why you think you are the right person for this position. You are advised to mention your salary
                   expectations in your cover letter.</i
                 >
               </p>
@@ -615,7 +613,7 @@
 
               <li>
                 <a class="uk-accordion-title" href="#"
-                  >Essential Responsibility</a
+                  >Essential Responsibilities</a
                 >
                 <div class="uk-accordion-content">
                   <ul>
@@ -657,8 +655,7 @@
                   >If you are interested in applying for this position please
                   send your resume and cover letter at
                   <a href="mailto:careers@yy.ventures">careers@yy.ventures</a>
-                  detailing why you think you are the right person to lead our
-                  operations. You are advised to mention your salary
+                  detailing why you think you are the right person for this position. You are advised to mention your salary
                   expectations in your cover letter.</i
                 >
               </p>
@@ -688,7 +685,7 @@
 
               <li>
                 <a class="uk-accordion-title" href="#"
-                  >Essential Responsibility</a>
+                  >Essential Responsibilities</a>
                 <div class="uk-accordion-content">
                   <ul>
                     <li>
@@ -787,8 +784,7 @@
                   >If you are interested in applying for this position please
                   send your resume and cover letter at
                   <a href="mailto:careers@yy.ventures">careers@yy.ventures</a>
-                  detailing why you think you are the right person to lead our
-                  operations. You are advised to mention your salary
+                  detailing why you think you are the right person for this position. You are advised to mention your salary
                   expectations in your cover letter.</i
                 >
               </p>
@@ -818,7 +814,7 @@
 
               <li>
                 <a class="uk-accordion-title" href="#"
-                  >Essential Responsibility</a
+                  >Essential Responsibilities</a
                 >
                 <div class="uk-accordion-content">
                   <ul>
@@ -860,8 +856,7 @@
                   >If you are interested in applying for this position please
                   send your resume and cover letter at
                   <a href="mailto:careers@yy.ventures">careers@yy.ventures</a>
-                  detailing why you think you are the right person to lead our
-                  operations. You are advised to mention your salary
+                  detailing why you think you are the right person for this position. You are advised to mention your salary
                   expectations in your cover letter.</i
                 >
               </p>
@@ -891,7 +886,7 @@
 
               <li>
                 <a class="uk-accordion-title" href="#"
-                  >Essential Responsibility</a
+                  >Essential Responsibilities</a
                 >
                 <div class="uk-accordion-content">
                   <ul>
@@ -933,8 +928,7 @@
                   >If you are interested in applying for this position please
                   send your resume and cover letter at
                   <a href="mailto:careers@yy.ventures">careers@yy.ventures</a>
-                  detailing why you think you are the right person to lead our
-                  operations. You are advised to mention your salary
+                  detailing why you think you are the right person for this position. You are advised to mention your salary
                   expectations in your cover letter.</i
                 >
               </p>
@@ -964,7 +958,7 @@
 
               <li>
                 <a class="uk-accordion-title" href="#"
-                  >Essential Responsibility</a
+                  >Essential Responsibilities</a
                 >
                 <div class="uk-accordion-content">
                   <ul>
@@ -1006,8 +1000,7 @@
                   >If you are interested in applying for this position please
                   send your resume and cover letter at
                   <a href="mailto:careers@yy.ventures">careers@yy.ventures</a>
-                  detailing why you think you are the right person to lead our
-                  operations. You are advised to mention your salary
+                  detailing why you think you are the right person for this position. You are advised to mention your salary
                   expectations in your cover letter.</i
                 >
               </p>
@@ -1045,7 +1038,7 @@
               </li>
               <li>
                 <a class="uk-accordion-title" href="#"
-                  >Essential Responsibility</a
+                  >Essential Responsibilities</a
                 >
                 <div class="uk-accordion-content">
                   <ul>
