@@ -678,7 +678,7 @@
                 <a class="uk-accordion-title" href="#">Job Description</a>
                 <div class="uk-accordion-content">
                   <p>
-                    We are looking for a skilled and experienced Web Developer to join our creative team. You will be responsible for programming the code in computing languages to inform a website on how it is supposed to function, designing and creating it in a way that makes the website easy to navigate for users, while at the same time meeting the technical expectations of our clients. Our ideal candidate has at least two years of development experience and a substantial portfolio. 
+                    We are looking for a skilled and experienced mid-level Web Developer to join our creative team. You will be responsible for programming the code in computing languages to inform a website on how it is supposed to function, designing and creating it in a way that makes the website easy to navigate for users, while at the same time meeting the technical expectations of our clients. Our ideal candidate has at least two years of development experience and a substantial portfolio. 
                   </p>
                 </div>
               </li>
