@@ -20,11 +20,6 @@
     "avatar": "tazin"
   },
   {
-    "name": "Osman Dhali",
-    "designation": "Chief of Staff",
-    "avatar": "osman_third"
-  },
-  {
     "name": "Sharika Sadaf",
     "designation": "Head of Program & Partnerships",
     "avatar": "sharika"
@@ -105,10 +100,5 @@
     "name": "Farhan Absar Tafader",
     "designation": "Junior Developer",
     "avatar": "farhan"
-  },
-  {
-    "name": "Khalid Hossain",
-    "designation": "Director",
-    "avatar": "khalid"
   }
 ]
