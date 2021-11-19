@@ -856,6 +856,103 @@
         <div class="uk-width-1-3@m">
           <div class="job-title">
             <div class="title-bg">4</div>
+            <h2>Associate – Research and Innovation</h2>
+          </div>
+        </div>
+        <div class="uk-width-2-3@m">
+          <div class="job-description">
+            <ul uk-accordion>
+              <li class="uk-open">
+                <a class="uk-accordion-title" href="#">Job Description</a>
+                <div class="uk-accordion-content">
+                  <p>
+                    We are looking for a young, analytical Associate with 1-2 years of experience in architecting social research to join our research and innovation team. S/he will have the opportunity to futurecast and provide direct, hands-on support to programs to improve their service design, quality, and impact.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <a class="uk-accordion-title" href="#"
+                  >Essential Responsibilities</a
+                >
+                <div class="uk-accordion-content">
+                  <ul>
+                    <li>
+                      Support in designing program or service models based on research finding to improve program effectiveness and efficiency  
+                    </li>
+                    <li>
+                      Conduct in-depth landscape analysis to capture evidence and good practices of entrepreneurship ecosystem and provide insights to improve programs
+                    </li>
+                    <li>
+                      Design and administer surveys and other assessment tools to capture and analyse data for program planning, decision-making, and reporting
+                    </li>
+                    <li>
+                      Provide insights on designing processes, playbooks, and policies to standardise and scale YY Ventures (YYV)’s entrepreneurship programs and home-grown business models
+                    </li>
+                    <li>Assist in concept note, proposal, and budget development according to a project goal and objectives</li>
+                    <li>Develop and implement knowledge management framework; support in report writing and content development such as articles, blog posts, and case studies</li>
+                    <li>Support YYV’s key projects, program and consulting service to help young social entrepreneurs to manage and measure their impact</li>
+                    <li>Work as an ambassador for YYV, and maintain solid relationships with external stakeholders, startups, accelerators, investors, and the international development community</li>
+                  </ul>
+                </div>
+              </li>
+
+              <li>
+                <a class="uk-accordion-title" href="#">Qualifications</a>
+                <div class="uk-accordion-content">
+                  <ul>
+                    <li>
+                      Bachelor’s degree in economics, development studies, public health, or other social science or business disciplines, including international relations, marketing, psychology, anthropology
+                    </li>
+                    <li>
+                      A minimum of 1-2 years of work experience is desirable, although not required. Experience working in startup or entrepreneurship ecosystem would be strongly preferred
+                    </li>
+                    <li>
+                      Good technical understanding of project evaluation methods and demonstrated proficiency in data collection and analysis
+                    </li>
+                    <li>
+                      Detail-oriented, excellent management and organisational skills, ability to juggle several tasks, and advanced writing and communication skills are required
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <li>
+                <a class="uk-accordion-title" href="#">Other Info</a>
+                <div class="uk-accordion-content">
+                  <ul>
+                    <li><strong>Time Commitment:</strong> 40 hours/week</li>
+                    <li>
+                      <strong>Location:</strong> 9th Floor, Grameen Telecom
+                      Bhaban, Zoo Road, Mirpur 1, Dhaka 1216
+                    </li>
+                    <li><strong>Reporting to:</strong> Senior Manager – Research and Innovation</li>
+                    <li><strong>Start date:</strong> January 2, 2022</li>
+                    <li><strong>Salary:</strong> Negotiable</li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+            <div class="contact-email">
+              <p>
+                <i
+                  >If you are interested in applying for this position please
+                  send your resume and cover letter at
+                  <a href="mailto:careers@yy.ventures">careers@yy.ventures</a>
+                  detailing why you think you are the right person for this
+                  position. You are advised to mention your salary expectations
+                  in your cover letter.</i
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="open-position" uk-grid>
+        <div class="uk-width-1-3@m">
+          <div class="job-title">
+            <div class="title-bg">5</div>
             <h2>Digital Marketing Specialist</h2>
           </div>
         </div>
@@ -982,7 +1079,7 @@
       <div class="open-position" uk-grid>
         <div class="uk-width-1-3@m">
           <div class="job-title">
-            <div class="title-bg">5</div>
+            <div class="title-bg">6</div>
             <h2>Web Developer</h2>
           </div>
         </div>
@@ -1132,7 +1229,7 @@
       <div class="open-position" uk-grid>
         <div class="uk-width-1-3@m">
           <div class="job-title">
-            <div class="title-bg">6</div>
+            <div class="title-bg">7</div>
             <h2>UI/UX Designer</h2>
           </div>
         </div>
@@ -1253,7 +1350,7 @@
       <div class="open-position" uk-grid>
         <div class="uk-width-1-3@m">
           <div class="job-title">
-            <div class="title-bg">7</div>
+            <div class="title-bg">8</div>
             <h2>Graphic Designer / Motion Graphic Designer</h2>
           </div>
         </div>
@@ -1374,7 +1471,7 @@
       <div class="open-position" uk-grid>
         <div class="uk-width-1-3@m">
           <div class="job-title">
-            <div class="title-bg">8</div>
+            <div class="title-bg">9</div>
             <h2>Social Media Associate</h2>
           </div>
         </div>
