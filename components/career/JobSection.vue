@@ -746,7 +746,7 @@
           </div>
         </div>
       </div>
-      <div class="open-position" uk-grid>
+      <!-- <div class="open-position" uk-grid>
         <div class="uk-width-1-3@m">
           <div class="job-title">
             <div class="title-bg">3</div>
@@ -850,12 +850,12 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <div class="open-position" uk-grid>
         <div class="uk-width-1-3@m">
           <div class="job-title">
-            <div class="title-bg">4</div>
+            <div class="title-bg">3</div>
             <h2>Associate – Research and Innovation</h2>
           </div>
         </div>
@@ -952,7 +952,7 @@
       <div class="open-position" uk-grid>
         <div class="uk-width-1-3@m">
           <div class="job-title">
-            <div class="title-bg">5</div>
+            <div class="title-bg">4</div>
             <h2>Digital Marketing Specialist</h2>
           </div>
         </div>
@@ -1079,7 +1079,7 @@
       <div class="open-position" uk-grid>
         <div class="uk-width-1-3@m">
           <div class="job-title">
-            <div class="title-bg">6</div>
+            <div class="title-bg">5</div>
             <h2>Web Developer</h2>
           </div>
         </div>
@@ -1229,7 +1229,7 @@
       <div class="open-position" uk-grid>
         <div class="uk-width-1-3@m">
           <div class="job-title">
-            <div class="title-bg">7</div>
+            <div class="title-bg">6</div>
             <h2>UI/UX Designer</h2>
           </div>
         </div>
@@ -1350,7 +1350,7 @@
       <div class="open-position" uk-grid>
         <div class="uk-width-1-3@m">
           <div class="job-title">
-            <div class="title-bg">8</div>
+            <div class="title-bg">7</div>
             <h2>Graphic Designer / Motion Graphic Designer</h2>
           </div>
         </div>
@@ -1468,7 +1468,7 @@
         </div>
       </div>
 
-      <div class="open-position" uk-grid>
+      <!-- <div class="open-position" uk-grid>
         <div class="uk-width-1-3@m">
           <div class="job-title">
             <div class="title-bg">9</div>
@@ -1599,7 +1599,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <!-- 
       <div class="open-position" uk-grid>
