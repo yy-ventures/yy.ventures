@@ -197,6 +197,13 @@
         <div class="apply-now">
             <a href="https://docs.google.com/forms/d/17QMsOfodo--QqmlbQomHtwKhh_yrQbtcH7ulWDez900/edit">Apply Now</a>
         </div>
+        <p>For information or queries about the program please reach out to sharika@yy.ventures. </p>
+      </div>
+    </div>
+    <div class="partner">
+      <div>
+        <h2>partner</h2>
+        <img src="~/assets/images/programs/undp.png" alt="">
       </div>
     </div>
     <!-- solid waste footer -->
@@ -372,6 +379,10 @@ export default {};
           text-transform: capitalize;
           font-size: 2rem;
       }
+      p{
+        margin-top: 2rem;
+        color: #c7265b;
+      }
       .apply-now{
           margin-top: 3rem;
           a{
@@ -383,6 +394,21 @@ export default {};
           font-weight: 700;
       }
       }
+  }
+  .partner{
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    h2{
+      font-weight: 900;
+      font-size: 4rem;
+      text-transform: capitalize;
+    }
+    img{
+      width: 25%;
+    }
   }
 }
 </style>
