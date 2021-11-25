@@ -1,26 +1,26 @@
 <template lang="pug">
 .picture_grid
   .header
-    .h2.highlight Latest News and Updates 
+    .h2.highlight Programs for Entrepreneurs
   .benefits_grid
     .benefits_container
-      nuxt-link(to="/blogs")
-        img(src="~/assets/images/programs/wash.png.webp").faded_out
+      nuxt-link(to="/waste-two-resources")
+        img(src="~/assets/images/programs/waste-management.jpg").faded_out
         .benefits_container__title
           .h1.faded_out 1
-          .h4.faded_out Meet the top innovators at WASH Innovation Challenge
+          .h4.faded_out Waste 2 Resources Program 
     .benefits_container
-      a(href="https://www.youtube.com/watch?v=8mXl2vnscdU" target="_blank" rel="noopener noreferrer")
-        img(src="~/assets/images/latest/sbys.webp").faded_out
+      a(href="https://incubator.yy.ventures/" target="_blank" rel="noopener noreferrer")
+        img(src="~/assets/images/programs/yy-goshthi-pp.png").faded_out
         .benefits_container__title
           .h1.faded_out 2
-          .h4.faded_out Social Business Youth Summit 2021 Highlights
-    .benefits_container
-      nuxt-link(to="/investments/impact-hub")
-        img(src="~/assets/images/latest/ihd.webp").faded_out
-        .benefits_container__title
-          .h1.faded_out 3
-          .h4.faded_out YY Ventures Launches Impact Hub in Dhaka
+          .h4.faded_out YY Goshthi Innovation Program 
+    //- .benefits_container
+    //-   nuxt-link(to="/investments/impact-hub")
+    //-     img(src="~/assets/images/latest/ihd.webp").faded_out
+    //-     .benefits_container__title
+    //-       .h1.faded_out 3
+    //-       .h4.faded_out YY Ventures Launches Impact Hub in Dhaka
 </template>
 
 <script>
@@ -55,7 +55,7 @@ export default {
   .benefits_grid
     display: grid
     @media (min-width: 601px)
-      grid-template-columns: auto auto auto
+      grid-template-columns: 1fr 1fr 1fr
 
     grid-gap: 50px
     .benefits_container

@@ -3,6 +3,7 @@
     home-hero
     Vision
     //- picture-grid(:data="latest")
+    SolidWaste
     Quote
     Latest
     //- portfolio-slider
@@ -24,6 +25,7 @@ import PortfolioSlider from '~/components/PortfolioSlider';
 import Video from '~/components/Video';
 import PictureGrid from '~/components/PictureGrid';
 import Latest from '~/components/Latest';
+import SolidWaste from '~/components/SolidWaste';
 import HomeBrands from '~/components/HomeBrands.vue';
 
 import {
@@ -48,6 +50,7 @@ export default {
     PictureGrid,
     PortfolioSlider,
     Latest,
+    SolidWaste,
     PreFooter,
     HomeBrands,
   },
