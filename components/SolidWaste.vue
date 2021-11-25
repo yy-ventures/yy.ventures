@@ -4,7 +4,7 @@
     .h2.highlight Programs for Entrepreneurs
   .benefits_grid
     .benefits_container
-      nuxt-link(to="/waste-two-resources")
+      nuxt-link(to="/w2r")
         img(src="~/assets/images/programs/waste-management.jpg").faded_out
         .benefits_container__title
           .h1.faded_out 1
@@ -14,7 +14,7 @@
         img(src="~/assets/images/programs/yy-goshthi-pp.png").faded_out
         .benefits_container__title
           .h1.faded_out 2
-          .h4.faded_out YY Goshthi Innovation Program 
+          .h4.faded_out YY Goshthi Incubation Program 
     //- .benefits_container
     //-   nuxt-link(to="/investments/impact-hub")
     //-     img(src="~/assets/images/latest/ihd.webp").faded_out
