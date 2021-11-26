@@ -70,10 +70,7 @@
           <div class="benefit-grid-body">
             <h4>Tailored Mentoring</h4>
             <p>
-              Selected entrepreneurs will receive one-on-one tailored mentoring
-              from a pool of seasoned professionals and industry experts, who
-              will guide them to develop their prototype, market assessment and
-              supply chain.
+              Selected entrepreneurs will receive tailored mentoring from a pool of seasoned professionals and industry experts. Our programs team will work closely to diagnose the needs of each entrepreneurs and connect them with experts for advise and support.
             </p>
           </div>
         </div>
