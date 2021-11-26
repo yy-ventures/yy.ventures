@@ -1,7 +1,7 @@
 <template>
   <div class="solid-waste-container">
     <div class="solid-waste-header-banner ventures-container">
-      <img src="~/assets/images/programs/waste-banner.png" alt="solid-waste" />
+      <img src="~/assets/images/programs/waste-banner.jpg" alt="solid-waste" />
     </div>
 
     <div class="solid-waste-paragraphs ventures-container">
