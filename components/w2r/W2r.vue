@@ -59,13 +59,7 @@
           <div class="benefit-grid-body">
             <h4>World Class Training</h4>
             <p>
-              This program will allow entrepreneurs to constructs their
-              innovative ideas in the presence of world reputed industry experts
-              who will guide them through an on-site beneficiary discovery
-              journey in Cox’s Bazar. Participants will also go on a day long
-              field trip to the Teknaf and Ukhia Upazila to receive hands on
-              experience, which will later allow them to prepare a market
-              assessment and develop their supply chain.
+              This program will allow entrepreneurs to construct their innovative ideas in the presence of successful entrepreneurs and design thinkers who have built Social Businesses on ground and worked with reputed global companies. Participants will also go on a day long field trip to the Teknaf and Ukhia Upazila to receive hands on experience, which will later allow them to prepare a market assessment and develop their supply chain.
             </p>
           </div>
         </div>
