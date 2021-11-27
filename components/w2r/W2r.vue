@@ -59,7 +59,13 @@
           <div class="benefit-grid-body">
             <h4>World Class Training</h4>
             <p>
-              This program will allow entrepreneurs to construct their innovative ideas in the presence of successful entrepreneurs and design thinkers who have built Social Businesses on ground and worked with reputed global companies. Participants will also go on a day long field trip to the Teknaf and Ukhia Upazila to receive hands on experience, which will later allow them to prepare a market assessment and develop their supply chain.
+              This program will allow entrepreneurs to construct their
+              innovative ideas in the presence of successful entrepreneurs and
+              design thinkers who have built Social Businesses on ground and
+              worked with reputed global companies. Participants will also go on
+              a day long field trip to the Teknaf and Ukhia Upazila to receive
+              hands on experience, which will later allow them to prepare a
+              market assessment and develop their supply chain.
             </p>
           </div>
         </div>
@@ -70,7 +76,10 @@
           <div class="benefit-grid-body">
             <h4>Tailored Mentoring</h4>
             <p>
-              Selected entrepreneurs will receive tailored mentoring from a pool of seasoned professionals and industry experts. Our programs team will work closely to diagnose the needs of each entrepreneurs and connect them with experts for advise and support.
+              Selected entrepreneurs will receive tailored mentoring from a pool
+              of seasoned professionals and industry experts. Our programs team
+              will work closely to diagnose the needs of each entrepreneurs and
+              connect them with experts for advise and support.
             </p>
           </div>
         </div>
@@ -188,36 +197,85 @@
           <h4>Please send us your details</h4>
         </div>
         <!-- <div class="form">
-            <form>
-                <div class="form-grid">
-                    <div>
-                        <input type="text" name="firstName" v-model="firstName" placeholder="first name" required>
-                    </div>
-                    <div>
-                        <input type="text" name="lastName" v-model="lastName" placeholder="last name" required>
-                    </div>
-                </div>
-                <div class="form-grid">
-                    <div>
-                        <input type="email" name="email" v-model="email" placeholder="email" required>
-                    </div>
-                    <div>
-                        <input type="text" name="number" v-model="number" placeholder="contact number" required>
-                    </div>
-                </div>
-                <div>
-                    <input type="text" placeholder="Name of Enterprise">
-                </div>
-                <div>
-                    <p>Tell us about your business model (300 words)*</p>
-                    <textarea name="message" v-model="message"></textarea>
-                </div>
-                <div>
-                    <h5>Attach your pitch deck </h5>
-                    <input type="file" name="file"/>
-                    <h6>*Your pitch deck should include: Problem statement, Market Opportunity, Solution, Service/Product, Business Model, Revenue Structure, Roadmap, Impact & Team.</h6>
-                </div>
-            </form>
+          <form>
+            <div class="form-grid">
+              <div>
+                <input
+                  type="text"
+                  name="firstName"
+                  v-model="firstName"
+                  placeholder="first name"
+                  required
+                />
+              </div>
+              <div>
+                <input
+                  type="text"
+                  name="lastName"
+                  v-model="lastName"
+                  placeholder="last name"
+                  required
+                />
+              </div>
+            </div>
+            <div class="form-grid">
+              <div>
+                <input
+                  type="email"
+                  name="email"
+                  v-model="email"
+                  placeholder="email"
+                  required
+                />
+              </div>
+              <div>
+                <input
+                  type="text"
+                  name="number"
+                  v-model="number"
+                  placeholder="contact number"
+                  required
+                />
+              </div>
+            </div>
+            <div>
+              <input
+                type="text"
+                placeholder="Name of Enterprise"
+                name="enterprise"
+                v-model="enterprise"
+                required
+              />
+            </div>
+            <div>
+              <p>Tell us about your business model (300 words)*</p>
+              <textarea name="message" v-model="message"></textarea>
+            </div>
+            <div>
+              <h5>Attach your pitch deck</h5>
+              <input
+                type="file"
+                id="file"
+                ref="file"
+                v-on:change="handleFileUpload()"
+              />
+              <h6>
+                *Your pitch deck should include: Problem statement, Market
+                Opportunity, Solution, Service/Product, Business Model, Revenue
+                Structure, Roadmap, Impact & Team.
+              </h6>
+            </div>
+          </form>
+        </div>
+        <div>
+          <div>
+            <button @click="sendApplication()">apply now</button>
+          </div>
+        </div>
+        <div class="response" v-if="this.emailSent">
+          <span class="uk-margin"
+            >Your message was sent successfully. We'll get in touch soon.</span
+          >
         </div> -->
         <div class="apply-now">
           <a
@@ -235,7 +293,7 @@
       <div>
         <h2 class="highlight">partner</h2>
         <div>
-            <img src="~/assets/images/programs/undp.png" alt="" />
+          <img src="~/assets/images/programs/undp.png" alt="" />
         </div>
       </div>
     </div>
@@ -245,7 +303,67 @@
 </template>
 
 <script>
-export default {};
+import axios from "axios";
+export default {
+  data() {
+    return {
+      firstName: null,
+      lastName: null,
+      email: null,
+      number: null,
+      enterprise: null,
+      message: null,
+      file: "",
+      emailSent: false,
+    };
+  },
+  methods: {
+    sendApplication() {
+      let bodyFormData = new FormData();
+
+      bodyFormData.set("firstName", this.firstName);
+      bodyFormData.set("lastName", this.lastName);
+      bodyFormData.set("email", this.email);
+      bodyFormData.set("number", this.number);
+      bodyFormData.set("enterprise", this.enterprise);
+      bodyFormData.set("message", this.message);
+      bodyFormData.set("file", this.file);
+
+      axios
+        .post("", bodyFormData)
+        .then((response) => {
+          console.log(response);
+          if (response.status == 200) {
+            this.emailSent = true;
+          }
+        })
+        .catch((error) => {
+          console.log(error);
+        });
+    },
+    handleSuccess() {
+      console.log("in success");
+      setTimeout(() => {
+        this.sent = false;
+        this.firstName = "";
+        this.lastName = "";
+        this.email = "";
+        this.number = "";
+        this.enterprise = "";
+        this.message = "";
+      }, 3000);
+    },
+    handleFailure() {
+      console.log("in success");
+      setTimeout(() => {
+        this.failed = false;
+      }, 3000);
+    },
+    handleFileUpload() {
+      this.file = this.$refs.file.files[0];
+    },
+  },
+};
 </script>
 
 <style lang="scss">
@@ -412,73 +530,87 @@ export default {};
       text-transform: capitalize;
       font-size: 2rem;
     }
-    h4{
-        color: #444;
+    h4 {
+      color: #444;
       font-weight: 900;
       text-transform: capitalize;
-      font-size: 1.5rem; 
+      font-size: 1.5rem;
     }
     p {
       margin-top: 2rem;
       color: #c7265b;
       font-size: 18px;
-      .join-bold{
-          font-weight: 900;
+      .join-bold {
+        font-weight: 900;
       }
     }
-    .form{
-        display: flex;
-        justify-content: center;
-        form{
-            width: 50%;
-            @media screen and (max-width: 601px) {
-                width: 100%;
-            }
+    .form {
+      display: flex;
+      justify-content: center;
+      form {
+        width: 50%;
+        @media screen and (max-width: 601px) {
+          width: 100%;
         }
-        input, textarea{
-            outline: none;
-            border: 0;
-            background-color: #fff;
-            padding: 15px 20px;
-            font-size: 16px;
-            color: #444;
-            width: 100%;
-            margin-top: 1rem;
-            border-bottom: 2px solid #fff;
-            transition: 0.3s;
-            &:focus{
-                background-color: #eee;
-                border-bottom: 2px solid #444;
-            }
+      }
+      input,
+      textarea {
+        outline: none;
+        border: 0;
+        background-color: #fff;
+        padding: 15px 20px;
+        font-size: 16px;
+        color: #444;
+        width: 100%;
+        margin-top: 1rem;
+        border-bottom: 2px solid #fff;
+        transition: 0.3s;
+        &:focus {
+          background-color: #eee;
+          border-bottom: 2px solid #444;
         }
-        textarea{
-          min-height: 200px;
+      }
+
+      textarea {
+        min-height: 200px;
+      }
+      p {
+        text-align: left;
+        color: #c7265b;
+        font-weight: 700;
+        font-size: 14px;
+      }
+      h5 {
+        margin-top: 2rem;
+        text-align: left;
+        color: #c7265b;
+        font-weight: 700;
+        font-size: 16px;
+      }
+      h6 {
+        font-style: italic;
+        color: #c7265b;
+      }
+      .form-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2%;
+        @media screen and (max-width: 601px) {
+          grid-template-columns: 1fr;
         }
-        p{
-          text-align: left;
-          color: #c7265b;
-          font-weight: 700;
-          font-size: 14px;
-        }
-        h5{
-          margin-top: 2rem;
-          text-align: left;
-          color: #c7265b;
-          font-weight: 700;
-          font-size: 16px;
-        }
-        h6{
-          font-style: italic;
-          color: #c7265b;
-        }
-        .form-grid{
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 2%;
-            @media screen and (max-width: 601px) {
-                grid-template-columns: 1fr;
-            }
-        }
+      }
+    }
+    button {
+      outline: none;
+      border: 0;
+      padding: 0.8rem 2rem;
+      color: #444;
+      background-color: #f8d23a;
+      font-size: 1rem;
+      font-weight: 900;
+      text-transform: capitalize;
+      border-radius: 15px;
+      cursor: pointer;
     }
     .apply-now {
       margin-top: 3rem;
