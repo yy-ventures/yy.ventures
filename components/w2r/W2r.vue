@@ -196,15 +196,15 @@
           <h3 class="highlight">Interested to join?</h3>
           <h4>Please send us your details</h4>
         </div>
-        <!-- <div class="form">
-          <form>
+        <div class="form">
+          <form @submit="sendApplication" method="post">
             <div class="form-grid">
               <div>
                 <input
                   type="text"
                   name="firstName"
                   v-model="firstName"
-                  placeholder="first name"
+                  placeholder="First Name"
                   required
                 />
               </div>
@@ -213,7 +213,7 @@
                   type="text"
                   name="lastName"
                   v-model="lastName"
-                  placeholder="last name"
+                  placeholder="Last Name"
                   required
                 />
               </div>
@@ -224,17 +224,18 @@
                   type="email"
                   name="email"
                   v-model="email"
-                  placeholder="email"
+                  placeholder="Email"
                   required
                 />
               </div>
               <div>
                 <input
-                  type="text"
+                  type="number"
                   name="number"
                   v-model="number"
-                  placeholder="contact number"
+                  placeholder="Contact Number"
                   required
+                  min="0"
                 />
               </div>
             </div>
@@ -248,41 +249,39 @@
               />
             </div>
             <div>
-              <p>Tell us about your business model (300 words)*</p>
-              <textarea name="message" v-model="message"></textarea>
+              <h5>Tell us about your business model (300 words)*</h5>
+              <textarea name="message" v-model="message" required></textarea>
             </div>
             <div>
               <h5>Attach your pitch deck</h5>
-              <input
-                type="file"
-                id="file"
-                ref="file"
-                v-on:change="handleFileUpload()"
-              />
               <h6>
                 *Your pitch deck should include: Problem statement, Market
                 Opportunity, Solution, Service/Product, Business Model, Revenue
                 Structure, Roadmap, Impact & Team.
               </h6>
+              <input
+                type="file"
+                id="file"
+                ref="file"
+                accept="application/pdf,application/vnd.ms-powerpoint,application/vnd.openxmlformats-officedocument.presentationml.slideshow,application/vnd.openxmlformats-officedocument.presentationml.presentation"
+                v-on:change="handleFileUpload()"
+                required
+              />
+            </div>
+            <div>
+              <button type="submit">apply now</button>
             </div>
           </form>
         </div>
-        <div>
-          <div>
-            <button @click="sendApplication()">apply now</button>
-          </div>
+        <div class="response-message" v-if="this.emailSent">
+          <p class="response-text">Your application was sent successfully. We'll get in touch soon.</p>
         </div>
-        <div class="response" v-if="this.emailSent">
-          <span class="uk-margin"
-            >Your message was sent successfully. We'll get in touch soon.</span
-          >
-        </div> -->
-        <div class="apply-now">
+        <!-- <div class="apply-now">
           <a
             href="https://docs.google.com/forms/d/17QMsOfodo--QqmlbQomHtwKhh_yrQbtcH7ulWDez900/edit"
             >Apply Now</a
           >
-        </div>
+        </div> -->
         <p>
           For information or queries about the program please reach out to
           <span class="join-bold">sharika@yy.ventures</span>.
@@ -313,28 +312,35 @@ export default {
       number: null,
       enterprise: null,
       message: null,
-      file: "",
+      file: '',
       emailSent: false,
     };
   },
   methods: {
-    sendApplication() {
+    sendApplication(e) {
+      e.preventDefault();
+
       let bodyFormData = new FormData();
 
-      bodyFormData.set("firstName", this.firstName);
-      bodyFormData.set("lastName", this.lastName);
-      bodyFormData.set("email", this.email);
-      bodyFormData.set("number", this.number);
-      bodyFormData.set("enterprise", this.enterprise);
-      bodyFormData.set("message", this.message);
-      bodyFormData.set("file", this.file);
+      bodyFormData.append("first_name", this.firstName);
+      bodyFormData.append("last_name", this.lastName);
+      bodyFormData.append("email", this.email);
+      bodyFormData.append("contact_no", this.number);
+      bodyFormData.append("name_of_enterprise", this.enterprise);
+      bodyFormData.append("business_model", this.message);
+      bodyFormData.append("pitch_deck", this.file);
 
+      console.log("form data", bodyFormData)
       axios
-        .post("", bodyFormData)
+        .post("https://admin-yyv.3zeros.club/api/waste_to_resource/create", bodyFormData, {
+          headers: {
+            "Content-Type": "multipart/form-data",
+          },
+        })
         .then((response) => {
-          console.log(response);
-          if (response.status == 200) {
+          if (response.status === 200) {
             this.emailSent = true;
+            this.handleSuccess();
           }
         })
         .catch((error) => {
@@ -351,7 +357,8 @@ export default {
         this.number = "";
         this.enterprise = "";
         this.message = "";
-      }, 3000);
+        this.file = [];
+      }, 1000);
     },
     handleFailure() {
       console.log("in success");
@@ -585,9 +592,10 @@ export default {
         text-align: left;
         color: #c7265b;
         font-weight: 700;
-        font-size: 16px;
+        font-size: 18px;
       }
       h6 {
+        text-align: left;
         font-style: italic;
         color: #c7265b;
       }
@@ -600,10 +608,15 @@ export default {
         }
       }
     }
+    .response-message{
+      .response-text{
+        color: #444;
+      }
+    }
     button {
       outline: none;
       border: 0;
-      padding: 0.8rem 2rem;
+      padding: 0.9rem 2rem;
       color: #444;
       background-color: #f8d23a;
       font-size: 1rem;
@@ -611,17 +624,7 @@ export default {
       text-transform: capitalize;
       border-radius: 15px;
       cursor: pointer;
-    }
-    .apply-now {
-      margin-top: 3rem;
-      a {
-        background: #f8d23a;
-        color: #444;
-        padding: 0.8rem 2rem;
-        cursor: pointer;
-        border-radius: 15px;
-        font-weight: 700;
-      }
+      margin-top: 2rem;
     }
   }
   .partner {
