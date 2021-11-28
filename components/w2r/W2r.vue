@@ -5,17 +5,17 @@
     </div>
 
     <div class="solid-waste-paragraphs ventures-container">
-      <h1 class="highlight">
+      <h1 class="highlight faded_out">
         For Solid Waste Management Entrepreneurs in Bangladesh
       </h1>
       <div class="solid-waste-paragraphs-container">
-        <p>
+        <p class="faded_out">
           The United Nations Development Programme (UNDP) has teamed up with YY
           Ventures to support 5 enterprises dedicated to building innovative
           solution for the proper handling of unwanted, non-reusable waste and
           finding alternatives to single-use plastics.
         </p>
-        <p>
+        <p class="faded_out">
           The Sustainable Solutions to Solid Waste Management (SWM) project was
           initiated by UNDP in response to the growing Rohingya crisis in
           Bangladesh. The Kutupalong refugee camp in Cox’s Bazar is currently
@@ -24,7 +24,7 @@
           per day. The project aims to address the pressing SWM necessities both
           in the host communities and refugee camps
         </p>
-        <p>
+        <p class="faded_out">
           Multilayer plastics (MLP), single layer plastics (SLP), wasted
           clothes, wrappers and foil papers are considered as non-valuable
           materials which have no demand in the local market, and as a result,
@@ -38,13 +38,13 @@
 
     <div class="solid-waste-prize">
       <div class="solid-waste-prize-container">
-        <h2 class="highlight">Learning Journey in Teknaf and Ukhia Upazila</h2>
+        <h2 class="highlight faded_out">Learning Journey in Teknaf and Ukhia Upazila</h2>
       </div>
       <div class="solid-waste-prize-container">
-        <h2 class="highlight">Opportunity to win grant funding of $10,000</h2>
+        <h2 class="highlight faded_out">Opportunity to win grant funding of $10,000</h2>
       </div>
       <div class="solid-waste-prize-container">
-        <h2 class="highlight">5 Enterprises</h2>
+        <h2 class="highlight faded_out">5 Enterprises</h2>
       </div>
     </div>
 
@@ -54,7 +54,7 @@
       <div class="solid-waste-benefits-container">
         <div class="benefit-grid">
           <div class="benefit-grid-img">
-            <img src="~/assets/images/programs/Training.jpg" alt="" />
+            <img src="~/assets/images/programs/Training.jpg" alt="" class="faded_out"/>
           </div>
           <div class="benefit-grid-body">
             <h4>World Class Training</h4>
@@ -71,7 +71,7 @@
         </div>
         <div class="benefit-grid">
           <div class="benefit-grid-img">
-            <img src="~/assets/images/programs/Mentoring.jpg" alt="" />
+            <img src="~/assets/images/programs/Mentoring.jpg" alt="" class="faded_out"/>
           </div>
           <div class="benefit-grid-body">
             <h4>Tailored Mentoring</h4>
@@ -85,7 +85,7 @@
         </div>
         <div class="benefit-grid">
           <div class="benefit-grid-img">
-            <img src="~/assets/images/programs/Funding.jpg" alt="" />
+            <img src="~/assets/images/programs/Funding.jpg" alt="" class="faded_out"/>
           </div>
           <div class="benefit-grid-body">
             <h4>Funding</h4>
@@ -98,7 +98,7 @@
         </div>
         <div class="benefit-grid">
           <div class="benefit-grid-img">
-            <img src="~/assets/images/programs/A2N.jpg" alt="" />
+            <img src="~/assets/images/programs/A2N.jpg" alt="" class="faded_out"/>
           </div>
           <div class="benefit-grid-body">
             <h4>Access to Network</h4>
@@ -116,7 +116,7 @@
     </div>
     <div class="looking-for">
       <div>
-        <h2>We are looking for you</h2>
+        <h2 class="faded_out">We are looking for you</h2>
         <p>
           Any new business, startup or Social Business registered in Bangladesh
           can apply for the program.
@@ -125,7 +125,7 @@
     </div>
     <div class="use-funding">
       <div>
-        <h2>Where you can use the funding</h2>
+        <h2 class="faded_out">Where you can use the funding</h2>
         <p>Enterprises can use the funding for the followings:</p>
         <ul>
           <li>
@@ -153,7 +153,7 @@
     </div>
     <div class="not-use-funding">
       <div>
-        <h2>Where you cannot use the funding</h2>
+        <h2 class="faded_out">Where you cannot use the funding</h2>
         <p>
           The following activities will not be authorised under the Program:
         </p>
@@ -273,9 +273,9 @@
             </div>
           </form>
         </div>
-        <div class="response-message" v-if="this.emailSent">
+        <!-- <div class="response-message" v-if="this.emailSent">
           <p class="response-text">Your application was sent successfully. We'll get in touch soon.</p>
-        </div>
+        </div> -->
         <!-- <div class="apply-now">
           <a
             href="https://docs.google.com/forms/d/17QMsOfodo--QqmlbQomHtwKhh_yrQbtcH7ulWDez900/edit"
@@ -292,7 +292,7 @@
       <div>
         <h2 class="highlight">partner</h2>
         <div>
-          <img src="~/assets/images/programs/undp.png" alt="" />
+          <img src="~/assets/images/programs/undp.png" alt="" class="faded_out"/>
         </div>
       </div>
     </div>
@@ -330,7 +330,6 @@ export default {
       bodyFormData.append("business_model", this.message);
       bodyFormData.append("pitch_deck", this.file);
 
-      console.log("form data", bodyFormData)
       axios
         .post("https://admin-yyv.3zeros.club/api/waste_to_resource/create", bodyFormData, {
           headers: {
@@ -346,6 +345,7 @@ export default {
         .catch((error) => {
           console.log(error);
         });
+        alert("We have received your application! Thank you!")
     },
     handleSuccess() {
       console.log("in success");
@@ -357,7 +357,7 @@ export default {
         this.number = "";
         this.enterprise = "";
         this.message = "";
-        this.file = [];
+        this.file = {};
       }, 1000);
     },
     handleFailure() {
