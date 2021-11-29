@@ -274,7 +274,9 @@
           </form>
         </div>
         <div class="response-message" v-if="this.emailSent">
-          <p class="response-text">Your application was sent successfully. We'll get in touch soon.</p>
+          <p class="response-text">
+            Your application was sent successfully. We'll get in touch soon.
+          </p>
         </div>
         <!-- <div class="apply-now">
           <a
@@ -287,17 +289,27 @@
           <span class="join-bold">sharika@yy.ventures</span>.
         </p>
       </div>
+      <div class="form-footer">
+        <h5>Deadline To Apply</h5>
+        <h5 class="highlight">December 5, 2021</h5>
+      </div>
     </div>
     <div class="partner">
-      <div>
-        <h2 class="highlight">partner</h2>
-        <div>
-          <img src="~/assets/images/programs/undp.png" alt="" />
+      <div class="partner-container">
+        <div class="partner-undp">
+          <h2 class="highlight">Main Partner</h2>
+          <div>
+            <img src="~/assets/images/programs/undp.png" alt="" class="faded_out"/>
+          </div>
+        </div>
+        <div class="partner-garbageman">
+          <h2 class="highlight">Technical Partner</h2>
+          <div>
+            <img src="~/assets/images/programs/garbageman.png" alt="" class="faded_out"/>
+          </div>
         </div>
       </div>
     </div>
-    <!-- solid waste footer -->
-    <div class="solid-waste-footer"></div>
   </div>
 </template>
 
@@ -312,7 +324,7 @@ export default {
       number: null,
       enterprise: null,
       message: null,
-      file: '',
+      file: "",
       emailSent: false,
     };
   },
@@ -330,13 +342,17 @@ export default {
       bodyFormData.append("business_model", this.message);
       bodyFormData.append("pitch_deck", this.file);
 
-      console.log("form data", bodyFormData)
+      console.log("form data", bodyFormData);
       axios
-        .post("https://admin-yyv.3zeros.club/api/waste_to_resource/create", bodyFormData, {
-          headers: {
-            "Content-Type": "multipart/form-data",
-          },
-        })
+        .post(
+          "https://admin-yyv.3zeros.club/api/waste_to_resource/create",
+          bodyFormData,
+          {
+            headers: {
+              "Content-Type": "multipart/form-data",
+            },
+          }
+        )
         .then((response) => {
           if (response.status === 200) {
             this.emailSent = true;
@@ -465,7 +481,6 @@ export default {
     }
     p {
       font-weight: 500;
-      text-transform: capitalize;
     }
   }
   .use-funding {
@@ -608,8 +623,8 @@ export default {
         }
       }
     }
-    .response-message{
-      .response-text{
+    .response-message {
+      .response-text {
         color: #444;
       }
     }
@@ -626,20 +641,39 @@ export default {
       cursor: pointer;
       margin-top: 2rem;
     }
+    .form-footer {
+      h5 {
+        font-size: 1.5rem;
+        font-weight: 900;
+        margin-top: 0;
+      }
+    }
   }
   .partner {
-    padding: 5%;
+    padding: 5% 10%;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    h2 {
-      font-weight: 900;
-      font-size: 4rem;
-      text-transform: capitalize;
-    }
-    img {
-      width: 25%;
+    .partner-container {
+      align-self: center;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      h2 {
+        font-weight: 900;
+        font-size: 3rem;
+        text-transform: capitalize;
+      }
+      .partner-undp{
+        img{
+          width: 10%;
+        }
+      }
+      .partner-garbageman{
+        img{
+          width: 50%;
+        }
+      }
     }
   }
 }

@@ -20,7 +20,7 @@
         <div class="brand-collection-body-image bopinc-image">
           <img src="~/assets/images/home-brands/bopinclogo.png" alt="" />
         </div>
-        <div class="brand-collection-body-image">
+        <div class="brand-collection-body-image undp-image">
           <img src="~/assets/images/home-brands/undp.png" alt="" />
         </div>
         <div class="brand-collection-body-image gcl-image">
@@ -85,6 +85,11 @@ export default {};
       .communications-image{
         img{
           height: 30%;
+        }
+      }
+      .undp-image{
+        img{
+          height: 70%;
         }
       }
       .gcl-image{
