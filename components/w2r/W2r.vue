@@ -38,10 +38,14 @@
 
     <div class="solid-waste-prize">
       <div class="solid-waste-prize-container">
-        <h2 class="highlight faded_out">Learning Journey in Teknaf and Ukhia Upazila</h2>
+        <h2 class="highlight faded_out">
+          Learning Journey in Teknaf and Ukhia Upazila
+        </h2>
       </div>
       <div class="solid-waste-prize-container">
-        <h2 class="highlight faded_out">Opportunity to win grant funding of $10,000</h2>
+        <h2 class="highlight faded_out">
+          Opportunity to win grant funding of $10,000
+        </h2>
       </div>
       <div class="solid-waste-prize-container">
         <h2 class="highlight faded_out">5 Enterprises</h2>
@@ -54,7 +58,11 @@
       <div class="solid-waste-benefits-container">
         <div class="benefit-grid">
           <div class="benefit-grid-img">
-            <img src="~/assets/images/programs/Training.jpg" alt="" class="faded_out"/>
+            <img
+              src="~/assets/images/programs/Training.jpg"
+              alt=""
+              class="faded_out"
+            />
           </div>
           <div class="benefit-grid-body">
             <h4>World Class Training</h4>
@@ -71,7 +79,11 @@
         </div>
         <div class="benefit-grid">
           <div class="benefit-grid-img">
-            <img src="~/assets/images/programs/Mentoring.jpg" alt="" class="faded_out"/>
+            <img
+              src="~/assets/images/programs/Mentoring.jpg"
+              alt=""
+              class="faded_out"
+            />
           </div>
           <div class="benefit-grid-body">
             <h4>Tailored Mentoring</h4>
@@ -85,7 +97,11 @@
         </div>
         <div class="benefit-grid">
           <div class="benefit-grid-img">
-            <img src="~/assets/images/programs/Funding.jpg" alt="" class="faded_out"/>
+            <img
+              src="~/assets/images/programs/Funding.jpg"
+              alt=""
+              class="faded_out"
+            />
           </div>
           <div class="benefit-grid-body">
             <h4>Funding</h4>
@@ -98,7 +114,11 @@
         </div>
         <div class="benefit-grid">
           <div class="benefit-grid-img">
-            <img src="~/assets/images/programs/A2N.jpg" alt="" class="faded_out"/>
+            <img
+              src="~/assets/images/programs/A2N.jpg"
+              alt=""
+              class="faded_out"
+            />
           </div>
           <div class="benefit-grid-body">
             <h4>Access to Network</h4>
@@ -273,17 +293,11 @@
             </div>
           </form>
         </div>
-<<<<<<< HEAD
         <div class="response-message" v-if="this.emailSent">
           <p class="response-text">
             Your application was sent successfully. We'll get in touch soon.
           </p>
         </div>
-=======
-        <!-- <div class="response-message" v-if="this.emailSent">
-          <p class="response-text">Your application was sent successfully. We'll get in touch soon.</p>
-        </div> -->
->>>>>>> 96cb4a1f265632e559e7709e07833d47a665f108
         <!-- <div class="apply-now">
           <a
             href="https://docs.google.com/forms/d/17QMsOfodo--QqmlbQomHtwKhh_yrQbtcH7ulWDez900/edit"
@@ -301,25 +315,26 @@
       </div>
     </div>
     <div class="partner">
-<<<<<<< HEAD
       <div class="partner-container">
         <div class="partner-undp">
           <h2 class="highlight">Main Partner</h2>
           <div>
-            <img src="~/assets/images/programs/undp.png" alt="" class="faded_out"/>
+            <img
+              src="~/assets/images/programs/undp.png"
+              alt=""
+              class="faded_out"
+            />
           </div>
         </div>
         <div class="partner-garbageman">
           <h2 class="highlight">Technical Partner</h2>
           <div>
-            <img src="~/assets/images/programs/garbageman.png" alt="" class="faded_out"/>
+            <img
+              src="~/assets/images/programs/garbageman.png"
+              alt=""
+              class="faded_out"
+            />
           </div>
-=======
-      <div>
-        <h2 class="highlight">partner</h2>
-        <div>
-          <img src="~/assets/images/programs/undp.png" alt="" class="faded_out"/>
->>>>>>> 96cb4a1f265632e559e7709e07833d47a665f108
         </div>
       </div>
     </div>
@@ -355,10 +370,7 @@ export default {
       bodyFormData.append("business_model", this.message);
       bodyFormData.append("pitch_deck", this.file);
 
-<<<<<<< HEAD
       console.log("form data", bodyFormData);
-=======
->>>>>>> 96cb4a1f265632e559e7709e07833d47a665f108
       axios
         .post(
           "https://admin-yyv.3zeros.club/api/waste_to_resource/create",
@@ -378,7 +390,7 @@ export default {
         .catch((error) => {
           console.log(error);
         });
-        alert("We have received your application! Thank you!")
+      alert("We have received your application! Thank you!");
     },
     handleSuccess() {
       console.log("in success");
@@ -668,6 +680,9 @@ export default {
   }
   .partner {
     padding: 5% 10%;
+    @media screen and (max-width: 601px) {
+        padding: 15% 10%;
+    }
     display: flex;
     align-items: center;
     justify-content: center;
@@ -676,19 +691,29 @@ export default {
       align-self: center;
       display: grid;
       grid-template-columns: 1fr 1fr;
+      gap: 10%;
+      @media screen and (max-width: 601px) {
+        grid-template-columns: 1fr;
+      }
       h2 {
         font-weight: 900;
-        font-size: 3rem;
+        font-size: 2.1rem;
         text-transform: capitalize;
       }
-      .partner-undp{
-        img{
+      .partner-undp {
+        img {
           width: 10%;
+          @media screen and (max-width: 601px) {
+            width: 25%;
+          }
         }
       }
-      .partner-garbageman{
-        img{
+      .partner-garbageman {
+        img {
           width: 50%;
+          @media screen and (max-width: 601px) {
+            width: 100%;
+          }
         }
       }
     }
