@@ -50,11 +50,6 @@
     "designation": "Finance & Accounts Manager",
     "avatar": "shefaz"
   },
- {
-    "name": "Shafat Ahsan",
-    "designation": "Relationship Manager",
-    "avatar": "Shafat-bhai"
-  },
   {
     "name": "Samiha Nusrat",
     "designation": "Program Manager",
@@ -100,5 +95,15 @@
     "name": "Farhan Absar Tafader",
     "designation": "Junior Developer",
     "avatar": "farhan"
+  },
+  {
+    "name": "Nanzifa Nuzhat",
+    "designation": "Social Media Associate",
+    "avatar": "nanzifa"
+  },
+  {
+    "name": "Ishfaq Ahmed",
+    "designation": "Associate, Motion Graphics",
+    "avatar": "ishfaq"
   }
 ]
