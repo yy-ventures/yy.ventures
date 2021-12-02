@@ -309,61 +309,28 @@
       </div>
     </div>
     <!-- partners -->
-    <!-- <div class="partner">
-      <div class="partner-container">
-        <div class="partner-undp">
-          <h2 class="highlight">Main Partner</h2>
-          <div>
-            <img
-              src="~/assets/images/programs/undp.png"
-              alt=""
-              class="faded_out"
-            />
-          </div>
-        </div>
-        <div class="partner-garbageman">
-          <h2 class="highlight">Technical Partner</h2>
-          <div>
-            <img
-              src="~/assets/images/programs/garbageman.png"
-              alt=""
-              class="faded_out"
-            />
-          </div>
-        </div>
+    <div class="partners">
+      <div class="partner-header">
+        <h2 class="highlight">an initiative by</h2>
       </div>
-    </div> -->
-    <!-- partners New -->
-    <div class="partner-new">
-      <!-- main partners -->
-      <div class="partner-new-main">
-        <div class="partner-new-main-header">
-          <h2 class="highlight">partners</h2>
+      <div class="partner-body-grid">
+        <div class="partner-sida center">
+          <img src="~/assets/images/programs/sida.png" alt="" />
         </div>
-        <div class="partner-new-main-body">
-          <div class="partner-sida center">
-            <img src="~/assets/images/programs/sida.png" alt="" />
-          </div>
-          <div class="partner-action center">
-            <img src="~/assets/images/programs/practical_action.png" alt="" />
-          </div>
-          <div class="partner-brac center">
-            <img src="~/assets/images/programs/brac.png" alt="" />
-          </div>
-          <div class="partner-undp center">
-            <img src="~/assets/images/programs/undp.png" alt="" />
-          </div>
+        <div class="partner-action center">
+          <img src="~/assets/images/programs/practical_action.png" alt="" />
         </div>
-      </div>
-      <!-- technical partners -->
-      <div class="partner-new-technical">
-        <div class="partner-new-technical-header">
-          <h2 class="highlight">technical partner</h2>
+        <div class="partner-yyv center">
+          <img src="~/assets/images/programs/yyv.png" alt="" />
         </div>
-        <div class="partner-new-technical-body">
-          <div class="partner-garbage">
-            <img src="~/assets/images/programs/garbageman.png" alt="" />
-          </div>
+        <div class="partner-garbage center">
+          <img src="~/assets/images/programs/garbageman.png" alt="" />
+        </div>
+        <div class="partner-brac center">
+          <img src="~/assets/images/programs/brac.png" alt="" />
+        </div>
+        <div class="partner-undp center">
+          <img src="~/assets/images/programs/undp.png" alt="" />
         </div>
       </div>
     </div>
@@ -707,130 +674,81 @@ export default {
       }
     }
   }
-  // .partner {
-  //   padding: 5% 10%;
-  //   @media screen and (max-width: 601px) {
-  //     padding: 15% 10%;
-  //   }
-  //   display: flex;
-  //   align-items: center;
-  //   justify-content: center;
-  //   text-align: center;
-  //   .partner-container {
-  //     align-self: center;
-  //     display: grid;
-  //     grid-template-columns: 1fr 1fr;
-  //     gap: 10%;
-  //     @media screen and (max-width: 601px) {
-  //       grid-template-columns: 1fr;
-  //     }
-  //     h2 {
-  //       font-weight: 900;
-  //       font-size: 2.1rem;
-  //       text-transform: capitalize;
-  //     }
-  //     .partner-undp {
-  //       img {
-  //         width: 10%;
-  //         @media screen and (max-width: 601px) {
-  //           width: 25%;
-  //         }
-  //       }
-  //     }
-  //     .partner-garbageman {
-  //       img {
-  //         width: 50%;
-  //         @media screen and (max-width: 601px) {
-  //           width: 100%;
-  //         }
-  //       }
-  //     }
-  //   }
-  // }
   .center {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .partner-new {
-    padding: 5% 10% 10% 10%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1%;
-    text-align: center;
+  .partners {
+    padding: 10%;
     @media screen and (max-width: 601px) {
-      padding: 15% 10%;
-      grid-template-columns: 1fr;
+      padding: 15% 10% 50% 10%;
     }
-    h2 {
-      font-weight: 900;
-      text-transform: capitalize;
-      font-size: 2.5rem;
-      margin-top: 2rem;
-    }
-    .partner-new-main {
-      .partner-new-main-body {
-        margin-top: 2rem;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+    text-align: center;
+    .partner-header {
+      h2 {
+        font-weight: 900;
+        font-size: 3rem;
+        text-transform: capitalize;
         @media screen and (max-width: 601px) {
-          grid-template-columns: 1fr;
-          gap: 10%;
-        }
-        gap: 20% 10%;
-        .partner-undp {
-          height: 100%;
-          img {
-            width: 20%;
-            @media screen and (max-width: 601px) {
-              width: 25%;
-            }
-          }
-        }
-        .partner-brac {
-          height: 100%;
-          img {
-            @media screen and (max-width: 601px) {
-              // width: 100%;
-            }
-          }
-        }
-        .partner-action {
-          height: 100%;
-          img {
-            width: 50%;
-            @media screen and (max-width: 601px) {
-              width: 50%;
-            }
-          }
-        }
-        .partner-sida {
-          height: 100%;
-          img {
-            width: 50%;
-            @media screen and (max-width: 601px) {
-              width: 50%;
-            }
-          }
+          font-size: 2rem;
         }
       }
     }
-    .partner-new-technical {
+    .partner-body-grid {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
       @media screen and (max-width: 601px) {
-        margin-top: 50%;
+        grid-template-columns: 1fr;
+        gap: 5% 10%;
       }
-      .partner-new-technical-body {
-        margin-top: 2rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        .partner-garbage {
-          img {
-            width: 25%;
-            @media screen and (max-width: 601px) {
-              width: 50%;
-            }
+      margin-top: 2rem;
+      .partner-undp {
+        height: 100%;
+        img {
+          width: 30%;
+          @media screen and (max-width: 601px) {
+            width: 20%;
           }
+        }
+      }
+      .partner-brac {
+        height: 100%;
+        img {
+          @media screen and (max-width: 601px) {
+            // width: 100%;
+          }
+        }
+      }
+      .partner-action {
+        height: 100%;
+        img {
+          width: 50%;
+          @media screen and (max-width: 601px) {
+            width: 50%;
+          }
+        }
+      }
+      .partner-sida {
+        height: 100%;
+        img {
+          width: 100%;
+          @media screen and (max-width: 601px) {
+            width: 75%;
+          }
+        }
+      }
+      .partner-garbage {
+        img {
+          width: 50%;
+          @media screen and (max-width: 601px) {
+            width: 50%;
+          }
+        }
+      }
+      .partner-yyv {
+        img {
+          width: 100%;
         }
       }
     }
