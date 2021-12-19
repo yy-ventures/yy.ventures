@@ -746,10 +746,6 @@
           </div>
         </div>
       </div> -->
-<<<<<<< HEAD
-
-=======
->>>>>>> 4c2d2699f1bedab6987d99d43f1cf30986059b71
       <!-- <div class="open-position" uk-grid>
         <div class="uk-width-1-3@m">
           <div class="job-title">
