@@ -298,12 +298,6 @@
             Your application was sent successfully. We'll get in touch soon.
           </p>
         </div>
-        <!-- <div class="apply-now">
-          <a
-            href="https://docs.google.com/forms/d/17QMsOfodo--QqmlbQomHtwKhh_yrQbtcH7ulWDez900/edit"
-            >Apply Now</a
-          >
-        </div> -->
         <p>
           For information or queries about the program please reach out to
           <span class="join-bold">sharika@yy.ventures</span>.
@@ -314,27 +308,29 @@
         <h5 class="highlight">December 5, 2021</h5>
       </div>
     </div>
-    <div class="partner">
-      <div class="partner-container">
-        <div class="partner-undp">
-          <h2 class="highlight">Main Partner</h2>
-          <div>
-            <img
-              src="~/assets/images/programs/undp.png"
-              alt=""
-              class="faded_out"
-            />
-          </div>
+    <!-- partners -->
+    <div class="partners">
+      <div class="partner-header">
+        <h2 class="highlight">an initiative by</h2>
+      </div>
+      <div class="partner-body-grid">
+        <div class="partner-sida center">
+          <img src="~/assets/images/programs/sida.png" alt="" />
         </div>
-        <div class="partner-garbageman">
-          <h2 class="highlight">Technical Partner</h2>
-          <div>
-            <img
-              src="~/assets/images/programs/garbageman.png"
-              alt=""
-              class="faded_out"
-            />
-          </div>
+        <div class="partner-action center">
+          <img src="~/assets/images/programs/practical_action.png" alt="" />
+        </div>
+        <div class="partner-yyv center">
+          <img src="~/assets/images/programs/yyv.png" alt="" />
+        </div>
+        <div class="partner-garbage center">
+          <img src="~/assets/images/programs/garbageman.png" alt="" />
+        </div>
+        <div class="partner-brac center">
+          <img src="~/assets/images/programs/brac.png" alt="" />
+        </div>
+        <div class="partner-undp center">
+          <img src="~/assets/images/programs/undp.png" alt="" />
         </div>
       </div>
     </div>
@@ -678,42 +674,81 @@ export default {
       }
     }
   }
-  .partner {
-    padding: 5% 10%;
-    @media screen and (max-width: 601px) {
-        padding: 15% 10%;
-    }
+  .center {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .partners {
+    padding: 10%;
+    @media screen and (max-width: 601px) {
+      padding: 15% 10% 50% 10%;
+    }
     text-align: center;
-    .partner-container {
-      align-self: center;
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 10%;
-      @media screen and (max-width: 601px) {
-        grid-template-columns: 1fr;
-      }
+    .partner-header {
       h2 {
         font-weight: 900;
-        font-size: 2.1rem;
+        font-size: 3rem;
         text-transform: capitalize;
+        @media screen and (max-width: 601px) {
+          font-size: 2rem;
+        }
       }
+    }
+    .partner-body-grid {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      @media screen and (max-width: 601px) {
+        grid-template-columns: 1fr;
+        gap: 5% 10%;
+      }
+      margin-top: 2rem;
       .partner-undp {
+        height: 100%;
         img {
-          width: 10%;
+          width: 30%;
           @media screen and (max-width: 601px) {
-            width: 25%;
+            width: 20%;
           }
         }
       }
-      .partner-garbageman {
+      .partner-brac {
+        height: 100%;
+        img {
+          @media screen and (max-width: 601px) {
+            // width: 100%;
+          }
+        }
+      }
+      .partner-action {
+        height: 100%;
         img {
           width: 50%;
           @media screen and (max-width: 601px) {
-            width: 100%;
+            width: 50%;
           }
+        }
+      }
+      .partner-sida {
+        height: 100%;
+        img {
+          width: 100%;
+          @media screen and (max-width: 601px) {
+            width: 75%;
+          }
+        }
+      }
+      .partner-garbage {
+        img {
+          width: 50%;
+          @media screen and (max-width: 601px) {
+            width: 50%;
+          }
+        }
+      }
+      .partner-yyv {
+        img {
+          width: 100%;
         }
       }
     }
