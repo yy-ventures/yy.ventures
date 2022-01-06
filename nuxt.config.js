@@ -33,7 +33,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'We believe that a more equitable and just world is possible if we foster ‘Social Business’ while leveraging young people’s talents and ideas.',
+          'YY Ventures is an incubation and investment Social Business. We believe that a more equitable and just world is possible if we foster ‘Social Business’ while leveraging young people’s talents and ideas.',
       },
     ],
     link: [
