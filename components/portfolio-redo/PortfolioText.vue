@@ -5,7 +5,7 @@
       uk-scrollspy="cls:text-section-narrow; hidden:false;  delay:500; repeat:false"
     >
       <div class="uk-container uk-container-large">
-        <h3 class="section-heading">Financing early stage Social Businesses that are building a world of three zeros</h3>
+        <h3 class="section-heading">Financing early stage Social Businesses that are creating a world of three zeros</h3>
 
         <div
           class="uk-grid-match  uk-child-width-1-2@m text-section-inner"
@@ -13,16 +13,16 @@
         >
           <div>
             <p class="text-bold">
-              YY Ventures invests in socially, and environmentally conscious entrepreneurs working towards a world of three zeros- zero net carbon emission, zero wealth concentration for ending poverty, and zero unemployment by unleashing entrepreneurship in all.
+              YY Ventures is on a mission to support socially and environmentally conscious entrepreneurs to ensure zero carbon emission, zero wealth concentration by ending poverty and zero unemployment by unleashing entrepreneurship in all.
             </p>
           </div>
           <div>
             <p class="text-light">
-              We invest in pre-seed and seed stage companies and actively assist portfolio companies in navigating the path to notable venture investors, partners, and clients. Our investment creates access to employment opportunities at a fair market price and ensures competency in the job market through skills and training development. We aim to achieve sustainable livelihood in developing communities, ensuring sufficiency and people’s connection with the community. 
+              YY Ventures invests in early-stage, untested Social Businesses that are solving social and environmental challenges in overlooked communities in Bangladesh and actively assist portfolio companies in navigating the path to notable venture investors, partners, and clients. We use our own capital and philanthropic money to finance promising Social Businesses where in most of the cases we are the first investors. Apart from capital, we support our ventures in vision setting, creating theory of change, and measuring & managing impact. 
             </p>
 
             <p class="text-light">
-              Our investment team and portfolio companies offer an opportunity to  philanthropists, government agencies and family foundations to turn their charity into sustainable investments.
+              We are currently raising money for our first venture fund to finance early-stage Social Businesses that are innovating across broad categories — education, healthcare, technology access, sports, environment, tourism and gender equality.
             </p>
           </div>
         </div>

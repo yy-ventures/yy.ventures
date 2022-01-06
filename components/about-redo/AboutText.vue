@@ -6,37 +6,24 @@
     >
       <div class="uk-container uk-container-large text-main">
         <h3 class="section-heading">
-          Emerging global leader in investment and growth of Social Business
+          For socially and environmentally conscious entrepreneurs
         </h3>
 
         <div class="uk-grid-match uk-child-width-1-2@m" uk-grid>
           <div>
             <p class="text-bold">
-              YY Ventures was created in partnership with 'Yunus Centre', the
-              global think tank for Social Business founded by Nobel Peace Prize
-              Winner Professor Muhammad Yunus to accelerate the growth of social
-              businesses.
+              YY Ventures in an incubation and investment Social Business founded in partnership with 'Yunus Centre', the global think tank for Social Business created by Nobel Peace Prize Winner Professor Muhammad Yunus to advance the growth of social businesses.
             </p>
           </div>
           <div>
             <p class="text-light">
-              Binding the world with the spirit of Social Business and
-              innovation; we are the weavers of today’s Social Business world.
-              As we knit through the gaps among people, groups, and
-              organizations, we connect thoughts, ideas, and minds; opening
-              doors to collective growth and realizing the essence of a truly
-              global village.
+              We believe that a more equitable and just world is possible if we foster ‘Social Business ’while leveraging young people’s talents and ideas.
             </p>
             <p class="text-light">
-              Our Social Business investment is an encouragement and support
-              that we can offer to the people willing to be the agents of
-              change, a change we collectively envision. Our Social Businesses
-              use entrepreneurial capacity and innovative means to achieve
-              social and environmental objectives that have a sustained impact.
-              These companies are actively working with global agendas such as
-              SDGs, with their sustainable model and impactful objectives, they
-              spill over into new and promising partnerships, initiatives,
-              ideas, and innovation.
+              Our incubation programs and investments are an encouragement and support that we can offer to the people willing to be the agents of change, a change we collectively envision. Our subsidiaries and portfolio companies use entrepreneurial capacity and innovative means to achieve social and environmental objectives with a sustained impact. These companies are actively working with global agendas such as SDGs; with their sustainable model and impactful objectives, they spill over into new and promising partnerships, initiatives, ideas, and innovation.
+            </p>
+            <p class="text-light">
+              YY Ventures and its subsidiaries leverage the 40+ years of ‘Grameen ’experience while undertaking major activities like - incubation program design & management, investment, community & coworking space, creative design and web services, hybrid/physical events and venture building.
             </p>
           </div>
         </div>

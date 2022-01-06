@@ -2,7 +2,7 @@
 #footer
   div
     img(src="~/assets/images/logo/yyv-logo-white-small.png").faded_out
-    .h3.faded_out#slogan We build, incubate and invest in Social Businesses that are moving towards a world of three zeros - zero net carbon emission, zero wealth concentration for ending poverty, and zero unemployment by unleashing entrepreneurship in all.
+    .h3.faded_out#slogan YY Ventures is an incubation and investment Social Business supporting early stage entrepreneurs who are fighting carbon emission, poverty and unemployment.
 
   div
     .h5.faded_out  Get in Touch
