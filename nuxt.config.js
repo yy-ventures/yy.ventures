@@ -25,7 +25,7 @@ export default {
     routes: dynamicRoutes,
   },
   head: {
-    title: 'YY Ventures | We build, incubate and invest in social businesses',
+    title: 'YY Ventures | Incubation and investment Social Business company',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },

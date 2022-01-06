@@ -17,13 +17,13 @@
           </div>
           <div>
             <p class="text-light">
-              We believe that a more equitable and just world is possible if we foster ‘Social Business ’while leveraging young people’s talents and ideas.
+              We believe that a more equitable and just world is possible if we foster ‘Social Business’ while leveraging young people’s talents and ideas.
             </p>
             <p class="text-light">
               Our incubation programs and investments are an encouragement and support that we can offer to the people willing to be the agents of change, a change we collectively envision. Our subsidiaries and portfolio companies use entrepreneurial capacity and innovative means to achieve social and environmental objectives with a sustained impact. These companies are actively working with global agendas such as SDGs; with their sustainable model and impactful objectives, they spill over into new and promising partnerships, initiatives, ideas, and innovation.
             </p>
             <p class="text-light">
-              YY Ventures and its subsidiaries leverage the 40+ years of ‘Grameen ’experience while undertaking major activities like - incubation program design & management, investment, community & coworking space, creative design and web services, hybrid/physical events and venture building.
+              YY Ventures and its subsidiaries leverage the 40+ years of ‘Grameen’ experience while undertaking major activities like - incubation program design & management, investment, community & coworking space, creative design and web services, hybrid/physical events and venture building.
             </p>
           </div>
         </div>
