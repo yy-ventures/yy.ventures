@@ -238,6 +238,7 @@
                 img{
                     width: 100%;
                     object-fit: cover;
+                    height: 300px;
                 }
                 h3{
                     color: #333;

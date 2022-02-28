@@ -11,11 +11,6 @@
       .p Founder & Managing Director
       .p.mail shazeeb@yy.ventures
       nuxt-link(to="/contact").contact Contact Now
-    //- .pre_footer__grid__container
-    //-   .h5 Osman Dhali
-    //-   .p Chief of Staff
-    //-   .p.mail osman@yy.ventures
-    //-   nuxt-link(to="/contact").contact Contact Now
 
 </template>
 

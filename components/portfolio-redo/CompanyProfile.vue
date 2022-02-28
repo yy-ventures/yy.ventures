@@ -1,77 +1,29 @@
 <template>
-  <div id="company-profile" class="uk-section">
-    <div class="uk-section">
-      <div class="uk-container">
-        <div class="" uk-grid>
-          <div class="uk-width-1-3@m company-logo-section uk-inline" uk-grid>
-            <img :src="portfolio.logo" width="" height="" alt="" uk-img />
-            <div class="social-media-heading">
-              <h2>Visit</h2>
-            </div>
-            <div class="social-media-icons">
-              <a
-                :href="portfolio.website"
-                class="uk-icon-button social-icons single-icon"
-                uk-icon="link"
-              ></a>
-              <a
-                :href="portfolio.facebook"
-                class="uk-icon-button social-icons single-icon"
-                uk-icon="facebook"
-              ></a>
-              <a
-                :href="portfolio.linkedin"
-                class="uk-icon-button social-icons single-icon"
-                uk-icon="linkedin"
-              ></a>
-            </div>
-          </div>
-          <div class="uk-width-2-3@m company-details-section uk-inline ">
-            <h2 class="company-name">
-              {{ portfolio.title }}
-            </h2>
-<!--             <div class="company-info">
-              Founders:
-              <span>{{ portfolio.founders }} </span>
-            </div> -->
-            <div class="company-info">
-              Category: <span>{{ portfolio.category }}</span>
-            </div>
-            <div class="company-info">
-              Mission:
-              <span>{{ portfolio.mission }}</span>
-            </div>
-            <div class="company-info">
-              Founding Year: <span>{{ portfolio.year }}</span>
-            </div>
-          </div>
+  <div class="portfolio-container">
+    <!-- header -->
+    <div class="portfolio-header">
+      <div class="header-left">
+        <div class="grid-display">
+          <img :src="portfolio.logo" alt="">
+          <p><span class="grid-title">Category:</span> {{portfolio.category}}</p>
+          <p><span class="grid-title">Mission:</span> {{portfolio.mission}}</p>
+          <p><span class="grid-title">Founding Year:</span> {{portfolio.year}}</p>
         </div>
       </div>
-    </div>
-    <div class="uk-section">
-      <div class="uk-container uk-container-large">
-        <div class="company-featured-image">
-          <img :src="portfolio.featured" width="" height="" alt="" uk-img class="uk-align-center" />
-        </div>
+      <div class="header-right">
+        <img :src="portfolio.featured" alt="">
       </div>
     </div>
-    <div class="uk-section">
-      <div class="uk-container">
-        <div class="" uk-grid>
-          <div class="uk-width-1-3@m company-text-section" uk-grid>
-            <p class="text-bold">
-              {{ portfolio.tagline }}
-            </p>
-          </div>
-          <div class="uk-width-2-3@m company-text-section" uk-grid>
-            <p class="text-light">
-              {{ portfolio.description }}
-            </p>
-          </div>
-        </div>
+    <!-- header -->
+    <div class="portfolio-footer">
+      <div class="header-left">
+        
+      </div>
+      <div class="header-right">
+        
       </div>
     </div>
-  </div>
+  </div> 
 </template>
 
 <script>
@@ -80,73 +32,48 @@ export default {
 }
 </script>
 
-<style lang="less" scoped>
-@large-down: ~'only screen and (max-width: 950px)';
-@tablet-down: ~'only screen and (max-width: 800px)';
+<style lang="scss" scoped>
 
-#company-profile {
-  .company-logo-section {
-    padding-left: 135px;
-    @media @large-down {
-      padding-left: 35px;
-    }
-    img {
-      width: auto;
+.portfolio-container{
+  width: 96%;
+  margin: 0 auto;
+  padding: 5% 0 1% 0;
+  font-family: "Graphik";
+  .portfolio-header{
+    margin-top: 2.5%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    @media screen and (max-width: 600px) {
       height: auto;
-      margin-top: 12px;
+      grid-template-columns: 1fr;
     }
-    .social-media-heading {
-      h2 {
-        font-size: 20px;
-        font-weight: 300;
-        font-family: 'Graphik';
-        color: #3a3b3a;
+    .header-left{
+      background: #eee;
+      padding: 2.5%;
+      .grid-display{
+        p{
+          color: #333;
+        }
+        .grid-title{
+          font-weight: 700;
+          color: #222;
+        }
       }
     }
-    .social-media-icons {
-      margin-top: 15px;
-      .social-icons {
-        display: inline;
-        padding-right: 10px;
-        background: none;
-      }
-    }
-  }
-  .company-details-section {
-    .company-name {
-      font-size: 55px;
-      font-weight: bold;
-      font-family: 'Graphik';
-      color: #3a3b3a;
-      margin-bottom: 20px;
-    }
-    .company-info {
-      font-size: 18px;
-      font-weight: bold;
-      font-family: 'Graphik';
-      color: #3a3b3a;
-      margin-top: 20px;
-      span {
-        font-weight: 300;
+    .header-right{
+      img{
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
       }
     }
   }
-  .company-text-section {
-    margin-top: 0;
-    .text-bold {
-      font-size: 25px;
-      font-weight: 600;
-      font-family: 'Graphik';
-      color: #3a3b3a;
-      line-height: 32px;
-    }
-    .text-light {
-      font-size: 18px;
-      font-weight: 300;
-      font-family: 'Graphik';
-      color: #3a3b3a;
-      line-height: 30px;
-    }
+  .portfolio-footer{
+    height: 500px;
+    background: #222;
+    margin-top: 2.5%;
   }
 }
+
 </style>
