@@ -10,16 +10,17 @@
         <div class="uk-grid-match uk-child-width-1-2@m" uk-grid>
           <div>
             <p class="text-right">
-              YY Ventures Limited is a social business company founded in Bangladesh to build, incubate and invest in social businesses that are creating a world of three zeros- zero net carbon emission, zero wealth concentration for ending poverty, and zero unemployment by unleashing entrepreneurship in all. 
+              YY Ventures is an incubation and investment Social Business founded in partnership with 'Yunus Centre', the global think tank for Social Business created by Nobel Peace Prize Winner Professor Muhammad Yunus to advance the growth of social businesses. 
             </p>
           </div>
           <div>
             <p class="text-left">
-              Our journey started with the creation of YY Goshthi in 2016 when we decided to create jobs for ourselves and our friends. To date, we have supported 64 entrepreneurs who have improved the lives of 150,633 Bangladeshis. By 2030 we want to improve the lives of two million people by backing socially and environmentally conscious entrepreneurs.
+             We believe that a more equitable and just world is possible if we foster ‘Social Business’ while leveraging young people’s talents and ideas. 
             </p>
             <p class="text-left">
-              Our Social Business investment is an encouragement and support that we can offer to the people willing to be the agents of change, a change we collectively envision. Our Social Businesses use entrepreneurial capacity and innovative means to achieve social and environmental objectives that have a sustained impact. These companies are actively working with global agendas such as SDGs, with their sustainable model and impactful objectives, they spill over into new and promising partnerships, initiatives, ideas, and innovation. 
+              Our incubation programs and investments are an encouragement and support that we can offer to the people willing to be the agents of change, a change we collectively envision. Our subsidiaries and portfolio companies use entrepreneurial capacity and innovative means to achieve social and environmental objectives with a sustained impact. These companies are actively working with global agendas such as SDGs; with their sustainable model and impactful objectives, they spill over into new and promising partnerships, initiatives, ideas, and innovation. 
             </p>
+            <p class="text-left">YY Ventures and its subsidiaries leverage the 40+ years of ‘Grameen’ experience while undertaking major activities like - incubation program design & management, investment, community & coworking space, creative design and web services, hybrid/physical events and venture building. </p>
           </div>
         </div>
       </div>
@@ -62,9 +63,9 @@
   .text-right {
     color: #3a3b3a;
     font-family: 'Graphik';
-    font-weight: 400;
+    font-weight: 700;
     font-size: 22px;
-    line-height: 30px;
+    line-height: 1.5;
     @media @small-down {
       font-size: 16px;
       line-height: 24px;

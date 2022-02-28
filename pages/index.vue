@@ -3,9 +3,10 @@
     home-hero
     Vision
     //- picture-grid(:data="latest")
-    SolidWaste
+    //- SolidWaste
     Quote
-    Latest
+    News
+    //- Latest
     //- portfolio-slider
     //- home-portfolio.faded_out
     //- Video
@@ -27,6 +28,7 @@ import PictureGrid from '~/components/PictureGrid';
 import Latest from '~/components/Latest';
 import SolidWaste from '~/components/SolidWaste';
 import HomeBrands from '~/components/HomeBrands.vue';
+import News from '~/components/news/News.vue';
 
 import {
   toggle_class_on_focus,
@@ -53,6 +55,7 @@ export default {
     SolidWaste,
     PreFooter,
     HomeBrands,
+    News,
   },
 
   data: () => ({

@@ -67,6 +67,8 @@ export default {
     '~/assets/styles/typography.sass',
     '~/assets/styles/colors.sass',
     '~/assets/styles/animations.sass',
+    '~/node_modules/vue-slick-carousel/dist/vue-slick-carousel.css',
+    '~/node_modules/vue-slick-carousel/dist/vue-slick-carousel-theme.css' 
     // '~/assets/styles/resets.sass',
   ],
   plugins: ['~/plugins/typed.js'],

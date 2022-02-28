@@ -2,10 +2,13 @@
 #home-page
   services-hero
   Intro
-  picture-grid(:data="services")
-  Pointer
-  previous-work
-  pre-footer
+  QuoteService
+  ServiceGrid
+  ServiceWork
+  //- picture-grid(:data="services")
+  //- Pointer
+  //- previous-work
+  //- pre-footer
 </template>
 <script>
 import PreFooter from '~/components/services/PreFooter';
@@ -15,8 +18,10 @@ import PreviousWork from '~/components/services/PreviousWork';
 import PictureGrid from '~/components/PictureGrid';
 import Intro from '~/components/services/Intro';
 import Pointer from '~/components/services/Pointer';
-
 import services from '~/assets/data/services.json';
+import QuoteService from '~/components/QuoteService.vue';
+import ServiceGrid from '~/components/services/ServiceGrid.vue';
+import ServiceWork from '~/components/services/ServiceWork.vue';
 
 import {
   toggle_class_on_focus,
@@ -32,6 +37,9 @@ export default {
     Intro,
     Pointer,
     ServicesHero,
+    QuoteService,
+    ServiceGrid,
+    ServiceWork,
   },
   data: () => ({
     services,

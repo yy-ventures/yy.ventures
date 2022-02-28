@@ -35,7 +35,7 @@
 #portfolio-text {
   margin-top: 40px;
   .text-section {
-    background: #f1f2f2;
+    background: #3a3b3a;
     transition: margin 0.5s;
     transition-timing-function: ease-in;
     margin: 0px;
@@ -47,19 +47,19 @@
     margin: 80px 40px;
   }
   .section-heading {
-    color: #3a3b3a;
+    color: #f1f2f2;
     font-family: 'Graphik';
     font-weight: 900;
     font-size: 60px;
   }
   .text-bold {
-    color: #3a3b3a;
+    color: #f1f2f2;
     font-family: 'Graphik';
     font-weight: 600;
     font-size: 20px;
   }
   .text-light {
-    color: #3a3b3a;
+    color: #f1f2f2;
     font-family: 'Graphik';
     font-weight: 400;
     font-size: 16px;

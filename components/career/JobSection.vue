@@ -852,7 +852,7 @@
         </div>
       </div> -->
 
-      <div class="open-position" uk-grid>
+      <!-- <div class="open-position" uk-grid>
         <div class="uk-width-1-3@m">
           <div class="job-title">
             <div class="title-bg">1</div>
@@ -947,12 +947,13 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
+
 
       <div class="open-position" uk-grid>
         <div class="uk-width-1-3@m">
           <div class="job-title">
-            <div class="title-bg">2</div>
+            <div class="title-bg">1</div>
             <h2>Digital Marketing Specialist</h2>
           </div>
         </div>
@@ -1079,7 +1080,7 @@
       <div class="open-position" uk-grid>
         <div class="uk-width-1-3@m">
           <div class="job-title">
-            <div class="title-bg">3</div>
+            <div class="title-bg">2</div>
             <h2>Web Developer</h2>
           </div>
         </div>
@@ -1229,7 +1230,7 @@
       <div class="open-position" uk-grid>
         <div class="uk-width-1-3@m">
           <div class="job-title">
-            <div class="title-bg">4</div>
+            <div class="title-bg">3</div>
             <h2>UI/UX Designer</h2>
           </div>
         </div>
@@ -1341,6 +1342,122 @@
                   position. You are advised to mention your salary expectations
                   in your cover letter.</i
                 >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="open-position" uk-grid>
+        <div class="uk-width-1-3@m">
+          <div class="job-title">
+            <div class="title-bg">4</div>
+            <h2>Internship</h2>
+          </div>
+        </div>
+        <div class="uk-width-2-3@m">
+          <div class="job-description">
+            <ul uk-accordion>
+              <li class="uk-open">
+                <a class="uk-accordion-title" href="#">Positions</a>
+                <div class="uk-accordion-content">
+                  <h5>Content Creator</h5>
+                  <p>
+                    We are looking for young minds who can promote YY Ventures’ services by developing content for multiple platforms like websites, social media channels, etc.  
+                  </p>
+                  <h5>Copywriter</h5>
+                  <p>
+                    We are looking for inspired copywriters, dedicated to crafting excellent original content, participating in the brainstorming process, and conducting research to develop or support writing.   
+                  </p>
+                  <h5>Web Developer</h5>
+                  <p>
+                    We are looking for skilled individuals who will be supporting the web development team in creating, maintaining, and updating the websites for our company. 
+                  </p>
+                  <h5>Graphic Designer-</h5>
+                  <p>We are looking for creative minds who will be working with the YY Studio team and will support them to create effective, user-centric, and dynamic design solutions for different services. </p>
+                  <h5>Animator/Visualizer</h5>
+                  <p>
+                   We are looking for disciplined and artistic minds with a firm grasp on animation techniques, fundamentals, and software and will be supporting the YY Studio team in creating effective and powerful content. 
+                  </p>
+                  <h5>Programs</h5>
+                  <p>
+                    We are looking for a young, dynamic and energetic individual who will work closely with the programs team and assist in successfully running different programs, projects and events.  
+                  </p>
+                </div>
+              </li>
+
+              <!-- <li>
+                <a class="uk-accordion-title" href="#"
+                  >Essential Responsibilities</a
+                >
+                <div class="uk-accordion-content">
+                  <ul>
+                    <li>
+                      Support in designing program or service models based on research finding to improve program effectiveness and efficiency  
+                    </li>
+                    <li>
+                      Conduct in-depth landscape analysis to capture evidence and good practices of entrepreneurship ecosystem and provide insights to improve programs
+                    </li>
+                    <li>
+                      Design and administer surveys and other assessment tools to capture and analyse data for program planning, decision-making, and reporting
+                    </li>
+                    <li>
+                      Provide insights on designing processes, playbooks, and policies to standardise and scale YY Ventures (YYV)’s entrepreneurship programs and home-grown business models
+                    </li>
+                    <li>Assist in concept note, proposal, and budget development according to a project goal and objectives</li>
+                    <li>Develop and implement knowledge management framework; support in report writing and content development such as articles, blog posts, and case studies</li>
+                    <li>Support YYV’s key projects, program and consulting service to help young social entrepreneurs to manage and measure their impact</li>
+                    <li>Work as an ambassador for YYV, and maintain solid relationships with external stakeholders, startups, accelerators, investors, and the international development community</li>
+                  </ul>
+                </div>
+              </li> -->
+
+              <!-- <li>
+                <a class="uk-accordion-title" href="#">Qualifications</a>
+                <div class="uk-accordion-content">
+                  <ul>
+                    <li>
+                      Bachelor’s degree in economics, development studies, public health, or other social science or business disciplines, including international relations, marketing, psychology, anthropology
+                    </li>
+                    <li>
+                      A minimum of 1-2 years of work experience is desirable, although not required. Experience working in startup or entrepreneurship ecosystem would be strongly preferred
+                    </li>
+                    <li>
+                      Good technical understanding of project evaluation methods and demonstrated proficiency in data collection and analysis
+                    </li>
+                    <li>
+                      Detail-oriented, excellent management and organisational skills, ability to juggle several tasks, and advanced writing and communication skills are required
+                    </li>
+                  </ul>
+                </div>
+              </li> -->
+
+              <li>
+                <a class="uk-accordion-title" href="#">Other Info</a>
+                <div class="uk-accordion-content">
+                  <ul>
+                    <li><strong>Time Commitment:</strong> 40 hours/week</li>
+                    <li>
+                      <strong>Location:</strong> 9th Floor, Grameen Telecom
+                      Bhaban, Zoo Road, Mirpur 1, Dhaka 1216
+                    </li>
+                    <li><strong>Start date:</strong> February 16, 2022</li>
+                    <li><strong>Salary:</strong> 6,000 BDT.</li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+            <div class="contact-email">
+              <p>
+                <!-- <i
+                  >If you are interested in applying for this position please
+                  send your resume and cover letter at
+                  <a href="mailto:careers@yy.ventures">careers@yy.ventures</a>
+                  detailing why you think you are the right person for this
+                  position. You are advised to mention your salary expectations
+                  in your cover letter.</i
+                > -->
+                <a class="internship-btn" target="_blank" href="https://airtable.com/shrp07ceJJx2BCING">Apply now</a>
               </p>
             </div>
           </div>
@@ -2020,6 +2137,13 @@
     p {
       font-family: "Graphik";
       font-weight: 300;
+      .internship-btn{
+        text-decoration: none;
+        color: #fff;
+        padding: 8px 16px;
+        border-radius: 5px;
+        background: #c7265b;
+      }
     }
     .contact-email {
       padding-top: 15px;
@@ -2029,6 +2153,11 @@
       color: #fff;
       font-weight: bold;
       margin-top: 15px;
+    }
+    h5{
+      font-weight: 700;
+      font-style: italic;
+      color: #333;
     }
   }
 }

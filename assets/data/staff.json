@@ -38,8 +38,12 @@
     "name": "Md. Mamun Rashid",
     "designation": "Project Manager, Technology",
     "avatar": "mamun_bhai"
-  }
-  ,
+  },
+  {
+    "name": "Shanto Kumar Sarker",
+    "designation": "Web Developer",
+    "avatar": "shanto"
+  },
   {
     "name": "Purbita Jannat",
     "designation": "Executive Business Partner",
@@ -72,6 +76,11 @@
     "avatar": "sakib"
   },
   {
+    "name": "Ozair Ahmed",
+    "designation": "Senior Associate, Partnerships",
+    "avatar": "ozair"
+  },
+  {
     "name": "Raidah Momo Ibrahim",
     "designation": "Associate",
     "avatar": "raidah_second"
@@ -97,8 +106,23 @@
     "avatar": "nanzifa"
   },
   {
+    "name": "Ishrat Jahan Ishita",
+    "designation": "Associate, Research and Innovation",
+    "avatar": "ishita"
+  },
+  {
     "name": "Ishfaq Ahmed",
     "designation": "Associate",
     "avatar": "ishfaq"
+  },
+  {
+    "name": "Khandaker Nabiul",
+    "designation": "Junior Web Developer",
+    "avatar": "nabil"
+  },
+  {
+    "name": "Raihan Bin Islam",
+    "designation": "Junior Web Developer",
+    "avatar": "raihan"
   }
 ]

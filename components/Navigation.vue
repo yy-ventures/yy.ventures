@@ -10,9 +10,9 @@
     .menu
       //- nuxt-link.link.underline(to="/") home
       nuxt-link.link.underline(to="/about") about
-      nuxt-link.link.underline(to="/investments") investments
+      nuxt-link.link.underline(to="/investments") portfolio
       //- nuxt-link.link.underline(to="/contact") contact
-      nuxt-link.link.underline(to="/services") advisory services
+      nuxt-link.link.underline(to="/services") consulting
       a.link.underline(href="https://incubator.yy.ventures" target="_blank" rel="noopener noreferrer") incubator
       //- nuxt-link.link.underline(to="/partnerships") partnerships
 

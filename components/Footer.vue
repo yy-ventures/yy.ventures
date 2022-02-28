@@ -9,7 +9,7 @@
     nuxt-link(to="/career").p career
     nuxt-link(to="/contact").p contact
     nuxt-link(to="/media-kit").p media kit
-    nuxt-link(to="/blogs").p blogs
+    nuxt-link(to="/news-views-more").p news, views & more
     .p.faded_out#mail E: info@yy.ventures
     .p.faded_out#phone M: +880 1810061591
     .p.faded_out#address 9th floor, Grameen Telecom Bhaban, #[br] Mirpur 1, Dhaka 1216, Bangladesh.

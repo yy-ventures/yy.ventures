@@ -12,7 +12,7 @@
         <div class="uk-grid-match uk-child-width-1-2@m" uk-grid>
           <div>
             <p class="text-bold">
-              YY Ventures in an incubation and investment Social Business founded in partnership with 'Yunus Centre', the global think tank for Social Business created by Nobel Peace Prize Winner Professor Muhammad Yunus to advance the growth of social businesses.
+              YY Ventures is an incubation and investment Social Business founded in partnership with 'Yunus Centre', the global think tank for Social Business created by Nobel Peace Prize Winner Professor Muhammad Yunus to advance the growth of social businesses.
             </p>
           </div>
           <div>
@@ -58,7 +58,7 @@
     color: #d0d2d3;
     font-family: 'Graphik';
     font-weight: 900;
-    font-size: 60px;
+    font-size: calc(24px + 3vw);
     @media @small-down {
       font-size: 30px;
       line-height: 50px;

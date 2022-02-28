@@ -19,13 +19,13 @@
             >YY Goshthi Logo</a
           >
 
-          <a
+          <!-- <a
             class="uk-button btn-yys"
             target="_blank"
             href="/logos/yy_studios.png"
             download
             >YY Studios Logo</a
-          >
+          > -->
 
           <!-- <a
             class="uk-button btn-yys"
@@ -36,13 +36,13 @@
           > -->
 
           <!--             <a class="uk-button btn-ihd" target="_blank" href="#">Impact Hub Dhaka Logo</a> -->
-          <a
+          <!-- <a
             class="uk-button btn-team"
             target="_blank"
             href="/images/team_avatars.zip"
             download
             >Team Headshots</a
-          >
+          > -->
         </p>
       </div>
     </div>
