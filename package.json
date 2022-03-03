@@ -13,7 +13,7 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.16.7",
-    "@babel/preset-env": "^7.12.17",
+    "@babel/preset-env": "^7.16.11",
     "@luxdamore/vue-cursor-fx": "^1.4.0",
     "@nuxt/content": "^1.14.0",
     "@nuxtjs/style-resources": "^1.0.0",
@@ -21,11 +21,12 @@
     "axios": "^0.21.3",
     "less": "^3.11.1",
     "less-loader": "^6.1.0",
+    "postcss": "^8.4.7",
     "postcss-loader": "^4.2.0",
     "pug": "^3.0.2",
     "pug-plain-loader": "^1.1.0",
-    "sass": "^1.32.8",
-    "sass-loader": "^10.1.1",
+    "sass": "^1.49.9",
+    "sass-loader": "^10.2.1",
     "vue-slick-carousel": "^1.0.6",
     "vue-typed-js": "^0.1.2"
   }
