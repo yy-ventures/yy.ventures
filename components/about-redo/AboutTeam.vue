@@ -1,7 +1,7 @@
 <template>
   <div id="team-section">
     <div class="uk-section">
-      <h2 class="team-heading">Team</h2>
+      <h2 class="team-heading" id="team-members">Team</h2>
       <div
         class="uk-child-width-1-4@m members-container uk-grid-collapse"
         uk-grid
