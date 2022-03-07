@@ -20,30 +20,14 @@
                             <nuxt-link to="/news/kick-the-virus">Read More</nuxt-link>
                         </div>
                     </div>
-                    <!-- <div class="news-grid-card">
-                        <div class="card-header">
-                            <h5>UNDP, Practical Action & YY Ventures announces funding & mentoring support for Go Green Bangladesh</h5>
-                        </div>
-                        <div class="card-footer">
-                            <a href="#">Read More</a>
-                        </div>
-                    </div>
                     <div class="news-grid-card">
                         <div class="card-header">
-                            <h5>UNDP, Practical Action & YY Ventures announces funding & mentoring support for Go Green Bangladesh</h5>
+                            <h5>Waste or Opportunity? - A ground-breaking approach by GARBAGEMAN</h5>
                         </div>
                         <div class="card-footer">
-                            <a href="#">Read More</a>
+                            <nuxt-link to="/news/waste-opportunity">Read More</nuxt-link>
                         </div>
                     </div>
-                    <div class="news-grid-card">
-                        <div class="card-header">
-                            <h5>UNDP, Practical Action & YY Ventures announces funding & mentoring support for Go Green Bangladesh</h5>
-                        </div>
-                        <div class="card-footer">
-                            <a href="#">Read More</a>
-                        </div>
-                    </div> -->
                 </div>
             </div>
             <!-- news footer -->
