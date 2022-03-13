@@ -1348,7 +1348,7 @@
         </div>
       </div>
 
-      <div class="open-position" uk-grid>
+      <!-- <div class="open-position" uk-grid>
         <div class="uk-width-1-3@m">
           <div class="job-title">
             <div class="title-bg">4</div>
@@ -1384,7 +1384,7 @@
                     We are looking for a young, dynamic and energetic individual who will work closely with the programs team and assist in successfully running different programs, projects and events.  
                   </p>
                 </div>
-              </li>
+              </li> -->
 
               <!-- <li>
                 <a class="uk-accordion-title" href="#"
@@ -1432,7 +1432,7 @@
                 </div>
               </li> -->
 
-              <li>
+              <!-- <li>
                 <a class="uk-accordion-title" href="#">Other Info</a>
                 <div class="uk-accordion-content">
                   <ul>
@@ -1448,7 +1448,7 @@
               </li>
             </ul>
             <div class="contact-email">
-              <p>
+              <p> -->
                 <!-- <i
                   >If you are interested in applying for this position please
                   send your resume and cover letter at
@@ -1457,12 +1457,12 @@
                   position. You are advised to mention your salary expectations
                   in your cover letter.</i
                 > -->
-                <a class="internship-btn" target="_blank" href="https://airtable.com/shrp07ceJJx2BCING">Apply now</a>
+                <!-- <a class="internship-btn" target="_blank" href="https://airtable.com/shrp07ceJJx2BCING">Apply now</a>
               </p>
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <!-- <div class="open-position" uk-grid>
         <div class="uk-width-1-3@m">
