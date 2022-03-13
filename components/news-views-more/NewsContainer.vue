@@ -5,13 +5,21 @@
             <div class="news-grid">
                 <div class="news-grid-left">
                     <div class="img-header">
-                        <img src="~/assets/images/news/news-container.jpg" alt="">
+                        <img src="~/assets/images/news/sadia_2.jpg" alt="">
                     </div>
                     <div>
                         <h2>news</h2>
                     </div>
                 </div>
                 <div class="news-grid-right">
+                    <div class="news-grid-card">
+                        <div class="card-header">
+                            <h5>Sadia Hossain Joins YY Ventures Limited as the Chief Operating Officer (COO)</h5>
+                        </div>
+                        <div class="card-footer">
+                            <nuxt-link to="/news/sadia-hossain">Read More</nuxt-link>
+                        </div>
+                    </div>
                     <div class="news-grid-card">
                         <div class="card-header">
                             <h5>Go Green Bangladesh Named the Winner of Waste 2 Resources Program</h5>
@@ -64,6 +72,11 @@
             <!-- news slider -->
             <div class="news-slider" v-if="visible">
                 <VueSlickCarousel v-bind="settings">
+                    <div class="new-slide-card">
+                        <nuxt-link to="/news/sadia-hossain"><img src="../../assets/images/news/slider/sadia_2.jpg" alt=""></nuxt-link>
+                        <h3>Sadia Hossain Joins YY Ventures Limited as the Chief Operating Officer (COO)</h3>
+                        <p>YY Ventures Limited has onboarded Sadia Hossain as the Chief Operating Officer (COO) on March 01, 2022. Sadia is a business development and talent...</p>
+                    </div>
                     <div class="new-slide-card">
                         <nuxt-link to="/news/go-green"><img src="../../assets/images/news/slider/undp-2.jpg" alt=""></nuxt-link>
                         <h3>Go Green Bangladesh Named the Winner of Waste 2 Resources Program</h3>

@@ -4,6 +4,11 @@
         <h2 class="highlight">Related</h2>
         <VueSlickCarousel v-bind="settings">
             <div class="new-slide-card">
+                <nuxt-link to="/news/sadia-hossain"><img src="../../assets/images/news/slider/sadia_2.jpg" alt=""></nuxt-link>
+                <h3>Sadia Hossain Joins YY Ventures Limited as the Chief Operating Officer (COO)</h3>
+                <p>YY Ventures Limited has onboarded Sadia Hossain as the Chief Operating Officer (COO) on March 01, 2022. Sadia is a business development and talent...</p>
+            </div>
+            <div class="new-slide-card">
                 <nuxt-link to="/news/go-green"><img src="../../assets/images/news/slider/undp-2.jpg" alt=""></nuxt-link>
                 <h3>Go Green Bangladesh Named the Winner of Waste 2 Resources Program</h3>
                 <p>Sustainable Solutions to Solid Waste Management project was initiated in 2018 by UNDP with funding from the Swedish International Development Agency (SIDA)...</p>

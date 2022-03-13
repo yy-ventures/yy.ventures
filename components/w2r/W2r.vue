@@ -366,7 +366,6 @@ export default {
       bodyFormData.append("business_model", this.message);
       bodyFormData.append("pitch_deck", this.file);
 
-      console.log("form data", bodyFormData);
       axios
         .post(
           "https://admin-yyv.3zeros.club/api/waste_to_resource/create",

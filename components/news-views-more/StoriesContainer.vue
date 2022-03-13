@@ -5,7 +5,7 @@
             <div class="news-grid">
                 <div class="news-grid-left">
                     <div class="img-header">
-                        <img src="~/assets/images/news/kick-1.jpg" alt="">
+                        <img src="~/assets/images/news/garbage-1.jpg" alt="">
                     </div>
                     <div>
                         <h2>stories</h2>
@@ -14,18 +14,18 @@
                 <div class="news-grid-right">
                     <div class="news-grid-card">
                         <div class="card-header">
-                            <h5>Kick the virus - Here’s how our tribe is fighting the pandemic </h5>
-                        </div>
-                        <div class="card-footer">
-                            <nuxt-link to="/news/kick-the-virus">Read More</nuxt-link>
-                        </div>
-                    </div>
-                    <div class="news-grid-card">
-                        <div class="card-header">
                             <h5>Waste or Opportunity? - A ground-breaking approach by GARBAGEMAN</h5>
                         </div>
                         <div class="card-footer">
                             <nuxt-link to="/news/waste-opportunity">Read More</nuxt-link>
+                        </div>
+                    </div>
+                    <div class="news-grid-card">
+                        <div class="card-header">
+                            <h5>Kick the virus - Here’s how our tribe is fighting the pandemic </h5>
+                        </div>
+                        <div class="card-footer">
+                            <nuxt-link to="/news/kick-the-virus">Read More</nuxt-link>
                         </div>
                     </div>
                 </div>
