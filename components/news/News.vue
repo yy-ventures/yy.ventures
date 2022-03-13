@@ -4,11 +4,11 @@
     .h2.highlight News, Views & More
   .benefits_grid
     .benefits_container
-      nuxt-link(to="/news/go-green")
-        img(src="~/assets/images/news/pic-1.png").faded_out
+      nuxt-link(to="/news/sadia-hossain")
+        img(src="~/assets/images/news/sadia_2.jpg").faded_out
         .benefits_container__title
           .h1.faded_out News 
-          .h4.faded_out Go Green Bangladesh Named the Winner of Waste 2 Resources Program
+          .h4.faded_out Sadia Hossain Joins YY Ventures Limited as the Chief Operating Officer (COO)
     .benefits_container
       nuxt-link(to="/news/no-going-back")
         img(src="~/assets/images/news/pic-2.jpg").faded_out
@@ -16,11 +16,11 @@
           .h1.faded_out Views
           .h4.faded_out Post-Corona Reconstruction Programme No Going Back
     .benefits_container
-      nuxt-link(to="/news/kick-the-virus")
-        img(src="~/assets/images/news/kick-1.jpg").faded_out
+      nuxt-link(to="/news/waste-opportunity")
+        img(src="~/assets/images/news/garbage-1.jpg").faded_out
         .benefits_container__title
           .h1.faded_out Stories
-          .h4.faded_out Kick the virus- Here’s how our tribe is fighting the pandemic 
+          .h4.faded_out Waste or Opportunity? - A ground-breaking approach by GARBAGEMAN
   .benefits_footer
     nuxt-link(to="/news-views-more") See All
 </template>
