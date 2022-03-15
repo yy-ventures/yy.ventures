@@ -16,7 +16,7 @@
           .h1.faded_out Views
           .h4.faded_out Post-Corona Reconstruction Programme No Going Back
     .benefits_container
-      nuxt-link(to="/news/waste-opportunity")
+      nuxt-link(to="/news/amar-lab-diagnostics")
         img(src="~/assets/images/news/amarlab_1.jpg").faded_out
         .benefits_container__title
           .h1.faded_out Stories
