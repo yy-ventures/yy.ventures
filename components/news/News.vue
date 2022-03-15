@@ -17,10 +17,10 @@
           .h4.faded_out Post-Corona Reconstruction Programme No Going Back
     .benefits_container
       nuxt-link(to="/news/waste-opportunity")
-        img(src="~/assets/images/news/garbage-1.jpg").faded_out
+        img(src="~/assets/images/news/amarlab_1.jpg").faded_out
         .benefits_container__title
           .h1.faded_out Stories
-          .h4.faded_out Waste or Opportunity? - A ground-breaking approach by GARBAGEMAN
+          .h4.faded_out Amarlab: Diagnostics at Your Doorstep
   .benefits_footer
     nuxt-link(to="/news-views-more") See All
 </template>

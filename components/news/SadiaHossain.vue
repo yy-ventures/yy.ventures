@@ -27,7 +27,7 @@
       <div class="bottom-grid">
         <div class="bottom-grid-left">
           <p>
-            Prior to joining YY Ventures, Sadia was working as the Director, Fellowship Recruitment and Selection at Teach For Bangladesh- a fast-growing, international education start-up. At Teach For Bangladesh, she and her team designed and delivered mass recruitment campaigns to hire 485 highly qualified graduates with diverse backgrounds from 30+ universities in Bangladesh, USA, UK, Malaysia, and India for the prestigious TFB Fellowship program, and placed 5 cohorts of Fellows for 2018-2022 programs to expand educational opportunities for 18,000+ underprivileged students across Dhaka and Chattogram. Her achievements include achieving 5x growth in the volume of Fellowship candidates, and established TFB as a top graduate employer in Bangladesh.   
+            Prior to joining YY Ventures, Sadia was working as the Director, Fellowship Recruitment and Selection at Teach For Bangladesh- a fast-growing, international education non-profit organization. At Teach For Bangladesh, she and her team designed and delivered mass recruitment campaigns to hire 485 highly qualified graduates with diverse backgrounds from 30+ universities in Bangladesh, USA, UK, Malaysia, and India for the prestigious TFB Fellowship program, and placed 5 cohorts of Fellows for 2018-2022 programs to expand educational opportunities for 18,000+ underprivileged students across Dhaka and Chattogram. Her achievements include achieving 5x growth in the volume of Fellowship candidates, and established TFB as a top graduate employer in Bangladesh.   
           </p>
         </div>
         <div class="bottom-grid-right">
