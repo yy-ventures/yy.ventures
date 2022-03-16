@@ -9255,6 +9255,7 @@
     "mime-types" "~2.1.24"
 
 "typed.js@git+https://github.com/mattboldt/typed.js.git":
+  "integrity" "sha512-alUGYm9VybZCYA/I0IEDWnr0mLRVnvvSScGvdK6K1tMxhZWg2Ts5BAGhOLw9VGMaGkvGNf5ijQgM+2d3Cn/hPg=="
   "resolved" "git+ssh://git@github.com/mattboldt/typed.js.git#37873a11ffadc43af412b67eea332d2a531dad15"
   "version" "2.0.12"
 

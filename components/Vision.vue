@@ -9,8 +9,8 @@
   article
 
     .p YY Ventures is an incubation and investment Social Business. We believe that a more equitable and just world is possible if we foster ‘Social Business’ while leveraging young people’s talents and ideas.
-    .p Our incubation arm, YY Goshthi supports early stage Social Businesses with world-class training, tailor-made consultation support, business services, coworking space, and access to investors, enabling them to navigate their way towards launching a minimum viable product and raising the needed seed capital.
-    .p We invest in early stage and untested Social Businesses that are fighting carbon emission, poverty and unemployment in Bangladesh and actively assist portfolio companies navigating the path to notable Social Business funds, venture investors, partners, and client.
+    .p Our incubation arm, YY Goshthi supports early-stage Social Businesses with world-class training, tailor-made consultation support, business services, coworking space, and access to investors, enabling them to navigate their way towards launching a minimum viable product and raising the needed seed capital.
+    .p We invest in early-stage and untested Social Businesses that are fighting carbon emission, poverty and unemployment in Bangladesh and actively assist portfolio companies navigating the path to notable Social Business funds, venture investors, partners, and client.
     .p Since 2016 we have supported 64 entrepreneurs who have improved the lives of 150,633 people. By 2030 we want to improve the lives of two million people by investing in Social Businesses in emerging countries.
 </template>
 
