@@ -74,7 +74,7 @@
             <h2 class="highlight">Central African Republic</h2>
           </div>
           <div class="service-grid-buttons">
-            <a href="/central-africa" target="_blank">
+            <a href="/car-sb" target="_blank">
               <button class="btn-route">learn more</button>
             </a>
             <button class="btn-ongoing">ongoing</button>

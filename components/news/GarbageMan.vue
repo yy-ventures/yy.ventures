@@ -20,7 +20,7 @@
         </div>
         <div class="top-grid-right">
           <img
-            src="~/assets/images/news/garbage-1.jpg"
+            src="~/assets/images/news/garbage-3.jpg"
             alt=""
           />
         </div>
