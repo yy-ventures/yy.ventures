@@ -37,6 +37,9 @@ export default {
     padding-bottom: 100px
     grid-row-gap: 30px
 
+    @media (min-width: 1440px)
+      grid-template-columns: repeat(4, minmax(250px, 1fr))
+
     &__container
       position: relative
 
@@ -48,8 +51,10 @@ export default {
       &__image_container
         position: relative
         height: 350px
-
         background-color: #eaeceb
+
+        @media (min-width: 1920px)
+          height: 550px
 
         .mask
           position: absolute
