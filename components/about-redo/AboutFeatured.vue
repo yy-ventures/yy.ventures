@@ -33,8 +33,7 @@
 
           <div class="bottom-text">
             <div><span>Professor Muhammad Yunus</span></div>
-            <div><span>Nobel Peace Prize Winner</span></div>
-            <div><span>Founder of Grameen Bank</span></div>
+            <div><span>2006 Nobel Peace Laureate</span></div>
           </div>
         </div>
       </div>
