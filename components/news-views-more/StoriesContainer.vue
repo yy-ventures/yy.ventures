@@ -168,7 +168,7 @@
             }
             .news-grid-right{
                 padding: 2.5%;
-                overflow-y: hidden;
+                overflow-y: scroll;
                 height: 400px;
                 @media screen and (min-width: 1441px) {
                     height: 500px;

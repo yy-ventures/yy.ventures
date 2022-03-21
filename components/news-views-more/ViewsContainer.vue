@@ -5,13 +5,21 @@
             <div class="news-grid">
                 <div class="news-grid-left">
                     <div class="img-header">
-                        <img src="~/assets/images/news/pic-2.jpg" alt="">
+                        <img src="~/assets/images/news/okki-bg.jpg" alt="">
                     </div>
                     <div>
                         <h2>views</h2>
                     </div>
                 </div>
                 <div class="news-grid-right">
+                    <div class="news-grid-card">
+                        <div class="card-header">
+                            <h5>Tips for a good pitch</h5>
+                        </div>
+                        <div class="card-footer">
+                            <nuxt-link to="/news/tips-for-a-good-pitch">Read More</nuxt-link>
+                        </div>
+                    </div>
                     <div class="news-grid-card">
                         <div class="card-header">
                             <h5>Post-Corona Reconstruction Programme No Going Back</h5>
