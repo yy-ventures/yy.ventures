@@ -5,13 +5,21 @@
             <div class="news-grid">
                 <div class="news-grid-left">
                     <div class="img-header">
-                        <img src="~/assets/images/news/amarlab_1.jpg" alt="">
+                        <img src="~/assets/images/news/wash-1.jpg" alt="">
                     </div>
                     <div>
                         <h2>stories</h2>
                     </div>
                 </div>
                 <div class="news-grid-right">
+                    <div class="news-grid-card">
+                        <div class="card-header">
+                            <h5>Meet the Top Innovators of the WASH Innovation Challenge. </h5>
+                        </div>
+                        <div class="card-footer">
+                            <nuxt-link to="/news/wash-innovation">Read More</nuxt-link>
+                        </div>
+                    </div>
                     <div class="news-grid-card">
                         <div class="card-header">
                             <h5>Amarlab: Diagnostics at Your Doorstep</h5>

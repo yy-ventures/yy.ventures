@@ -15,12 +15,12 @@
           To learn more about what we do and discuss scope of work, please contact.
         </h4>
         <div class="content_right_contact">
-          <h6>Sharika Sadaf</h6>
-          <p>Head of Programs & Partnerships</p>
-          <p>sharika@yy.ventures</p>
-          <nuxt-link to="/contact" target="_blank">
+          <h6>Shazeeb M Khairul Islam</h6>
+          <p>Founder & Managing Director</p>
+          <p>shazeeb@yy.ventures</p>
+          <a href="mailto:shazeeb@yy.ventures" target="_blank">
               <h5 class="highlight">contact now</h5>
-          </nuxt-link>
+          </a>
         </div>
       </div>
     </div>

@@ -18,9 +18,9 @@
           <h6>Shazeeb M Khairul Islam</h6>
           <p>Founder & Managing Director</p>
           <p>shazeeb@yy.ventures</p>
-          <nuxt-link to="/contact" target="_blank">
+          <a href="mailto:shazeeb@yy.ventures" target="_blank">
               <h5 class="highlight">contact now</h5>
-          </nuxt-link>
+          </a>
         </div>
       </div>
     </div>
