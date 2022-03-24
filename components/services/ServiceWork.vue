@@ -118,7 +118,7 @@ export default {
         margin-top: 7.5%;
         h6 {
           font-weight: 900;
-          font-size: calc(2px + 2vmin);
+          font-size: calc(4px + 2vmin);
           margin-bottom: 0;
           @media screen and (max-width: 601px) {
             font-size: calc(8px + 2vmin);
