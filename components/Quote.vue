@@ -5,7 +5,7 @@
     .word_1 born
     .word_2 &nbsp entrepreneurs
   .h5 Professor Muhammad Yunus
-  .p Nobel Peace Prize Winner and Founder of Grameen Bank
+  .p 2006 Nobel Peace Laureate
 </template>
 
 <style lang="sass" scoped>

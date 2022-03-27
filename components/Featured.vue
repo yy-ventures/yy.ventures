@@ -21,8 +21,7 @@
 
     #author
       .h3 Professor Muhammad Yunus
-      .h3 Nobel Peace Prize Winner
-      .h3 Founder of Grameen Bank
+      .h3 2006 Nobel Peace Laureate
 </template>
 <style lang="sass" scoped>
 #featured
