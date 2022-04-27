@@ -4,6 +4,11 @@
         <h2 class="highlight">Related</h2>
         <VueSlickCarousel v-bind="settings">
             <div class="new-slide-card">
+                <nuxt-link to="/news/bold-innovations"><img src="../../assets/images/news/slider/bold-1.jpg" alt=""></nuxt-link>
+                <h3>Bold innovations to improve water and sanitation for all: The WASH Innovation Challenge</h3>
+                <p>YY Ventures had partnered with Aqua for All, Bopinc, and GSMA to launch the WASH Innovation Challenge in April...</p>
+            </div>
+            <div class="new-slide-card">
                 <nuxt-link to="/news/sadia-hossain"><img src="../../assets/images/news/slider/sadia_2.jpg" alt=""></nuxt-link>
                 <h3>Sadia Hossain Joins YY Ventures Limited as the Chief Operating Officer (COO)</h3>
                 <p>YY Ventures Limited has onboarded Sadia Hossain as the Chief Operating Officer (COO) on March 01, 2022. Sadia is a business development and talent...</p>

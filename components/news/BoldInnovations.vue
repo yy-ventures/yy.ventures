@@ -11,11 +11,11 @@
       <!-- date -->
       <div class="top-grid">
         <div class="top-grid-left">
-          <h2>YY Ventures had partnered with Aqua for All, Bopinc, and GSMA to </h2>
+          <h2>YY Ventures had partnered with Aqua for All, Bopinc and GSMA </h2>
           <div class="sub-text">
             <!-- <p>Distributing Face Sheild to health workers: </p> -->
             <p>
-              to launch the WASH Innovation Challenge in April, 2021, with the collective mission to achieve Sustainable Development Goal 6- Clean water and sanitation for all, by empowering the most promising WASH entrepreneurs working on improving the water, sanitation, and hygiene conditions of underserved communities in Bangladesh. 
+               to launch the WASH Innovation Challenge in April, 2021, with the collective mission to achieve Sustainable Development Goal 6 - Clean water and sanitation for all, by empowering the most promising WASH entrepreneurs working on improving the water, sanitation, and hygiene conditions of underserved communities in Bangladesh. 
             </p>
           </div>
         </div>
@@ -41,10 +41,18 @@
           <p>Wreetu is working on transforming existing public toilets in Bangladesh into women and period-friendly toilets, with separate chambers equipped with menstrual facilities and accessibility features for menstruators with disabilities in urban slums. Wreetu will receive support to promote their facilities in local communities to assess the market demand for their initiative, in addition to monitoring and evaluation of their output. Learn more about Wreetu <a href='https://www.facebook.com/Wreetu.Book/' target='_blank'>here</a> </p>
         </div>
         <div class="bottom-grid-right">
-            <p class="headline-bold">Shapla</p>
-          <p>Shapla has created Bangladesh’s first and only cashless sanitary vending machine which can dispense sanitary pads using a mobile application. The mobile application can also help raise hygiene and sanitation-based awareness, and help with menstrual health management. Shapla will receive support with enhancing their customer reach, and  strategizing their development and scaleup opportunities. Learn more about Shapla <a href='https://shapla.org/' target='_blank'>here</a> </p>
           <p class="headline-bold">Shapla</p>
           <p>Shapla has created Bangladesh’s first and only cashless sanitary vending machine which can dispense sanitary pads using a mobile application. The mobile application can also help raise hygiene and sanitation-based awareness, and help with menstrual health management. Shapla will receive support with enhancing their customer reach, and  strategizing their development and scaleup opportunities. Learn more about Shapla <a href='https://shapla.org/' target='_blank'>here</a> </p>
+          <p>When asked about the experience of receiving the seed funding and support from Aqua for All and Bopinc, the Co-founder of Shapla Bushra E Anjum said, <em>"Through this partnership, we are being able to actualize our broader scope of work with Shapla. Our aim, at any given minute of the day, is to facilitate more young women with their menstrual hygiene through the Shapla ecosystem. This can now be implemented even further through Aqua for All's contribution to our work. In addition, we would also like to thank YY Ventures, Bopinc, and GSMA for providing us immense support during the WASH Innovation Challenge."</em></p>
+          <p>More information:</p>
+          <p class="headline-bold">Aqua for All</p>
+          <p>Aqua for All is a not-for-profit organisation. For over two decades, we have worked towards catalysing an innovative, sustainable and inclusive water and sanitation economy worldwide. Aqua for All operates in Africa and Asia supporting innovations and scaling up enterprises until they are investment ready. In addition, we use our funds to mobilise private and public capital to increase investments in water and sanitation. For more information, please visit their <a href='https://aquaforall.org/' target='_blank'>website</a> </p>
+          <p class="headline-bold">Bopinc</p>
+          <p>Bopinc helps organisations to design and deliver commercially and socially viable business models. Their expertise lays in supporting companies to bring quality products and services to low-income consumers. For more information, please visit their <a href='https://bopinc.org/' target='_blank'>website</a> </p>
+          <p class="headline-bold">GSMA</p>
+          <p>GSMA represents the interest of mobile operators worldwide. GSMA is a global organisation unifying the mobile ecosystem to discover, develop and deliver innovation foundational to positive business environments and societal change. For more information, please visit their <a href='https://www.gsma.com/' target='_blank'>website</a> </p>
+          <p class="headline-bold">YY Ventures</p>
+          <p>YY Ventures is an incubation and investment Social Business founded in partnership with 'Yunus Centre', the global think tank for Social Business created by Nobel Peace Prize Winner Professor Muhammad Yunus to advance the growth of social businesses. YY Ventures believes that a more equitable and just world is possible if we foster ‘Social Business’ while leveraging young people’s talents and ideas. For more information, please visit their <a href='https://yy.ventures/' target='_blank'>website</a> </p>
         </div>
       </div>
     </div>
@@ -52,7 +60,7 @@
         <a href="/news-views-more">Back</a>
     </div>
   </div>
-  <!-- <RelatedNews/> -->
+  <RelatedNews/>
   </div>
 </template>
 
@@ -176,6 +184,9 @@ export default {
         .meet-the-teams{
             color: #c7265b;
             font-weight: 700;
+        }
+        em{
+          color: #999;
         }
       }
     }

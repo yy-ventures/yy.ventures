@@ -4,11 +4,11 @@
     .h2.highlight News, Views & More
   .benefits_grid
     .benefits_container
-      nuxt-link(to="/news/sadia-hossain")
-        img(src="~/assets/images/news/sadia_2.jpg").faded_out
+      nuxt-link(to="/news/bold-innovations")
+        img(src="~/assets/images/news/bold-2.jpg").faded_out
         .benefits_container__title
           .h1.faded_out News 
-          .h4.faded_out Sadia Hossain Joins YY Ventures Limited as the Chief Operating Officer (COO)
+          .h4.faded_out Bold innovations to improve water and sanitation for all: The WASH Innovation Challenge
     .benefits_container
       nuxt-link(to="/news/no-going-back")
         img(src="~/assets/images/news/pic-2.jpg").faded_out
@@ -16,11 +16,11 @@
           .h1.faded_out Views
           .h4.faded_out Post-Corona Reconstruction Programme No Going Back
     .benefits_container
-      nuxt-link(to="/news/amar-lab-diagnostics")
-        img(src="~/assets/images/news/amarlab_1.jpg").faded_out
+      nuxt-link(to="/news/deshi-ballers")
+        img(src="~/assets/images/news/ballers-1.jpg").faded_out
         .benefits_container__title
           .h1.faded_out Stories
-          .h4.faded_out Amarlab: Diagnostics at Your Doorstep
+          .h4.faded_out Deshi Ballers: Empowering women through sports
   .benefits_footer
     nuxt-link(to="/news-views-more") See All
 </template>

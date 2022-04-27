@@ -5,13 +5,21 @@
             <div class="news-grid">
                 <div class="news-grid-left">
                     <div class="img-header">
-                        <img src="~/assets/images/news/sadia_2.jpg" alt="">
+                        <img src="~/assets/images/news/bold-2.jpg" alt="">
                     </div>
                     <div>
                         <h2>news</h2>
                     </div>
                 </div>
                 <div class="news-grid-right">
+                    <div class="news-grid-card">
+                        <div class="card-header">
+                            <h5>Bold innovations to improve water and sanitation for all: The WASH Innovation Challenge</h5>
+                        </div>
+                        <div class="card-footer">
+                            <nuxt-link to="/news/bold-innovations">Read More</nuxt-link>
+                        </div>
+                    </div>
                     <div class="news-grid-card">
                         <div class="card-header">
                             <h5>Sadia Hossain Joins YY Ventures Limited as the Chief Operating Officer (COO)</h5>
@@ -72,6 +80,11 @@
             <!-- news slider -->
             <div class="news-slider" v-if="visible">
                 <VueSlickCarousel v-bind="settings">
+                    <div class="new-slide-card">
+                        <nuxt-link to="/news/bold-innovations"><img src="../../assets/images/news/slider/bold-1.jpg" alt=""></nuxt-link>
+                        <h3>Bold innovations to improve water and sanitation for all: The WASH Innovation Challenge</h3>
+                        <p>YY Ventures had partnered with Aqua for All, Bopinc, and GSMA to launch the WASH Innovation Challenge in April...</p>
+                    </div>
                     <div class="new-slide-card">
                         <nuxt-link to="/news/sadia-hossain"><img src="../../assets/images/news/slider/sadia_2.jpg" alt=""></nuxt-link>
                         <h3>Sadia Hossain Joins YY Ventures Limited as the Chief Operating Officer (COO)</h3>
