@@ -1348,6 +1348,106 @@
         </div>
       </div>
 
+       <div class="open-position" uk-grid>
+        <div class="uk-width-1-3@m">
+          <div class="job-title">
+            <div class="title-bg">4</div>
+            <h2>Graphic Designer</h2>
+          </div>
+        </div>
+        <div class="uk-width-2-3@m">
+          <div class="job-description">
+            <ul uk-accordion>
+              <li class="uk-open">
+                <a class="uk-accordion-title" href="#">Job Description</a>
+                <div class="uk-accordion-content">
+                  <p>
+                    You will be working with the YY Studio team and you will be expected to ideate and design fantastic visuals and high-quality content in collaboration with the design team. You will be working with fellow passionate creative thinkers and designers in a modern and innovative work environment. You will have the opportunity to work on a range of impactful projects and produce high-quality designs and contents. If this is something you are interested, we would love to talk to you further. 
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <a class="uk-accordion-title" href="#"
+                  >Essential Responsibilities</a
+                >
+                <div class="uk-accordion-content">
+                  <ul>
+                    <li>
+                      Design outstanding static and dynamic contents for visual communication 
+                    </li>
+                    <li>
+                      Create brand communication materials for clients and internal use 
+                    </li>
+                    <li>
+                      Create motion graphics for various online media 
+                    </li>
+                    <li>
+                      Stay up to date with the latest design trends and techniques 
+                    </li>
+                    <li>
+                      Design branding and marketing materials for social media and web platforms 
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <li>
+                <a class="uk-accordion-title" href="#">Qualifications</a>
+                <div class="uk-accordion-content">
+                  <ul>
+                    <li>
+                      Minimum a bachelor degree in any discipline from a recognized institution 
+                    </li>
+                    <li>3+ years of hands-on experience in working in a creative design agency /workplace </li>
+                    <li>
+                      Strong knowledge of Adobe Creative Suite (Photoshop, Illustrator etc.) 
+                    </li>
+                    <li>
+                      Strong knowledge of video editing, animation and motion graphics software (After Effects, Premiere Pro, Cinema 4D etc.) 
+                    </li>
+                    <li>Strong verbal and written communication skills in English and in Bangla. </li>
+                    <li>Ability to think and problem-solve creatively, and work independently and on a team </li>
+                    <li>
+                      Great time-management skills, and ability to take feedback and deliver promptly 
+                    </li>
+                    <li>A keen eye for design and aesthetics, and a solid understanding of branding and communication in design </li>
+                  </ul>
+                </div>
+              </li>
+
+              <li>
+                <a class="uk-accordion-title" href="#">Other Info</a>
+                <div class="uk-accordion-content">
+                  <ul>
+                    <li><strong>Time Commitment:</strong> 40 hours/week</li>
+                    <li>
+                      <strong>Location:</strong> 9th Floor, Grameen Telecom
+                      Bhaban, Zoo Road, Mirpur 1, Dhaka 1216
+                    </li>
+                    <li><strong>Reporting to:</strong> Design Director</li>
+                    <li><strong>Start date:</strong> Immediate</li>
+                    <li><strong>Salary:</strong> Negotiable</li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+            <div class="contact-email">
+              <p>
+                <i
+                  >If you are interested in applying for this position please
+                  send your resume and cover letter at
+                  <a href="mailto:careers@yy.ventures">careers@yy.ventures</a>
+                  detailing why you think you are the right person for this
+                  position. You are advised to mention your salary expectations
+                  in your cover letter.</i
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <!-- <div class="open-position" uk-grid>
         <div class="uk-width-1-3@m">
           <div class="job-title">
