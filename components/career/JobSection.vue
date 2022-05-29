@@ -949,7 +949,6 @@
         </div>
       </div> -->
 
-
       <div class="open-position" uk-grid>
         <div class="uk-width-1-3@m">
           <div class="job-title">
@@ -1348,7 +1347,7 @@
         </div>
       </div>
 
-       <div class="open-position" uk-grid>
+      <div class="open-position" uk-grid>
         <div class="uk-width-1-3@m">
           <div class="job-title">
             <div class="title-bg">4</div>
@@ -1362,7 +1361,15 @@
                 <a class="uk-accordion-title" href="#">Job Description</a>
                 <div class="uk-accordion-content">
                   <p>
-                    You will be working with the YY Studio team and you will be expected to ideate and design fantastic visuals and high-quality content in collaboration with the design team. You will be working with fellow passionate creative thinkers and designers in a modern and innovative work environment. You will have the opportunity to work on a range of impactful projects and produce high-quality designs and contents. If this is something you are interested, we would love to talk to you further. 
+                    You will be working with the YY Studio team and you will be
+                    expected to ideate and design fantastic visuals and
+                    high-quality content in collaboration with the design team.
+                    You will be working with fellow passionate creative thinkers
+                    and designers in a modern and innovative work environment.
+                    You will have the opportunity to work on a range of
+                    impactful projects and produce high-quality designs and
+                    contents. If this is something you are interested, we would
+                    love to talk to you further.
                   </p>
                 </div>
               </li>
@@ -1374,19 +1381,21 @@
                 <div class="uk-accordion-content">
                   <ul>
                     <li>
-                      Design outstanding static and dynamic contents for visual communication 
+                      Design outstanding static and dynamic contents for visual
+                      communication
                     </li>
                     <li>
-                      Create brand communication materials for clients and internal use 
+                      Create brand communication materials for clients and
+                      internal use
+                    </li>
+                    <li>Create motion graphics for various online media</li>
+                    <li>
+                      Stay up to date with the latest design trends and
+                      techniques
                     </li>
                     <li>
-                      Create motion graphics for various online media 
-                    </li>
-                    <li>
-                      Stay up to date with the latest design trends and techniques 
-                    </li>
-                    <li>
-                      Design branding and marketing materials for social media and web platforms 
+                      Design branding and marketing materials for social media
+                      and web platforms
                     </li>
                   </ul>
                 </div>
@@ -1397,21 +1406,38 @@
                 <div class="uk-accordion-content">
                   <ul>
                     <li>
-                      Minimum a bachelor degree in any discipline from a recognized institution 
-                    </li>
-                    <li>3+ years of hands-on experience in working in a creative design agency /workplace </li>
-                    <li>
-                      Strong knowledge of Adobe Creative Suite (Photoshop, Illustrator etc.) 
+                      Minimum a bachelor degree in any discipline from a
+                      recognized institution
                     </li>
                     <li>
-                      Strong knowledge of video editing, animation and motion graphics software (After Effects, Premiere Pro, Cinema 4D etc.) 
+                      3+ years of hands-on experience in working in a creative
+                      design agency /workplace
                     </li>
-                    <li>Strong verbal and written communication skills in English and in Bangla. </li>
-                    <li>Ability to think and problem-solve creatively, and work independently and on a team </li>
                     <li>
-                      Great time-management skills, and ability to take feedback and deliver promptly 
+                      Strong knowledge of Adobe Creative Suite (Photoshop,
+                      Illustrator etc.)
                     </li>
-                    <li>A keen eye for design and aesthetics, and a solid understanding of branding and communication in design </li>
+                    <li>
+                      Sound knowledge of video editing, animation and motion
+                      graphics software (After Effects, Premiere Pro, Cinema 4D
+                      etc.)
+                    </li>
+                    <li>
+                      Strong verbal and written communication skills in English
+                      and in Bangla.
+                    </li>
+                    <li>
+                      Ability to think and problem-solve creatively, and work
+                      independently and on a team
+                    </li>
+                    <li>
+                      Great time-management skills, and ability to take feedback
+                      and deliver promptly
+                    </li>
+                    <li>
+                      A keen eye for design and aesthetics, and a solid
+                      understanding of branding and communication in design
+                    </li>
                   </ul>
                 </div>
               </li>
@@ -1486,7 +1512,7 @@
                 </div>
               </li> -->
 
-              <!-- <li>
+      <!-- <li>
                 <a class="uk-accordion-title" href="#"
                   >Essential Responsibilities</a
                 >
@@ -1512,7 +1538,7 @@
                 </div>
               </li> -->
 
-              <!-- <li>
+      <!-- <li>
                 <a class="uk-accordion-title" href="#">Qualifications</a>
                 <div class="uk-accordion-content">
                   <ul>
@@ -1532,7 +1558,7 @@
                 </div>
               </li> -->
 
-              <!-- <li>
+      <!-- <li>
                 <a class="uk-accordion-title" href="#">Other Info</a>
                 <div class="uk-accordion-content">
                   <ul>
@@ -1549,7 +1575,7 @@
             </ul>
             <div class="contact-email">
               <p> -->
-                <!-- <i
+      <!-- <i
                   >If you are interested in applying for this position please
                   send your resume and cover letter at
                   <a href="mailto:careers@yy.ventures">careers@yy.ventures</a>
@@ -1557,7 +1583,7 @@
                   position. You are advised to mention your salary expectations
                   in your cover letter.</i
                 > -->
-                <!-- <a class="internship-btn" target="_blank" href="https://airtable.com/shrp07ceJJx2BCING">Apply now</a>
+      <!-- <a class="internship-btn" target="_blank" href="https://airtable.com/shrp07ceJJx2BCING">Apply now</a>
               </p>
             </div>
           </div>
@@ -2237,7 +2263,7 @@
     p {
       font-family: "Graphik";
       font-weight: 300;
-      .internship-btn{
+      .internship-btn {
         text-decoration: none;
         color: #fff;
         padding: 8px 16px;
@@ -2254,7 +2280,7 @@
       font-weight: bold;
       margin-top: 15px;
     }
-    h5{
+    h5 {
       font-weight: 700;
       font-style: italic;
       color: #333;
