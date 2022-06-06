@@ -14,13 +14,13 @@
 </template>
 
 <script>
-import { add_class_on_focus } from '@/assets/scripts/dom_utils';
+import { add_class_on_focus } from "@/assets/scripts/dom_utils";
 
 export default {
-  props: ['staff'],
+  props: ["staff"],
   mounted: () => {
     add_class_on_focus({
-      ['.faded_out']: 'fade_in',
+      [".faded_out"]: "fade_in",
     });
   },
 };

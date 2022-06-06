@@ -32,98 +32,98 @@ export default {
       team: {
         rowOne: [
           {
-            name: 'Lamiya Morshed',
-            designation: 'Chairperson',
-            image: '/images/team/Lamiya.png',
+            name: "Lamiya Morshed",
+            designation: "Chairperson",
+            image: "/images/team/Lamiya.png",
           },
 
           {
-            name: 'Shazeeb M Khairul Islam',
-            designation: 'Founder & Managing Director',
-            image: '/images/team/smk_new.png',
+            name: "Shazeeb M Khairul Islam",
+            designation: "Founder & Managing Director",
+            image: "/images/team/smk_new.png",
           },
           {
-            name: 'Akkie Okma',
-            designation: 'Technical Advisor',
-            image: '/images/team/akkie-new.png',
+            name: "Akkie Okma",
+            designation: "Technical Advisor",
+            image: "/images/team/akkie-new.png",
           },
           {
-            name: 'Tazin Shadid',
-            designation: 'Senior Advisor',
-            image: '/images/team/tazin_new.png',
+            name: "Tazin Shadid",
+            designation: "Senior Advisor",
+            image: "/images/team/tazin_new.png",
           },
         ],
         rowTwo: [
           {
-            name: 'Osman Dhali',
-            designation: 'Chief of Staff',
-            image: '/images/team/dhali_new.png',
+            name: "Osman Dhali",
+            designation: "Chief of Staff",
+            image: "/images/team/dhali_new.png",
           },
           {
-            name: 'Sharika Sadaf',
-            designation: 'Head of Program',
-            image: '/images/team/sharika_new.png',
+            name: "Sharika Sadaf",
+            designation: "Head of Program",
+            image: "/images/team/sharika_new.png",
           },
           {
-            name: 'Khalid Hossain',
-            designation: 'Director',
-            image: '/images/team/khalid-hossain.png',
+            name: "Khalid Hossain",
+            designation: "Director",
+            image: "/images/team/khalid-hossain.png",
           },
           {
-            name: 'Purbita Jannat',
-            designation: 'Executive Business Partner',
-            image: '/images/team/purbita_new.png',
+            name: "Purbita Jannat",
+            designation: "Executive Business Partner",
+            image: "/images/team/purbita_new.png",
           },
         ],
         rowThree: [
           {
-            name: 'Samiha Nusrat',
-            designation: 'Programs Manager',
-            image: '/images/team/raka_new.png',
+            name: "Samiha Nusrat",
+            designation: "Programs Manager",
+            image: "/images/team/raka_new.png",
           },
           {
-            name: 'Mazbahul Islam',
-            designation: 'Content Manager',
-            image: '/images/team/mazbahul_new.png',
+            name: "Mazbahul Islam",
+            designation: "Content Manager",
+            image: "/images/team/mazbahul_new.png",
           },
           {
-            name: 'Ramisa Rahman',
-            designation: 'Associate',
-            image: '/images/team/ramisa_new.png',
+            name: "Ramisa Rahman",
+            designation: "Associate",
+            image: "/images/team/ramisa_new.png",
           },
           {
-            name: 'Shefaz Been Rahim',
-            designation: 'Finance & Accounts Manager',
-            image: '/images/team/shefaz_new.png',
+            name: "Shefaz Been Rahim",
+            designation: "Finance & Accounts Manager",
+            image: "/images/team/shefaz_new.png",
           },
         ],
         rowFour: [
           {
-            name: 'Raidah Momo Ibrahim',
-            designation: 'Associate',
-            image: '/images/team/raida_new.png',
+            name: "Raidah Momo Ibrahim",
+            designation: "Associate",
+            image: "/images/team/raida_new.png",
           },
           {
-            name: 'Mahmud Alam Bappy',
-            designation: 'Associate',
-            image: '/images/team/bappy_new.png',
+            name: "Mahmud Alam Bappy",
+            designation: "Associate",
+            image: "/images/team/bappy_new.png",
           },
           {
-            name: 'Antara Islam',
-            designation: 'Associate',
-            image: '/images/team/antara_new.png',
+            name: "Antara Islam",
+            designation: "Associate",
+            image: "/images/team/antara_new.png",
           },
           {
-            name: 'Salman Abedin',
-            designation: 'Web Developer',
-            image: '/images/team/salman_new.png',
+            name: "Salman Abedin",
+            designation: "Web Developer",
+            image: "/images/team/salman_new.png",
           },
         ],
         rowFive: [
           {
-            name: 'Rifah Nanziba',
-            designation: 'Social Media Coordinator',
-            image: '/images/team/rifah_new.png',
+            name: "Rifah Nanziba",
+            designation: "Social Media Coordinator",
+            image: "/images/team/rifah_new.png",
           },
         ],
       },
@@ -133,7 +133,7 @@ export default {
 </script>
 
 <style lang="less">
-@large-down: ~'only screen and (max-width: 959px)';
+@large-down: ~"only screen and (max-width: 959px)";
 #team-section {
   .team-members {
     margin-bottom: 20px;
@@ -160,12 +160,12 @@ export default {
     }
     .member-name {
       color: #333;
-      font-family: 'Graphik';
+      font-family: "Graphik";
       font-weight: bold;
     }
     .member-designation {
       color: #333;
-      font-family: 'Graphik';
+      font-family: "Graphik";
       font-weight: lighter;
       font-size: 20px;
       margin-top: 0px;
