@@ -19,19 +19,18 @@
   .line_1, .line_2
     color: #fff
     font-size: calc(24px + 6vw)
-  
+
   .line_1
-    margin-left: -25%
+    margin-left: 35%
     @media (max-width: 601px)
-      margin-left: -35%
+      margin-left: 25%
 
   .line_2
     display: flex
-    margin-left: 35%
+    margin-left: -45%
     .word_1
       -webkit-text-fill-color: transparent
       -webkit-text-stroke: 1px #fff
       @media (min-width: 601px)
         -webkit-text-stroke: 2px #fff
-
 </style>

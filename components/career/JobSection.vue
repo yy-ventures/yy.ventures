@@ -410,7 +410,7 @@
         <div class="uk-width-1-3@m">
           <div class="job-title">
             <div class="title-bg">4</div>
-            <h2>Graphic Designer</h2>
+            <h2>Visualiser</h2>
           </div>
         </div>
         <div class="uk-width-2-3@m">
