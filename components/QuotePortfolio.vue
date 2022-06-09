@@ -1,8 +1,8 @@
 <template lang="pug">
 #quote
-  .line_1.h1.reel_right Founded Through
+  .line_1.h1.reel_right Funded
   .line_2.h1.reel_left
-    .word_1 Programs
+    .word_1 Through Programs
 </template>
 
 <style lang="sass" scoped>
@@ -21,13 +21,14 @@
     font-size: calc(24px + 6vw)
 
   .line_1
-    margin-left: 20%
+    // margin-left: 10%
     @media (max-width: 601px)
       margin-left: -40px
 
   .line_2
     display: flex
-    margin-left: 30%
+    margin-left: 5%
+    white-space: nowrap
     @media(max-width: 601px)
       margin-left: 50px
     .word_1

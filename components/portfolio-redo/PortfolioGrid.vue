@@ -46,6 +46,8 @@
 
     <!-- closed -->
 
+    <!-- Venture Investment -->
+
     <!-- quote portfolio -->
     <QuotePortfolioDark />
 
@@ -92,35 +94,32 @@
       </div>
     </div>
 
-    <!-- Founder Through Programs -->
+    <!-- Funded Through Programs start -->
 
     <!-- quote portfolio -->
     <QuotePortfolio />
 
-    <!-- first layer -->
-    <div class="waste2resource-container shapla">
-      <div class="portfolio-grid-content">
-        <div class="portfolio-grid-title">
-          <h2 class="highlight">Shapla</h2>
-        </div>
-        <div class="portfolio-grid-buttons">
-          <nuxt-link to="/investments/shishir-water" target="_blank">
-            <button class="btn-route">learn more</button>
-          </nuxt-link>
+    <!-- GRID LAYOUT START -->
+    <div class="funded-container">
+      <div class="portfolio-grid shapla">
+        <div class="portfolio-grid-content">
+          <div class="portfolio-grid-title">
+            <h2 class="highlight">Shapla</h2>
+          </div>
+          <div class="portfolio-grid-buttons">
+            <a href="/news/bold-innovations" target="_blank">
+              <button class="btn-route">learn more</button>
+            </a>
+          </div>
         </div>
       </div>
-    </div>
-
-    <!-- second layer -->
-
-    <div class="fourth-container">
-      <div class="dream-water portfolio-grid">
+      <div class="portfolio-grid dream-water">
         <div class="portfolio-grid-content">
           <div class="portfolio-grid-title">
             <h2 class="highlight">Dream Water</h2>
           </div>
           <div class="portfolio-grid-buttons">
-            <a href="/investments/avijatrik" target="_blank">
+            <a href="/news/bold-innovations" target="_blank">
               <button class="btn-route">learn more</button>
             </a>
           </div>
@@ -132,40 +131,33 @@
             <h2 class="highlight">Go Green Bangladesh</h2>
           </div>
           <div class="portfolio-grid-buttons">
-            <a href="https://dhaka.impacthub.net/" target="_blank">
+            <a href="/news/go-green" target="_blank">
               <button class="btn-route">learn more</button>
             </a>
           </div>
         </div>
       </div>
-    </div>
-
-    <!-- third layer -->
-    <div class="waste2resource-container best-aid">
-      <div class="portfolio-grid-content">
-        <div class="portfolio-grid-title">
-          <h2 class="highlight">Best Aid</h2>
-        </div>
-        <div class="portfolio-grid-buttons">
-          <nuxt-link to="/investments/shishir-water" target="_blank">
-            <button class="btn-route">learn more</button>
-          </nuxt-link>
-        </div>
-      </div>
-    </div>
-
-    <!-- fourth layer -->
-
-    <div class="left-container">
       <div class="transend portfolio-grid">
         <div class="portfolio-grid-content">
           <div class="portfolio-grid-title">
             <h2 class="highlight">TransEnd</h2>
           </div>
           <div class="portfolio-grid-buttons">
-            <a href="/investments/avijatrik" target="_blank">
+            <a href="https://www.transendbd.org/" target="_blank">
               <button class="btn-route">learn more</button>
             </a>
+          </div>
+        </div>
+      </div>
+      <div class="best-aid portfolio-grid">
+        <div class="portfolio-grid-content">
+          <div class="portfolio-grid-title">
+            <h2 class="highlight">Best Aid</h2>
+          </div>
+          <div class="portfolio-grid-buttons">
+            <nuxt-link to="/news/best-aid-ltd" target="_blank">
+              <button class="btn-route">learn more</button>
+            </nuxt-link>
           </div>
         </div>
       </div>
@@ -175,27 +167,26 @@
             <h2 class="highlight">Tetra</h2>
           </div>
           <div class="portfolio-grid-buttons">
-            <a href="https://dhaka.impacthub.net/" target="_blank">
+            <a href="/news/bold-innovations" target="_blank">
               <button class="btn-route">learn more</button>
             </a>
           </div>
         </div>
       </div>
-    </div>
-
-    <!-- fifth layer -->
-    <div class="waste2resource-container mb-2 wreetu">
-      <div class="portfolio-grid-content">
-        <div class="portfolio-grid-title">
-          <h2 class="highlight">Wreetu</h2>
-        </div>
-        <div class="portfolio-grid-buttons">
-          <nuxt-link to="/investments/shishir-water" target="_blank">
-            <button class="btn-route">learn more</button>
-          </nuxt-link>
+      <div class="wreetu portfolio-grid">
+        <div class="portfolio-grid-content">
+          <div class="portfolio-grid-title">
+            <h2 class="highlight">Wreetu</h2>
+          </div>
+          <div class="portfolio-grid-buttons">
+            <nuxt-link to="/news/bold-innovations" target="_blank">
+              <button class="btn-route">learn more</button>
+            </nuxt-link>
+          </div>
         </div>
       </div>
     </div>
+    <!-- GRID LAYOUT END -->
   </div>
 </template>
 
@@ -315,42 +306,6 @@ export default {
     background-repeat: no-repeat;
     background-size: cover;
   }
-  .best-aid {
-    background-image: linear-gradient(
-        to bottom,
-        rgba(0, 0, 0, 0.3),
-        rgba(0, 0, 0, 0.3),
-        rgba(0, 0, 0, 0.3)
-      ),
-      url("~/assets/images/portfolio-grid/best-aid-bg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .wreetu {
-    background-image: linear-gradient(
-        to bottom,
-        rgba(0, 0, 0, 0.3),
-        rgba(0, 0, 0, 0.3),
-        rgba(0, 0, 0, 0.3)
-      ),
-      url("~/assets/images/portfolio-grid/wreetu.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .shapla {
-    background-image: linear-gradient(
-        to bottom,
-        rgba(0, 0, 0, 0.3),
-        rgba(0, 0, 0, 0.3),
-        rgba(0, 0, 0, 0.3)
-      ),
-      url("~/assets/images/portfolio-grid/shapla.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .mb-2 {
-    margin-bottom: 1%;
-  }
 
   // layer four
 
@@ -386,7 +341,87 @@ export default {
       background-repeat: no-repeat;
       background-size: cover;
     }
+    .dkc-grid {
+      background-image: linear-gradient(
+          to bottom,
+          rgba(0, 0, 0, 0.3),
+          rgba(0, 0, 0, 0.3),
+          rgba(0, 0, 0, 0.3)
+        ),
+        url("~/assets/images/portfolio-grid/office-space.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+  }
+
+  // FUNDED LAYOUT START
+  .funded-container {
+    margin-block: 20px;
+
+    display: grid;
+    grid-template-columns: repeat(3, [col-start] 1fr [col-end]);
+    grid-template-rows: repeat(3, [row-start] min-content [row-end]);
+    gap: 20px;
+
+    @media screen and (max-width: 920px) {
+      grid-template-columns: repeat(2, [col-start] 1fr [col-end]);
+      grid-template-rows: repeat(4, [row-start] min-content [row-end]);
+    }
+
+    @media screen and (max-width: 601px) {
+      grid-template-columns: [col-start] 1fr [col-end];
+      grid-template-rows: repeat(7, [row-start] min-content [row-end]);
+      gap: 10px;
+    }
+
+    .portfolio-grid {
+      height: 80vh;
+      background: #ddd;
+      position: relative;
+      @media screen and (max-width: 601px) {
+        height: 350px;
+      }
+    }
+    .shapla {
+      grid-column: col-start 1 / col-end 2;
+      grid-row: row-start 1 / row-end 1;
+
+      @media screen and (max-width: 920px) {
+        grid-column: col-start 1 / col-end 1;
+        grid-row: row-start 1 / row-end 1;
+      }
+
+      @media screen and (max-width: 601px) {
+        grid-column: col-start / col-end;
+        grid-row: row-start 1 / row-end 1;
+      }
+
+      background-image: linear-gradient(
+          to bottom,
+          rgba(0, 0, 0, 0.3),
+          rgba(0, 0, 0, 0.3),
+          rgba(0, 0, 0, 0.3)
+        ),
+        url("~/assets/images/portfolio-grid/shapla.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
     .dream-water {
+      grid-column: col-start 3 / col-end 3;
+      grid-row: row-start 1 / row-end 1;
+
+      @media screen and (max-width: 920px) {
+        grid-column: col-start 2 / col-end 2;
+        grid-row: row-start 1 / row-end 1;
+      }
+
+      @media screen and (max-width: 601px) {
+        grid-column: col-start / col-end;
+        grid-row: row-start 2 / row-end 2;
+      }
+
       background-image: linear-gradient(
           to bottom,
           rgba(0, 0, 0, 0.3),
@@ -398,74 +433,43 @@ export default {
       background-size: cover;
     }
     .go-green {
-      background-image: linear-gradient(
-          to bottom,
-          rgba(0, 0, 0, 0.3),
-          rgba(0, 0, 0, 0.3),
-          rgba(0, 0, 0, 0.3)
-        ),
-        url("~/assets/images/portfolio-grid/Go-Green.png");
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-    .best-aid {
-      background-image: linear-gradient(
-          to bottom,
-          rgba(0, 0, 0, 0.3),
-          rgba(0, 0, 0, 0.3),
-          rgba(0, 0, 0, 0.3)
-        ),
-        url("~/assets/images/portfolio-grid/Go-Green.png");
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-    .dkc-grid {
-      background-image: linear-gradient(
-          to bottom,
-          rgba(0, 0, 0, 0.3),
-          rgba(0, 0, 0, 0.3),
-          rgba(0, 0, 0, 0.3)
-        ),
-        url("~/assets/images/portfolio-grid/office-space.jpg");
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
-    }
-  }
-  // left layout
-  .left-container {
-    display: grid;
-    grid-template-columns: 4fr 8fr;
-    @media screen and (max-width: 920px) {
-      grid-template-columns: 6fr 6fr;
-    }
-    @media screen and (max-width: 601px) {
-      grid-template-columns: 1fr;
-      gap: 2% 0;
-      margin-top: 3%;
-    }
-    gap: 0 1%;
-    margin-top: 1%;
-    .portfolio-grid {
-      height: 80vh;
-      background: #ddd;
-      position: relative;
-      @media screen and (max-width: 601px) {
-        height: 350px;
+      grid-column: col-start 1 / col-end 1;
+      grid-row: row-start 2 / row-end 2;
+
+      @media screen and (max-width: 920px) {
+        grid-column: col-start 1 / col-end 1;
+        grid-row: row-start 2 / row-end 2;
       }
-    }
-    .central-africa-grid {
+
+      @media screen and (max-width: 601px) {
+        grid-column: col-start / col-end;
+        grid-row: row-start 3 / row-end 3;
+      }
+
       background-image: linear-gradient(
           to bottom,
           rgba(0, 0, 0, 0.3),
           rgba(0, 0, 0, 0.3),
           rgba(0, 0, 0, 0.3)
         ),
-        url("~/assets/images/portfolio-grid/avijatrik-bg.jpg");
+        url("~/assets/images/portfolio-grid/Go-Green.png");
       background-repeat: no-repeat;
       background-size: cover;
     }
     .transend {
+      grid-column: col-start 2 / col-end 2;
+      grid-row: row-start 2 / row-end 2;
+
+      @media screen and (max-width: 920px) {
+        grid-column: col-start 2 / col-end 2;
+        grid-row: row-start 2 / row-end 2;
+      }
+
+      @media screen and (max-width: 601px) {
+        grid-column: col-start / col-end;
+        grid-row: row-start 4 / row-end 4;
+      }
+
       background-image: linear-gradient(
           to bottom,
           rgba(0, 0, 0, 0.3),
@@ -475,20 +479,47 @@ export default {
         url("~/assets/images/portfolio-grid/transEnd.png");
       background-repeat: no-repeat;
       background-size: cover;
+      background-position-y: 40%;
     }
-    .dkc-grid {
+    .best-aid {
+      grid-column: col-start 3 / col-end 3;
+      grid-row: row-start 2 / row-end 2;
+
+      @media screen and (max-width: 920px) {
+        grid-column: col-start 1 / col-end 1;
+        grid-row: row-start 3 / row-end 3;
+      }
+
+      @media screen and (max-width: 601px) {
+        grid-column: col-start / col-end;
+        grid-row: row-start 5 / row-end 5;
+      }
+
       background-image: linear-gradient(
           to bottom,
           rgba(0, 0, 0, 0.3),
           rgba(0, 0, 0, 0.3),
           rgba(0, 0, 0, 0.3)
         ),
-        url("~/assets/images/portfolio-grid/office-space.jpg");
+        url("~/assets/images/portfolio-grid/best-aid-bg.jpg");
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
     }
     .tetra {
+      grid-column: col-start 1 / col-end 1;
+      grid-row: row-start 3 / row-end 3;
+
+      @media screen and (max-width: 920px) {
+        grid-column: col-start 2 / col-end 2;
+        grid-row: row-start 3 / row-end 3;
+      }
+
+      @media screen and (max-width: 601px) {
+        grid-column: col-start / col-end;
+        grid-row: row-start 6 / row-end 6;
+      }
+
       background-image: linear-gradient(
           to bottom,
           rgba(0, 0, 0, 0.3),
@@ -498,9 +529,34 @@ export default {
         url("~/assets/images/portfolio-grid/Tetra.png");
       background-repeat: no-repeat;
       background-size: cover;
-      background-position: center;
+      background-position-x: 60%;
+    }
+    .wreetu {
+      grid-column: col-start 2 / col-end 3;
+      grid-row: row-start 3 / row-end 3;
+
+      @media screen and (max-width: 920px) {
+        grid-column: col-start 1 / col-end 2;
+        grid-row: row-start 4 / row-end 4;
+      }
+
+      @media screen and (max-width: 601px) {
+        grid-column: col-start / col-end;
+        grid-row: row-start 7 / row-end 7;
+      }
+
+      background-image: linear-gradient(
+          to bottom,
+          rgba(0, 0, 0, 0.3),
+          rgba(0, 0, 0, 0.3),
+          rgba(0, 0, 0, 0.3)
+        ),
+        url("~/assets/images/portfolio-grid/wreetu.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
     }
   }
+  // FUNDED LAYOUT END
 
   // grid common design
   .portfolio-grid-content {
