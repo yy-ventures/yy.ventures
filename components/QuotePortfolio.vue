@@ -20,17 +20,20 @@
     color: $fg_dark_title
     font-size: calc(24px + 6vw)
 
+    @media (max-width: 601px)
+      font-size: calc(24px + 4.5vw)
+
   .line_1
     // margin-left: 10%
     @media (max-width: 601px)
-      margin-left: -40px
+      margin-left: -10px
 
   .line_2
     display: flex
     margin-left: 5%
     white-space: nowrap
     @media(max-width: 601px)
-      margin-left: 50px
+      margin-left: -50px
     .word_1
       -webkit-text-fill-color: transparent
       -webkit-text-stroke: 1px $fg_dark_title

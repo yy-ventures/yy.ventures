@@ -194,12 +194,14 @@
 import {
   toggle_class_on_focus,
   add_class_on_focus,
+  update_scroll,
 } from "@/assets/scripts/dom_utils";
 
 import QuotePortfolioDark from "~/components/QuotePortfolioDark.vue";
 import QuotePortfolio from "~/components/QuotePortfolio.vue";
 export default {
   mounted: () => {
+    update_scroll();
     toggle_class_on_focus({
       [".highlight"]: "scale",
     });
@@ -223,7 +225,7 @@ export default {
   // padding: 5% 0 1% 0;
   font-family: "Graphik";
   @media screen and (max-width: 601px) {
-    padding: 5% 0 5% 0;
+    // padding: 5% 0 5% 0;
   }
   .fostering-sb-container {
     height: 80vh;
@@ -379,12 +381,15 @@ export default {
       height: 80vh;
       background: #ddd;
       position: relative;
+      @media screen and (max-width: 900px) {
+        height: 500px;
+      }
       @media screen and (max-width: 601px) {
         height: 350px;
       }
     }
     .shapla {
-      grid-column: col-start 1 / col-end 2;
+      grid-column: col-start 1 / col-end 1;
       grid-row: row-start 1 / row-end 1;
 
       @media screen and (max-width: 920px) {
@@ -409,7 +414,7 @@ export default {
       background-position: center;
     }
     .dream-water {
-      grid-column: col-start 3 / col-end 3;
+      grid-column: col-start 2 / col-end 3;
       grid-row: row-start 1 / row-end 1;
 
       @media screen and (max-width: 920px) {
@@ -431,6 +436,7 @@ export default {
         url("~/assets/images/portfolio-grid/Dreamwater.png");
       background-repeat: no-repeat;
       background-size: cover;
+      background-position: center;
     }
     .go-green {
       grid-column: col-start 1 / col-end 1;
@@ -455,6 +461,7 @@ export default {
         url("~/assets/images/portfolio-grid/Go-Green.png");
       background-repeat: no-repeat;
       background-size: cover;
+      background-position: center;
     }
     .transend {
       grid-column: col-start 2 / col-end 2;
@@ -479,7 +486,7 @@ export default {
         url("~/assets/images/portfolio-grid/transEnd.png");
       background-repeat: no-repeat;
       background-size: cover;
-      background-position-y: 40%;
+      background-position: center;
     }
     .best-aid {
       grid-column: col-start 3 / col-end 3;
@@ -529,7 +536,7 @@ export default {
         url("~/assets/images/portfolio-grid/Tetra.png");
       background-repeat: no-repeat;
       background-size: cover;
-      background-position-x: 60%;
+      background-position: center;
     }
     .wreetu {
       grid-column: col-start 2 / col-end 3;
@@ -554,6 +561,7 @@ export default {
         url("~/assets/images/portfolio-grid/wreetu.jpg");
       background-repeat: no-repeat;
       background-size: cover;
+      background-position: center;
     }
   }
   // FUNDED LAYOUT END
@@ -567,7 +575,7 @@ export default {
       h2 {
         color: white;
         font-weight: 900;
-        font-size: clamp(24px, 3vw, 4vw);
+        font-size: clamp(24px, 2.7vw, 4vw);
         margin: 0;
       }
     }

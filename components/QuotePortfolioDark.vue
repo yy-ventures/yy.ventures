@@ -20,6 +20,10 @@
     color: #fff
     font-size: calc(24px + 6vw)
 
+    @media (max-width: 601px)
+      font-size: calc(24px + 4.5vw)
+
+
   .line_1
     margin-left: 35%
     @media (max-width: 601px)

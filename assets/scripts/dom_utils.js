@@ -32,14 +32,14 @@ export const observer_dom = (
 //                       Toggle Navigation on Scroll
 //==============================================================================
 export const toggle_navigation_on_scroll = () => {
-  window.addEventListener('scroll', () => {
+  window.addEventListener("scroll", () => {
     if (window.scrollY > window.position_old) {
       if (!window.nav_hidden) {
-        dom('nav').style.transform = 'translateY(-100%)';
+        dom("nav").style.transform = "translateY(-100%)";
         window.nav_hidden = true;
       }
     } else if (window.nav_hidden) {
-      dom('nav').style.transform = 'translateY(0)';
+      dom("nav").style.transform = "translateY(0)";
       window.nav_hidden = false;
     }
     window.position_old = window.scrollY;
@@ -79,9 +79,9 @@ export const toggle_class_on_focus = (list) => {
 //                              Update Scroll
 //==============================================================================
 export const update_scroll = () => {
-  window.addEventListener('scroll', () => {
+  window.addEventListener("scroll", () => {
     document.body.style.setProperty(
-      '--scroll',
+      "--scroll",
       window.pageYOffset / (document.body.offsetHeight - window.innerHeight)
     );
   });
@@ -93,7 +93,7 @@ export const update_scroll = () => {
 //==============================================================================
 export const click_listener = (dom_string, action) => {
   doms(dom_string).forEach((dom) => {
-    dom.addEventListener('click', action);
+    dom.addEventListener("click", action);
   });
 };
 //}}}
