@@ -580,7 +580,7 @@ export default {
       }
     }
     .portfolio-grid-buttons {
-      margin-top: 5%;
+      margin-top: 1rem;
       button {
         outline: none;
         border: none;
