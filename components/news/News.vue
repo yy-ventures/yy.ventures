@@ -4,11 +4,11 @@
     .h2.highlight News, Views & More
   .benefits_grid
     .benefits_container
-      nuxt-link(to="/news/bold-innovations")
-        img(src="~/assets/images/news/bold-2.jpg").faded_out
+      nuxt-link(to="/news/enterprises-graduate")
+        img(src="~/assets/images/news/enterprises-1.jpg").faded_out
         .benefits_container__title
           .h1.faded_out News 
-          .h4.faded_out Bold innovations to improve water and sanitation for all: The WASH Innovation Challenge
+          .h4.faded_out 14 enterprises graduate from YY Goshthi Incubation program.
     .benefits_container
       nuxt-link(to="/news/no-going-back")
         img(src="~/assets/images/news/pic-2.jpg").faded_out
@@ -26,13 +26,13 @@
 </template>
 
 <script>
-import { add_class_on_focus } from '@/assets/scripts/dom_utils';
+import { add_class_on_focus } from "@/assets/scripts/dom_utils";
 
 export default {
-  props: ['data'],
+  props: ["data"],
   mounted: () => {
     add_class_on_focus({
-      ['.faded_out']: 'fade_in',
+      [".faded_out"]: "fade_in",
     });
   },
 };
@@ -100,7 +100,7 @@ export default {
           -webkit-text-stroke-color: $fg_light_text
           // -webkit-text-stroke-color: #f8d23a
           -webkit-text-fill-color: transparent
-          
+
         .h4
           color: $fg_light_text
           text-transform: capitalize
@@ -131,7 +131,7 @@ export default {
   .benefits_footer
     text-align: center
     padding: 2.5% 0
-    a 
+    a
       color: #f2f2f2
       padding: 6px 36px
       border: 1px solid #f2f2f2
