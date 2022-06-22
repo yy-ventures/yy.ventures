@@ -277,6 +277,25 @@ export default {
       .img-header {
         height: 100%;
         width: 100%;
+
+        position: relative;
+
+        &::before {
+          content: "";
+          display: block;
+          background: linear-gradient(
+            to top,
+            rgba(0, 0, 0, 0.5),
+            transparent 40%
+          );
+
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+        }
+
         img {
           width: 100%;
           height: 100%;
@@ -298,6 +317,11 @@ export default {
           bottom: -85px;
           -webkit-text-stroke: 2px #f1f2f2;
         }
+        @media screen and (max-width: 600px) {
+          bottom: -55px;
+          left: 50%;
+          transform: translateX(-50%);
+        }
       }
     }
     .news-grid-right {
@@ -306,6 +330,9 @@ export default {
       height: 400px;
       @media screen and (min-width: 1441px) {
         height: 500px;
+      }
+      @media screen and (max-width: 600px) {
+        margin-top: 2rem;
       }
       .news-grid-card {
         padding: 2.5% 1%;
