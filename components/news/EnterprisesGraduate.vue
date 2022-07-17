@@ -87,7 +87,7 @@
             </p>
             <p class="headline-bold">InstantKaj.com</p>
             <p>
-              Instant Kaaj is a digital platform that connects talented
+              Instant Kaj is a digital platform that connects talented
               Bangladeshi freelancers with potential employers, creating new and
               flexible employment opportunities. Click
               <a href="https://instantkaj.com/" target="_blank">here</a>
@@ -199,14 +199,14 @@
             <p class="headline-bold">Wander Woman</p>
             <p>
               Wander Woman is an avant-garde travel platform. They are
-              dedicatedly working connect female travel enthusiasts from all
+              dedicatedly working to connect female travel enthusiasts from all
               around the world and create travel experiences for them. Click
               <a href="https://www.wanderwomanbd.org/" target="_blank">here</a>
             </p>
 
             <p class="headline-bold">Plant Easy</p>
             <p>
-              Plat Easy is a one stop urban tree plantation and gardening
+              Plant Easy is a one stop urban tree plantation and gardening
               solution for your urban lifestyle. They aim to utilize every
               little empty urban space left to encourage community gardening.
               Click
