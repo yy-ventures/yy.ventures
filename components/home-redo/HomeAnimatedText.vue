@@ -7,9 +7,7 @@
 
         <div class="bottom-text uk-text-center">
           <span class="text-bold">Professor Muhammad Yunus</span>
-          <span class="text-light"
-            >Nobel Peace Prize Winner and Founder of Grameen Bank</span
-          >
+          <span class="text-light">Nobel Peace Prize Winner and Founder of Grameen Bank</span>
         </div>
       </div>
     </div>
@@ -24,15 +22,13 @@ export default {
     };
   },
   mounted() {
-    window.addEventListener('scroll', function () {
+    window.addEventListener("scroll", function () {
       let pageY = window.pageYOffset;
 
-      let born = document.querySelector('#born');
-      let entrepreneurs = document.querySelector('#entrepreneurs');
+      let born = document.querySelector("#born");
+      let entrepreneurs = document.querySelector("#entrepreneurs");
       born.style.backgroundPosition = `${pageY * 0.55 - 1300}px`;
-      entrepreneurs.style.backgroundPosition = `-${
-        pageY * 0.7 - 1400
-      }px  -50px`;
+      entrepreneurs.style.backgroundPosition = `-${pageY * 0.7 - 1400}px  -50px`;
     });
   },
 };
@@ -47,25 +43,25 @@ export default {
   .hero-text-container {
     #born {
       height: 250px;
-      background-image: url('~assets/images/all-humans.png');
+      background-image: url("~assets/images/all-humans.png");
       background-size: cover;
       background-repeat: no-repeat;
     }
     #entrepreneurs {
       height: 250px;
-      background-image: url('~assets/images/born.png');
+      background-image: url("~assets/images/born.png");
       background-size: cover;
       background-repeat: no-repeat;
     }
     .bottom-text {
       margin-bottom: 100px;
       .text-bold {
-        font-family: 'Graphik';
+        font-family: "Graphik";
         font-weight: 600;
         display: block;
       }
       .text-light {
-        font-family: 'Graphik';
+        font-family: "Graphik";
         font-weight: normal;
         display: block;
       }
@@ -82,12 +78,10 @@ export default {
     }
 
     h1 {
-      /* margin-top: 10px; */
       color: #3a3b3a;
       font-size: 110px;
       line-height: 1.1 !important;
       text-transform: capitalize;
-      /* margin-bottom: -45px; */
       @media @tablet-down {
         font-size: 80px;
         line-height: 80px;

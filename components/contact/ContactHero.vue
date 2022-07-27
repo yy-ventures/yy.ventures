@@ -1,24 +1,6 @@
 <template>
   <div id="contact-hero">
     <div class="uk-cover-container" uk-height-viewport="min-height: 450">
-      <!-- <img src="~assets/svg/home-hero-bg.svg" alt="" uk-cover /> -->
-      <!--       <img src="images/home/01.jpg" alt="" uk-cover />
-      <img src="images/home/02.jpg" alt="" uk-cover />
-      <img src="images/home/03.jpg" alt="" uk-cover />
-      <img src="images/home/04.jpg" alt="" uk-cover />
-      <img src="images/home/05.jpg" alt="" uk-cover />
-      <img src="images/home/06.jpg" alt="" uk-cover />
-      <img src="images/home/07.jpg" alt="" uk-cover /> -->
-      <!-- <img
-        v-for="(item, index) in slides"
-        :src="item"
-        :key="index"
-        alt=""
-        uk-cover
-        class="invisible-slide"
-        :class="{ 'visible-slide': isVisible(index) }"
-      /> -->
-
       <div
         class="uk-visible-toggle uk-light uk-visible@l"
         tabindex="-1"
@@ -36,9 +18,7 @@
           <h1 class="">
             <span>Get in Touch</span>
             <span class="background-accent"
-              ><span
-                class="inner-span"
-                uk-scrollspy="cls:inner-span-animate; hidden:false;  delay:1000; repeat:true"
+              ><span class="inner-span" uk-scrollspy="cls:inner-span-animate; hidden:false;  delay:1000; repeat:true"
                 >with Us</span
               ></span
             >
@@ -53,31 +33,22 @@
 export default {
   data() {
     return {
-      currentSlide: 'images/home/01.svg',
+      currentSlide: "images/home/01.svg",
       count: 0,
       slides: [
-        'images/home/01.svg',
-        'images/home/02.svg',
-        'images/home/03.svg',
-        'images/home/04.svg',
-        'images/home/05.svg',
-        'images/home/06.svg',
+        "images/home/01.svg",
+        "images/home/02.svg",
+        "images/home/03.svg",
+        "images/home/04.svg",
+        "images/home/05.svg",
+        "images/home/06.svg",
       ],
-      slidesJpg: [
-        'images/home/01.jpg',
-        'images/home/02.jpg',
-        'images/home/03.jpg',
-        'images/home/05.jpg',
-        'images/home/06.jpg',
-        'images/home/07.jpg',
-      ],
-      animation: 'uk-animation-fade',
+      animation: "uk-animation-fade",
     };
   },
   methods: {
     changeSlide() {
       this.count++;
-      //this.count = Math.floor(Math.random() * 6)
 
       if (this.count >= 6) this.count = 0;
       setTimeout(() => {
@@ -89,9 +60,7 @@ export default {
       else return false;
     },
   },
-  mounted() {
-    //this.changeSlide()
-  },
+  mounted() {},
 };
 </script>
 
@@ -121,7 +90,7 @@ export default {
       position: relative;
       overflow: hidden;
       &::after {
-        content: '';
+        content: "";
         position: absolute;
         z-index: -1;
         right: 0;
@@ -146,22 +115,15 @@ export default {
     }
     padding-left: 40px;
     h1 {
-      /* margin-top: 10px; */
       color: #3a3b3a;
       font-size: 100px !important;
       line-height: 1.1 !important;
-      /* text-transform: capitalize !important; */
-      /* margin-bottom: -45px; */
+
       @media @tablet-down {
         font-size: 80px;
-        /* line-height: 80px; */
-        /* margin-bottom: -35px; */
       }
       @media @small-down {
         font-size: 40px !important;
-        /* line-height: 50px; */
-        /* padding-left: 10px; */
-        /* margin-bottom: -25px; */
       }
     }
   }

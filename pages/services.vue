@@ -5,51 +5,31 @@
   QuoteService
   ServiceGrid
   ServiceWork
-  //- picture-grid(:data="services")
-  //- Pointer
-  //- previous-work
-  //- pre-footer
 </template>
 <script>
-import PreFooter from '~/components/services/PreFooter';
-import ServicesHero from '~/components/services/ServicesHero';
-import Services from '~/components/services/Services';
-import PreviousWork from '~/components/services/PreviousWork';
-import PictureGrid from '~/components/PictureGrid';
-import Intro from '~/components/services/Intro';
-import Pointer from '~/components/services/Pointer';
-import services from '~/assets/data/services.json';
-import QuoteService from '~/components/QuoteService.vue';
-import ServiceGrid from '~/components/services/ServiceGrid.vue';
-import ServiceWork from '~/components/services/ServiceWork.vue';
+import ServicesHero from "~/components/services/ServicesHero";
+import Intro from "~/components/services/Intro";
+import QuoteService from "~/components/QuoteService.vue";
+import ServiceGrid from "~/components/services/ServiceGrid.vue";
+import ServiceWork from "~/components/services/ServiceWork.vue";
 
-import {
-  toggle_class_on_focus,
-  add_class_on_focus,
-} from '@/assets/scripts/dom_utils';
+import { toggle_class_on_focus, add_class_on_focus } from "@/assets/scripts/dom_utils";
 
 export default {
   components: {
-    Services,
-    PreviousWork,
-    PreFooter,
-    PictureGrid,
-    Intro,
-    Pointer,
     ServicesHero,
+    Intro,
     QuoteService,
     ServiceGrid,
     ServiceWork,
   },
-  data: () => ({
-    services,
-  }),
+
   mounted() {
     toggle_class_on_focus({
-      ['.highlight']: 'scale',
+      [".highlight"]: "scale",
     });
     add_class_on_focus({
-      ['.faded_out']: 'fade_in',
+      [".faded_out"]: "fade_in",
       // ['#intro']: 'scale_down',
     });
   },

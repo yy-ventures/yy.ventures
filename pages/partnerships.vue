@@ -3,19 +3,16 @@
   partnerships-hero
   Programs
   Partner(:data="partnerships_partners")
-  //- Marquee(:data="partnerships_partners")
   lets-talk
 </template>
 
 <script>
-// import HomeHero from '~/components/home-redo/HomeHero';
-import LetsTalk from '~/components/partnerships/LetsTalk';
-import Partner from '~/components/Partner';
-import Programs from '~/components/Programs';
-import Marquee from '~/components/Marquee';
-import PartnershipsHero from '~/components/PartnershipsHero';
+import PartnershipsHero from "~/components/PartnershipsHero";
+import Programs from "~/components/Programs";
+import Partner from "~/components/Partner";
+import LetsTalk from "~/components/partnerships/LetsTalk";
 
-import partnerships_partners from '~/assets/data/partnerships_partners.json';
+import partnerships_partners from "~/assets/data/partnerships_partners.json";
 
 import {
   toggle_class_on_focus,
@@ -24,7 +21,7 @@ import {
   typewriter,
   dom,
   add_class_on_focus,
-} from '@/assets/scripts/dom_utils';
+} from "@/assets/scripts/dom_utils";
 
 export default {
   components: {
@@ -41,11 +38,11 @@ export default {
 
   mounted: () => {
     toggle_class_on_focus({
-      ['.highlight']: 'scale',
+      [".highlight"]: "scale",
     });
 
     add_class_on_focus({
-      ['.faded_out']: 'fade_in',
+      [".faded_out"]: "fade_in",
     });
   },
 };

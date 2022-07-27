@@ -7,9 +7,7 @@
             <span>weavers,</span>
             <span>investors,</span>
             <span class="background-accent"
-              ><span
-                class="inner-span"
-                uk-scrollspy="cls:inner-span-animate; hidden:false;  delay:1000; repeat:true"
+              ><span class="inner-span" uk-scrollspy="cls:inner-span-animate; hidden:false;  delay:1000; repeat:true"
                 >entrepreneurs</span
               ></span
             >
@@ -21,13 +19,12 @@
 </template>
 
 <script>
-//uk-scrollspy="target: > span; cls: uk-animation-slide-left; delay: 500; repeat:true;"
 export default {};
 </script>
 
 <style lang="less">
 #about-hero {
-  background-image: url('~assets/svg/about-hero-bg.svg');
+  background-image: url("~assets/svg/about-hero-bg.svg");
   background-size: cover;
   background-position: right;
   .uk-cover-container {
@@ -43,7 +40,7 @@ export default {};
       position: relative;
       overflow: hidden;
       &::after {
-        content: '';
+        content: "";
         position: absolute;
         z-index: -1;
         right: 0;
@@ -67,28 +64,21 @@ export default {};
     img {
       max-width: 100px;
     }
-    /* padding-left: 80px; */
+
     padding: 25px;
     h1 {
-      /* margin-top: 10px; */
       color: #3a3b3a;
       font-size: 100px !important;
-      /* line-height: 120px; */
+
       line-height: 1.1;
       text-transform: capitalize;
 
       @media @tablet-down {
         font-size: 80px;
-        /* line-height: 80px; */
       }
       @media @small-down {
         font-size: 40px !important;
-        /* line-height: 50px; */
       }
-
-      /* span:first-of-type {         */
-      /*   display: block !important; */
-      /* }                            */
     }
   }
 }

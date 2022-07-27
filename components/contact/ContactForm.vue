@@ -1,9 +1,7 @@
 <template>
   <div id="contact-form">
-    <!-- <div class="uk-section"> -->
     <div class="uk-container">
       <div class="" uk-grid>
-        <!-- <div class="uk-inline"> -->
         <div class="uk-width-1-1@m contact-form">
           <div class="form-container">
             <form name="contact_form">
@@ -37,7 +35,7 @@
                   required
                 />
               </div>
-              <div class="uk-margin ">
+              <div class="uk-margin">
                 <textarea
                   class="uk-textarea form-input"
                   rows="5"
@@ -49,29 +47,21 @@
               </div>
             </form>
             <div class="uk-margin uk-text-center">
-              <button
-                class="uk-button uk-button-default submit-btn"
-                @click="sendMail()"
-              ></button>
+              <button class="uk-button uk-button-default submit-btn" @click="sendMail()"></button>
               <div class="response" v-if="this.emailSent">
-                <span class="uk-margin"
-                  >Your message was sent successfully. We'll get in touch
-                  soon.</span
-                >
+                <span class="uk-margin">Your message was sent successfully. We'll get in touch soon.</span>
               </div>
             </div>
           </div>
         </div>
         <div class="uk-width-1-3@m portfolio-contact-img"></div>
-        <!-- </div>
-	 -->
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import axios from 'axios'
+import axios from "axios";
 export default {
   data() {
     return {
@@ -79,67 +69,46 @@ export default {
       email: null,
       company: null,
       message: null,
-      emailSent: false
-    }
+      emailSent: false,
+    };
   },
   methods: {
     sendMail() {
-      let bodyFormData = new FormData()
-      bodyFormData.set('name', this.name)
-      bodyFormData.set('email', this.email)
-      bodyFormData.set('company', this.company)
-      bodyFormData.set('message', this.message)
+      let bodyFormData = new FormData();
+      bodyFormData.set("name", this.name);
+      bodyFormData.set("email", this.email);
+      bodyFormData.set("company", this.company);
+      bodyFormData.set("message", this.message);
       axios
-        .post('https://yy.ventures/email/handler.php', bodyFormData)
-        .then(response => {
-          console.log(response)
+        .post("https://yy.ventures/email/handler.php", bodyFormData)
+        .then((response) => {
+          console.log(response);
           if (response.status == 200) {
-            this.emailSent = true
+            this.emailSent = true;
           }
         })
-        .catch(error => {
-          console.log(error)
-        })
-
-      /* this.$http({
-        method: 'post',
-        url: 'http://jamroll.xyz/backup/emails/handler.php',
-        data: bodyFormData,
-        config: { headers: { 'Content-Type': 'multipart/form-data' } }
-      })
-        .then(response => {
-          //handle success
-          console.log('sent')
-          this.sent = true
-          this.handleSuccess()
-          console.log(response)
-        })
-        .catch(response => {
-          //handle error
-          console.log('in catch')
-          this.failed = true
-          this.handleFailure()
-          console.log(response)
-        }) */
+        .catch((error) => {
+          console.log(error);
+        });
     },
     handleSuccess() {
-      console.log('in success')
+      console.log("in success");
       setTimeout(() => {
-        this.sent = false
-        this.name = ''
-        this.email = ''
-        this.message = ''
-        this.company = ''
-      }, 3000)
+        this.sent = false;
+        this.name = "";
+        this.email = "";
+        this.message = "";
+        this.company = "";
+      }, 3000);
     },
     handleFailure() {
-      console.log('in success')
+      console.log("in success");
       setTimeout(() => {
-        this.failed = false
-      }, 3000)
-    }
-  }
-}
+        this.failed = false;
+      }, 3000);
+    },
+  },
+};
 </script>
 
 <style lang="less" scoped>
@@ -152,7 +121,7 @@ export default {
   padding: 50px 0px;
   margin-top: 40px;
   .contact-heading {
-    font-family: 'Graphik Super';
+    font-family: "Graphik Super";
     color: white;
     font-size: 70px;
     margin: 0px;
@@ -160,7 +129,7 @@ export default {
     display: block;
   }
   .contact-heading:after {
-    content: '';
+    content: "";
     display: block;
     margin: 0;
     width: 42%;
@@ -194,20 +163,24 @@ export default {
     // background-color: transparent;
     // color: #ffffff;
     // border: 2px solid #ffffff;
-    background: url('~assets/images/bottom-arrow.png') no-repeat;
+    background: url("~assets/images/bottom-arrow.png") no-repeat;
     height: 50px;
     border: none;
     background-size: 50px 50px;
     margin-top: 40px;
   }
-  .submit-btn:hover{
+  .submit-btn:hover {
     position: relative;
-    animation: moveimg .4s;
+    animation: moveimg 0.4s;
     animation-timing-function: linear;
   }
   @keyframes moveimg {
-    from {top: 0px;}
-    to {bottom: 20px;}
+    from {
+      top: 0px;
+    }
+    to {
+      bottom: 20px;
+    }
   }
 }
 </style>

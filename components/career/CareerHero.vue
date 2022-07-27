@@ -6,9 +6,7 @@
           <h1 class="">
             <span>Begin your </span>
             <span class="background-accent"
-              ><span
-                class="inner-span"
-                uk-scrollspy="cls:inner-span-animate; hidden:false;  delay:1000; repeat:true"
+              ><span class="inner-span" uk-scrollspy="cls:inner-span-animate; hidden:false;  delay:1000; repeat:true"
                 >journey with us</span
               ></span
             >
@@ -20,13 +18,12 @@
 </template>
 
 <script>
-//uk-scrollspy="target: > span; cls: uk-animation-slide-left; delay: 500; repeat:true;"
-export default {}
+export default {};
 </script>
 
 <style lang="less">
 #about-hero {
-  background-image: url('~assets/svg/about-hero-bg.svg');
+  background-image: url("~assets/svg/about-hero-bg.svg");
   background-size: cover;
   background-position: right;
   .uk-cover-container {
@@ -42,7 +39,7 @@ export default {}
       position: relative;
       overflow: hidden;
       &::after {
-        content: '';
+        content: "";
         position: absolute;
         z-index: -1;
         right: 0;
