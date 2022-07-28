@@ -84,7 +84,7 @@
       <div class="dkc-grid service-grid">
         <div class="service-grid-content">
           <div class="service-grid-title">
-             <h2>Digital Khichuri</h2>
+            <h2>Digital Khichuri</h2>
             <h2 class="highlight">Challenge</h2>
           </div>
           <div class="service-grid-buttons">
@@ -112,15 +112,11 @@
         </div>
       </div>
     </div>
-    
   </div>
 </template>
 
 <script>
-import {
-  toggle_class_on_focus,
-  add_class_on_focus,
-} from "@/assets/scripts/dom_utils";
+import { toggle_class_on_focus, add_class_on_focus } from "@/assets/scripts/dom_utils";
 
 export default {
   mounted: () => {
@@ -143,17 +139,12 @@ export default {
   padding: 5% 0 1% 0;
   font-family: "Graphik";
   @media screen and (max-width: 601px) {
-      padding: 5% 0 5% 0;
+    padding: 5% 0 5% 0;
   }
   .fostering-sb-container {
     height: 80vh;
     position: relative;
-    background-image: linear-gradient(
-        to bottom,
-        rgba(0, 0, 0, 0.3),
-        rgba(0, 0, 0, 0.3),
-        rgba(0, 0, 0, 0.3)
-      ),
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
       url("~/assets/images/service-grid/yunus-picture.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -184,23 +175,13 @@ export default {
       }
     }
     .sbdc-grid {
-      background-image: linear-gradient(
-          to bottom,
-          rgba(0, 0, 0, 0.3),
-        rgba(0, 0, 0, 0.3),
-        rgba(0, 0, 0, 0.3)
-        ),
+      background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
         url("~/assets/images/service-grid/sbdc-bg.png");
       background-repeat: no-repeat;
       background-size: cover;
     }
     .sfdc-grid {
-      background-image: linear-gradient(
-          to bottom,
-          rgba(0, 0, 0, 0.3),
-        rgba(0, 0, 0, 0.3),
-        rgba(0, 0, 0, 0.3)
-        ),
+      background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
         url("~/assets/images/service-grid/sfdc-bg.png");
       background-repeat: no-repeat;
       background-size: cover;
@@ -215,12 +196,7 @@ export default {
       height: 350px;
       margin-top: 4%;
     }
-    background-image: linear-gradient(
-        to bottom,
-        rgba(0, 0, 0, 0.3),
-        rgba(0, 0, 0, 0.3),
-        rgba(0, 0, 0, 0.3)
-      ),
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
       url("~/assets/images/service-grid/waste.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -247,29 +223,18 @@ export default {
       }
     }
     .central-africa-grid {
-      background-image: linear-gradient(
-          to bottom,
-          rgba(0, 0, 0, 0.3),
-        rgba(0, 0, 0, 0.3),
-        rgba(0, 0, 0, 0.3)
-        ),
+      background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
         url("~/assets/images/service-grid/africa.jpg");
       background-repeat: no-repeat;
       background-size: cover;
     }
     .dkc-grid {
-      background-image: linear-gradient(
-          to bottom,
-          rgba(0, 0, 0, 0.3),
-        rgba(0, 0, 0, 0.3),
-        rgba(0, 0, 0, 0.3)
-        ),
+      background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
         url("~/assets/images/service-grid/dkc.jpg");
       background-repeat: no-repeat;
       background-size: cover;
     }
   }
-
 
   // layer five
 
@@ -281,18 +246,11 @@ export default {
       height: 350px;
       margin-top: 4%;
     }
-    background-image: linear-gradient(
-        to bottom,
-        rgba(0, 0, 0, 0.3),
-        rgba(0, 0, 0, 0.3),
-        rgba(0, 0, 0, 0.3)
-      ),
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
       url("~/assets/images/service-grid/wash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   }
-
-
 
   // grid common design
   .service-grid-content {

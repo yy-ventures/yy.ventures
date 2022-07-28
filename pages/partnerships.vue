@@ -7,9 +7,9 @@
 </template>
 
 <script>
-import PartnershipsHero from "~/components/PartnershipsHero";
-import Programs from "~/components/Programs";
-import Partner from "~/components/Partner";
+import PartnershipsHero from "~/components/partnerships/PartnershipsHero";
+import Programs from "~/components/partnerships/Programs";
+import Partner from "~/components/partnerships/Partner";
 import LetsTalk from "~/components/partnerships/LetsTalk";
 
 import partnerships_partners from "~/assets/data/partnerships_partners.json";

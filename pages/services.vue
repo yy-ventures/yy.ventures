@@ -9,7 +9,7 @@
 <script>
 import ServicesHero from "~/components/services/ServicesHero";
 import Intro from "~/components/services/Intro";
-import QuoteService from "~/components/QuoteService.vue";
+import QuoteService from "~/components/services/QuoteService.vue";
 import ServiceGrid from "~/components/services/ServiceGrid.vue";
 import ServiceWork from "~/components/services/ServiceWork.vue";
 

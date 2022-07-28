@@ -10,11 +10,11 @@
 
 <script>
 import HomeHero from "~/components/home-redo/HomeHero";
-import Vision from "~/components/Vision";
-import Quote from "~/components/Quote";
+import Vision from "~/components/home-redo/Vision";
+import Quote from "~/components/home-redo/Quote";
 import News from "~/components/news/News.vue";
-import PreFooter from "~/components/PreFooter";
-import HomeBrands from "~/components/HomeBrands.vue";
+import PreFooter from "~/components/home-redo/PreFooter";
+import HomeBrands from "~/components/home-redo/HomeBrands.vue";
 
 import {
   toggle_class_on_focus,

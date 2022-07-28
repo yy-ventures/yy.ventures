@@ -16,7 +16,6 @@ import PortfolioWork from "~/components/portfolio-redo/PortfolioWork.vue";
 import { toggle_class_on_focus } from "@/assets/scripts/dom_utils";
 
 export default {
-  data() {},
   components: {
     PortfolioHero,
     PortfolioIntro,

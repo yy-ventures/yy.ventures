@@ -3,14 +3,13 @@
 </template>
 
 <script>
-import BlogPostVue from "~/components/BlogPost.vue"
+import BlogPostVue from "~/components/blogs/BlogPost.vue";
 
-export default{
+export default {
   components: {
-    BlogPostVue
-  }
-}
+    BlogPostVue,
+  },
+};
 </script>
 
-<style>
-</style>
+<style></style>

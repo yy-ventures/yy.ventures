@@ -15,7 +15,6 @@ import AboutText from "~/components/about-redo/AboutText";
 import AboutValues from "~/components/about-redo/AboutValues";
 import AboutFeatured from "~/components/about-redo/AboutFeatured";
 import AboutTeam from "~/components/about-redo/AboutTeam";
-import AboutPartner from "~/components/about-redo/AboutPartner";
 import AboutPreFooter from "~/components/about-redo/AboutPreFooter";
 
 import staff from "~/assets/data/staff.json";
@@ -30,7 +29,6 @@ export default {
     AboutValues,
     AboutFeatured,
     AboutTeam,
-    AboutPartner,
     AboutPreFooter,
   },
   data: () => ({

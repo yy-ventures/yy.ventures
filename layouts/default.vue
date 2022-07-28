@@ -6,16 +6,16 @@ main
 </template>
 
 <script>
-import Navigation from '../components/Navigation';
-import Footer from '../components/Footer';
-// import links from '../assets/data/links.json';
+import Navigation from "../components/Navigation";
+import Footer from "../components/Footer";
+
 import {
   toggle_navigation_on_scroll,
   click_listener,
   doms,
   update_scroll,
   add_class_on_focus,
-} from '@/assets/scripts/dom_utils';
+} from "@/assets/scripts/dom_utils";
 
 export default {
   components: {
@@ -24,13 +24,13 @@ export default {
   },
   mounted: () => {
     toggle_navigation_on_scroll();
-    click_listener('nav .link', () => {
-      doms('nav input').forEach((dom) => {
+    click_listener("nav .link", () => {
+      doms("nav input").forEach((dom) => {
         dom.checked = false;
       });
     });
     add_class_on_focus({
-      ['.faded_out']: 'fade_in',
+      [".faded_out"]: "fade_in",
     });
   },
 };
@@ -39,7 +39,7 @@ export default {
 <style>
 html {
   /* font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI'; */
-  font-family: 'Graphik', sans;
+  font-family: "Graphik", sans;
   line-height: 1.6;
   /* Roboto, 'Helvetica Neue', Arial, sans-serif; */
   /* font-size: 16px; */

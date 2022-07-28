@@ -147,8 +147,8 @@
 <script>
 import { toggle_class_on_focus, add_class_on_focus, update_scroll } from "@/assets/scripts/dom_utils";
 
-import QuotePortfolioDark from "~/components/QuotePortfolioDark.vue";
-import QuotePortfolio from "~/components/QuotePortfolio.vue";
+import QuotePortfolioDark from "./QuotePortfolioDark.vue";
+import QuotePortfolio from "./QuotePortfolio.vue";
 
 export default {
   mounted: () => {
