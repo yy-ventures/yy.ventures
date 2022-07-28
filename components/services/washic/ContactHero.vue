@@ -49,6 +49,7 @@ export default {
   methods: {
     changeSlide() {
       this.count++;
+      //this.count = Math.floor(Math.random() * 6)
 
       if (this.count >= 6) this.count = 0;
       setTimeout(() => {
@@ -60,7 +61,9 @@ export default {
       else return false;
     },
   },
-  mounted() {},
+  mounted() {
+    //this.changeSlide()
+  },
 };
 </script>
 
