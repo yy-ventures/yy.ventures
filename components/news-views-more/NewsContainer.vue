@@ -12,17 +12,15 @@
           </div>
         </div>
         <div class="news-grid-right">
-          <div class="news-grid-card">
+          <div class="news-grid-card" v-for="({ id, title }, index) in newsData" :key="index">
             <div class="card-header">
-              <h5>
-                14 enterprises graduate from YY Goshthi Incubation program.
-              </h5>
+              <h5>{{ title }}</h5>
             </div>
             <div class="card-footer">
-              <nuxt-link to="/news/enterprises-graduate">Read More</nuxt-link>
+              <nuxt-link :to="`/news/${id}`">Read More</nuxt-link>
             </div>
           </div>
-          <div class="news-grid-card">
+          <!-- <div class="news-grid-card">
             <div class="card-header">
               <h5>
                 Bold innovations to improve water and sanitation for all: The
@@ -92,19 +90,15 @@
             <div class="card-footer">
               <nuxt-link to="/news/bold-partnership">Read More</nuxt-link>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
       <!-- news footer -->
       <div class="news-footer" id="btn-1">
         <button v-on:click="visible = !visible">
           {{ !visible ? "load more" : "show less" }}
-          <span v-if="visible" class="arrow-down"
-            ><img src="~/assets/images/downArrowRev.svg" alt=""
-          /></span>
-          <span v-else class="arrow-down"
-            ><img src="~/assets/images/downArrow.svg" alt=""
-          /></span>
+          <span v-if="visible" class="arrow-down"><img src="~/assets/images/downArrowRev.svg" alt="" /></span>
+          <span v-else class="arrow-down"><img src="~/assets/images/downArrow.svg" alt="" /></span>
         </button>
       </div>
       <!-- news slider -->
@@ -114,55 +108,38 @@
             <nuxt-link to="/news/bold-innovations"
               ><img src="../../assets/images/news/slider/bold-1.jpg" alt=""
             /></nuxt-link>
-            <h3>
-              Bold innovations to improve water and sanitation for all: The WASH
-              Innovation Challenge
-            </h3>
+            <h3>Bold innovations to improve water and sanitation for all: The WASH Innovation Challenge</h3>
             <p>
-              YY Ventures had partnered with Aqua for All, Bopinc, and GSMA to
-              launch the WASH Innovation Challenge in April...
+              YY Ventures had partnered with Aqua for All, Bopinc, and GSMA to launch the WASH Innovation Challenge in
+              April...
             </p>
           </div>
           <div class="new-slide-card">
             <nuxt-link to="/news/sadia-hossain"
               ><img src="../../assets/images/news/slider/sadia_2.jpg" alt=""
             /></nuxt-link>
-            <h3>
-              Sadia Hossain Joins YY Ventures Limited as the Chief Operating
-              Officer (COO)
-            </h3>
+            <h3>Sadia Hossain Joins YY Ventures Limited as the Chief Operating Officer (COO)</h3>
             <p>
-              YY Ventures Limited has onboarded Sadia Hossain as the Chief
-              Operating Officer (COO) on March 01, 2022. Sadia is a business
-              development and talent...
+              YY Ventures Limited has onboarded Sadia Hossain as the Chief Operating Officer (COO) on March 01, 2022.
+              Sadia is a business development and talent...
             </p>
           </div>
           <div class="new-slide-card">
-            <nuxt-link to="/news/go-green"
-              ><img src="../../assets/images/news/slider/undp-2.jpg" alt=""
-            /></nuxt-link>
-            <h3>
-              Go Green Bangladesh Named the Winner of Waste 2 Resources Program
-            </h3>
+            <nuxt-link to="/news/go-green"><img src="../../assets/images/news/slider/undp-2.jpg" alt="" /></nuxt-link>
+            <h3>Go Green Bangladesh Named the Winner of Waste 2 Resources Program</h3>
             <p>
-              Sustainable Solutions to Solid Waste Management project was
-              initiated in 2018 by UNDP with funding from the Swedish
-              International Development Agency (SIDA)...
+              Sustainable Solutions to Solid Waste Management project was initiated in 2018 by UNDP with funding from
+              the Swedish International Development Agency (SIDA)...
             </p>
           </div>
           <div class="new-slide-card">
             <nuxt-link to="/news/sixth-anniversary"
               ><img src="../../assets/images/news/slider/sixth-1.jpg" alt=""
             /></nuxt-link>
-            <h3>
-              6th Anniversary Celebration of the SDGs at the Embassy of the
-              Netherlands in Bangladesh
-            </h3>
+            <h3>6th Anniversary Celebration of the SDGs at the Embassy of the Netherlands in Bangladesh</h3>
             <p>
-              The Embassy of the Netherlands in Bangladesh celebrated the 6th
-              anniversary of the Sustainable Development Goals (SDGs) by raising
-              flag with four youth leaders from different sectors of
-              Bangladesh...
+              The Embassy of the Netherlands in Bangladesh celebrated the 6th anniversary of the Sustainable Development
+              Goals (SDGs) by raising flag with four youth leaders from different sectors of Bangladesh...
             </p>
           </div>
           <div class="new-slide-card">
@@ -171,24 +148,18 @@
             /></nuxt-link>
             <h3>YY Ventures Invests in Best Aid Limited</h3>
             <p>
-              YY Ventures officially announced its investment in Best Aid
-              Limited a promising health care organisation in Bangladesh. On
-              January 23, 2022, Mir Hasib Mahmud, CEO of Best Aid and Shazeeb M
-              Khairul Islam...
+              YY Ventures officially announced its investment in Best Aid Limited a promising health care organisation
+              in Bangladesh. On January 23, 2022, Mir Hasib Mahmud, CEO of Best Aid and Shazeeb M Khairul Islam...
             </p>
           </div>
           <div class="new-slide-card">
             <nuxt-link to="/news/discussion-forum"
               ><img src="../../assets/images/news/slider/forum-2.jpg" alt=""
             /></nuxt-link>
-            <h3>
-              Discussion Forum Held on Opportunities & Challenges of Social
-              Entrepreneurship in Bangladesh
-            </h3>
+            <h3>Discussion Forum Held on Opportunities & Challenges of Social Entrepreneurship in Bangladesh</h3>
             <p>
-              YY Ventures and the Embassy of the Netherlands in Bangladesh,
-              organised a discussion forum on the theme ‘Opportunities &
-              Challenges of Social Entrepreneurship in Bangladesh...
+              YY Ventures and the Embassy of the Netherlands in Bangladesh, organised a discussion forum on the theme
+              ‘Opportunities & Challenges of Social Entrepreneurship in Bangladesh...
             </p>
           </div>
           <div class="new-slide-card">
@@ -197,9 +168,8 @@
             /></nuxt-link>
             <h3>A Bold Partnership Towards a World of Three Zeros</h3>
             <p>
-              YY Ventures has partnered with the Netherlands Enterprise Agency
-              to strengthen the Social Business and start-up ecosystem of
-              Bangladesh and incubate startups that are working...
+              YY Ventures has partnered with the Netherlands Enterprise Agency to strengthen the Social Business and
+              start-up ecosystem of Bangladesh and incubate startups that are working...
             </p>
           </div>
         </VueSlickCarousel>
@@ -209,15 +179,24 @@
 </template>
 
 <script>
+import axios from "axios";
+
 import VueSlickCarousel from "vue-slick-carousel";
 import "vue-slick-carousel/dist/vue-slick-carousel.css";
 // optional style for arrows & dots
 import "vue-slick-carousel/dist/vue-slick-carousel-theme.css";
 
 export default {
+  components: {
+    VueSlickCarousel,
+  },
+
   data() {
     return {
+      newsData: [],
+
       visible: false,
+
       settings: {
         arrows: true,
         dots: false,
@@ -244,8 +223,17 @@ export default {
       },
     };
   },
-  components: {
-    VueSlickCarousel,
+
+  methods: {
+    getData() {
+      axios
+        .get("https://yyv.yyventures.org/api/get-news-data")
+        .then((response) => (this.newsData = response.data.data));
+    },
+  },
+
+  mounted: function () {
+    this.getData();
   },
 };
 </script>
@@ -283,11 +271,7 @@ export default {
         &::before {
           content: "";
           display: block;
-          background: linear-gradient(
-            to top,
-            rgba(0, 0, 0, 0.5),
-            transparent 40%
-          );
+          background: linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent 40%);
 
           position: absolute;
           top: 0;

@@ -1,4 +1,4 @@
-import data from './static/data/portfolio.json';
+import data from "./static/data/portfolio.json";
 
 let dynamicRoutes = () => {
   return new Promise((resolve) => {
@@ -14,7 +14,7 @@ let dynamicRoutes = () => {
 };
 
 export default {
-  target: 'static',
+  target: "static",
   // ssr: 'true',
 
   // router: {
@@ -25,67 +25,66 @@ export default {
     routes: dynamicRoutes,
   },
   head: {
-    title: 'YY Ventures | Incubation and investment Social Business company',
+    title: "YY Ventures | Incubation and investment Social Business company",
     meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { charset: "utf-8" },
+      { name: "viewport", content: "width=device-width, initial-scale=1" },
       {
-        hid: 'description',
-        name: 'description',
+        hid: "description",
+        name: "description",
         content:
-          'YY Ventures is an incubation and investment Social Business. We believe that a more equitable and just world is possible if we foster ‘Social Business’ while leveraging young people’s talents and ideas.',
+          "YY Ventures is an incubation and investment Social Business. We believe that a more equitable and just world is possible if we foster ‘Social Business’ while leveraging young people’s talents and ideas.",
       },
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
+      { rel: "icon", type: "image/x-icon", href: "/favicon.png" },
       // { rel: 'shortcut_icon', href: '/favicon.png' },
       {
-        rel: 'stylesheet',
-        href: 'https://cdn.jsdelivr.net/npm/uikit@3.4.0/dist/css/uikit.min.css',
+        rel: "stylesheet",
+        href: "https://cdn.jsdelivr.net/npm/uikit@3.4.0/dist/css/uikit.min.css",
         defer: true,
       },
     ],
     script: [
       {
-        src: 'https://cdn.jsdelivr.net/npm/uikit@3.4.0/dist/js/uikit.min.js',
+        src: "https://cdn.jsdelivr.net/npm/uikit@3.4.0/dist/js/uikit.min.js",
         defer: true,
       },
       {
-        src:
-          'https://cdn.jsdelivr.net/npm/uikit@3.4.0/dist/js/uikit-icons.min.js',
+        src: "https://cdn.jsdelivr.net/npm/uikit@3.4.0/dist/js/uikit-icons.min.js",
         defer: true,
       },
     ],
   },
-  loading: { color: '#fff' },
+  loading: { color: "#fff" },
   css: [
-    '~/assets/styles/global.less',
-    '~/assets/styles/transitions.css',
-    '~/assets/styles/components.sass',
-    '~/assets/styles/global.sass',
-    '~/assets/styles/utils.sass',
-    '~/assets/styles/typography.sass',
-    '~/assets/styles/colors.sass',
-    '~/assets/styles/animations.sass',
-    '~/node_modules/vue-slick-carousel/dist/vue-slick-carousel.css',
-    '~/node_modules/vue-slick-carousel/dist/vue-slick-carousel-theme.css' 
+    "~/assets/styles/global.less",
+    "~/assets/styles/transitions.css",
+    "~/assets/styles/components.sass",
+    "~/assets/styles/global.sass",
+    "~/assets/styles/utils.sass",
+    "~/assets/styles/typography.sass",
+    "~/assets/styles/colors.sass",
+    "~/assets/styles/animations.sass",
+    "~/node_modules/vue-slick-carousel/dist/vue-slick-carousel.css",
+    "~/node_modules/vue-slick-carousel/dist/vue-slick-carousel-theme.css",
     // '~/assets/styles/resets.sass',
   ],
-  plugins: ['~/plugins/typed.js'],
-  modules: ['@nuxtjs/style-resources', '@nuxt/content'],
+  plugins: ["~/plugins/typed.js"],
+  modules: ["@nuxtjs/style-resources", "@nuxt/content"],
   contnet: {},
   styleResources: {
-    less: ['./assets/styles/globalvariables.less'],
-    sass: ['./assets/styles/variables.sass'],
+    less: ["./assets/styles/globalvariables.less"],
+    sass: ["./assets/styles/variables.sass"],
   },
   build: {
     extend(config, ctx) {},
-    babel:{
+    babel: {
       plugins: [
-        ['@babel/plugin-proposal-class-properties', { loose: true }],
-        ['@babel/plugin-proposal-private-methods', { loose: true }],
-        ['@babel/plugin-proposal-private-property-in-object', { loose: true }]
-      ]
-    }
+        ["@babel/plugin-proposal-class-properties", { loose: true }],
+        ["@babel/plugin-proposal-private-methods", { loose: true }],
+        ["@babel/plugin-proposal-private-property-in-object", { loose: true }],
+      ],
+    },
   },
 };

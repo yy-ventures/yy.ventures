@@ -98,9 +98,7 @@ export default {
 
   methods: {
     getData() {
-      axios
-        .get("https://yyv.yyventures.org/api/get-news-data")
-        .then((response) => (this.newsData = response.data.data));
+      axios.get("https://yyv.yyventures.org/api/get-news-data").then((response) => console.log(response.data.data));
     },
   },
 
