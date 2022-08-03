@@ -13,6 +13,9 @@
   padding: 5% 0
   // margin: 0 2%
   margin-top: 9%
+  @media (max-width: 601px)
+    margin-top: 11%
+
   overflow-x: hidden
   background: $bg_light
 

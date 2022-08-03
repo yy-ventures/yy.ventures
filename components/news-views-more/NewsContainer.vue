@@ -20,77 +20,6 @@
               <nuxt-link :to="`/news/${id}`">Read More</nuxt-link>
             </div>
           </div>
-          <!-- <div class="news-grid-card">
-            <div class="card-header">
-              <h5>
-                Bold innovations to improve water and sanitation for all: The
-                WASH Innovation Challenge
-              </h5>
-            </div>
-            <div class="card-footer">
-              <nuxt-link to="/news/bold-innovations">Read More</nuxt-link>
-            </div>
-          </div>
-          <div class="news-grid-card">
-            <div class="card-header">
-              <h5>
-                Sadia Hossain Joins YY Ventures Limited as the Chief Operating
-                Officer (COO)
-              </h5>
-            </div>
-            <div class="card-footer">
-              <nuxt-link to="/news/sadia-hossain">Read More</nuxt-link>
-            </div>
-          </div>
-          <div class="news-grid-card">
-            <div class="card-header">
-              <h5>
-                Go Green Bangladesh Named the Winner of Waste 2 Resources
-                Program
-              </h5>
-            </div>
-            <div class="card-footer">
-              <nuxt-link to="/news/go-green">Read More</nuxt-link>
-            </div>
-          </div>
-          <div class="news-grid-card">
-            <div class="card-header">
-              <h5>
-                6th anniversary celebration of the SDGs at the Embassy of the
-                Netherlands in Bangladesh
-              </h5>
-            </div>
-            <div class="card-footer">
-              <nuxt-link to="/news/sixth-anniversary">Read More</nuxt-link>
-            </div>
-          </div>
-          <div class="news-grid-card">
-            <div class="card-header">
-              <h5>YY Ventures Invests in Best Aid Limited</h5>
-            </div>
-            <div class="card-footer">
-              <nuxt-link to="/news/best-aid-ltd">Read More</nuxt-link>
-            </div>
-          </div>
-          <div class="news-grid-card">
-            <div class="card-header">
-              <h5>
-                Discussion Forum held on Opportunities & Challenges of Social
-                Entrepreneurship in Bangladesh
-              </h5>
-            </div>
-            <div class="card-footer">
-              <nuxt-link to="/news/discussion-forum">Read More</nuxt-link>
-            </div>
-          </div>
-          <div class="news-grid-card">
-            <div class="card-header">
-              <h5>A Bold Partnership Towards a World of Three Zeros</h5>
-            </div>
-            <div class="card-footer">
-              <nuxt-link to="/news/bold-partnership">Read More</nuxt-link>
-            </div>
-          </div> -->
         </div>
       </div>
       <!-- news footer -->
@@ -225,8 +154,8 @@ export default {
   },
 
   methods: {
-    getData() {
-      axios
+    async getData() {
+      await axios
         .get("https://yyv.yyventures.org/api/get-news-data")
         .then((response) => (this.newsData = response.data.data));
     },

@@ -163,6 +163,7 @@ export default {
     // background-color: transparent;
     // color: #ffffff;
     // border: 2px solid #ffffff;
+    position: relative;
     background: url("~assets/images/bottom-arrow.png") no-repeat;
     height: 50px;
     border: none;
@@ -171,7 +172,7 @@ export default {
   }
   .submit-btn:hover {
     position: relative;
-    animation: moveimg 0.4s;
+    animation: moveimg 0.4s forwards;
     animation-timing-function: linear;
   }
   @keyframes moveimg {
@@ -179,7 +180,7 @@ export default {
       top: 0px;
     }
     to {
-      bottom: 20px;
+      top: 20px;
     }
   }
 }
