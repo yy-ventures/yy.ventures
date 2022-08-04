@@ -4,7 +4,7 @@
     <about-text></about-text>
     <about-values></about-values>
     <about-featured></about-featured>
-    <about-team :staff="staff"></about-team>
+    <about-team v-if="staff.length > 0" :staffs="staff"></about-team>
     <about-pre-footer></about-pre-footer>
   </div>
 </template>
@@ -17,9 +17,10 @@ import AboutFeatured from "~/components/about-redo/AboutFeatured";
 import AboutTeam from "~/components/about-redo/AboutTeam";
 import AboutPreFooter from "~/components/about-redo/AboutPreFooter";
 
-import staff from "~/assets/data/staff.json";
+// import staff from "~/assets/data/staff.json";
 
 import { add_class_on_focus, toggle_class_on_focus } from "@/assets/scripts/dom_utils";
+import axios from "axios";
 
 export default {
   name: "AboutPage",
@@ -32,9 +33,21 @@ export default {
     AboutPreFooter,
   },
   data: () => ({
-    staff,
+    staff: [],
   }),
-  mounted: () => {
+
+  methods: {
+    async getData() {
+      const baseUrl = process.env.apiBaseUrl;
+      await axios.get(`${baseUrl}/get-teams-data`).then((response) => (this.staff = response.data.data));
+      // const staff = await axios.get(`${baseUrl}/get-teams-data`).then((response) => response.data.data);
+      // console.log(staff);
+    },
+  },
+
+  mounted: function () {
+    this.getData();
+
     toggle_class_on_focus({
       [".highlight"]: "scale",
     });

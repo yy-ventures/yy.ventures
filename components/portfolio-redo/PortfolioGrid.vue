@@ -6,39 +6,18 @@
     <QuotePortfolioDark />
 
     <div class="fourth-container">
-      <div class="waste2resource-container portfolio-grid">
+      <div class="portfolio-grid" v-for="{ id, title, thumb_image, link } in ourInvestments" :key="id">
+        <div class="portfolio-grid-image-container">
+          <img :src="`${imageBaseUrl}${thumb_image}`" alt="" />
+        </div>
         <div class="portfolio-grid-content">
           <div class="portfolio-grid-title">
-            <h2 class="highlight">Shishir Water</h2>
+            <h2 class="highlight">{{ title }}</h2>
           </div>
           <div class="portfolio-grid-buttons">
-            <nuxt-link to="/investments/shishir-water" target="_blank">
+            <nuxt-link :to="link" target="_blank">
               <button class="btn-route">learn more</button>
             </nuxt-link>
-          </div>
-        </div>
-      </div>
-      <div class="central-africa-grid portfolio-grid">
-        <div class="portfolio-grid-content">
-          <div class="portfolio-grid-title">
-            <h2 class="highlight">Avijatrik Tourism Ltd.</h2>
-          </div>
-          <div class="portfolio-grid-buttons">
-            <a href="/investments/avijatrik" target="_blank">
-              <button class="btn-route">learn more</button>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="dkc-grid portfolio-grid">
-        <div class="portfolio-grid-content">
-          <div class="portfolio-grid-title">
-            <h2 class="highlight">Impact Hub Dhaka.</h2>
-          </div>
-          <div class="portfolio-grid-buttons">
-            <a href="https://dhaka.impacthub.net/" target="_blank">
-              <button class="btn-route">learn more</button>
-            </a>
           </div>
         </div>
       </div>
@@ -51,9 +30,9 @@
 
     <!-- GRID LAYOUT START -->
     <div class="funded-container">
-      <div class="portfolio-grid" v-for="({ title, image, link }, index) in portfolioData" :key="index">
+      <div class="portfolio-grid" v-for="({ title, thumb_image, link }, index) in fundedPrograms" :key="index">
         <div class="portfolio-grid-image-container">
-          <img :src="`/_nuxt/assets/images/portfolio-grid/${image}`" alt="" />
+          <img :src="`https://yyv.yyventures.org/${thumb_image}`" alt="" />
         </div>
         <div class="portfolio-grid-content">
           <div class="portfolio-grid-title">
@@ -72,8 +51,7 @@
 </template>
 
 <script>
-// Static Data
-import portfolioData from "./portfolioData";
+import axios from "axios";
 // Component
 import QuotePortfolioDark from "./QuotePortfolioDark.vue";
 import QuotePortfolio from "./QuotePortfolio.vue";
@@ -82,10 +60,30 @@ import { toggle_class_on_focus, add_class_on_focus, update_scroll } from "@/asse
 
 export default {
   data: () => ({
-    portfolioData,
+    fundedPrograms: [],
+    ourInvestments: [],
+    imageBaseUrl: process.env.imageBaseUrl,
   }),
+
+  methods: {
+    async getData() {
+      const baseUrl = process.env.apiBaseUrl;
+
+      this.fundedPrograms = await axios
+        .get(`${baseUrl}/get-funded-through-programs-data`)
+        .then((response) => response.data.data);
+
+      this.ourInvestments = await axios
+        .get(`${baseUrl}/get-our-investments-data`)
+        .then((response) => response.data.data);
+    },
+  },
+
   mounted: function () {
+    this.getData();
+
     update_scroll();
+
     toggle_class_on_focus({
       [".highlight"]: "scale",
     });
@@ -95,6 +93,7 @@ export default {
       ["#program #top_section"]: "scale_down",
     });
   },
+
   components: {
     QuotePortfolioDark,
     QuotePortfolio,
@@ -151,7 +150,40 @@ export default {
           grid-column: span 1;
         }
       }
+
+      .portfolio-grid-image-container {
+        position: relative;
+        width: 100%;
+        height: 100%;
+
+        img {
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+
+        &::after {
+          content: "";
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+
+          width: 100%;
+          height: 100%;
+
+          background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+        }
+      }
     }
+    /*
     .waste2resource-container {
       background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
         url("~/assets/images/portfolio-grid/shishir-bg.jpg");
@@ -171,6 +203,7 @@ export default {
       background-size: cover;
       background-position: center;
     }
+    */
   }
 
   // FUNDED LAYOUT START

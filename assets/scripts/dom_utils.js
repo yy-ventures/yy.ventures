@@ -9,11 +9,7 @@ export const doms = (selector) => document.querySelectorAll(selector);
 //==============================================================================
 //                              Observer Dom
 //==============================================================================
-export const observer_dom = (
-  dom,
-  action_is_intersecting,
-  action_not_intersecting
-) => {
+export const observer_dom = (dom, action_is_intersecting, action_not_intersecting) => {
   const io = new IntersectionObserver((entries, io) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
@@ -80,10 +76,7 @@ export const toggle_class_on_focus = (list) => {
 //==============================================================================
 export const update_scroll = () => {
   window.addEventListener("scroll", () => {
-    document.body.style.setProperty(
-      "--scroll",
-      window.pageYOffset / (document.body.offsetHeight - window.innerHeight)
-    );
+    document.body.style.setProperty("--scroll", window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
   });
 };
 /*}}}*/

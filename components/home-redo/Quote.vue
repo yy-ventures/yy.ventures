@@ -8,6 +8,17 @@
   .p 2006 Nobel Peace Laureate
 </template>
 
+<script>
+// Highlight Class
+import { update_scroll, update_element_scroll } from "@/assets/scripts/dom_utils";
+
+export default {
+  mounted: function () {
+    // update_element_scroll("#quote");
+  },
+};
+</script>
+
 <style lang="sass" scoped>
 #quote
   // display: grid

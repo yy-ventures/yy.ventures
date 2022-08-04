@@ -19,6 +19,7 @@ import HomeBrands from "~/components/home-redo/HomeBrands.vue";
 import {
   toggle_class_on_focus,
   update_scroll,
+  update_element_scroll,
   run_function_on_focus,
   typewriter,
   dom,

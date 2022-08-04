@@ -27,7 +27,6 @@ export default {
   components: {
     Partner,
     Programs,
-    Marquee,
     PartnershipsHero,
     LetsTalk,
   },

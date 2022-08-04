@@ -14,6 +14,11 @@ let dynamicRoutes = () => {
 };
 
 export default {
+  env: {
+    apiBaseUrl: "https://yyv.yyventures.org/api",
+    imageBaseUrl: "https://yyv.yyventures.org",
+  },
+
   target: "static",
   // ssr: 'true',
 

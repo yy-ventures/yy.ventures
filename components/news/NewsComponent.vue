@@ -2,7 +2,7 @@
   <div>
     <div class="east-africa-container">
       <div class="east-africa-header">
-        <img :src="`https://yyv.yyventures.org/${bannerImg}`" />
+        <img :src="`${imageBaseUrl}${bannerImg}`" />
         <div class="header_content">
           <h2 class="highlight">{{ title }}</h2>
         </div>
@@ -32,13 +32,13 @@ export default {
 
   data: () => ({
     newsData: [],
+    imageBaseUrl: process.env.imageBaseUrl,
   }),
 
   methods: {
     getData() {
-      axios
-        .get("https://yyv.yyventures.org/api/get-news-data")
-        .then((response) => (this.newsData = response.data.data));
+      const baseUrl = process.env.apiBaseUrl;
+      axios.get(`${baseUrl}/get-news-data`).then((response) => (this.newsData = response.data.data));
     },
   },
 
