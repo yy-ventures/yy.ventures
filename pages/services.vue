@@ -13,7 +13,7 @@ import QuoteService from "~/components/services/QuoteService.vue";
 import ServiceGrid from "~/components/services/ServiceGrid.vue";
 import ServiceWork from "~/components/services/ServiceWork.vue";
 
-import { toggle_class_on_focus, add_class_on_focus } from "@/assets/scripts/dom_utils";
+import { toggle_class_on_focus, add_class_on_focus, update_scroll } from "@/assets/scripts/dom_utils";
 
 export default {
   components: {
@@ -25,6 +25,7 @@ export default {
   },
 
   mounted() {
+    update_scroll();
     toggle_class_on_focus({
       [".highlight"]: "scale",
     });

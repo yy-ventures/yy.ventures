@@ -40,8 +40,6 @@ export default {
     async getData() {
       const baseUrl = process.env.apiBaseUrl;
       await axios.get(`${baseUrl}/get-teams-data`).then((response) => (this.staff = response.data.data));
-      // const staff = await axios.get(`${baseUrl}/get-teams-data`).then((response) => response.data.data);
-      // console.log(staff);
     },
   },
 

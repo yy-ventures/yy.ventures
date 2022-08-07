@@ -48,24 +48,14 @@ import axios from "axios";
 
 export default {
   data: () => ({
-    teamMembers: [],
     imageBaseUrl: process.env.imageBaseUrl,
   }),
 
   props: ["staffs"],
 
-  methods: {
-    async getData() {
-      const baseUrl = process.env.apiBaseUrl;
-      await axios.get(`${baseUrl}/get-teams-data`).then((response) => (this.teamMembers = response.data.data));
-      // const staff = await axios.get(`${baseUrl}/get-teams-data`).then((response) => response.data.data);
-      // console.log(staff);
-    },
-  },
+  methods: {},
 
   mounted: function () {
-    this.getData();
-
     add_class_on_focus({
       [".faded_out"]: "fade_in",
     });
