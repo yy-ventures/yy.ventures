@@ -818,13 +818,21 @@
                 <a class="uk-accordion-title" href="#">Other Info</a>
                 <div class="uk-accordion-content">
                   <ul>
-                    <li><strong>Time Commitment:</strong> 40 hours/week</li>
+                    <li><strong>Time Commitment:</strong> Full time for 40 hours per week from Sunday to Thursday</li>
                     <li>
                       <strong>Location:</strong> 9th Floor, Grameen Telecom Bhaban, Zoo Road, Mirpur 1, Dhaka 1216
                     </li>
+                    <li>
+                      <strong>Benefits:</strong> Competitive remuneration package with two annual festival bonuses, a
+                      generous leave policy, opportunities for training and travel, and an organisational culture that
+                      values continuous learning and innovation, high performance, and social impact.
+                    </li>
+                    <li>
+                      <strong>Application deadline:</strong> Immediately as applications will be reviewed on a rolling
+                      basis.
+                    </li>
                     <li><strong>Reporting to:</strong> Design Director</li>
-                    <li><strong>Start date:</strong> Immediate</li>
-                    <li><strong>Salary:</strong> Negotiable</li>
+                    <li><strong>Start date:</strong> September 15, 2022</li>
                   </ul>
                 </div>
               </li>
@@ -916,13 +924,21 @@
                 <a class="uk-accordion-title" href="#">Other Info</a>
                 <div class="uk-accordion-content">
                   <ul>
-                    <li><strong>Time Commitment:</strong> 40 hours/week</li>
+                    <li><strong>Time Commitment:</strong> Full time for 40 hours per week from Sunday to Thursday</li>
                     <li>
                       <strong>Location:</strong> 9th Floor, Grameen Telecom Bhaban, Zoo Road, Mirpur 1, Dhaka 1216
                     </li>
+                    <li>
+                      <strong>Benefits:</strong> Competitive remuneration package with two annual festival bonuses, a
+                      generous leave policy, opportunities for training and travel, and an organisational culture that
+                      values continuous learning and innovation, high performance, and social impact.
+                    </li>
+                    <li>
+                      <strong>Application deadline:</strong> Immediately as applications will be reviewed on a rolling
+                      basis.
+                    </li>
                     <li><strong>Reporting to:</strong> Design Director</li>
-                    <li><strong>Start date:</strong> Immediate</li>
-                    <li><strong>Salary:</strong> Negotiable</li>
+                    <li><strong>Start date:</strong> September 15, 2022</li>
                   </ul>
                 </div>
               </li>
@@ -1127,13 +1143,21 @@
                 <a class="uk-accordion-title" href="#">Other Info</a>
                 <div class="uk-accordion-content">
                   <ul>
-                    <li><strong>Time Commitment:</strong> 40 hours/week</li>
+                    <li><strong>Time Commitment:</strong> Full time for 40 hours per week from Sunday to Thursday</li>
                     <li>
                       <strong>Location:</strong> 9th Floor, Grameen Telecom Bhaban, Zoo Road, Mirpur 1, Dhaka 1216
                     </li>
+                    <li>
+                      <strong>Benefits:</strong> Competitive remuneration package with two annual festival bonuses, a
+                      generous leave policy, opportunities for training and travel, and an organisational culture that
+                      values continuous learning and innovation, high performance, and social impact.
+                    </li>
+                    <li>
+                      <strong>Application deadline:</strong> Immediately as applications will be reviewed on a rolling
+                      basis.
+                    </li>
                     <li><strong>Reporting to:</strong> Finance and Accounts Manager</li>
-                    <li><strong>Start date:</strong> Immediate</li>
-                    <li><strong>Salary:</strong> Negotiable</li>
+                    <li><strong>Start date:</strong> September 15, 2022</li>
                   </ul>
                 </div>
               </li>
