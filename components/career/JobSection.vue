@@ -832,11 +832,23 @@
             <div class="contact-email">
               <p>
                 <i
-                  >If you are interested in applying for this position please send your resume and cover letter at
+                  >We welcome candidates from diverse backgrounds. If you are interested in applying for this position
+                  please send your resume and cover letter to
                   <a href="mailto:careers@yy.ventures">careers@yy.ventures</a>
-                  detailing why you think you are the right person for this position. You are advised to mention your
-                  salary expectations in your cover letter.</i
+                  Please indicate the position applied for in the subject line of your email. Your cover letter should
+                  be no longer than one page, and must answer the following questions.</i
                 >
+              </p>
+              <ul>
+                <li>Why are you interested in working with YY Ventures?</li>
+                <li>What compelled you to apply for this specific role at YY Ventures?</li>
+                <li>What strengths, experience, and expertise would you bring to this role?</li>
+              </ul>
+              <p>
+                <i>
+                  You are advised to mention your salary expectations in your cover letter. Applications without cover
+                  letters will not be reviewed. Only short-listed candidates will be contacted for interviews
+                </i>
               </p>
             </div>
           </div>
@@ -918,11 +930,23 @@
             <div class="contact-email">
               <p>
                 <i
-                  >If you are interested in applying for this position please send your resume and cover letter at
+                  >We welcome candidates from diverse backgrounds. If you are interested in applying for this position
+                  please send your resume and cover letter to
                   <a href="mailto:careers@yy.ventures">careers@yy.ventures</a>
-                  detailing why you think you are the right person for this position. You are advised to mention your
-                  salary expectations in your cover letter.</i
+                  Please indicate the position applied for in the subject line of your email. Your cover letter should
+                  be no longer than one page, and must answer the following questions.</i
                 >
+              </p>
+              <ul>
+                <li>Why are you interested in working with YY Ventures?</li>
+                <li>What compelled you to apply for this specific role at YY Ventures?</li>
+                <li>What strengths, experience, and expertise would you bring to this role?</li>
+              </ul>
+              <p>
+                <i>
+                  You are advised to mention your salary expectations in your cover letter. Applications without cover
+                  letters will not be reviewed. Only short-listed candidates will be contacted for interviews
+                </i>
               </p>
             </div>
           </div>
@@ -1117,11 +1141,23 @@
             <div class="contact-email">
               <p>
                 <i
-                  >If you are interested in applying for this position please send your resume and cover letter at
+                  >We welcome candidates from diverse backgrounds. If you are interested in applying for this position
+                  please send your resume and cover letter to
                   <a href="mailto:careers@yy.ventures">careers@yy.ventures</a>
-                  detailing why you think you are the right person for this position. You are advised to mention your
-                  salary expectations in your cover letter.</i
+                  Please indicate the position applied for in the subject line of your email. Your cover letter should
+                  be no longer than one page, and must answer the following questions.</i
                 >
+              </p>
+              <ul>
+                <li>Why are you interested in working with YY Ventures?</li>
+                <li>What compelled you to apply for this specific role at YY Ventures?</li>
+                <li>What strengths, experience, and expertise would you bring to this role?</li>
+              </ul>
+              <p>
+                <i>
+                  You are advised to mention your salary expectations in your cover letter. Applications without cover
+                  letters will not be reviewed. Only short-listed candidates will be contacted for interviews
+                </i>
               </p>
             </div>
           </div>
