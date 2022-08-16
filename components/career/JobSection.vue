@@ -277,7 +277,7 @@
                     initiatives of 3ZERO Clubs towards achieving the Nobel Laureate Professor Muhammad Yunus’ vision of
                     creating a world of three zeros — zero net carbon emission, zero wealth concentration for ending
                     poverty, and zero unemployment by unleashing entrepreneurship in all. Initiated by Professor
-                    Muhammad Yunus, the <a href="https://3zero.club/about" target="_blank">3ZERO Club</a>is a global
+                    Muhammad Yunus, the <a href="https://3zero.club/about" target="_blank">3ZERO Club</a> is a global
                     movement to inspire youth from across the world to come together, and ideate, create, and lead with
                     an entrepreneurial spirit to combat the most pressing issues of our times.
                   </p>
