@@ -29,8 +29,9 @@
         <div class="grid-left">
           <h3>{{ portfolio.tagline }}</h3>
         </div>
-        <div class="grid-right">
+        <div class="grid-right portfolio-grid-buttons">
           <p>{{ portfolio.description }}</p>
+          <a :href="portfolio.website" target="_blank"> learn more </a>
         </div>
       </div>
     </div>
@@ -118,6 +119,7 @@ export default {
       padding: 5% 2.5%;
       display: grid;
       grid-template-columns: 1fr 1fr;
+      gap: 1rem;
       @media screen and (max-width: 600px) {
         grid-template-columns: 1fr;
       }
@@ -131,6 +133,24 @@ export default {
       .grid-right {
         p {
           color: #f2f2f2;
+        }
+      }
+      .portfolio-grid-buttons {
+        margin-top: 1rem;
+        a {
+          outline: none;
+          border: none;
+          padding: 10px 24px;
+          font-size: calc(8px + 0.5vw);
+          text-transform: capitalize;
+          cursor: pointer;
+          font-family: "Graphik";
+          background-color: white;
+          color: #c7265b;
+          text-decoration: none;
+          @media screen and (max-width: 601px) {
+            font-size: calc(12px + 0.5vw);
+          }
         }
       }
     }
