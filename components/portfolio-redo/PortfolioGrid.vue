@@ -83,10 +83,10 @@
       <div class="dkc-grid portfolio-grid">
         <div class="portfolio-grid-content">
           <div class="portfolio-grid-title">
-            <h2 class="highlight">Impact Hub Dhaka.</h2>
+            <h2 class="highlight">Impact Hub Dhaka Limited.</h2>
           </div>
           <div class="portfolio-grid-buttons">
-            <a href="https://dhaka.impacthub.net/" target="_blank">
+            <a href="/investments/impact-hub" target="_blank">
               <button class="btn-route">learn more</button>
             </a>
           </div>
@@ -104,10 +104,10 @@
       <div class="portfolio-grid shapla">
         <div class="portfolio-grid-content">
           <div class="portfolio-grid-title">
-            <h2 class="highlight">Shapla</h2>
+            <h2 class="highlight">Shapla Wellbeing Limited.</h2>
           </div>
           <div class="portfolio-grid-buttons">
-            <a href="/news/bold-innovations" target="_blank">
+            <a href="/investments/shapla" target="_blank">
               <button class="btn-route">learn more</button>
             </a>
           </div>
@@ -116,10 +116,10 @@
       <div class="portfolio-grid dream-water">
         <div class="portfolio-grid-content">
           <div class="portfolio-grid-title">
-            <h2 class="highlight">Dream Water</h2>
+            <h2 class="highlight">Dreamwater Limited.</h2>
           </div>
           <div class="portfolio-grid-buttons">
-            <a href="/news/bold-innovations" target="_blank">
+            <a href="/investments/dreamwater" target="_blank">
               <button class="btn-route">learn more</button>
             </a>
           </div>
@@ -131,7 +131,7 @@
             <h2 class="highlight">Go Green Bangladesh</h2>
           </div>
           <div class="portfolio-grid-buttons">
-            <a href="/news/go-green" target="_blank">
+            <a href="/investments/go-green" target="_blank">
               <button class="btn-route">learn more</button>
             </a>
           </div>
@@ -143,7 +143,7 @@
             <h2 class="highlight">TransEnd</h2>
           </div>
           <div class="portfolio-grid-buttons">
-            <a href="https://www.transendbd.org/" target="_blank">
+            <a href="/investments/transend" target="_blank">
               <button class="btn-route">learn more</button>
             </a>
           </div>
@@ -152,10 +152,10 @@
       <div class="best-aid portfolio-grid">
         <div class="portfolio-grid-content">
           <div class="portfolio-grid-title">
-            <h2 class="highlight">Best Aid</h2>
+            <h2 class="highlight">Best Aid Limited.</h2>
           </div>
           <div class="portfolio-grid-buttons">
-            <nuxt-link to="/news/best-aid-ltd" target="_blank">
+            <nuxt-link to="/investments/best-aid" target="_blank">
               <button class="btn-route">learn more</button>
             </nuxt-link>
           </div>
@@ -167,7 +167,7 @@
             <h2 class="highlight">Tetra</h2>
           </div>
           <div class="portfolio-grid-buttons">
-            <a href="/news/bold-innovations" target="_blank">
+            <a href="/investments/tetra" target="_blank">
               <button class="btn-route">learn more</button>
             </a>
           </div>
@@ -176,10 +176,10 @@
       <div class="wreetu portfolio-grid">
         <div class="portfolio-grid-content">
           <div class="portfolio-grid-title">
-            <h2 class="highlight">Wreetu</h2>
+            <h2 class="highlight">Wreetu Health & Well-being</h2>
           </div>
           <div class="portfolio-grid-buttons">
-            <nuxt-link to="/news/bold-innovations" target="_blank">
+            <nuxt-link to="/investments/wreetu" target="_blank">
               <button class="btn-route">learn more</button>
             </nuxt-link>
           </div>
@@ -192,13 +192,13 @@
 
 <script>
 import {
-  toggle_class_on_focus,
   add_class_on_focus,
+  toggle_class_on_focus,
   update_scroll,
 } from "@/assets/scripts/dom_utils";
 
-import QuotePortfolioDark from "~/components/QuotePortfolioDark.vue";
 import QuotePortfolio from "~/components/QuotePortfolio.vue";
+import QuotePortfolioDark from "~/components/QuotePortfolioDark.vue";
 export default {
   mounted: () => {
     update_scroll();

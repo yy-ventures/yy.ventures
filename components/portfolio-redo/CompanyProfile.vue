@@ -4,47 +4,52 @@
     <div class="portfolio-header">
       <div class="header-left">
         <div class="grid-display">
-          <img :src="portfolio.logo" alt="">
-          <p><span class="grid-title">Category:</span> {{portfolio.category}}</p>
-          <p><span class="grid-title">Mission:</span> {{portfolio.mission}}</p>
-          <p><span class="grid-title">Founding Year:</span> {{portfolio.year}}</p>
+          <img :src="portfolio.logo" alt="" />
+          <p>
+            <span class="grid-title">Category:</span> {{ portfolio.category }}
+          </p>
+          <p>
+            <span class="grid-title">Mission:</span> {{ portfolio.mission }}
+          </p>
+          <p>
+            <span class="grid-title">Founding Year:</span> {{ portfolio.year }}
+          </p>
         </div>
       </div>
       <div class="header-right">
-        <img :src="portfolio.featured" alt="">
+        <img :src="portfolio.featured" alt="" />
       </div>
     </div>
     <!-- footer -->
     <div class="portfolio-footer">
       <div class="footer-header">
-        <h2 class="highlight">{{portfolio.title}}</h2>
+        <h2 class="highlight">{{ portfolio.title }}</h2>
       </div>
       <div class="footer-body">
         <div class="grid-left">
-          <h3>{{portfolio.tagline}}</h3>
+          <h3>{{ portfolio.tagline }}</h3>
         </div>
         <div class="grid-right">
-          <p>{{portfolio.description}}</p>
+          <p>{{ portfolio.description }}</p>
         </div>
       </div>
     </div>
-    
+
     <!-- backward -->
     <div class="backward-btn">
       <nuxt-link to="/investments">Back</nuxt-link>
     </div>
-
-  </div> 
+  </div>
 </template>
 
 <script>
 import {
-  toggle_class_on_focus,
   add_class_on_focus,
+  toggle_class_on_focus,
 } from "@/assets/scripts/dom_utils";
 
 export default {
-  props: ['portfolio'],
+  props: ["portfolio"],
   mounted: () => {
     toggle_class_on_focus({
       [".highlight"]: "scale",
@@ -54,18 +59,17 @@ export default {
       [".faded_out"]: "fade_in",
       ["#program #top_section"]: "scale_down",
     });
-  }
-}
+  },
+};
 </script>
 
 <style lang="scss" scoped>
-
-.portfolio-container{
+.portfolio-container {
   width: 96%;
   margin: 0 auto;
   padding: 5% 0 1% 0;
   font-family: "Graphik";
-  .portfolio-header{
+  .portfolio-header {
     margin-top: 2.5%;
     height: 500px;
     display: grid;
@@ -74,66 +78,66 @@ export default {
       height: auto;
       grid-template-columns: 1fr;
     }
-    .header-left{
+    .header-left {
       background: #eee;
       padding: 2.5% 5%;
-      .grid-display{
-        p{
+      .grid-display {
+        p {
           color: #333;
         }
-        .grid-title{
+        .grid-title {
           font-weight: 700;
           color: #222;
         }
       }
     }
-    .header-right{
-      img{
+    .header-right {
+      img {
         width: 100%;
         object-fit: cover;
         height: 100%;
       }
     }
   }
-  .portfolio-footer{
+  .portfolio-footer {
     height: 450px;
     @media screen and (max-width: 600px) {
       height: auto;
     }
     background: #333;
     margin-top: 2.5%;
-    .footer-header{
+    .footer-header {
       padding: 2.5%;
-      h2{
+      h2 {
         color: #f2f2f2;
         font-weight: 900;
         font-size: calc(18px + 4vmin);
       }
     }
-    .footer-body{
+    .footer-body {
       padding: 5% 2.5%;
       display: grid;
       grid-template-columns: 1fr 1fr;
       @media screen and (max-width: 600px) {
         grid-template-columns: 1fr;
       }
-      .grid-left{
-        h3{
+      .grid-left {
+        h3 {
           color: #f2f2f2;
           font-weight: 700;
           font-size: calc(14px + 2vmin);
         }
       }
-      .grid-right{
-        p{
+      .grid-right {
+        p {
           color: #f2f2f2;
         }
       }
     }
   }
-  .backward-btn{
+  .backward-btn {
     padding: 2.5%;
-    a{
+    a {
       border: 1px solid;
       padding: 10px 36px;
       text-decoration: none;
@@ -142,5 +146,4 @@ export default {
     }
   }
 }
-
 </style>
