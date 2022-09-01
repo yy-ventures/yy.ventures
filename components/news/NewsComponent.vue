@@ -57,7 +57,8 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
+// <style lang="scss" scoped>
 .east-africa-container {
   margin: 0 auto;
   width: 96%;
@@ -89,6 +90,29 @@ export default {
     }
   }
   .east-africa-body {
+     @media screen and (max-width: 600px) {
+        .top-grid{
+          display: block !important;
+          .top-grid-left{
+            padding: 0 !important;
+          }
+         }
+        .bottom-grid {
+          display: block !important;
+          margin: 0 !important;
+          padding: 0 !important;
+          .bottom-grid-left{
+            padding: 0 !important;
+          }
+          .bottom-grid-right{
+            padding: 0 !important;
+          }
+          p{
+            margin: 0 !important;
+            padding: 10px 0;
+          }
+        }
+      }
     padding: 2.5%;
     margin-top: 2%;
     background-color: #f1f2f2;
