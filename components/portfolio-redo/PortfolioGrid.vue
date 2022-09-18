@@ -55,12 +55,12 @@
     <div class="waste2resource-container">
       <div class="portfolio-grid-content">
         <div class="portfolio-grid-title">
-          <h2 class="highlight">Shishir Water</h2>
+          <h2 class="highlight">Impact Hub Dhaka Limited.</h2>
         </div>
         <div class="portfolio-grid-buttons">
-          <nuxt-link to="/investments/shishir-water" target="_blank">
+          <a href="/investments/impact-hub" target="_blank">
             <button class="btn-route">learn more</button>
-          </nuxt-link>
+          </a>
         </div>
       </div>
     </div>
@@ -83,12 +83,12 @@
       <div class="dkc-grid portfolio-grid">
         <div class="portfolio-grid-content">
           <div class="portfolio-grid-title">
-            <h2 class="highlight">Impact Hub Dhaka Limited.</h2>
+            <h2 class="highlight">Shishir Water</h2>
           </div>
           <div class="portfolio-grid-buttons">
-            <a href="/investments/impact-hub" target="_blank">
+            <nuxt-link to="/investments/shishir-water" target="_blank">
               <button class="btn-route">learn more</button>
-            </a>
+            </nuxt-link>
           </div>
         </div>
       </div>
@@ -304,9 +304,10 @@ export default {
         rgba(0, 0, 0, 0.3),
         rgba(0, 0, 0, 0.3)
       ),
-      url("~/assets/images/portfolio-grid/shishir-bg.jpg");
+      url("~/assets/images/portfolio-grid/office-space.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
   }
 
   // layer four
@@ -350,7 +351,7 @@ export default {
           rgba(0, 0, 0, 0.3),
           rgba(0, 0, 0, 0.3)
         ),
-        url("~/assets/images/portfolio-grid/office-space.jpg");
+        url("~/assets/images/portfolio-grid/Shishir-Water.jpg");
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;

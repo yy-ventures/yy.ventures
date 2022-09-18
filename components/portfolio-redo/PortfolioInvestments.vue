@@ -152,7 +152,7 @@
   .section-title {
     h2 {
       color: #d0d2d3;
-      font-family: 'Graphik';
+      font-family: "Graphik";
       font-weight: 900;
       font-size: 60px;
     }
@@ -180,7 +180,7 @@
           color: #d0d2d3;
           font-size: 150px;
           font-weight: 900;
-          font-family: 'Graphik';
+          font-family: "Graphik";
           -webkit-text-stroke-width: 1px;
           -webkit-text-stroke-color: #d0d2d3;
           -webkit-text-fill-color: transparent;
